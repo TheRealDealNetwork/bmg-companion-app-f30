@@ -1,0 +1,21 @@
+import { createFileRoute, Link } from "@tanstack/react-router";
+
+export const Route = createFileRoute("/soebld/")({
+  ssr: false,
+  component: MetalHome,
+});
+
+function MetalHome() {
+  return (
+    <main className="mx-auto min-h-dvh max-w-lg px-4 py-6">
+      <p className="text-xs font-bold tracking-widest text-gold uppercase">METALCON 2026 · Beta</p>
+      <h1 className="mt-2 font-display text-3xl text-cream">SOE Business Leadership Scenario Cards</h1>
+      <p className="mt-2 text-sm text-muted">
+        Each game has its own link. The host at your table has the QR code. A saved link from another game will not open these cards.
+      </p>
+      <Link to="/metalcon/admin" className="mt-6 block text-center text-xs font-semibold tracking-wide text-muted uppercase">
+        Host
+      </Link>
+    </main>
+  );
+}

@@ -1,0 +1,324 @@
+import { createFileRoute } from "@tanstack/react-router";
+import { useEffect, useState } from "react";
+import QRCode from "qrcode";
+import {
+  adminDesk,
+  adminEnter,
+  createHost,
+  endGame,
+  exportGame,
+  placePlayer,
+  reopenGame,
+  resetGame,
+  sendSeatLink,
+  setShareSeat,
+  setSignup,
+  startGame,
+} from "@/lib/metalcon/api";
+import { METALCON_SEAT_LABEL, METALCON_SEATS } from "@/lib/metalcon/seats";
+import { Btn, Card, Field, Select } from "@/components/game/ui";
+
+export const Route = createFileRoute("/soebld/admin")({
+  ssr: false,
+  component: AdminPage,
+});
+
+const KEY = "soe-metalcon-admin";
+
+type Game = {
+  id: string;
+  n: number;
+  status: string;
+  slug: string;
+  eventName: string;
+  hostName: string;
+  shareSeat: boolean;
+  registrationOpen: boolean;
+  players: number;
+  answers: number;
+};
+
+type Desk = {
+  role: "super" | "host";
+  name: string;
+  nextNumber: number;
+  hosts: { id: string; name: string; email: string; role: string }[];
+  games: Game[];
+  players: { id: string; name: string; phone: string; email: string; dept: string; invite_token: string | null; game_id: string }[];
+};
+
+function fileOf(value: unknown): { filename: string; csv: string } | null {
+  if (!value || typeof value !== "object") return null;
+  const row = value as { filename?: unknown; csv?: unknown };
+  if (typeof row.filename !== "string" || typeof row.csv !== "string") return null;
+  return { filename: row.filename, csv: row.csv };
+}
+
+function saveCsv(filename: string, csv: string) {
+  const blob = new Blob([csv], { type: "text/csv" });
+  const url = URL.createObjectURL(blob);
+  const link = document.createElement("a");
+  link.href = url;
+  link.download = filename;
+  link.click();
+  URL.revokeObjectURL(url);
+}
+
+function AdminPage() {
+  const [token, setToken] = useState("");
+  const [email, setEmail] = useState("");
+  const [password, setPassword] = useState("");
+  const [desk, setDesk] = useState<Desk | null>(null);
+  const [gameId, setGameId] = useState("");
+  const [eventName, setEventName] = useState("METALCON");
+  const [err, setErr] = useState("");
+  const [note, setNote] = useState("");
+  const [busy, setBusy] = useState(false);
+  const [name, setName] = useState("");
+  const [phone, setPhone] = useState("");
+  const [playerEmail, setPlayerEmail] = useState("");
+  const [dept, setDept] = useState<string>(METALCON_SEATS[0]);
+  const [hostName, setHostName] = useState("");
+  const [hostEmail, setHostEmail] = useState("");
+  const [hostPassword, setHostPassword] = useState("");
+  const [qr, setQr] = useState("");
+
+  useEffect(() => {
+    document.title = "METALCON host";
+    const saved = sessionStorage.getItem(KEY) ?? "";
+    if (saved) setToken(saved);
+  }, []);
+
+  async function load(next = token) {
+    if (!next) return;
+    const res = await adminDesk({ data: { token: next } });
+    if (!res.ok) {
+      sessionStorage.removeItem(KEY);
+      setToken("");
+      setDesk(null);
+      setErr(res.error);
+      return;
+    }
+    setDesk(res);
+    setGameId((current) => (res.games.some((game) => game.id === current) ? current : res.games.find((game) => game.status === "live")?.id ?? res.games[0]?.id ?? ""));
+  }
+
+  useEffect(() => {
+    if (!token) return;
+    void load(token);
+  }, [token]);
+
+  const game = desk?.games.find((item) => item.id === gameId) ?? null;
+  const seated = (desk?.players ?? []).filter((player) => player.game_id === gameId);
+
+  useEffect(() => {
+    if (!game?.slug) {
+      setQr("");
+      return;
+    }
+    const url = `${window.location.origin}/metalcon/join/${game.slug}`;
+    void QRCode.toDataURL(url, { margin: 1, width: 480, color: { dark: "#0c1230", light: "#f6f1e4" } }).then(setQr);
+  }, [game?.slug]);
+
+  async function enter() {
+    setBusy(true);
+    setErr("");
+    const res = await adminEnter({ data: { password, email } });
+    setBusy(false);
+    if (!res.ok) {
+      setErr(res.error);
+      return;
+    }
+    sessionStorage.setItem(KEY, res.token);
+    setPassword("");
+    setToken(res.token);
+  }
+
+  async function openGame() {
+    if (!token) return;
+    setBusy(true);
+    setErr("");
+    setNote("");
+    const res = await startGame({ data: { token, eventName } });
+    setBusy(false);
+    if (!res.ok) {
+      setErr(res.error);
+      return;
+    }
+    setNote(`Game ${res.n} is open at /metalcon/join/${res.slug}`);
+    await load();
+  }
+
+  async function closeGame() {
+    if (!game) return;
+    if (!window.confirm(`Close ${game.slug}? The file downloads, and every seat for this game stops working. Other games stay open.`)) return;
+    setBusy(true);
+    setErr("");
+    const res = await endGame({ data: { token, gameId: game.id } });
+    setBusy(false);
+    if (!res.ok) {
+      setErr(res.error);
+      return;
+    }
+    const file = fileOf(res);
+    if (file) saveCsv(file.filename, file.csv);
+    setNote(`${game.slug} is closed.`);
+    await load();
+  }
+
+  async function reopen() {
+    if (!game) return;
+    if (!window.confirm(`Reopen ${game.slug}? Sign-up stays closed until you turn it on. Johnny is notified.`)) return;
+    setBusy(true);
+    const res = await reopenGame({ data: { token, gameId: game.id } });
+    setBusy(false);
+    if (!res.ok) {
+      setErr(res.error);
+      return;
+    }
+    setNote(`${game.slug} is open again. Sign-up is still closed.`);
+    await load();
+  }
+
+  async function place() {
+    if (!game) return;
+    setBusy(true);
+    setErr("");
+    const res = await placePlayer({ data: { token, gameId: game.id, name, phone, email: playerEmail, dept } });
+    setBusy(false);
+    if (!res.ok) {
+      setErr(res.error);
+      return;
+    }
+    setName("");
+    setPhone("");
+    setPlayerEmail("");
+    setNote(`${res.player.name} is seated in ${res.player.dept}.`);
+    await load();
+  }
+
+  async function addHost() {
+    setBusy(true);
+    setErr("");
+    const res = await createHost({ data: { token, name: hostName, email: hostEmail, password: hostPassword } });
+    setBusy(false);
+    if (!res.ok) {
+      setErr(res.error);
+      return;
+    }
+    setHostName("");
+    setHostEmail("");
+    setHostPassword("");
+    setNote("Host added. They sign in with that email and password.");
+    await load();
+  }
+
+  if (!token) {
+    return (
+      <main className="mx-auto min-h-dvh max-w-sm px-4 py-10">
+        <p className="text-xs font-bold tracking-widest text-gold uppercase">METALCON 2026</p>
+        <h1 className="mt-2 font-display text-3xl text-cream">Host</h1>
+        <Card className="mt-4 space-y-3">
+          <Field aria-label="Email" placeholder="Email, hosts only" value={email} onChange={(e) => setEmail(e.target.value)} />
+          <Field type="password" aria-label="Password" placeholder="Password" value={password} onChange={(e) => setPassword(e.target.value)} onKeyDown={(e) => { if (e.key === "Enter") void enter(); }} />
+          <p className="text-xs text-muted">Super admin leaves the email blank. A host uses the email they were given.</p>
+          {err ? <p className="text-sm text-orange-ink">{err}</p> : null}
+          <Btn className="w-full" disabled={busy || !password} onClick={() => void enter()}>Open the host desk</Btn>
+        </Card>
+      </main>
+    );
+  }
+
+  return (
+    <main className="mx-auto min-h-dvh max-w-lg px-4 py-6">
+      <p className="text-xs font-bold tracking-widest text-gold uppercase">{desk?.role === "super" ? "Super admin" : "Host"} · {desk?.name}</p>
+      <h1 className="mt-2 font-display text-3xl text-cream">Games</h1>
+      <Card className="mt-4 space-y-2">
+        <Field aria-label="Event name" value={eventName} onChange={(e) => setEventName(e.target.value)} />
+        <Btn disabled={busy} onClick={() => void openGame()}>Start game {desk?.nextNumber ?? 1}</Btn>
+        <p className="text-xs text-muted">This does not close the other games. The link includes today's date.</p>
+      </Card>
+      {note ? <p className="mt-3 break-all text-sm text-gold">{note}</p> : null}
+      {err ? <p className="mt-3 text-sm text-orange-ink">{err}</p> : null}
+
+      <div className="mt-4 space-y-2">
+        {(desk?.games ?? []).map((item) => (
+          <button key={item.id} type="button" onClick={() => setGameId(item.id)} className={`w-full rounded-2xl border px-3 py-3 text-left ${item.id === gameId ? "border-gold" : "border-line"}`}>
+            <p className="text-sm font-semibold text-cream">{item.eventName} · Game {item.n} · {item.status}</p>
+            <p className="text-xs text-muted">{item.slug} · {item.hostName} · {item.players} players</p>
+          </button>
+        ))}
+      </div>
+
+      {game ? (
+        <Card className="mt-4">
+          <h2 className="font-display text-xl text-cream">{game.eventName}</h2>
+          <p className="mt-1 break-all text-xs text-gold">/metalcon/join/{game.slug}</p>
+          {qr && game.status === "live" ? <img src={qr} alt="QR code for this game" className="mx-auto mt-3 w-full max-w-xs rounded-xl" /> : null}
+          <div className="mt-3 flex flex-wrap gap-2">
+            {game.status === "live" ? (
+              <Btn kind="navy" disabled={busy} onClick={() => void closeGame()}>End this game</Btn>
+            ) : (
+              <Btn disabled={busy} onClick={() => void reopen()}>Reopen</Btn>
+            )}
+            <Btn kind="ghost" disabled={busy || game.status !== "live"} onClick={() => void resetGame({ data: { token, gameId: game.id } }).then(() => load())}>Reset answers</Btn>
+            <Btn kind="ghost" disabled={busy} onClick={() => void exportGame({ data: { token, gameId: game.id } }).then((res) => { const file = fileOf(res); if (file) saveCsv(file.filename, file.csv); else if (!res.ok) setErr(res.error); })}>Download</Btn>
+          </div>
+          {game.status === "live" ? (
+            <>
+              <label className="mt-4 flex items-start gap-3 text-sm text-cream">
+                <input type="checkbox" className="mt-1 size-5 accent-[#d4a05c]" checked={game.shareSeat} onChange={(e) => { void setShareSeat({ data: { token, gameId: game.id, share: e.target.checked } }).then(() => load()); }} />
+                <span>Allow more than one player in the same seat.</span>
+              </label>
+              <label className="mt-3 flex items-start gap-3 text-sm text-cream">
+                <input type="checkbox" className="mt-1 size-5 accent-[#d4a05c]" checked={game.registrationOpen} onChange={(e) => { void setSignup({ data: { token, gameId: game.id, open: e.target.checked } }).then(() => load()); }} />
+                <span>Sign-up is open. Turning this on exposes the deck to anyone with the link.</span>
+              </label>
+            </>
+          ) : null}
+        </Card>
+      ) : null}
+
+      {game?.status === "live" ? (
+        <Card className="mt-3">
+          <h2 className="font-display text-xl text-cream">Place a player</h2>
+          <div className="mt-3 space-y-2">
+            <Select aria-label="Seat" value={dept} onChange={(e) => setDept(e.target.value)}>
+              {METALCON_SEATS.map((seat) => <option key={seat} value={seat}>{METALCON_SEAT_LABEL[seat]}</option>)}
+            </Select>
+            <Field aria-label="Name" placeholder="Name" value={name} onChange={(e) => setName(e.target.value)} />
+            <Field aria-label="Mobile" placeholder="Mobile" value={phone} onChange={(e) => setPhone(e.target.value)} />
+            <Field aria-label="Player email" placeholder="Email" value={playerEmail} onChange={(e) => setPlayerEmail(e.target.value)} />
+            <Btn className="w-full" disabled={busy} onClick={() => void place()}>Seat them</Btn>
+          </div>
+          <ul className="mt-3">
+            {seated.map((player) => (
+              <li key={player.id} className="border-t border-line py-3 text-sm text-cream">
+                <p className="font-semibold">{player.name}</p>
+                <p className="text-xs text-muted">{METALCON_SEAT_LABEL[player.dept as keyof typeof METALCON_SEAT_LABEL] ?? player.dept} · {player.email}</p>
+                <Btn kind="navy" className="mt-2" disabled={busy} onClick={() => void sendSeatLink({ data: { token, playerId: player.id, origin: window.location.origin } }).then((res) => { if (!res.ok) setErr(res.error); else setNote("Link sent."); })}>Send link</Btn>
+              </li>
+            ))}
+          </ul>
+        </Card>
+      ) : null}
+
+      {desk?.role === "super" ? (
+        <Card className="mt-3">
+          <h2 className="font-display text-xl text-cream">Hosts</h2>
+          <ul className="mt-2">
+            {desk.hosts.map((host) => (
+              <li key={host.id} className="border-t border-line py-2 text-sm text-cream">{host.name} · {host.email} · {host.role}</li>
+            ))}
+          </ul>
+          <div className="mt-3 space-y-2">
+            <Field aria-label="Host name" placeholder="Host name" value={hostName} onChange={(e) => setHostName(e.target.value)} />
+            <Field aria-label="Host email" placeholder="Host email" value={hostEmail} onChange={(e) => setHostEmail(e.target.value)} />
+            <Field aria-label="Host password" placeholder="Host password" value={hostPassword} onChange={(e) => setHostPassword(e.target.value)} />
+            <Btn className="w-full" disabled={busy} onClick={() => void addHost()}>Add host</Btn>
+          </div>
+        </Card>
+      ) : null}
+    </main>
+  );
+}

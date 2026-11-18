@@ -1,0 +1,141 @@
+/** Spanish for cards, events, and GM/company prompts. English is the source. */
+import type { Lang } from "@/lib/metalcon/i18n";
+
+const CARD: Record<string, { title: string; text: string }> = {
+  "Basic Lead": { title: "Prospecto básico", text: "Generaste un prospecto. Juega 1 estrella en un proyecto." },
+  "Viral Blitz": { title: "Oleada viral", text: "El mensaje se volvió viral. Juega 2 estrellas en un proyecto o divídelas." },
+  "Campaign Refresh": { title: "Renovación de campaña", text: "Roba 2 cartas ahora. Las negativas no se juegan." },
+  "Ad Flop": { title: "Anuncio fallido", text: "El anuncio falló. Quita 1 estrella de un proyecto sin terminar." },
+  "Bad Review Goes Viral": { title: "Mala reseña viral", text: "Una mala reseña se esparce. Agrega 1 ranura a un proyecto sin terminar." },
+  "Lead Source Dries Up": { title: "Se seca la fuente de prospectos", text: "Tu mejor canal se calló. Agrega 1 ranura a un proyecto sin terminar." },
+  "Ad Account Suspended": { title: "Cuenta de anuncios suspendida", text: "Tu cuenta fue marcada. Agrega 1 ranura a un proyecto sin terminar." },
+  "Shift Ad Spend": { title: "Mover gasto de anuncios", text: "Mueve 1 estrella de un proyecto sin terminar a otro elegible." },
+  "Basic Appointment": { title: "Cita básica", text: "Agendaste una cita. Juega 1 teléfono en un proyecto." },
+  "Misbooked Slot": { title: "Cita mal agendada", text: "Agendaste mal. Quita 1 teléfono de un proyecto sin terminar." },
+  "Callback Frenzy": { title: "Oleada de devoluciones de llamada", text: "Trabajaste las llamadas. Juega 2 teléfonos en un proyecto o divídelos." },
+  "Customer No-Shows": { title: "El cliente no se presentó", text: "No estaban en casa. Reagenda. Agrega 1 ranura a un proyecto sin terminar." },
+  "Scheduling Conflict": { title: "Conflicto de agenda", text: "Doble cita para el equipo. Agrega 1 ranura a un proyecto sin terminar." },
+  "Phone System Goes Down": { title: "Se cae el sistema de teléfono", text: "No puedes agendar hasta que lo arreglen. Agrega 1 ranura." },
+  "Reschedule": { title: "Reagendar", text: "Mueve 1 teléfono de un proyecto sin terminar a otro elegible." },
+  "Speed Dial": { title: "Marcado rápido", text: "Marcación rápida. Juega 2 teléfonos en un proyecto o divídelos." },
+  "Basic Contract": { title: "Contrato básico", text: "Cerraste una venta. Juega 1 signo de dólar en un proyecto." },
+  "Overcome Objection": { title: "Superar la objeción", text: "Superaste la objeción. Juega 2 signos en un proyecto o divídelos." },
+  "Upsell Close": { title: "Cierre de venta adicional", text: "Cerraste la venta adicional. Juega 1 signo y gana $2,000 al completar." },
+  "Cold Feet": { title: "Se echa atrás", text: "El cliente dudó. Quita 1 signo de un proyecto sin terminar." },
+  "Customer Adds Scope": { title: "El cliente agrega trabajo", text: "\"Ya que están aquí…\" Agrega 1 ranura a un proyecto sin terminar." },
+  "Spouse Wasn't At The Table": { title: "La pareja no estaba", text: "Regresa y cierra con ambos. Agrega 1 ranura." },
+  "Customer Wants 3 More Quotes": { title: "El cliente quiere 3 cotizaciones más", text: "Están comparando. Vuelve a presentar. Agrega 1 ranura." },
+  "Refocus Pitch": { title: "Reenfocar la propuesta", text: "Mueve 1 signo de un proyecto sin terminar a otro elegible." },
+  "Basic Build": { title: "Construcción básica", text: "Lo construiste. Juega 1 martillo en un proyecto." },
+  "Rush Job": { title: "Trabajo urgente", text: "Apuraste el trabajo. Juega 2 martillos en un proyecto o divídelos." },
+  "Crew Swap": { title: "Cambio de cuadrilla", text: "Mueve 1 martillo de un proyecto sin terminar a otro elegible." },
+  "Crew Delay": { title: "Retraso de cuadrilla", text: "Hubo un retraso. Quita 1 martillo de un proyecto sin terminar." },
+  "Inspector Flags Issue": { title: "El inspector señala un problema", text: "Falló la inspección. Agrega 1 ranura a un proyecto sin terminar." },
+  "Material Arrives Damaged": { title: "El material llega dañado", text: "Reordena y rehaz. Agrega 1 ranura a un proyecto sin terminar." },
+  "Subcontractor Bails": { title: "El subcontratista abandona", text: "Tu sub no llegó. Cúbrelo. Agrega 1 ranura." },
+  "Basic Invoice": { title: "Factura básica", text: "Enviaste la factura. Juega 1 calculadora en un proyecto." },
+  "Invoice Blitz": { title: "Oleada de facturas", text: "Enviaste las facturas. Juega 1 calculadora y agrega $3,000 a ingresos." },
+  "Quick Audit": { title: "Auditoría rápida", text: "Hiciste una auditoría rápida. Agrega $4,000 a ingresos ahora." },
+  "Overbudget Surprise": { title: "Sorpresa de sobrecosto", text: "Encontraste un sobrecosto. Resta $3,000 de los ingresos." },
+  "Bank Needs More Documents": { title: "El banco pide más documentos", text: "El banco necesita más papeles. Agrega 1 ranura." },
+  "Customer Disputes Invoice": { title: "El cliente reclama la factura", text: "No pagan hasta que se resuelva. Agrega 1 ranura." },
+  "Bad Check Bounces": { title: "Cheque sin fondos", text: "El pago rebotó. Vuelve a cobrar. Agrega 1 ranura." },
+  "Tax Notice Arrives": { title: "Llega aviso del IRS", text: "El IRS quiere documentación. Júntala. Agrega 1 ranura." },
+  "Reallocate Funds": { title: "Reasignar fondos", text: "Mueve 1 calculadora de un proyecto sin terminar a otro elegible." },
+};
+
+const HOUSE: Record<string, { title: string; text: string }> = {
+  "Steep Colonial": { title: "Colonial empinada", text: "Vieja y alta significa más mano de obra. Este proyecto necesita 1 ranura extra de martillo." },
+  "Ranch with Full Basement": { title: "Ranch con sótano completo", text: "Un espacio grande para mostrar. Este proyecto necesita 1 ranura extra de estrella." },
+  "Split-Level on Sloped Lot": { title: "Casa a desnivel en lote inclinado", text: "Nivelación difícil, cotización premium. Este proyecto necesita 1 ranura extra de signo." },
+  "Craftsman's Bungalow": { title: "Bungalow Craftsman", text: "Muchos permisos significa muchas llamadas. Este proyecto necesita 1 ranura extra de teléfono." },
+  "Modern Lake House": { title: "Casa moderna en el lago", text: "Las tasaciones de frente al agua se revisan dos veces. Este proyecto necesita 1 ranura extra de calculadora." },
+  "1970s Bi-Level": { title: "Bi-nivel de los 70", text: "Todo viejo significa problemas sorpresa. Este proyecto necesita 1 ranura extra de martillo. Al completar, los ingresos suben $3,000." },
+  "Urban Rowhome": { title: "Casa adosada urbana", text: "Acceso estrecho significa cargar a mano. Este proyecto necesita 1 ranura extra de martillo." },
+  "Suburban McMansion": { title: "McMansion suburbana", text: "Exagerada en todo. Al inicio agrega 1 ranura de cualquier tipo. Al completar, los ingresos suben $2,000." },
+  "Historic Victorian": { title: "Victoriana histórica", text: "Los detalles delicados premian el trabajo fino. Al completar, los ingresos suben $2,000." },
+};
+
+const CUSTOMER: Record<string, { title: string; text: string }> = {
+  "The Stanley Family": { title: "Familia Stanley", text: "Esta familia necesita el trabajo rápido. Si este proyecto no se completa al final de la ronda 6, la empresa pierde $5,000." },
+  "The Thompson Family": { title: "Familia Thompson", text: "Esta familia compara precios. Cuando este proyecto se completa, si es el 4to o posterior, la empresa pierde $5,000." },
+  "The Rivera Family": { title: "Familia Rivera", text: "Esta familia paga un extra por mejoras verdes. Cuando este proyecto se completa, si al menos 2 cartas ESPECIAL se jugaron, la empresa gana $5,000." },
+  "The Patel Family": { title: "Familia Patel", text: "Esta familia inspecciona todo. Al inicio, la empresa agrega 1 ranura extra. Al completar, la empresa gana $2,000." },
+  "The Garcia Family": { title: "Familia Garcia", text: "Refieren a todos. +$2,000 por cada proyecto terminado después de este (máx $8,000)." },
+  "The Lee Family": { title: "Familia Lee", text: "El banco paga en etapas. Gana $1,000 cada vez que se coloca un token en este proyecto (máx $5,000)." },
+  "The Kim Family": { title: "Familia Kim", text: "Publican todo. Cuando este proyecto recibe su token de estrella, coloca 1 estrella en otro proyecto sin terminar." },
+  "The O'Brien Family": { title: "Familia O'Brien", text: "Deciden a último momento. Si este proyecto es el último en terminarse, gana $4,000." },
+  "The Harris Family": { title: "Familia Harris", text: "Esta familia sueña en grande y paga por ello. Cuando este proyecto se completa, sus ingresos suben $4,000." },
+};
+
+const EVENT: Record<string, { title: string; text: string }> = {
+  "Word of Mouth": { title: "De boca en boca", text: "Tu empresa puede enfocarse en hasta 2 proyectos extra. Cada departamento roba 1 carta extra." },
+  "Warm Lead": { title: "Prospecto caliente", text: "Agrega 1 token de estrella a cualquier proyecto." },
+  "Rush Callback": { title: "Devolución urgente", text: "Agrega 1 token de teléfono a cualquier proyecto." },
+  "Crew Efficiency": { title: "Eficiencia de cuadrilla", text: "Agrega 1 token de martillo a cualquier proyecto." },
+  "Smooth Close": { title: "Cierre limpio", text: "Ventas puede jugar 1 carta extra esta ronda." },
+  "Invoice Paid Early": { title: "Factura pagada anticipada", text: "La empresa recibe $3,000 en efectivo." },
+  "Community Buzz": { title: "Revuelo en la comunidad", text: "La empresa recibe $3,000 en efectivo." },
+  "Buyer's Remorse": { title: "Arrepentimiento del comprador", text: "Quita 1 token de Ventas de un proyecto sin terminar." },
+  "Algorithm Change": { title: "Cambio de algoritmo", text: "Marketing roba 2 cartas menos esta ronda." },
+  "Material Spike": { title: "Alza de materiales", text: "La empresa paga $2,000 por materiales." },
+  "Warranty Claim": { title: "Reclamo de garantía", text: "La empresa paga $2,000." },
+  "No-Show Day": { title: "Día de ausencias", text: "Centro de Citas roba 1 carta menos esta ronda." },
+  "Financing Falls Through": { title: "Se cae el financiamiento", text: "Ventas elige un proyecto sin terminar. Se completa por $2,000 menos." },
+  "One-Star Review": { title: "Reseña de una estrella", text: "Marketing roba 1 carta menos esta ronda." },
+};
+
+export function cardEs(name: string): { title: string; text: string } | null {
+  return CARD[name] ?? null;
+}
+export function houseEs(name: string): { title: string; text: string } | null {
+  return HOUSE[name] ?? null;
+}
+export function customerEs(name: string): { title: string; text: string } | null {
+  return CUSTOMER[name] ?? null;
+}
+export function eventEs(name: string): { title: string; text: string } | null {
+  return EVENT[name] ?? null;
+}
+
+function findCard(name: string) {
+  const hit = CARD[name] ?? HOUSE[name] ?? CUSTOMER[name] ?? EVENT[name];
+  if (hit) return hit;
+  const key = name.trim().toLowerCase();
+  const maps = [CARD, HOUSE, CUSTOMER, EVENT];
+  for (const map of maps) {
+    const found = Object.keys(map).find((item) => item.toLowerCase() === key);
+    if (found) return map[found];
+  }
+  return null;
+}
+export function cardLine(name: string, lang: Lang): string {
+  if (lang === "en") return name;
+  const es = findCard(name);
+  return es ? `${name} / ${es.title}` : name;
+}
+
+/** Spanish primary, English underneath. Falls back to English only. */
+function printedCase(name: string) {
+  return name.toLowerCase().replace(/(^|\s)\w/g, (c) => c.toUpperCase());
+}
+export function bilingual(name: string, lang: Lang): { primary: string; secondary: string | null } {
+  const printed = printedCase(name);
+  if (lang !== "es") return { primary: printed, secondary: null };
+  const es = findCard(name);
+  return es ? { primary: es.title, secondary: printed } : { primary: printed, secondary: null };
+}
+
+function slugify(value: string) {
+  return value.toLowerCase().replace(/[^a-z0-9]+/g, "-").replace(/^-|-$/g, "");
+}
+export function resolveName(name: string) {
+  const base = name.replace(/\s*\(.*\)$/, "");
+  const slug = slugify(base);
+  const maps = [CARD, HOUSE, CUSTOMER, EVENT];
+  for (const map of maps) {
+    const hit = Object.keys(map).find((key) => slugify(key) === slug || slug.startsWith(slugify(key)));
+    if (hit) return hit;
+  }
+  return base.includes("-") ? base.replace(/-/g, " ").replace(/\b\w/g, (c) => c.toUpperCase()) : base;
+}

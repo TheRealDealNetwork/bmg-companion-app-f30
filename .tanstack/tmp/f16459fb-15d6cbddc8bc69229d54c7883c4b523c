@@ -1,0 +1,88 @@
+import { createFileRoute, Link, useNavigate } from "@tanstack/react-router";
+import { useEffect, useState } from "react";
+import { claimSeat } from "@/lib/metalcon/api";
+import { writeSeat } from "@/lib/metalcon/session";
+import { Btn, Card } from "@/components/game/ui";
+
+export const Route = createFileRoute("/soebld/go")({
+  ssr: false,
+  validateSearch: (search: Record<string, unknown>) => ({
+    id: String(search.id ?? ""),
+    k: String(search.k ?? ""),
+  }),
+  component: GoPage,
+});
+
+function GoPage() {
+  const { id, k } = Route.useSearch();
+  const navigate = useNavigate();
+  const [err, setErr] = useState("");
+  const [preview, setPreview] = useState<{ name: string; dept: string; game: number } | null>(null);
+  const [terms, setTerms] = useState(false);
+  const [busy, setBusy] = useState(false);
+
+  useEffect(() => {
+    document.title = "Your seat";
+    let stop = false;
+    void claimSeat({ data: { id, token: k, terms: false } }).then((res) => {
+      if (stop) return;
+      if (!res.ok) {
+        setErr(res.error);
+        return;
+      }
+      if (res.needsTerms) {
+        setPreview({ name: res.name, dept: res.dept, game: res.game });
+        return;
+      }
+      writeSeat(res.player);
+      void navigate({ to: "/metalcon/play" });
+    });
+    return () => {
+      stop = true;
+    };
+  }, [id, k, navigate]);
+
+  async function accept() {
+    setBusy(true);
+    setErr("");
+    const res = await claimSeat({ data: { id, token: k, terms: true } });
+    setBusy(false);
+    if (!res.ok) {
+      setErr(res.error);
+      return;
+    }
+    if (res.needsTerms) return;
+    writeSeat(res.player);
+    void navigate({ to: "/metalcon/play" });
+  }
+
+  return (
+    <main className="mx-auto min-h-dvh max-w-lg px-4 py-6">
+      <p className="text-xs font-bold tracking-widest text-gold uppercase">METALCON 2026</p>
+      <h1 className="mt-2 font-display text-3xl text-cream">{preview ? preview.name : "Your seat"}</h1>
+      {preview ? (
+        <Card className="mt-4 space-y-3">
+          <p className="text-sm text-cream">
+            Game {preview.game} · {preview.dept}
+          </p>
+          <label className="flex items-start gap-3 text-sm text-cream">
+            <input type="checkbox" className="mt-1 size-5 accent-[#d4a05c]" checked={terms} onChange={(e) => setTerms(e.target.checked)} />
+            <span>
+              I agree to the{" "}
+              <Link to="/metalcon/terms" className="font-semibold text-gold" target="_blank">
+                Beta Terms & Conditions
+              </Link>
+              .
+            </span>
+          </label>
+          <Btn className="w-full" disabled={busy || !terms} onClick={() => void accept()}>
+            Take this seat
+          </Btn>
+        </Card>
+      ) : (
+        <p className="mt-3 text-sm text-muted">{err || "Opening your seat…"}</p>
+      )}
+      {err && preview ? <p className="mt-3 text-sm text-orange-ink">{err}</p> : null}
+    </main>
+  );
+}

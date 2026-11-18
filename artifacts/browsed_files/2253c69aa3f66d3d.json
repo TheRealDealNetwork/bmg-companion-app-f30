@@ -1,0 +1,170 @@
+{
+    "applinks": {
+        "details": [
+            {
+                "appIDs": [
+                    "N66CZ3Y3BX.ai.x.GrokApp"
+                ],
+                "components": [
+                    {
+                        "/": "/user-feature-controls",
+                        "exclude": true,
+                        "comment": "Open in browser, not app (matches with or without query params)"
+                    },
+                    {
+                        "/": "/user-feature-controls-static",
+                        "exclude": true,
+                        "comment": "Open in browser, not app (static version for iOS flow, no auth)"
+                    },
+                    {
+                        "/": "/sign-in",
+                        "?": {
+                            "return_to": "/user-feature-controls*"
+                        },
+                        "exclude": true,
+                        "comment": "Exclude sign-in when returning to user-feature-controls (iOS external browser flow)"
+                    },
+                    {
+                        "/": "/sign-up",
+                        "?": {
+                            "return_to": "/user-feature-controls*"
+                        },
+                        "exclude": true,
+                        "comment": "Exclude sign-up when returning to user-feature-controls (iOS external browser flow)"
+                    },
+                    {
+                        "/": "/sign-out",
+                        "?": {
+                            "return_to": "/user-feature-controls*"
+                        },
+                        "exclude": true,
+                        "comment": "Exclude sign-out when returning to user-feature-controls (iOS external browser flow)"
+                    },
+                    {
+                        "/": "/preview-auth",
+                        "exclude": true,
+                        "comment": "Redirect-only sandbox preview owner gate; the iOS app has no route for it, so claiming it bounces the user out of the browser mid-redirect"
+                    },
+                    {
+                        "/": "/sign-in",
+                        "?": {
+                            "return_to": "/preview-auth*"
+                        },
+                        "exclude": true,
+                        "comment": "Exclude sign-in when returning to preview-auth (sandbox preview owner gate)"
+                    },
+                    {
+                        "/": "/code",
+                        "exclude": true,
+                        "comment": "Open in browser, not app"
+                    },
+                    {
+                        "/": "/code/*",
+                        "exclude": true,
+                        "comment": "Open in browser, not app"
+                    },
+                    {
+                        "/": "/finance",
+                        "exclude": true,
+                        "comment": "Open in browser, not app (hosted Plaid Link for iOS / grok-bot)"
+                    },
+                    {
+                        "/": "/finance/*",
+                        "exclude": true,
+                        "comment": "Open in browser, not app (hosted Plaid Link for iOS / grok-bot)"
+                    },
+                    {
+                        "/": "/sign-in",
+                        "?": {
+                            "return_to": "/finance*"
+                        },
+                        "exclude": true,
+                        "comment": "Exclude sign-in when returning to hosted Plaid Link (iOS external browser flow)"
+                    },
+                    {
+                        "/": "/sign-up",
+                        "?": {
+                            "return_to": "/finance*"
+                        },
+                        "exclude": true,
+                        "comment": "Exclude sign-up when returning to hosted Plaid Link (iOS external browser flow)"
+                    },
+                    {
+                        "/": "/sign-out",
+                        "?": {
+                            "return_to": "/finance*"
+                        },
+                        "exclude": true,
+                        "comment": "Exclude sign-out when returning to hosted Plaid Link (iOS external browser flow)"
+                    },
+                    {
+                        "/": "/connectors-oauth-retry",
+                        "exclude": true,
+                        "comment": "Open in browser, not app (connector re-auth entry point minted for partner clients like grok-bot)"
+                    },
+                    {
+                        "/": "/connectors-oauth-success",
+                        "exclude": true,
+                        "comment": "Open in browser, not app (connector OAuth completion page)"
+                    },
+                    {
+                        "/": "/connectors-oauth-error",
+                        "exclude": true,
+                        "comment": "Open in browser, not app (connector OAuth error page)"
+                    },
+                    {
+                        "/": "/supergrok",
+                        "exclude": true,
+                        "comment": "Open in browser, not app"
+                    },
+                    {
+                        "/": "/supergrok/*",
+                        "exclude": true,
+                        "comment": "Open in browser, not app"
+                    },
+                    {
+                        "/": "/",
+                        "?": {
+                            "_s": "usage"
+                        },
+                        "exclude": true,
+                        "comment": "Keep usage settings email links in browser"
+                    },
+                    {
+                        "/": "/",
+                        "?": {
+                            "_s": "billing"
+                        },
+                        "exclude": true,
+                        "comment": "Keep billing settings email links in browser"
+                    },
+                    {
+                        "/": "/*",
+                        "?": {
+                            "checkout": "success"
+                        },
+                        "exclude": true,
+                        "comment": "Keep checkout success in browser (e.g., X app webview returning from Stripe)"
+                    },
+                    {
+                        "/": "/*",
+                        "?": {
+                            "mwbv": "true"
+                        },
+                        "exclude": true,
+                        "comment": "iOS app kicked the user out to Safari and appended mwbv=true; keep them in the browser instead of routing back to the app"
+                    },
+                    {
+                        "/": "/*",
+                        "comment": "Matches all"
+                    }
+                ]
+            }
+        ]
+    },
+    "webcredentials": {
+        "apps": [
+            "N66CZ3Y3BX.ai.x.GrokApp"
+        ]
+    }
+}

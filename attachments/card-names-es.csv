@@ -1,0 +1,73 @@
+type,department,name_en,name_es,notes
+action,Marketing,Basic Lead,Prospecto básico,"BASIC; 16 copies. Printed rule: GENERATED A LEAD. PLAY 1 ★ ON A PROJECT. Edita placeholder retained (good, and lead = prospecto)."
+action,Marketing,Viral Blitz,Oleada viral,"SPECIAL; 4 copies. Printed rule: MESSAGE WENT VIRAL. PLAY 2 ★ ON ONE PROJECT OR SPLIT ACROSS PROJECTS. Edita placeholder retained (good, and matches Invoice Blitz → Oleada de facturas)."
+action,Marketing,Campaign Refresh,Renovación de campaña,SPECIAL; 2 copies. Printed rule: DRAW 2 CARDS IMMEDIATELY. NEGATIVES DON'T PLAY.
+action,Marketing,Ad Flop,Anuncio fallido,NEGATIVE; 2 copies. Printed rule: AD FLOPPED. REMOVE 1 ★ FROM ANY UNFINISHED PROJECT.
+action,Marketing,Bad Review Goes Viral,Mala reseña viral,NEGATIVE; 1 copy. Printed rule: A BAD REVIEW IS SPREADING ONLINE. ADD 1 ★ SLOT TO AN UNFINISHED PROJECT.
+action,Marketing,Lead Source Dries Up,Se seca la fuente de prospectos,NEGATIVE; 1 copy. Printed rule: YOUR BEST LEAD CHANNEL WENT QUIET. ADD 1 ★ SLOT TO AN UNFINISHED PROJECT.
+action,Marketing,Ad Account Suspended,Cuenta de anuncios suspendida,NEGATIVE; 1 copy. Printed rule: YOUR AD ACCOUNT GOT FLAGGED. ADD 1 ★ SLOT TO AN UNFINISHED PROJECT.
+action,Marketing,Shift Ad Spend,Mover gasto de anuncios,REALLOCATION; 1 copy. Printed rule: MOVE 1 ★ FROM ONE UNFINISHED PROJECT TO ANOTHER ELIGIBLE UNFINISHED PROJECT.
+action,Appointment Center,Basic Appointment,Cita básica,BASIC; 16 copies. Printed rule: BOOKED AN APPOINTMENT. PLAY 1 📞 ON A PROJECT.
+action,Appointment Center,Speed Dial,Marcado rápido,SPECIAL; 4 copies. Printed rule: HIT SPEED DIAL. PLAY 2 📞 ON ONE PROJECT OR SPLIT ACROSS PROJECTS.
+action,Appointment Center,Misbooked Slot,Cita mal agendada,NEGATIVE; 2 copies. Printed rule: MISBOOKED A SLOT. REMOVE 1 📞 FROM ANY UNFINISHED PROJECT.
+action,Appointment Center,Callback Frenzy,Oleada de devoluciones de llamada,SPECIAL; 2 copies. Printed rule: WORKED THE CALLBACKS. PLAY 2 📞 ON ONE PROJECT OR SPLIT ACROSS PROJECTS.
+action,Appointment Center,Customer No-Shows,El cliente no se presentó,NEGATIVE; 1 copy. Printed rule: THEY WEREN'T HOME. REBOOK IT. ADD 1 📞 SLOT TO AN UNFINISHED PROJECT.
+action,Appointment Center,Scheduling Conflict,Conflicto de agenda,NEGATIVE; 1 copy. Printed rule: DOUBLE-BOOKED THE CREW. ADD 1 📞 SLOT TO AN UNFINISHED PROJECT.
+action,Appointment Center,Phone System Goes Down,Se cae el sistema de teléfono,NEGATIVE; 1 copy. Printed rule: CAN'T BOOK UNTIL IT'S FIXED. ADD 1 📞 SLOT TO AN UNFINISHED PROJECT. teléfono per the glossary.
+action,Appointment Center,Reschedule,Reagendar,REALLOCATION; 1 copy. Printed rule: MOVE 1 📞 FROM ONE UNFINISHED PROJECT TO ANOTHER ELIGIBLE UNFINISHED PROJECT. Reagendar is the usual Florida / Latin American verb.
+action,Sales,Basic Contract,Contrato básico,"BASIC; 17 copies. Printed rule: CLOSED A SALE. PLAY 1 $ ON A PROJECT. The $ icon is a Sales token, not a USD amount."
+action,Sales,Overcome Objection,Superar la objeción,SPECIAL; 3 copies. Printed rule: OVERCOME THE OBJECTION. PLAY 2 $ ON ONE PROJECT OR SPLIT ACROSS PROJECTS.
+action,Sales,Upsell Close,Cierre de venta adicional,"SPECIAL; 2 copies. Printed rule: CLOSED THE UPSELL. PLAY 1 $ AND GAIN $2,000 ON PROJECT COMPLETION."
+action,Sales,Cold Feet,Se echa atrás,NEGATIVE; 2 copies. Printed rule: GOT COLD FEET. REMOVE 1 $ FROM ANY UNFINISHED PROJECT. Natural idiom; a literal 'pies fríos' would not be understood the same way.
+action,Sales,Customer Adds Scope,El cliente agrega trabajo,"NEGATIVE; 1 copy. Printed rule: ""WHILE YOU'RE HERE, CAN YOU ALSO..."" ADD 1 $ SLOT TO AN UNFINISHED PROJECT. trabajo = added scope, in trades language."
+action,Sales,Spouse Wasn't at the Table,La pareja no estaba en la mesa,NEGATIVE; 1 copy. Printed rule: GO BACK AND CLOSE BOTH DECISION-MAKERS. ADD 1 $ SLOT TO AN UNFINISHED PROJECT. pareja keeps the title gender-neutral.
+action,Sales,Customer Wants 3 More Quotes,El cliente quiere 3 cotizaciones más,NEGATIVE; 1 copy. Printed rule: THEY'RE SHOPPING YOU. RE-PITCH. ADD 1 $ SLOT TO AN UNFINISHED PROJECT.
+action,Sales,Refocus Pitch,Reenfocar la propuesta,REALLOCATION; 1 copy. Printed rule: MOVE 1 $ FROM ONE UNFINISHED PROJECT TO ANOTHER ELIGIBLE UNFINISHED PROJECT.
+action,Production,Basic Build,Construcción básica,BASIC; 16 copies. Printed rule: BUILT IT. PLAY 1 🔨 ON A PROJECT.
+action,Production,Rush Job,Trabajo urgente,SPECIAL; 4 copies. Printed rule: RUSHED THE JOB. PLAY 2 🔨 ON ONE PROJECT OR SPLIT ACROSS PROJECTS.
+action,Production,Crew Swap,Cambio de cuadrilla,"SPECIAL (2 copies) and REALLOCATION (1 copy), same title and move-1-hammer rule; merged, not two cards. Printed rule: MOVE 1 🔨 FROM ONE UNFINISHED PROJECT TO ANOTHER ELIGIBLE UNFINISHED PROJECT. cuadrilla = crew in trades Spanish."
+action,Production,Crew Delay,Retraso de cuadrilla,NEGATIVE; 2 copies. Printed rule: HIT A DELAY. REMOVE 1 🔨 FROM ANY UNFINISHED PROJECT.
+action,Production,Inspector Flags Issue,El inspector señala un problema,NEGATIVE; 1 copy. Printed rule: FAILED INSPECTION. REWORK REQUIRED. ADD 1 🔨 SLOT TO AN UNFINISHED PROJECT.
+action,Production,Material Arrives Damaged,El material llega dañado,NEGATIVE; 1 copy. Printed rule: REORDER AND REDO. ADD 1 🔨 SLOT TO AN UNFINISHED PROJECT.
+action,Production,Subcontractor Bails,El subcontratista abandona,NEGATIVE; 1 copy. Printed rule: YOUR SUB DIDN'T SHOW. COVER IT. ADD 1 🔨 SLOT TO AN UNFINISHED PROJECT.
+action,Accounting,Basic Invoice,Factura básica,BASIC; 16 copies. Printed rule: SENT THE INVOICE. PLAY 1 🧮 ON A PROJECT.
+action,Accounting,Invoice Blitz,Oleada de facturas,"SPECIAL; 4 copies. Printed rule: BLITZED THE INVOICES. PLAY 1 🧮 ON A PROJECT AND ADD $3,000 TO COMPANY REVENUE. Oleada matches Viral Blitz."
+action,Accounting,Quick Audit,Auditoría rápida,"SPECIAL; 2 copies. Printed rule: RAN A QUICK AUDIT. ADD $4,000 TO COMPANY REVENUE IMMEDIATELY."
+action,Accounting,Overbudget Surprise,Sorpresa de sobrecosto,"NEGATIVE; 2 copies. Printed rule: FOUND AN OVERBUDGET SURPRISE. SUBTRACT $3,000 FROM COMPANY REVENUE."
+action,Accounting,Bank Needs More Documents,El banco pide más documentos,NEGATIVE; 1 copy. Printed rule: BANK NEEDS MORE PAPERWORK. ADD 1 🧮 SLOT TO AN UNFINISHED PROJECT.
+action,Accounting,Customer Disputes Invoice,El cliente reclama la factura,NEGATIVE; 1 copy. Printed rule: THEY WON'T PAY UNTIL IT'S RESOLVED. ADD 1 🧮 SLOT TO AN UNFINISHED PROJECT. reclama is the natural verb; disputa would sound calqued.
+action,Accounting,Bad Check Bounces,Cheque sin fondos,NEGATIVE; 1 copy. Printed rule: PAYMENT BOUNCED. RECOLLECT IT. ADD 1 🧮 SLOT TO AN UNFINISHED PROJECT.
+action,Accounting,Tax Notice Arrives,Llega aviso del IRS,NEGATIVE; 1 copy. Printed rule: THE IRS WANTS DOCUMENTATION. PULL IT TOGETHER. ADD 1 🧮 SLOT TO AN UNFINISHED PROJECT. IRS kept; Florida tradespeople know the name.
+action,Accounting,Reallocate Funds,Reasignar fondos,REALLOCATION; 1 copy. Printed rule: MOVE 1 🧮 FROM ONE UNFINISHED PROJECT TO ANOTHER ELIGIBLE UNFINISHED PROJECT.
+customer,,The Stanley Family,Familia Stanley,"Customer card (Impatient). Printed: if this project is not completed by the end of round 6, the company loses $5,000 company cash. Surname kept as printed."
+customer,,The Thompson Family,Familia Thompson,"Customer card (Budget-Conscious). Printed: when this project completes, if it is the 4th or later project the company completed, the company loses $5,000 company cash."
+customer,,The Rivera Family,Familia Rivera,"Customer card (Eco-Conscious). Printed: when this project completes, if at least 2 SPECIAL cards were played on it by any department, the company gains $5,000 company cash."
+customer,,The Patel Family,Familia Patel,"Customer card (Detail-Oriented). Printed: at setup, add 1 extra icon slot of the company's choice (6 total); when this project completes, the company gains $2,000 for the white-glove review."
+customer,,The Garcia Family,Familia Garcia,"Customer card (Referral Machine). Printed: +$2,000 for each project finished after this one (max $8,000). Surname left unaccented to match the printed English card (not García)."
+customer,,The Lee Family,Familia Lee,"Customer card (Bank-Financed). Printed: gain $1,000 every time a token is placed on this project (max $5,000)."
+customer,,The Kim Family,Familia Kim,"Customer card (Social Media Stars). Printed: when this project gets its ★ token, place 1 ★ token on another unfinished project. No cash value on card."
+customer,,The O'Brien Family,Familia O'Brien,"Customer card (Last-Minute Deciders). Printed: if this project is the last one finished, gain $4,000. Apostrophe matches the printed English title (not a typographic ’)."
+customer,,The Harris Family,Familia Harris,"Customer card (Big Dreamers). Printed: when this project completes, its revenue increases by $4,000."
+house,,Steep Colonial,Colonial empinada,House card (Old & Tall). Printed: this project needs 1 extra 🔨 slot (6 total). No dollar value on card. Flavor subtitle Old & Tall is not a separate card.
+house,,Ranch with Full Basement,Ranch con sótano completo,House card (Spacious & Dry). Printed: this project needs 1 extra ★ slot (6 total). No dollar value on card. Ranch kept as the U.S. house-style name; ranchera would be read as a country house.
+house,,Split-Level on Sloped Lot,Casa a desnivel en lote inclinado,House card (Tricky Grading). Printed: this project needs 1 extra $ slot (6 total). No dollar value on card. casa a desnivel is the usual term for a split-level.
+house,,Craftsman's Bungalow,Bungalow Craftsman,House card (Permit-Heavy). Printed: this project needs 1 extra 📞 slot (6 total). No dollar value on card. Craftsman kept as the architectural style name used in U.S. Spanish listings.
+house,,Modern Lake House,Casa moderna en el lago,House card (Waterfront). Printed: this project needs 1 extra 🧮 slot (6 total). No dollar value on card.
+house,,1970s Bi-Level,Bi-nivel de los 70,"House card (Dated Everything). Printed: 1 extra 🔨 slot (6 total); when this project completes, its revenue increases by $3,000."
+house,,Urban Rowhome,Casa adosada urbana,House card (Tight Access). Printed: 1 extra 🔨 slot (6 total). No dollar value on card. casa adosada = rowhome / row house.
+house,,Suburban McMansion,McMansion suburbana,"House card (Over-the-Top). Printed: at setup, add 1 extra icon slot of any type (6 total); when this project completes, its revenue increases by $2,000. McMansion kept as the loanword."
+house,,Historic Victorian,Victoriana histórica,"House card (Delicate Details). Printed: when this project completes, its revenue increases by $2,000. Confirmed on the Nov 4 flats; it is the 9th house and was not in the short 'known names' list, but it is a real printed card, not invented."
+event,,Word of Mouth!,¡De boca en boca!,"Event card, Nov 5 flats. Printed: your company may focus on up to 2 extra projects this round, and every department draws 1 extra card this round. FACE-MAP.csv lists the file title as Word of Mouth (no exclamation point); the printed name in action-cards-values.md and the card-effects audit is Word of Mouth!. Use the printed name with the bang. Flagged only for that title variant."
+event,,Warm Lead,Prospecto caliente,"Event card, Nov 5 flats. Printed: ADD 1 ★ TOKEN TO ANY PROJECT. prospecto per the glossary."
+event,,Rush Callback,Devolución urgente,"Event card, Nov 5 flats. Printed: ADD 1 📞 TOKEN TO ANY PROJECT."
+event,,Crew Efficiency,Eficiencia de cuadrilla,"Event card, Nov 5 flats. Printed: ADD 1 🔨 TOKEN TO ANY PROJECT."
+event,,Smooth Close,Cierre limpio,"Event card, Nov 5 flats. Printed: SALES MAY PLAY 1 EXTRA CARD THIS ROUND (NO EXTRA FOCUS NEEDED)."
+event,,Invoice Paid Early,Factura pagada anticipada,"Event card, Nov 5 flats. Printed: +$3,000 COMPANY CASH."
+event,,Community Buzz,Revuelo en la comunidad,"Event card, Nov 5 flats. Printed: +$3,000 COMPANY CASH."
+event,,Buyer's Remorse,Arrepentimiento del comprador,"Event card, Nov 5 flats. Printed: REMOVE 1 $ TOKEN FROM THE UNFINISHED PROJECT."
+event,,Algorithm Change,Cambio de algoritmo,"Event card, Nov 5 flats. Printed: MARKETING DRAWS 2 FEWER CARDS THIS ROUND (MINIMUM 0)."
+event,,Material Spike,Alza de materiales,"Event card, Nov 5 flats. Printed: lumber and shingles jump 20 percent; the company pays $2,000 for materials. The 20% is narrative; the operative payment is $2,000."
+event,,Warranty Claim,Reclamo de garantía,"Event card, Nov 5 flats. Printed: the company pays $2,000 to make a leaking roof right."
+event,,No-Show Day,Día de ausencias,"Event card, Nov 5 flats. Printed: four booked appointments no-show; the Appointment Center draws 1 fewer card this round (minimum 0)."
+event,,Financing Falls Through,Se cae el financiamiento,"Event card, Nov 5 flats. Printed: Sales chooses one unfinished project; it completes for $2,000 less revenue."
+event,,One-Star Review,Reseña de una estrella,"Event card, Nov 5 flats. Printed: MARKETING DRAWS 1 FEWER CARD THIS ROUND (MINIMUM 0). estrella per the glossary. Not the same card as the Marketing scenario title The One-Star Review."

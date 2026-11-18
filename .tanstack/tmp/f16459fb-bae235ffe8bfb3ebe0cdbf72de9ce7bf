@@ -1,0 +1,100 @@
+import { createFileRoute, Link } from "@tanstack/react-router";
+import { useEffect, useState } from "react";
+import { answerLog } from "@/lib/metalcon/api";
+import { money } from "@/lib/game/format";
+import { Card } from "@/components/game/ui";
+
+export const Route = createFileRoute("/soebld/log")({
+  ssr: false,
+  component: LogPage,
+});
+
+type Row = {
+  round_n: number;
+  dept: string;
+  player_name: string;
+  card_code: string;
+  card_title: string;
+  choice: string;
+  payroll_cents: number;
+};
+
+function LogPage() {
+  const [rows, setRows] = useState<Row[]>([]);
+  const [game, setGame] = useState<number | null>(null);
+  const [err, setErr] = useState("");
+
+  useEffect(() => {
+    document.title = "METALCON 2026 answer log";
+    let stop = false;
+    async function load() {
+      try {
+        const res = await answerLog();
+        if (stop) return;
+        if (!res.ok) {
+          setErr("The log is not available yet.");
+          return;
+        }
+        setRows(res.rows);
+        setGame(res.game);
+      } catch {
+        if (!stop) setErr("The log is not available yet.");
+      }
+    }
+    void load();
+    const timer = window.setInterval(() => void load(), 8000);
+    return () => {
+      stop = true;
+      window.clearInterval(timer);
+    };
+  }, []);
+
+  const depts = [...new Set(rows.map((row) => row.dept))];
+
+  return (
+    <main className="mx-auto min-h-dvh max-w-3xl px-4 py-6">
+      <p className="text-xs font-bold tracking-widest text-gold uppercase">METALCON 2026</p>
+      <h1 className="mt-2 font-display text-3xl text-cream">{game ? `Game ${game} answer log` : "Answer log"}</h1>
+      <p className="mt-1 text-sm text-muted">Every card answered in a round is kept. A later card does not replace an earlier one.</p>
+      {err ? <p className="mt-3 text-sm text-orange-ink">{err}</p> : null}
+      {depts.length === 0 && !err ? <p className="mt-4 text-sm text-muted">No answers yet.</p> : null}
+      {depts.map((dept) => (
+        <Card key={dept} className="mt-4">
+          <h2 className="font-display text-xl text-cream">{dept}</h2>
+          <div className="mt-2 overflow-x-auto">
+            <table className="w-full text-left text-sm">
+              <thead className="text-xs tracking-wide text-gold uppercase">
+                <tr>
+                  <th className="py-2 pr-3">Round</th>
+                  <th className="py-2 pr-3">Player</th>
+                  <th className="py-2 pr-3">Card</th>
+                  <th className="py-2 pr-3">Answer</th>
+                  <th className="py-2">Payroll</th>
+                </tr>
+              </thead>
+              <tbody>
+                {rows
+                  .filter((row) => row.dept === dept)
+                  .map((row, i) => (
+                    <tr key={`${row.card_code}-${row.player_name}-${i}`} className="border-t border-line">
+                      <td className="py-2 pr-3 text-cream">{row.round_n}</td>
+                      <td className="py-2 pr-3 text-cream">{row.player_name}</td>
+                      <td className="py-2 pr-3 text-cream">
+                        {row.card_code}
+                        <span className="block text-xs text-muted">{row.card_title}</span>
+                      </td>
+                      <td className="py-2 pr-3 text-cream">{row.choice}</td>
+                      <td className="py-2 text-gold">{row.payroll_cents > 0 ? money(row.payroll_cents) : "$0"}</td>
+                    </tr>
+                  ))}
+              </tbody>
+            </table>
+          </div>
+        </Card>
+      ))}
+      <Link to="/metalcon" className="mt-4 inline-block text-sm font-semibold text-gold">
+        QR code
+      </Link>
+    </main>
+  );
+}

@@ -1,0 +1,16 @@
+import { createFileRoute } from "@tanstack/react-router";
+
+export const Route = createFileRoute("/soebld/join/")({
+  ssr: false,
+  component: JoinIndex,
+});
+
+function JoinIndex() {
+  return (
+    <main className="mx-auto min-h-dvh max-w-lg px-4 py-6">
+      <p className="text-xs font-bold tracking-widest text-gold uppercase">METALCON 2026 · Beta</p>
+      <h1 className="mt-2 font-display text-3xl text-cream">Use your game link</h1>
+      <p className="mt-2 text-sm text-muted">Each game has its own link and QR code. Ask the host for the one on your table.</p>
+    </main>
+  );
+}

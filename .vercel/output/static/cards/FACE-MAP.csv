@@ -1,0 +1,76 @@
+# Official cropped card faces
+# Map these exact filenames to the card title in the app.
+
+file,kind,title
+action-basic-lead.png,action,Basic Lead
+action-invoice-blitz.png,action,Invoice Blitz
+action-quick-audit.png,action,Quick Audit
+action-overbudget-surprise.png,action,Overbudget Surprise
+action-bank-needs-more-documents.png,action,Bank Needs More Documents
+action-customer-disputes-invoice.png,action,Customer Disputes Invoice
+action-viral-blitz.png,action,Viral Blitz
+action-bad-check-bounces.png,action,Bad Check Bounces
+action-tax-notice-arrives.png,action,Tax Notice Arrives
+action-reallocate-funds.png,action,Reallocate Funds
+action-campaign-refresh.png,action,Campaign Refresh
+action-ad-flop.png,action,Ad Flop
+action-bad-review-goes-viral.png,action,Bad Review Goes Viral
+action-lead-source-dries-up.png,action,Lead Source Dries Up
+action-ad-account-suspended.png,action,Ad Account Suspended
+action-shift-ad-spend.png,action,Shift Ad Spend
+action-basic-appointment.png,action,Basic Appointment
+action-speed-dial.png,action,Speed Dial
+action-misbooked-slot.png,action,Misbooked Slot
+action-callback-frenzy.png,action,Callback Frenzy
+action-customer-no-shows.png,action,Customer No-Shows
+action-scheduling-conflict.png,action,Scheduling Conflict
+action-phone-system-goes-down.png,action,Phone System Goes Down
+action-reschedule.png,action,Reschedule
+action-basic-contract.png,action,Basic Contract
+action-overcome-objection.png,action,Overcome Objection
+action-upsell-close.png,action,Upsell Close
+action-cold-feet.png,action,Cold Feet
+action-customer-adds-scope.png,action,Customer Adds Scope
+action-spouse-wasn-t-at-the-table.png,action,Spouse Wasn't at the Table
+action-customer-wants-3-more-quotes.png,action,Customer Wants 3 More Quotes
+action-refocus-pitch.png,action,Refocus Pitch
+action-basic-build.png,action,Basic Build
+action-rush-job.png,action,Rush Job
+action-crew-swap.png,action,Crew Swap
+action-crew-delay.png,action,Crew Delay
+action-inspector-flags-issue.png,action,Inspector Flags Issue
+action-material-arrives-damaged.png,action,Material Arrives Damaged
+action-subcontractor-bails.png,action,Subcontractor Bails
+action-basic-invoice.png,action,Basic Invoice
+customer-the-stanley-family.png,customer,The Stanley Family
+customer-the-thompson-family.png,customer,The Thompson Family
+customer-the-rivera-family.png,customer,The Rivera Family
+customer-the-patel-family.png,customer,The Patel Family
+customer-the-garcia-family.png,customer,The Garcia Family
+customer-the-lee-family.png,customer,The Lee Family
+customer-the-kim-family.png,customer,The Kim Family
+customer-the-o-brien-family.png,customer,The O'Brien Family
+customer-the-harris-family.png,customer,The Harris Family
+house-steep-colonial.png,house,Steep Colonial
+house-ranch-with-full-basement.png,house,Ranch with Full Basement
+house-split-level-on-sloped-lot.png,house,Split-Level on Sloped Lot
+house-craftsman-s-bungalow.png,house,Craftsman's Bungalow
+house-modern-lake-house.png,house,Modern Lake House
+house-1970s-bi-level.png,house,1970s Bi-Level
+house-urban-rowhome.png,house,Urban Rowhome
+house-suburban-mcmansion.png,house,Suburban McMansion
+house-historic-victorian.png,house,Historic Victorian
+event-word-of-mouth.png,event,Word of Mouth
+event-warm-lead.png,event,Warm Lead
+event-rush-callback.png,event,Rush Callback
+event-crew-efficiency.png,event,Crew Efficiency
+event-smooth-close.png,event,Smooth Close
+event-invoice-paid-early.png,event,Invoice Paid Early
+event-community-buzz.png,event,Community Buzz
+event-buyer-s-remorse.png,event,Buyer's Remorse
+event-algorithm-change.png,event,Algorithm Change
+event-material-spike.png,event,Material Spike
+event-warranty-claim.png,event,Warranty Claim
+event-no-show-day.png,event,No-Show Day
+event-financing-falls-through.png,event,Financing Falls Through
+event-one-star-review.png,event,One-Star Review

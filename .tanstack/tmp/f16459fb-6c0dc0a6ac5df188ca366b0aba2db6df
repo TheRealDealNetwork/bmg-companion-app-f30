@@ -1,0 +1,45 @@
+import { createFileRoute, Link } from "@tanstack/react-router";
+
+export const Route = createFileRoute("/soebld/terms")({
+  component: TermsPage,
+});
+
+function TermsPage() {
+  return (
+    <main className="mx-auto min-h-dvh max-w-lg px-4 py-6">
+      <p className="text-xs font-bold tracking-widest text-gold uppercase">METALCON 2026</p>
+      <h1 className="mt-2 font-display text-3xl text-cream">Beta Terms & Conditions</h1>
+      <div className="mt-4 space-y-4 text-sm leading-relaxed text-cream">
+        <p>
+          This is a beta of the SOE Business Leadership Scenario Cards, shown at METALCON 2026 by the School of
+          Entrepreneurship. It is a test, not the finished Business Machine.
+        </p>
+        <h2 className="font-display text-xl text-cream">Your information</h2>
+        <p>
+          By taking a seat you allow the School of Entrepreneurship and Contractor Nation to store your name, mobile
+          number, and email, and to use them to tell you about the school, programs, and offers. You can ask us to stop
+          by emailing the address you were given at the booth.
+        </p>
+        <h2 className="font-display text-xl text-cream">Media release</h2>
+        <p>
+          You allow us to photograph and record you while you take part, and to use those images and videos in school
+          and event materials. We will not sell the footage as a standalone product.
+        </p>
+        <h2 className="font-display text-xl text-cream">Intellectual property</h2>
+        <p>
+          The scenarios, answers, card numbers, payroll values, and the way the exercise is run are owned by the School
+          of Entrepreneurship. You may play them in this beta. You may not copy, photograph the full deck for reuse,
+          republish, train a model on, or build a competing version of the cards or the exercise. Looking up the card in
+          front of you is allowed. Duplicating the work is not.
+        </p>
+        <p>
+          The beta may change or stop without notice. Payroll amounts shown here are the teaching values on the cards.
+          They are not a promise of wages.
+        </p>
+      </div>
+      <Link to="/metalcon/join" className="mt-6 inline-block text-sm font-semibold text-gold">
+        Back to your seat
+      </Link>
+    </main>
+  );
+}

@@ -1,0 +1,277 @@
+import { createFileRoute, Link, useNavigate } from "@tanstack/react-router";
+import { useEffect, useRef, useState } from "react";
+import { findScenario, lockScenario, roundSheet, speakMale } from "@/lib/metalcon/api";
+import { readSeat, type MetalSeat } from "@/lib/metalcon/session";
+import { METALCON_SEAT_LABEL } from "@/lib/metalcon/seats";
+import { money } from "@/lib/game/format";
+import { Btn, Card, Field } from "@/components/game/ui";
+
+export const Route = createFileRoute("/soebld/play")({
+  ssr: false,
+  component: PlayPage,
+});
+
+type CardFace = {
+  code: string;
+  title: string;
+  scenario: string;
+  options: { A: string; B: string; C: string };
+};
+
+function PlayPage() {
+  const navigate = useNavigate();
+  const [seat, setSeat] = useState<MetalSeat | null>(null);
+
+  useEffect(() => {
+    document.title = "Scenario cards";
+    const saved = readSeat();
+    if (!saved) void navigate({ to: "/metalcon/join" });
+    else setSeat(saved);
+  }, [navigate]);
+
+  if (!seat) return <main className="mx-auto max-w-lg px-4 py-6 text-cream">Opening your seat…</main>;
+  return <PlaySeat seat={seat} />;
+}
+
+type Saved = { card_code: string; card_title: string; choice: string; payroll_cents: number };
+
+function PlaySeat({ seat }: { seat: MetalSeat }) {
+  const [digits, setDigits] = useState("");
+  const [round, setRound] = useState("1");
+  const [card, setCard] = useState<CardFace | null>(null);
+  const [pick, setPick] = useState<"" | "A" | "B" | "C">("");
+  const [result, setResult] = useState<{ cents: number; kept: boolean } | null>(null);
+  const [saved, setSaved] = useState<Saved[]>([]);
+  const [err, setErr] = useState("");
+  const [busy, setBusy] = useState(false);
+
+  useEffect(() => {
+    const n = Number(round);
+    if (!Number.isFinite(n) || n < 1) return;
+    let stop = false;
+    void roundSheet({ data: { id: seat.id, secret: seat.secret, round: n } }).then((res) => {
+      if (!stop && res.ok) setSaved(res.rows);
+    });
+    return () => {
+      stop = true;
+    };
+  }, [round, seat.id, seat.secret]);
+
+  async function find() {
+    setBusy(true);
+    setErr("");
+    setResult(null);
+    setPick("");
+    try {
+      const res = await findScenario({ data: { id: seat.id, secret: seat.secret, raw: digits } });
+      if (!res.ok) {
+        setCard(null);
+        setErr(res.error);
+        return;
+      }
+      setCard(res.card);
+    } catch (error) {
+      setCard(null);
+      setErr(error instanceof Error ? error.message : "Could not find that card.");
+    } finally {
+      setBusy(false);
+    }
+  }
+
+  async function lock() {
+    if (!card || !pick) return;
+    setBusy(true);
+    setErr("");
+    try {
+      const res = await lockScenario({
+        data: { id: seat.id, secret: seat.secret, code: card.code, choice: pick, round: Number(round) },
+      });
+      if (!res.ok) {
+        setErr(res.error);
+        return;
+      }
+      setSaved(res.rows);
+      setResult({ cents: res.payrollCents, kept: res.duplicate });
+    } catch (error) {
+      setErr(error instanceof Error ? error.message : "Could not save that answer.");
+    } finally {
+      setBusy(false);
+    }
+  }
+
+  function nextCard() {
+    setCard(null);
+    setPick("");
+    setResult(null);
+    setDigits("");
+    setErr("");
+  }
+
+  const spoken = card
+    ? `${card.title}. ${card.scenario} Answer A. ${card.options.A} Answer B. ${card.options.B} Answer C. ${card.options.C}${
+        result ? ` This answer returns ${money(result.cents)} to payroll.` : ""
+      }`
+    : "";
+
+  return (
+    <main className="mx-auto min-h-dvh max-w-lg px-4 py-6">
+      <p className="text-xs font-bold tracking-widest text-gold uppercase">{METALCON_SEAT_LABEL[seat.dept as keyof typeof METALCON_SEAT_LABEL] ?? seat.dept}</p>
+      <h1 className="mt-1 font-display text-3xl text-cream">{seat.name}</h1>
+      <p className="mt-1 text-sm text-muted">Type the last two numbers printed on the card, then Find. Every card in this round is kept.</p>
+      <Card className="mt-4 space-y-3">
+        <label className="block text-sm font-semibold text-cream">
+          Round
+          <Field
+            className="mt-1"
+            inputMode="numeric"
+            aria-label="Round"
+            value={round}
+            onChange={(e) => setRound(e.target.value.replace(/\D/g, "").slice(0, 3))}
+          />
+        </label>
+        <label className="block text-sm font-semibold text-cream">
+          Last two numbers
+          <div className="mt-1 flex gap-2">
+            <Field
+              className="min-w-0 flex-1"
+              inputMode="numeric"
+              aria-label="Last two numbers"
+              placeholder="01"
+              value={digits}
+              onChange={(e) => setDigits(e.target.value.replace(/\D/g, "").slice(0, 2))}
+              onKeyDown={(e) => {
+                if (e.key === "Enter") void find();
+              }}
+            />
+            <Btn kind="navy" disabled={busy || digits.length < 1} onClick={() => void find()}>
+              {busy && !card ? "Finding…" : "Find"}
+            </Btn>
+          </div>
+        </label>
+        {err && !card ? <p className="text-sm text-orange-ink">{err}</p> : null}
+      </Card>
+      {card ? (
+        <Card className="mt-3">
+          <p className="text-xs font-bold tracking-wide text-gold uppercase">{card.code}</p>
+          <h2 className="font-display text-2xl text-cream">{card.title}</h2>
+          <p className="mt-2 text-sm leading-relaxed text-cream">{card.scenario}</p>
+          <div className="mt-3">
+            <MaleRead text={spoken} />
+          </div>
+          {(["A", "B", "C"] as const).map((letter) => (
+            <button
+              key={letter}
+              type="button"
+              disabled={Boolean(result)}
+              onClick={() => setPick(letter)}
+              className={`mt-2 min-h-11 w-full rounded-xl border px-3 py-3 text-left text-sm ${pick === letter ? "border-gold bg-navy-2" : "border-line"}`}
+            >
+              <span className="font-bold text-gold">{letter}. </span>
+              {card.options[letter]}
+            </button>
+          ))}
+          {!result ? (
+            <>
+              {err ? <p className="mt-2 text-sm text-orange-ink">{err}</p> : null}
+              <Btn className="mt-3 w-full" disabled={busy || !pick} onClick={() => void lock()}>
+                {pick ? `Lock in ${pick}` : "Choose an answer"}
+              </Btn>
+            </>
+          ) : (
+            <>
+              <p className="mt-4 font-display text-2xl text-gold">
+                {result.kept
+                  ? "Already saved. The first answer stays."
+                  : result.cents > 0
+                    ? `${money(result.cents)} back to payroll`
+                    : "No payroll returned"}
+              </p>
+              <Btn kind="navy" className="mt-3 w-full" onClick={nextCard}>
+                Next card
+              </Btn>
+            </>
+          )}
+        </Card>
+      ) : null}
+      {saved.length > 0 ? (
+        <Card className="mt-3">
+          <h2 className="font-display text-xl text-cream">Round {Number(round) || 1}</h2>
+          <p className="mt-1 text-xs text-muted">{saved.length} {saved.length === 1 ? "card" : "cards"} recorded. Nothing already saved is replaced.</p>
+          <ul className="mt-2">
+            {saved.map((row) => (
+              <li key={row.card_code} className="border-t border-line py-2 text-sm text-cream">
+                <span className="font-semibold text-gold">{row.card_code}</span> {row.card_title}
+                <span className="block text-xs text-muted">
+                  {row.choice} · {row.payroll_cents > 0 ? money(row.payroll_cents) : "$0"}
+                </span>
+              </li>
+            ))}
+          </ul>
+        </Card>
+      ) : null}
+      <Link to="/metalcon/log" className="mt-4 inline-block text-sm font-semibold text-gold">
+        Department answer log
+      </Link>
+    </main>
+  );
+}
+
+function MaleRead({ text }: { text: string }) {
+  const [mode, setMode] = useState<"idle" | "loading" | "playing">("idle");
+  const stopRef = useRef<(() => void) | null>(null);
+
+  async function play() {
+    if (mode === "playing") {
+      stopRef.current?.();
+      setMode("idle");
+      return;
+    }
+    const Ctx = window.AudioContext || (window as unknown as { webkitAudioContext?: typeof AudioContext }).webkitAudioContext;
+    const ctx = Ctx ? new Ctx() : null;
+    if (ctx?.state === "suspended") void ctx.resume();
+    setMode("loading");
+    try {
+      const res = await speakMale({ data: { text } });
+      if (!res.ok || !ctx) {
+        if (!fallback()) setMode("idle");
+        return;
+      }
+      const raw = Uint8Array.from(atob(res.audio), (ch) => ch.charCodeAt(0));
+      const buffer = await ctx.decodeAudioData(raw.buffer);
+      const source = ctx.createBufferSource();
+      source.buffer = buffer;
+      source.connect(ctx.destination);
+      source.onended = () => setMode("idle");
+      source.start();
+      stopRef.current = () => {
+        try {
+          source.stop();
+        } catch {
+          /* already stopped */
+        }
+      };
+      setMode("playing");
+    } catch {
+      if (!fallback()) setMode("idle");
+    }
+  }
+
+  function fallback() {
+    if (!window.speechSynthesis) return false;
+    window.speechSynthesis.cancel();
+    const utter = new SpeechSynthesisUtterance(text);
+    const male = window.speechSynthesis.getVoices().find((voice) => /male|david|daniel|alex|fred|aaron|rex/i.test(voice.name));
+    if (male) utter.voice = male;
+    utter.onend = () => setMode("idle");
+    window.speechSynthesis.speak(utter);
+    stopRef.current = () => window.speechSynthesis.cancel();
+    setMode("playing");
+    return true;
+  }
+
+  return (
+    <button type="button" onClick={() => void play()} className="inline-flex min-h-11 items-center rounded-xl border border-gold px-3 text-sm font-semibold text-gold">
+      {mode === "loading" ? "Reading…" : mode === "playing" ? "Stop" : "Listen"}
+    </button>
+  );
+}

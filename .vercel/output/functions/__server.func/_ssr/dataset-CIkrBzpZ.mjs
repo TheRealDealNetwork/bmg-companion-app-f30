@@ -1,0 +1,7601 @@
+//#region node_modules/.nitro/vite/services/ssr/assets/dataset-CIkrBzpZ.js
+var dataset_default = {
+	version: "2026-10-01",
+	source: "v2_pp_cards_with_codes.json + Full_Deck_Inventory.xlsx overlaid with Card_Changes_After_Play_Test.xlsx (9/30 re-audit) + 10/01 corrections",
+	pp_decks: [
+		{
+			"deck": "Marketing",
+			"cards": [
+				{
+					"n": 1,
+					"title": "Whose Fault Is It",
+					"scenario": "Lead volume is up 30 percent but booked jobs are flat. Your instinct says the appointment center is fumbling the calls. Their manager says your leads are tire-kickers. The owner wants the real cause diagnosed within one week. Where do you start?",
+					"options": {
+						"A": {
+							"text": "Start with the calls, not the blame: pull 30 recorded calls this week and score them, and pull the lead sources for the same period. Data first, in both directions.",
+							"value": 500
+						},
+						"B": {
+							"text": "Start with your own leads: audit the sources, keywords, and targeting for quality slippage before pointing at anyone. Check your own house first.",
+							"value": 150
+						},
+						"C": {
+							"text": "Start with a joint meeting: both departments in one room, the numbers on the screen, one shared diagnosis before anyone leaves. Finger-pointing never solved anything.",
+							"value": 150
+						}
+					},
+					"correct": "A",
+					"host_note": "Principle: Define Reality First. Why A wins: it starts with evidence instead of accusations, in both directions, so whichever department is right, the proof decides and the relationship survives. What good discussion sounds like: diagnosing without blaming, and what evidence you owe before you point. What the wrong answers cost: B audits only yourself; C holds a meeting without data.",
+					"card_code": "BE-MK-01"
+				},
+				{
+					"n": 2,
+					"title": "The One-Star Review",
+					"scenario": "A customer posted a one-star review saying your tech tracked mud through her living room and the office was rude on her follow-up call. Neighbors are already commenting. Your coordinator wants an immediate reply explaining your side. How do you handle it?",
+					"options": {
+						"A": {
+							"text": "Reply within the hour: apologize, name your standard, invite her to call. Then call her yourself, fix the floors, and follow up until she confirms it is resolved.",
+							"value": 150
+						},
+						"B": {
+							"text": "Wait an hour so you reply calm, not defensive. Post a composed response: thank her, own the miss, give a direct line. Handle the substance privately.",
+							"value": 500
+						},
+						"C": {
+							"text": "Have the tech reply himself with his side of the story. Ask him to stay polite. Customers trust a working tech over a corporate statement.",
+							"value": 150
+						}
+					},
+					"correct": "B",
+					"host_note": "Principle: Do Right When It Costs You. Why B wins: calm beats speed; the public reply is written for every future customer who reads it, while the real fix happens privately by phone. Discussion: speed versus composure, and who the public reply is really for. Costs: A (+150) is decent but rushed and risks sounding defensive; C (+150) puts the tech in the line of fire.",
+					"card_code": "BE-MK-02"
+				},
+				{
+					"n": 3,
+					"title": "How We Answer",
+					"scenario": "You mystery-shop your own phones and hear three different greetings, one CSR chewing gum, and one who sighs before saying hello. The appointment center manager says they are too busy for this and that greetings do not close jobs. You disagree.",
+					"options": {
+						"A": {
+							"text": "Record the worst calls and play them at the next team meeting so everyone hears how they sound. Nothing changes behavior like hearing yourself sigh at a stranger.",
+							"value": 0
+						},
+						"B": {
+							"text": "Leave the appointment center alone. The manager knows her team and call volume is strong. A greeting script from marketing will only breed resentment.",
+							"value": 150
+						},
+						"C": {
+							"text": "Sit with the team, play two calls side by side, one warm and one flat, and ask which company they would hire. Let them write the greeting themselves.",
+							"value": 500
+						}
+					},
+					"correct": "C",
+					"host_note": "Principle: Expectations Before Accountability. Why C wins: it lets the team set the standard they will be held to, then coaches the individuals privately with kindness; people deliver what they helped create. Discussion: scripts versus ownership, and public versus private correction. Costs: A (0) shames people publicly, which destroys the trust you need; B (+150) respects the manager's turf but abandons your own brand at the front door.",
+					"card_code": "BE-MK-03"
+				},
+				{
+					"n": 4,
+					"title": "Timing the Ask",
+					"scenario": "Your review count is flat. Techs say they ask when it feels right, which means almost never. The office wants an automated email three days later. A consultant says to ask at the door before leaving. Everyone disagrees. What system do you put in place?",
+					"options": {
+						"A": {
+							"text": "The tech asks at the door, after the thank-you, while relief is fresh. The office sends one follow-up text the next morning with the link. Two touches: one human, one automatic.",
+							"value": 500
+						},
+						"B": {
+							"text": "Automate everything: one text after the job closes with the review link, then one reminder later. No tech involvement. Automation never has an off day.",
+							"value": 0
+						},
+						"C": {
+							"text": "Mail a handwritten thank-you card a week later with a QR code to the review page. It stands out and feels personal. A kept card outlasts a deleted text.",
+							"value": 150
+						}
+					},
+					"correct": "A",
+					"host_note": "Principle: Brilliant on the Basics. Why A wins: it pairs the human moment (the tech, at the door, when gratitude is fresh) with one automatic reminder, covering both the willing and the forgetful with a simple repeatable routine. What good discussion sounds like: who owns the ask, and why one touch is never enough. What the wrong answers cost: B removes the human moment entirely; C is charming but slow.",
+					"card_code": "BE-MK-04"
+				},
+				{
+					"n": 5,
+					"title": "Whose Jerseys",
+					"scenario": "Two youth leagues ask you to sponsor them: the league in your best service area, and the league in a struggling neighborhood where your newest tech grew up and now coaches. The budget covers one jersey sponsorship. The owner wants the wealthy area.",
+					"options": {
+						"A": {
+							"text": "Split the budget and sponsor both leagues at a lower tier. You get a presence in both neighborhoods and nobody feels rejected. Twice the jerseys, twice the visibility.",
+							"value": 150
+						},
+						"B": {
+							"text": "Sponsor the league your tech coaches, and tell the owner why: the tech who gives his evenings to those kids is your brand there. Put the logo on those jerseys and show up.",
+							"value": 500
+						},
+						"C": {
+							"text": "Sponsor neither and move the money into digital ads with trackable returns. Sponsorships are feel-good spending you cannot measure.",
+							"value": 0
+						}
+					},
+					"correct": "B",
+					"host_note": "Principle: Give Away the Credit, Take the Blame. Why B wins: it backs the person who gives the company his evenings, visibly and without hedging, which is the kind of loyalty money cannot buy and competitors cannot copy. Discussion: exposure math versus loyalty math. Costs: A (+150) pleases no one fully but stays visible in both places; C (0) abandons the field and leaves the tech standing alone.",
+					"card_code": "BE-MK-05"
+				},
+				{
+					"n": 6,
+					"title": "Ten Thousand Emails",
+					"scenario": "A broker offers you 10,000 local homeowner email addresses for $300. Your own list is only 2,000 names. The owner says $300 for 10,000 prospects is a no-brainer. Your email tool warns that purchased lists trigger spam complaints and damage sender reputation. What do you do?",
+					"options": {
+						"A": {
+							"text": "Refuse the purchase: those 10,000 people never asked to hear from you, and a purchased list buys spam complaints. Grow the list one permission at a time.",
+							"value": 500
+						},
+						"B": {
+							"text": "Buy the list and send your best offer this week. At $300 the risk is trivial, and one percent response is 100 new prospects. Deal with complaints if they come.",
+							"value": 0
+						},
+						"C": {
+							"text": "Buy the list but send only a soft introduction with no hard sell and a clear unsubscribe link. A gentle first touch respects recipients and still reaches 10,000 homeowners.",
+							"value": 150
+						}
+					},
+					"correct": "A",
+					"host_note": "Principle: How We Do Anything Is How We Do Everything. Why A wins: it refuses the shortcut on the grounds that the first impression you buy with a purchased list is the wrong one, and commits to the slow permission-built list. What good discussion sounds like: what a list really represents, and what spam complaints cost beyond the inbox. What the wrong answers cost: B sprays strangers; C softens the spray.",
+					"card_code": "BE-MK-06"
+				},
+				{
+					"n": 7,
+					"title": "Pay to Delete",
+					"scenario": "A man who was never your customer posted a one-star review claiming your crew damaged his fence. Then he called and offered to delete it for a free AC tune-up. Your service manager says to just do it: one visit costs less than the business the review scares off.",
+					"options": {
+						"A": {
+							"text": "Refuse the deal, kindly and firmly, and tell your team why. Paying one extortionist teaches the market your reviews are for sale. Report the review and reply with the plain facts.",
+							"value": 500
+						},
+						"B": {
+							"text": "Report the review as fraudulent and post a brief reply stating he was never a customer, with records to back it up. Keep generating genuine reviews to push his down.",
+							"value": 150
+						},
+						"C": {
+							"text": "Give him the tune-up. It costs one visit and the review disappears today. One tune-up is far cheaper than months of a false one-star review at the top of your profile.",
+							"value": 0
+						}
+					},
+					"correct": "A",
+					"host_note": "Principle: The Elongated Shadow. Why A wins: the decision is precedent, not math; what you pay once, you will pay forever, and the crew watches what the company rewards. Discussion: short-term cost versus long-term precedent, and what the team learns from the call. Costs: B (+150) refuses the shakedown but misses the leadership moment with the team; C ($0) pays the extortionist and teaches the whole market that your reviews are for sale.",
+					"card_code": "BE-MK-07"
+				},
+				{
+					"n": 8,
+					"title": "Too Many Emails",
+					"scenario": "Unsubscribes from your newsletter tripled after you moved from monthly to weekly sends. The content is solid: seasonal tips and reminders. The owner says email is free, so send even more. Your gut says you are burning the list. What do you do?",
+					"options": {
+						"A": {
+							"text": "Ask the subscribers directly: one-question survey on how often they want to hear from you, and honor the answer. Segment the list so weekly tips go only to opt-ins.",
+							"value": 500
+						},
+						"B": {
+							"text": "Keep weekly but make every email shorter, punchier, more visual, so people stop leaving. The problem is boring content, not frequency. Brighter photos and tighter subjects fix it.",
+							"value": 0
+						},
+						"C": {
+							"text": "Drop straight back to monthly. The data is unambiguous: weekly tripled unsubscribes, so weekly is wrong. Tell the owner the test failed, show the numbers, and protect the list.",
+							"value": 150
+						}
+					},
+					"correct": "A",
+					"host_note": "Principle: Serve the Human, Not the House. Why A wins: it asks the actual humans on the list what they want and honors the answer, treating the inbox as borrowed trust rather than free inventory. What good discussion sounds like: what a list really is, and the cost of burning trust. What the wrong answers cost: B polishes the annoyance; C retreats without learning what subscribers want.",
+					"card_code": "BE-MK-08"
+				},
+				{
+					"n": 9,
+					"title": "Old Prices Online",
+					"scenario": "A customer waves a two-year-old blog post at your tech, demanding the $69 tune-up price it advertises. The real price is now $129. The post is still live and ranks well on Google. The tech caved on the spot and honored the $69. How do you fix this for good?",
+					"options": {
+						"A": {
+							"text": "Honor the $69 for this customer and quietly delete the old post. The customer found your published price in good faith, and a doorstep argument costs more than $60.",
+							"value": 150
+						},
+						"B": {
+							"text": "Honor the $69, update the post to $129, and add a prices-subject-to-change line to every page. The disclaimer protects you next time, and the post keeps its strong ranking.",
+							"value": 150
+						},
+						"C": {
+							"text": "Honor the $69: that price was your published word and the customer trusted it. Then audit the site for stale prices and put one person in charge of keeping numbers current.",
+							"value": 500
+						}
+					},
+					"correct": "C",
+					"host_note": "Principle: Do Right When It Costs You. Why C wins: it honors the published word at full cost, then builds a system with a named owner so stale numbers can never embarrass the company again. What good discussion sounds like: what your website promises on your behalf while you sleep. What the wrong answers cost: A patches the symptom; B lawyers the future.",
+					"card_code": "BE-MK-09"
+				},
+				{
+					"n": 10,
+					"title": "Asleep in the Truck",
+					"scenario": "A neighbor photographed your tech napping in his truck on his lunch break and posted it: this is what $200 an hour buys you. It is spreading fast through local community groups. The tech is mortified and offered to quit. The owner wants him fired today. What do you do?",
+					"options": {
+						"A": {
+							"text": "Fire him today. The photo is everywhere, the brand damage is real, and examples matter. A public statement that he no longer works here shows the market you have standards.",
+							"value": 0
+						},
+						"B": {
+							"text": "Refuse the firing: tell the owner a man napping on lunch committed no crime, and throwing him to the mob teaches every tech the company will not stand behind them.",
+							"value": 500
+						},
+						"C": {
+							"text": "Suspend him without pay for a week and post that the behavior was addressed internally. The suspension shows the public you are serious without ending a career.",
+							"value": 150
+						}
+					},
+					"correct": "B",
+					"host_note": "Principle: Love Is the Greatest Leadership Tool. Why B wins: it refuses to sacrifice a person to the internet mob, answers the public with honest humanity, and coaches the tech privately on the part he can control. What good discussion sounds like: what you owe your people when the crowd turns. What the wrong answers cost: A destroys trust crew-wide; C performs discipline.",
+					"card_code": "BE-MK-10"
+				},
+				{
+					"n": 11,
+					"title": "Three Logos, One Fleet",
+					"scenario": "Your 22 trucks carry three different logo versions from three different eras. Full rewraps run about $3,000 per truck. The owner says customers do not hire you over a logo. Your newest tech says his truck looks like it belongs to a different company.",
+					"options": {
+						"A": {
+							"text": "Rewrap on schedule, oldest trucks first, as a rolling budget line. Every truck is a billboard thousands see weekly, and mismatched trucks tell prospects you are sloppy.",
+							"value": 500
+						},
+						"B": {
+							"text": "Leave the trucks alone and move the wrap money into digital ads you can track to booked jobs. Nobody hires an HVAC company over a logo.",
+							"value": 150
+						},
+						"C": {
+							"text": "Run a customer contest to vote on which logo to keep, then rewrap to the winner over two years. The vote creates social content, and phasing spreads the cost.",
+							"value": 150
+						}
+					},
+					"correct": "A",
+					"host_note": "Principle: Brilliant on the Basics. Why A wins: brand consistency is a basic done relentlessly, and the fleet is already the company's biggest ad buy; a rolling schedule makes it affordable without a fight. Discussion: whether branding is vanity or infrastructure, and how to sell a slow fix to an impatient owner. Costs: B (+150) defends trackable spend but abandons free impressions; C (+150) turns operations into theater.",
+					"card_code": "BE-MK-11"
+				},
+				{
+					"n": 12,
+					"title": "Who Owns the Account",
+					"scenario": "Your agency says their firm policy is that they own the Google Ads account, the campaigns, and all performance history. If you leave, you start over from zero. They built it over two years and insist this is industry standard. You are thinking of switching. What do you do?",
+					"options": {
+						"A": {
+							"text": "Accept it and stay. Rebuilding two years of history costs months of performance, and their policy is genuinely common. Negotiate better reporting instead.",
+							"value": 150
+						},
+						"B": {
+							"text": "Leave and rebuild from zero, under an account you own outright from day one. Losing two years of history hurts, but staying hostage to a vendor is worse than a short-term hit.",
+							"value": 150
+						},
+						"C": {
+							"text": "Refuse to leave empty-handed: demand the full account transfer in writing, and ban vendor ownership of ad accounts in future contracts. Your money built that history.",
+							"value": 500
+						}
+					},
+					"correct": "C",
+					"host_note": "Principle: The Business Serves Its Owner. Why C wins: it asserts that the company's own assets belong to the company, bans the hostage clause going forward, and is willing to pay the rebuild cost rather than stay captured. What good discussion sounds like: what 'industry standard' is really selling you. What the wrong answers cost: A stays hostage; B pays ransom in rebuild.",
+					"card_code": "BE-MK-12"
+				},
+				{
+					"n": 13,
+					"title": "Only the Happy Ones",
+					"scenario": "Your review software can survey customers first and send the Google review link only to the happy ones. Your rating would climb fast. The owner loves the idea. A competitor was recently penalized by the platform for doing exactly this. What do you do?",
+					"options": {
+						"A": {
+							"text": "Turn the filter on. The software is legal, everyone filters in some way, and a higher rating brings more calls. Unhappy customers can still find Google on their own.",
+							"value": 0
+						},
+						"B": {
+							"text": "Turn it on, but send unhappy customers a private feedback form so you still hear them. Public stars from the fans, private lessons from the critics: the best of both worlds.",
+							"value": 150
+						},
+						"C": {
+							"text": "Leave the filter off and ask every customer, happy or not. The unhappy ones teach you the most. A filtered rating is one you cannot trust.",
+							"value": 500
+						}
+					},
+					"correct": "C",
+					"host_note": "Principle: Do Right When It Costs You. Why C wins: it gives every customer the same voice, trusts the team with the hard feedback, and earns a rating that means something; filtered stars are borrowed. What good discussion sounds like: what a rating is actually for, and who the filter really serves. What the wrong answers cost: A institutionalizes deception; B deceives politely.",
+					"card_code": "BE-MK-13"
+				},
+				{
+					"n": 14,
+					"title": "Buy Five Stars",
+					"scenario": "A vendor emails offering 50 five-star reviews for $500, quote, undetectable, from real-looking accounts. Your rating sits at 4.2 while your competitor holds 4.8. Your marketing assistant says everyone does it and the platforms never catch on. What do you do?",
+					"options": {
+						"A": {
+							"text": "Delete the email and tell the team, exactly once: you do not buy reviews, ever, because the rating has to mean something when a real customer trusts it. Earn the 4.8 the slow way.",
+							"value": 500
+						},
+						"B": {
+							"text": "Buy a small test batch of 10 reviews and watch to see if anyone notices. Ten reviews will not trip any filter. If it works cleanly, consider more later.",
+							"value": 0
+						},
+						"C": {
+							"text": "Report the vendor to the platform and post about the offer. Publicly refusing turns the moment into a brand asset: customers love a company that says no to cheating.",
+							"value": 150
+						}
+					},
+					"correct": "A",
+					"host_note": "Principle: Do Right When It Costs You. Why A wins: it kills the shortcut outright, says the rule out loud to the team once, and commits to the slow honest work; a bought rating is a lie you maintain forever. What good discussion sounds like: whether 'everyone does it' is ever a reason. What the wrong answers cost: B buys the lie retail; C turns refusal into theater.",
+					"card_code": "BE-MK-14"
+				},
+				{
+					"n": 15,
+					"title": "Where to Hang",
+					"scenario": "You have budget for 10,000 door hangers. Your gut says blanket the new subdivision going up across town. Your dispatcher says to hang them on past customers' streets, because those folks already trust you. The printer needs your targeting decision tomorrow.",
+					"options": {
+						"A": {
+							"text": "Go all in on the new subdivision. Ten thousand hangers in one area create saturation, and new homeowners have not chosen an HVAC company yet.",
+							"value": 150
+						},
+						"B": {
+							"text": "Hang them on streets near your recent five-star reviews, and print the review on the hanger. A real review from their own street is the strongest headline a hanger can carry.",
+							"value": 150
+						},
+						"C": {
+							"text": "Target past customers' neighborhoods first, with a referral offer on the hanger. A warm street converts at multiples of a cold one.",
+							"value": 500
+						}
+					},
+					"correct": "C",
+					"host_note": "Principle: Never Pre-Judge. Why C wins: it treats past customers as the highest-value audience instead of assuming print must mean new territory, and it layers a referral mechanic that multiplies the buy. Discussion: warm versus cold audiences, and what a door hanger can actually do. Costs: A (+150) pays full price for strangers; B (+150) is clever but untested.",
+					"card_code": "BE-MK-15"
+				},
+				{
+					"n": 16,
+					"title": "First Marketing Hire",
+					"scenario": "Budget is approved for a marketing coordinator. Two finalists: Priya, a sharp recent graduate with great instincts but no industry experience, and Dan, a 15-year print veteran who wants more money and seems set in his ways. The owner leans toward Dan. Who do you hire?",
+					"options": {
+						"A": {
+							"text": "Hire Priya, and tell the owner plainly why: you are hiring for character and curiosity, not a resume built for yesterday's media. Set 90-day expectations and judge her on results.",
+							"value": 500
+						},
+						"B": {
+							"text": "Hire Priya but pay her Dan's higher asking salary to keep her from leaving. Overpaying for the right instincts is cheaper than turnover. Tell the owner the premium buys retention.",
+							"value": 0
+						},
+						"C": {
+							"text": "Hire Dan. Fifteen years of media relationships and hard-won judgment beat raw instinct, and the owner backs him. You can teach digital skills; you cannot teach relationships.",
+							"value": 150
+						}
+					},
+					"correct": "A",
+					"host_note": "Principle: Character Over Skill. Why A wins: it hires for character, curiosity, and fit with the company's future rather than renting a resume built for yesterday's media, with clear expectations and training to back the bet. What good discussion sounds like: what experience is actually worth, and how to disagree with the owner well. What the wrong answers cost: B buys a past; C tries to purchase loyalty.",
+					"card_code": "BE-MK-16"
+				},
+				{
+					"n": 17,
+					"title": "Who Works the Booth",
+					"scenario": "The town fair invited you to run a booth this Saturday: great exposure, but it means pulling two techs off paid jobs. The organizer says to just send whoever you can spare. Your service manager refuses to give up techs on a busy Saturday. What do you do?",
+					"options": {
+						"A": {
+							"text": "Skip the fair. Pulling techs off revenue jobs for a maybe-payoff booth is bad math. The service manager is right; send brochures with a friendlier vendor instead.",
+							"value": 150
+						},
+						"B": {
+							"text": "Go, but staff the booth with office volunteers, not techs. The booth needs smiles and sign-up sheets, not tool belts. Offer a comp day and keep the service schedule intact.",
+							"value": 150
+						},
+						"C": {
+							"text": "Tell the organizer you will come only if you can do it right, with real techs. Work with the service manager on a slower Saturday or split shifts. Do it well or not at all.",
+							"value": 500
+						}
+					},
+					"correct": "C",
+					"host_note": "Principle: How We Do Anything Is How We Do Everything. Why C wins: it refuses to do the event halfway, works with operations on timing instead of against them, and treats the town as an audience that notices effort. What good discussion sounds like: when to say no to exposure, and who pays for marketing's stage. What the wrong answers cost: A forfeits the town; B sends a hollow booth.",
+					"card_code": "BE-MK-17"
+				},
+				{
+					"n": 18,
+					"title": "Off-Duty Post",
+					"scenario": "A tech posted a heated political rant on his personal page Saturday night. Monday a customer emails: she saw it, he lists your company as his employer, and she is uncomfortable having him in her home. He calls it free speech and refuses to take it down.",
+					"options": {
+						"A": {
+							"text": "Talk to him privately and with respect: acknowledge his right to his views, then show him the customer's email. Ask him to unlink the employer or go private.",
+							"value": 500
+						},
+						"B": {
+							"text": "Tell him to delete the post today or face a formal write-up. The customer decides who enters her home. A clear consequence sets the standard for the whole crew.",
+							"value": 150
+						},
+						"C": {
+							"text": "Quietly reassign him to jobs where no customer has complained and let the post stay. Routing around the discomfort solves the immediate problem.",
+							"value": 0
+						}
+					},
+					"correct": "A",
+					"host_note": "Principle: Make Me Feel Important. Why A wins: it treats the tech as an adult, shows him the real consequence instead of issuing an edict, and gives him a choice that preserves both his dignity and the brand. Discussion: rights versus responsibilities, and coaching versus commanding. Costs: B (+150) breeds resentment with an edict; C ($0) hides the problem by routing around it and avoids the real conversation.",
+					"card_code": "BE-MK-18"
+				},
+				{
+					"n": 19,
+					"title": "The Directory Game",
+					"scenario": "A major home-services directory offers a premium profile for $800 a month with promised top placement. Your competitor pays and ranks above you. Your free listing there already brings a few calls. The rep says every serious company pays. What do you do?",
+					"options": {
+						"A": {
+							"text": "Pay it. Your competitor sits above you, the rep is right that serious companies pay, and $800 is one good job a month. Visibility on the biggest directory is table stakes.",
+							"value": 150
+						},
+						"B": {
+							"text": "Negotiate to $400 and run a six-month test with a dedicated tracking number. If the tracked calls cover the cost, keep it; if not, cancel with data in hand.",
+							"value": 150
+						},
+						"C": {
+							"text": "Decline, and put the $800 a month into your own reviews and website. A directory you rent is an asset you will never own; every dollar deepens your dependence on their pricing.",
+							"value": 500
+						}
+					},
+					"correct": "C",
+					"host_note": "Principle: Systems, Not Heroes. Why C wins: it refuses to rent an asset you can never own, and redirects the money into channels no vendor can repossess or raise the rent on. What good discussion sounds like: rented versus owned attention, and what dependence really costs. What the wrong answers cost: A pays the toll forever; B haggles over the cage.",
+					"card_code": "BE-MK-19"
+				},
+				{
+					"n": 20,
+					"title": "Sue the Reviewer",
+					"scenario": "A furious one-star review claims your tech stole jewelry from a customer's bedroom. Completely false: the tech never entered the bedroom, and she later found the jewelry herself. She refuses to take it down. The owner wants to sue for defamation. What do you do?",
+					"options": {
+						"A": {
+							"text": "Sue her. The claim is theft, completely false, and a lawsuit shows the market you defend your people. The facts are on your side; even the threat of action often removes a review.",
+							"value": 0
+						},
+						"B": {
+							"text": "Talk the owner off the lawsuit: post a calm public reply with the plain facts and leave it there. Suing a customer, even a wrong one, makes you the bully in every retelling.",
+							"value": 500
+						},
+						"C": {
+							"text": "Report the review to the platform with your evidence and wait for their process. The platform may remove a provably false claim. Keep generating genuine reviews to push it down.",
+							"value": 150
+						}
+					},
+					"correct": "B",
+					"host_note": "Principle: Do Right When It Costs You. Why B wins: it defends the tech with the public truth instead of a lawsuit, refusing to become the bully in every retelling of the story; the record, stated calmly, is the defense. What good discussion sounds like: when fighting for your people means restraint, not war. What the wrong answers cost: A wins the battle and loses the town; C waits on a platform.",
+					"card_code": "BE-MK-20"
+				},
+				{
+					"n": 21,
+					"title": "Junk Leads",
+					"scenario": "Your pay-per-lead vendor sent 40 leads this month; 30 were renters, wrong numbers, or outside your service area. You paid for all 40. The contract says every lead is billable and credits are at their discretion. Sales is wasting hours chasing dead ends.",
+					"options": {
+						"A": {
+							"text": "Renegotiate so you pay only for leads that become booked appointments. Shifting the risk onto the vendor aligns incentives. Performance-based pricing ends the quality argument.",
+							"value": 150
+						},
+						"B": {
+							"text": "Cancel the vendor and tell the owner the real cost per good lead. Refuse to keep paying for fiction. Then define a billable lead in writing before you sign another contract.",
+							"value": 500
+						},
+						"C": {
+							"text": "Keep the vendor and have the appointment center pre-qualify every lead in a two-minute screen before sales touches it. A quick filter protects the sales team's time.",
+							"value": 0
+						}
+					},
+					"correct": "B",
+					"host_note": "Principle: Cash Is Life. Why B wins: it stops the bleeding immediately, tells the owner the true cost per real lead, and writes the definition of a billable lead before the next contract; leads are cash and you treat them that way. Discussion: when to fix a vendor versus fire one. Costs: A (+150) trusts the untrustworthy and hopes incentives fix a broken model; C (0) taxes your own team for the vendor's failure.",
+					"card_code": "BE-MK-21"
+				},
+				{
+					"n": 22,
+					"title": "Camera-Shy Tech",
+					"scenario": "Your best young tech, Marcus, is a natural on camera and customers love him, but he told you privately he hates being filmed and dreads the weekly shoots. The videos earn your best engagement by far. The intern says to keep pushing him because the numbers justify it.",
+					"options": {
+						"A": {
+							"text": "Make video part of the job description and add it to reviews for every tech. The company needs content, and singling Marcus out was the real mistake. A universal policy is fairer.",
+							"value": 150
+						},
+						"B": {
+							"text": "Take Marcus off camera entirely and tell him his comfort matters more than the view count. Ask the crew who enjoys filming and build the series around volunteers.",
+							"value": 500
+						},
+						"C": {
+							"text": "Keep Marcus as the face but film him doing real work with no staged lines. You keep your best performer on screen while removing the part he hates most.",
+							"value": 0
+						}
+					},
+					"correct": "B",
+					"host_note": "Principle: Love Is the Greatest Leadership Tool. Why B wins: it refuses to trade a person's dignity for engagement metrics, and it solves the content problem sustainably with willing volunteers. Discussion: where the line sits between stretching people and using them. Costs: A (+150) turns a people problem into a policy; C ($0) keeps the pressure on Marcus wearing a nicer mask, solving nothing.",
+					"card_code": "BE-MK-22"
+				},
+				{
+					"n": 23,
+					"title": "His Name on the Truck",
+					"scenario": "A senior tech asks to put his first name and personal cell number on his company truck, saying customers ask for him by name. Brand guidelines say no personal names on fleet vehicles. He is a top performer and looks genuinely hurt by the no.",
+					"options": {
+						"A": {
+							"text": "Hold the line on the brand guidelines. The trucks advertise the company, not individuals, and exceptions unravel standards fast. Thank him and keep the fleet uniform.",
+							"value": 0
+						},
+						"B": {
+							"text": "Compromise: add his first name to the truck but keep the company phone number. Customers get the personal connection and the company keeps control of the lead flow.",
+							"value": 150
+						},
+						"C": {
+							"text": "Sit down with him and ask what he is really after, then build it inside the brand: an ask-for-him bio line, his name on review requests, and an employee spotlight feature.",
+							"value": 500
+						}
+					},
+					"correct": "C",
+					"host_note": "Principle: Make Me Feel Important. Why C wins: it hears what he is really asking for, which is recognition, and builds it inside the brand instead of breaking the standard or caving to it. Discussion: the difference between the request and the need behind it. Costs: A (0) dismisses a star to protect a rule; B (+150) is a halfway exception that satisfies no one.",
+					"card_code": "BE-MK-23"
+				},
+				{
+					"n": 24,
+					"title": "Whose Lead Is It",
+					"scenario": "A $14,000 system replacement closed this week. Your digital agency claims it as a Google Ads lead; the appointment center logged it as a repeat customer first reached by a door hanger. Both want credit, and the owner asks you who is right.",
+					"options": {
+						"A": {
+							"text": "Credit the appointment center. The CSR did the real work converting the call, and the hanger put your name in that home first. Your team's work deserves the recognition.",
+							"value": 0
+						},
+						"B": {
+							"text": "Tell the owner the honest truth: your tracking cannot prove whose lead it was. Show both touchpoints, fix the tracking, and refuse to let either side claim what it cannot prove.",
+							"value": 500
+						},
+						"C": {
+							"text": "Split the credit 50/50 and move on. Both touched the customer, and the owner just wants a number. Splitting keeps the peace between the agency and your team.",
+							"value": 150
+						}
+					},
+					"correct": "B",
+					"host_note": "Principle: Define Reality First. Why B wins: it refuses to award credit for what cannot be proven, shows the owner both touchpoints honestly, and fixes the system instead of picking a winner. Discussion: the difference between influence and sourcing, and what honest reporting costs. Costs: A (0) picks the internal team out of bias, not evidence; C (+150) splits the difference to keep the peace, which is still fiction.",
+					"card_code": "BE-MK-24"
+				},
+				{
+					"n": 25,
+					"title": "Flyers in the Truck",
+					"scenario": "You want every tech to leave a seasonal promo flyer at each job. The techs say it feels like begging and customers find it pushy. Your best tech flat-out refuses to carry them. The promo is a strong offer and the owner expects full participation. How do you get real buy-in?",
+					"options": {
+						"A": {
+							"text": "Make it mandatory: every tech leaves the flyer at every job, tracked by unique codes, with a write-up for refusals. The owner expects full participation.",
+							"value": 0
+						},
+						"B": {
+							"text": "Ask the resisting techs what feels wrong, and listen: maybe the flyer is ugly or the timing bad. Redesign it with their input and pilot it with volunteers.",
+							"value": 500
+						},
+						"C": {
+							"text": "Offer a $25 bonus for every flyer that turns into a booked job, tracked by the code. Money motivates where mandates fail, and holdouts can opt out without punishment.",
+							"value": 150
+						}
+					},
+					"correct": "B",
+					"host_note": "Principle: Why Power. Why B wins: it treats the techs' resistance as information instead of insubordination, and gives them authorship, which is the only motivation that survives the first awkward week. What good discussion sounds like: mandates versus ownership, and what resistance is telling you. What the wrong answers cost: A buys compliance and quiet sabotage; C rents enthusiasm.",
+					"card_code": "BE-MK-25"
+				},
+				{
+					"n": 26,
+					"title": "The Overspend",
+					"scenario": "Your agency spent $9,000 on search ads against your $6,000 monthly cap and never told you. They say the extra $3,000 brought excellent leads and they were just being proactive. The owner wants their head. The leads did look decent. What do you do?",
+					"options": {
+						"A": {
+							"text": "Let it go this once, since the leads were genuinely good. Warn them firmly it cannot happen again, but do not make a scene. Punishing initiative teaches vendors to play it safe.",
+							"value": 0
+						},
+						"B": {
+							"text": "Make the agency absorb the full $3,000 overage, in writing, and put hard caps with automatic pause rules in the agreement. Good leads do not excuse spending what was never theirs.",
+							"value": 500
+						},
+						"C": {
+							"text": "Split the overage: you cover half, they absorb half, since the spend produced leads. Then put the cap rules in writing. Fairness keeps the relationship healthy.",
+							"value": 150
+						}
+					},
+					"correct": "B",
+					"host_note": "Principle: Delegate, Don't Abdicate. Why B wins: it draws the hard line that delegated spend stays inside delegated limits, with automatic enforcement so the lesson survives everyone's good intentions. What good discussion sounds like: the difference between initiative and authority. What the wrong answers cost: A teaches them the budget is decorative; C rewards the breach.",
+					"card_code": "BE-MK-26"
+				},
+				{
+					"n": 27,
+					"title": "Prove It or Kill It",
+					"scenario": "The owner wants to kill your digital ad spend because you cannot show which jobs came from it. Tracking is messy: calls get logged wrong, techs forget to ask how customers heard of you, and the agency just says to trust the process.",
+					"options": {
+						"A": {
+							"text": "Tell the owner the truth first: the tracking failure is yours, not the channel's. Own the miss, fix the tracking, and report honest numbers monthly, good or bad.",
+							"value": 500
+						},
+						"B": {
+							"text": "Build a simple tracking sheet this week: unique numbers on every ad and a required source field on every ticket. Ask the owner to hold spend steady for 60 days.",
+							"value": 150
+						},
+						"C": {
+							"text": "Agree with the owner and cut digital by half now. If you cannot prove it works, do not defend it. Move the savings into mail and door hangers, where every response is countable.",
+							"value": 150
+						}
+					},
+					"correct": "A",
+					"host_note": "Principle: Define Reality First. Why A wins: it names the real problem, your tracking and not the channel, before proposing anything, which is the only way the owner can trust the next number you show him. Discussion: owning a miss without groveling, and what honest reporting costs. Costs: B (+150) fixes the tool but skips the accountability; C (+150) destroys a channel over your own failure but at least admits the gap.",
+					"card_code": "BE-MK-27"
+				},
+				{
+					"n": 28,
+					"title": "Never a Customer",
+					"scenario": "A one-star review appears from someone whose name is nowhere in your system. It claims a tech was rude at her door. Your dispatcher is certain she was never a customer. To anyone reading it, though, the review looks completely real.",
+					"options": {
+						"A": {
+							"text": "Reply publicly with warmth, not suspicion: apologize that she had this experience, say you cannot find her in your records, and invite her to call you directly.",
+							"value": 500
+						},
+						"B": {
+							"text": "Report it as a fake review and post a short reply stating she was never a customer. Never apologize for what never happened; a firm correction protects your team.",
+							"value": 150
+						},
+						"C": {
+							"text": "Offer her a free service call in the public reply. Generosity disarms critics, and if she accepts, you turn a critic into a customer.",
+							"value": 0
+						}
+					},
+					"correct": "A",
+					"host_note": "Principle: Serve the Human, Not the House. Why A wins: it leads with care for the person rather than suspicion about the review, which is the only reply that can win either way. Discussion: whether warmth looks weak, and who the reply is really for. Costs: B (+150) sounds defensive; C (0) tries to buy a stranger and rewards a possibly fake review.",
+					"card_code": "BE-MK-28"
+				},
+				{
+					"n": 29,
+					"title": "Two Sets of Numbers",
+					"scenario": "Your dashboard says marketing drove $400,000 this quarter. Accounting says $310,000. The gap: your agency counts every touch, including jobs that started as plain referrals. The owner spotted the difference and his trust is shaken. What do you do?",
+					"options": {
+						"A": {
+							"text": "Defend the dashboard. Marketing touches influence jobs even when accounting credits them elsewhere. Walk the owner through the model so he understands what the numbers measure.",
+							"value": 150
+						},
+						"B": {
+							"text": "Blame the agency's reporting and make them rebuild everything from your CRM data. The inflated numbers came from their dashboard, not yours. Fix the vendor and move on.",
+							"value": 0
+						},
+						"C": {
+							"text": "Own it openly: tell the owner your numbers were inflated by loose attribution. Rebuild from closed, paid jobs only, and publish the method in plain words.",
+							"value": 500
+						}
+					},
+					"correct": "C",
+					"host_note": "Principle: Define Reality First. Why C wins: it owns the inflation openly, rebuilds the report from closed paid jobs only, and publishes the method in plain words; trust returns through smaller true numbers. What good discussion sounds like: influence versus sourcing, and why the owner stopped believing the dashboard. What the wrong answers cost: A defends fiction; B blames the vendor for your own report.",
+					"card_code": "BE-MK-29"
+				},
+				{
+					"n": 30,
+					"title": "Whose Home Is It",
+					"scenario": "Your before-and-after photos earn the best engagement on your page. Then a customer calls, upset: her messy utility room is in front of 2,000 followers and she never agreed to photos. The tech says she smiled. The post is your top performer. What do you do?",
+					"options": {
+						"A": {
+							"text": "Take the post down and apologize directly. Then make a written consent form the tech gets signed before every picture. Thirty seconds at the door prevents a month of headaches.",
+							"value": 0
+						},
+						"B": {
+							"text": "Keep the post up but blur anything identifying and strip her name. The photos show your work quality. Add a consent checkbox to the service agreement going forward.",
+							"value": 150
+						},
+						"C": {
+							"text": "Call her yourself, apologize without excuses, and take the post down while still on the phone. Then coach the tech: a home is personal, and a smile is not permission.",
+							"value": 500
+						}
+					},
+					"correct": "C",
+					"host_note": "Principle: Serve the Human, Not the House. Why C wins: it treats her home and her dignity as more important than the post's performance, and turns the incident into coaching the tech rather than punishing him. What good discussion sounds like: what consent actually looks like at the door. What the wrong answers cost: A is procedural without the real apology; B keeps up what she asked to remove.",
+					"card_code": "BE-MK-30"
+				},
+				{
+					"n": 31,
+					"title": "Fifty Percent Off",
+					"scenario": "The local paper offers a full-page ad at a steep discount if you run a 50-percent-off tune-up coupon in it. The owner loves the idea: cheap ad, huge response. Your service manager warns that deep-discount customers never convert to full price later. What do you do?",
+					"options": {
+						"A": {
+							"text": "Run it. The ad space is cheap, the phones will ring hard, and volume covers the margin hit. Tell the techs to upsell every coupon job aggressively.",
+							"value": 0
+						},
+						"B": {
+							"text": "Kill the coupon and show the owner the math: 50 percent off trains the market to wait for the next coupon and fills the schedule with price shoppers. Discounts rent, never buy.",
+							"value": 500
+						},
+						"C": {
+							"text": "Run a smaller version: 20 percent off, capped at 100 coupons, first-time customers only. Caps and limits turn a gamble into a measured test.",
+							"value": 150
+						}
+					},
+					"correct": "B",
+					"host_note": "Principle: Never Price Before Value. Why B wins: it runs the real math on what deep discounting trains the market to do, and refuses to rent customers at the cost of the brand. What good discussion sounds like: who a 50-percent-off customer really is, and what the second coupon costs. What the wrong answers cost: A fills the schedule with shoppers; C is a smaller version of the same trap.",
+					"card_code": "BE-MK-31"
+				},
+				{
+					"n": 32,
+					"title": "The Broken Form",
+					"scenario": "Your website's get-a-quote form has been broken for a full week, and nobody noticed until a customer emailed about it. The web vendor blames a plugin update. You are furious, and the owner wants your assurance this will never happen again.",
+					"options": {
+						"A": {
+							"text": "Fire the vendor and bring the website under direct control with a freelancer who answers to you. A vendor who lets your lead form die for a week is not watching your business.",
+							"value": 150
+						},
+						"B": {
+							"text": "Ask the vendor for a written incident report and a monitoring proposal before deciding. Acting on anger risks a hasty switch. Decide with a clear head next week.",
+							"value": 0
+						},
+						"C": {
+							"text": "Fix it today, then set a weekly 60-second test: someone submits the form every Monday and confirms the lead arrives. Put it on a checklist with a name attached.",
+							"value": 500
+						}
+					},
+					"correct": "C",
+					"host_note": "Principle: Systems, Not Heroes. Why C wins: it builds a named, weekly routine that catches the failure in days instead of weeks, and it keeps the vendor on a leash made of process rather than anger. Discussion: what you can never outsource, and the cheapest insurance in the building. Costs: A (+150) acts on fury and switches vendors mid-crisis; B ($0) studies the problem while the form stays broken, dithering dressed as diligence.",
+					"card_code": "BE-MK-32"
+				},
+				{
+					"n": 33,
+					"title": "Guaranteed Number One",
+					"scenario": "A slick agency rep promises the number one Google spot within 30 days for $2,500 a month, and adds that your current agency is incompetent. Your marketing lead is tempted because two competitors outrank you. The rep wants a decision by Friday.",
+					"options": {
+						"A": {
+							"text": "Thank him and decline. State the policy: you do not buy dishonest shortcuts. Ask your current agency for a written plan with milestones.",
+							"value": 500
+						},
+						"B": {
+							"text": "Sign a three-month trial. If he delivers the top spot, the $7,500 pays for itself. Add a cancellation clause so you can walk away.",
+							"value": 0
+						},
+						"C": {
+							"text": "Switch only if he puts the guarantee in writing with a full refund. A written promise protects you. Keep your current agency on 30-day notice meanwhile.",
+							"value": 150
+						}
+					},
+					"correct": "A",
+					"host_note": "Principle: How We Do Anything Is How We Do Everything. Why A wins: a vendor who opens by lying about guarantees and insulting competitors will run your money the same way; the policy protects the company from its own temptation. Discussion: whether the ends ever justify the vendor. Costs: B ($0) hands money to a dishonest vendor and rewards the exact behavior you punish in your own people; C (+150) is tempted by the guarantee but at least demands it in writing.",
+					"card_code": "BE-MK-33"
+				},
+				{
+					"n": 34,
+					"title": "Pay for Referrals",
+					"scenario": "You want to launch a customer referral program. The owner likes a $50 service credit to the referrer. Your top tech says customers would rather have $50 cash. Finance worries cash rewards will get abused by employees gaming the system.",
+					"options": {
+						"A": {
+							"text": "Go with the $50 service credit. It keeps the money inside the company, brings the referrer back, and cannot be gamed for cash. Finance can track every credit cleanly.",
+							"value": 150
+						},
+						"B": {
+							"text": "Pay $50 in cash, fast: within a week of the referred job closing. Add simple rules: one reward per referred household, employee referrals excluded.",
+							"value": 500
+						},
+						"C": {
+							"text": "Skip the formal program and surprise referrers with thank-you gifts when dispatch notices them. Formal programs create paperwork; surprise gifts create delight.",
+							"value": 0
+						}
+					},
+					"correct": "B",
+					"host_note": "Principle: Pay for What You Want Repeated. Why B wins: it pays for the actual behavior you want, fast and in a form people value, with simple rules that prevent gaming; a program nobody uses is the most expensive kind. Discussion: cash versus credit psychology, and where gaming really comes from. Costs: A (+150) keeps money in-house but feels like a coupon; C ($0) is not a program at all, just hope dressed as goodwill.",
+					"card_code": "BE-MK-34"
+				},
+				{
+					"n": 35,
+					"title": "Her Full Address",
+					"scenario": "Your website features a glowing video testimonial, and beneath it you printed the customer's full name, street address, and the system she bought. She calls, furious: she never agreed to the address being published and feels unsafe. The page converts well. What do you do?",
+					"options": {
+						"A": {
+							"text": "Take the street address down at once but keep the video and her first name. Removing the address solves her safety concern. Add a consent form going forward.",
+							"value": 150
+						},
+						"B": {
+							"text": "Offer her a free year of maintenance in exchange for keeping the testimonial. Fair compensation makes the exposure worth her while, and most customers accept a reasonable trade.",
+							"value": 150
+						},
+						"C": {
+							"text": "Take the testimonial down today and apologize directly. Then change the process: written consent, with the customer shown exactly what will be published before anything goes live.",
+							"value": 500
+						}
+					},
+					"correct": "C",
+					"host_note": "Principle: Serve the Human, Not the House. Why C wins: it puts her sense of safety ahead of a converting page, apologizes without hedging, and rebuilds the process around real consent shown in advance. What good discussion sounds like: what consent actually requires, and what a testimonial is worth. What the wrong answers cost: A keeps what she asked to remove; B tries to buy her fear.",
+					"card_code": "BE-MK-35"
+				},
+				{
+					"n": 36,
+					"title": "Their Ads Lie",
+					"scenario": "A competitor's radio ad says, quote, unlike some companies, we never use scare tactics. Everyone in town knows it means you after last year's controversy. Your sales manager wants a response ad naming them. Your agency says a counterpunch will get attention.",
+					"options": {
+						"A": {
+							"text": "Ignore it and double your own positive ad schedule. Responding gives them free publicity and looks defensive. Stay positive and stay loud.",
+							"value": 150
+						},
+						"B": {
+							"text": "Refuse the counterpunch and put the energy into being visibly excellent: more genuine reviews, more community presence, techs worth praising by name. Win by deserving the business.",
+							"value": 500
+						},
+						"C": {
+							"text": "Run the counterpunch ad. Name them, deny the charge, and list your certifications. If you stay silent, listeners assume the accusation is true.",
+							"value": 150
+						}
+					},
+					"correct": "B",
+					"host_note": "Principle: Problems Are Tests. Why B wins: it treats the attack as a test of character rather than a media problem, and answers with the only thing that actually changes minds, which is deserved reputation. Discussion: when silence is strength versus when it is surrender. Costs: A (+150) stays positive but passive, without the excellence engine to back it; C (+150) starts a radio war you cannot win.",
+					"card_code": "BE-MK-36"
+				},
+				{
+					"n": 37,
+					"title": "Wrong Number Printed",
+					"scenario": "Twenty thousand mailers just landed in homes carrying your old phone number, which now belongs to a pizza shop. The printer admits the error, but the contract limits their liability to a reprint. The pizza shop owner is annoyed. Your owner is furious.",
+					"options": {
+						"A": {
+							"text": "Act today: strike a deal with the pizza shop to forward your misdialed callers, and post a correction notice on your site. This week, negotiate the reprint.",
+							"value": 500
+						},
+						"B": {
+							"text": "Eat the loss and reprint immediately at your own cost. Speed matters more than blame; every day the wrong number circulates, you lose jobs you will never get back.",
+							"value": 150
+						},
+						"C": {
+							"text": "Sue the printer for the lost business. Their error cost you real leads, and a liability cap should not protect plain negligence. A strong legal response warns every future vendor.",
+							"value": 0
+						}
+					},
+					"correct": "A",
+					"host_note": "Principle: Handle It While It's Small. Why A wins: it recovers the leads first and argues about contracts second, because every day of missed calls costs more than the print bill; urgency ordered correctly. Discussion: what to fix in what order when everything is on fire. Costs: C ($0) performs anger with a lawsuit the contract already blocks, burning weeks while calls go to a pizza shop; B (+150) pays twice but at least gets correct mailers out fast.",
+					"card_code": "BE-MK-37"
+				},
+				{
+					"n": 38,
+					"title": "Cut the Budget",
+					"scenario": "The owner tells you to cut the marketing budget 20 percent this quarter. Your instinct is to trim a little from every channel so nothing dies. Your media buyer warns that spreading the cut everywhere will starve your winners along with your losers.",
+					"options": {
+						"A": {
+							"text": "Cut every channel by 20 percent evenly. It is fair and fast, and every vendor shares the pain. No single channel collapses, and you can restore funding next quarter.",
+							"value": 0
+						},
+						"B": {
+							"text": "Pause the two newest channels entirely and protect the proven ones at full funding. New experiments are the riskiest spend, and the owner asked for a cut.",
+							"value": 150
+						},
+						"C": {
+							"text": "Gather the team, show the real cost-per-lead by channel, and cut the losers completely while protecting the winners. Tell the owner plainly which cuts hurt.",
+							"value": 500
+						}
+					},
+					"correct": "C",
+					"host_note": "Principle: Know Your Numbers. Why C wins: it turns a cut into a performance decision driven by real numbers, and it protects the people producing results instead of punishing everyone equally. Discussion: which numbers to trust, and how to tell the owner bad news honestly. Costs: A ($0) starves the winners along with the losers, the exact failure the buyer warned about; B (+150) kills learning but at least protects proven channels.",
+					"card_code": "BE-MK-38"
+				},
+				{
+					"n": 39,
+					"title": "The Long Contract",
+					"scenario": "A radio rep offers a strong rate if you sign a 12-month contract, but you have never advertised on radio. Your gut says test first. She says the discount disappears Friday and her manager is pressuring her to close it.",
+					"options": {
+						"A": {
+							"text": "Sign the 12-month deal. The discount is real money and radio is proven for home services. Locking the rate protects you, and a full year gives the campaign time to build.",
+							"value": 150
+						},
+						"B": {
+							"text": "Sign for 12 months but demand a 90-day out clause in writing. You get the discounted rate and the exit ramp. If the spots do not produce calls, you leave cleanly.",
+							"value": 150
+						},
+						"C": {
+							"text": "Tell her kindly you never sign year-long commitments on untested channels, and offer a three-month test with clear metrics. She has a quota and you have a budget.",
+							"value": 500
+						}
+					},
+					"correct": "C",
+					"host_note": "Principle: Systems, Not Heroes. Why C wins: it replaces a pressure decision with a system, a short test with agreed metrics, and treats the rep as a person while holding a firm line on how you buy. Discussion: how you buy media as a policy, not a mood. Costs: A (+150) buys blind; B (+150) rents a discount with an escape hatch you will argue about.",
+					"card_code": "BE-MK-39"
+				},
+				{
+					"n": 40,
+					"title": "Billboard or Pixels",
+					"scenario": "A billboard company offers the best board in town, by the highway interchange, for $4,000 a month. Your digital campaigns cost $4,000 and produce 60 tracked leads. The owner loves seeing the name in lights. You can afford one. Which do you choose?",
+					"options": {
+						"A": {
+							"text": "Take the billboard. That interchange is seen by 80,000 drivers a day, nearly every homeowner in the market. Being the famous name is what makes the phone ring in July.",
+							"value": 150
+						},
+						"B": {
+							"text": "Keep the digital spend and pass on the board. Show the owner the math: 60 tracked leads at your close rate is real revenue, while the billboard's return is a guess.",
+							"value": 500
+						},
+						"C": {
+							"text": "Take the billboard for three months, with a unique phone number on it to track every call. If it does not produce, walk away clean. A short test answers it with data.",
+							"value": 0
+						}
+					},
+					"correct": "B",
+					"host_note": "Principle: Know Your Numbers. Why B wins: it answers a fame question with arithmetic, protects the proven producer, and offers the owner a measured test instead of a flat no. What good discussion sounds like: when visibility is worth buying blind, and how to say no to the owner usefully. What the wrong answers cost: A buys a guess; C rents an experiment at full price.",
+					"card_code": "BE-MK-40"
+				}
+			]
+		},
+		{
+			"deck": "Appointment Center",
+			"cards": [
+				{
+					"n": 1,
+					"title": "The Cherry-Picked Callback List",
+					"scenario": "A callback list of 40 stale leads sits untouched while your CSRs cherry-pick the easy fresh inbound calls. The list is two months old. Your newest CSR admits she skips it because those people already said no, and the veterans agree with her.",
+					"options": {
+						"A": {
+							"text": "Throw the list away. Two-month-old leads are dead and everyone knows it. Tell marketing to stop sending stale batches.",
+							"value": 0
+						},
+						"B": {
+							"text": "Work the list with the team for one morning. Open each call honestly about the gap in time. Split the list fairly, set a daily target, post revivals on the board.",
+							"value": 500
+						},
+						"C": {
+							"text": "Offer a spiff for every stale lead revived, paid weekly. Money moves behavior faster than speeches. The list gets worked with energy instead of resentment.",
+							"value": 150
+						}
+					},
+					"correct": "B",
+					"host_note": "Principle: Be a Learning Machine. Why B wins: the leader demonstrates the skill first, then makes the work fair, measurable, and visible. Discussion cues: leading from the phones; reopening stale conversations honestly. Wrong-answer costs: C (150) bribes instead of teaching; A (0) throws away paid-for leads.",
+					"card_code": "BE-AC-01"
+				},
+				{
+					"n": 2,
+					"title": "The Cancelled Maintenance Agreement",
+					"scenario": "A customer calls to cancel his maintenance agreement, frustrated after a tech was rude last month. Your CSR offers the standard retention script. The customer says nobody at your company cares.",
+					"options": {
+						"A": {
+							"text": "Offer a free tune-up for the rude visit. A tangible make-good beats words, and the agreement stays active. Track whether the freebie actually saves the agreement past ninety days.",
+							"value": 150
+						},
+						"B": {
+							"text": "Process the cancellation quickly and move on. Some customers cannot be saved; the script already failed once. More time on a lost cause wastes everyone's afternoon.",
+							"value": 0
+						},
+						"C": {
+							"text": "Slow the call and listen fully to what the tech did. Apologize for the specific behavior, not a script line. Then ask what would make staying worthwhile.",
+							"value": 500
+						}
+					},
+					"correct": "C",
+					"host_note": "Principle: Problems Are Tests. Why C wins: it treats the complaint as a diagnosis opportunity, addresses the root cause with the tech, and lets the customer define the remedy. Discussion cues: listening before offering; closing the loop with the tech. Wrong-answer costs: A (150) throws a free tune-up at a trust problem; B ($0) quits on a saveable customer.",
+					"card_code": "BE-AC-02"
+				},
+				{
+					"n": 3,
+					"title": "The Script Error",
+					"scenario": "You discover the phone script promises a free second opinion that the company never approved. Three CSRs have quoted it this week. Two callers already booked expecting it free, and a third is on hold now.",
+					"options": {
+						"A": {
+							"text": "Quietly fix the script and say nothing to anyone. The two booked callers will forget the word free by appointment day. Announcing the error just invites complaints you do not need.",
+							"value": 0
+						},
+						"B": {
+							"text": "Honor the promise for the callers who heard it and fix the script today. Tell the team exactly what happened. Our words on the phone are the company's word.",
+							"value": 500
+						},
+						"C": {
+							"text": "Honor it for the two booked callers and quietly tell CSRs to stop quoting it. The problem stays contained and nobody's confidence takes a hit.",
+							"value": 150
+						}
+					},
+					"correct": "B",
+					"host_note": "Principle: Do Right When It Costs You. Why B wins: it honors the spoken promise at real cost and tells the team the truth, which is what makes future scripts trustworthy. Discussion cues: spoken promises as contracts; owning mistakes openly. Wrong-answer costs: C (150) hides the lesson; A (0) hopes callers forget.",
+					"card_code": "BE-AC-03"
+				},
+				{
+					"n": 4,
+					"title": "The Personal Cell Shortcut",
+					"scenario": "Your top CSR, Sam, gives customers his personal cell number for faster service. Customers now text him at all hours, he answers on weekends, and two other CSRs are copying him, with no posted hours.",
+					"options": {
+						"A": {
+							"text": "Replace personal numbers with a monitored team text line with posted hours. Customers keep the speed they liked, and no one person becomes the single point of failure.",
+							"value": 500
+						},
+						"B": {
+							"text": "Do nothing until something goes wrong. Sam is an adult managing his own boundaries. Intervening now would punish initiative that is working.",
+							"value": 0
+						},
+						"C": {
+							"text": "Let it continue since customers love the access. Sam's booking numbers are up and the personal touch works. Do not fix what is not broken. Revisit quarterly to check for burnout.",
+							"value": 150
+						}
+					},
+					"correct": "A",
+					"host_note": "Principle: The Business Serves Its Owner. Why A wins: it replaces a fragile hero dependency with a system that outlasts any one person, without losing the speed customers liked. Discussion cues: heroes vs systems; giving customers access safely. Wrong-answer costs: C (150) lets burnout and liability grow; B (0) is the same gamble with a tripwire attached.",
+					"card_code": "BE-AC-04"
+				},
+				{
+					"n": 5,
+					"title": "The Competitor's Price List",
+					"scenario": "A caller offers to email you a competitor's full price list so you can beat every number. Your CSR is excited: with the list, the team could undercut every quote and win every price shopper.",
+					"options": {
+						"A": {
+							"text": "Take the list and use it quietly. The caller volunteered it freely. Matching every number is smart business, and nobody will trace it back.",
+							"value": 0
+						},
+						"B": {
+							"text": "Decline the list but thank the caller warmly. Using a competitor's private pricing feels wrong. The team should win on value, not stolen numbers.",
+							"value": 150
+						},
+						"C": {
+							"text": "Decline the list and explain why in business terms. Stolen pricing collapses when the rival changes a number. Undercutters never learn to sell value.",
+							"value": 500
+						}
+					},
+					"correct": "C",
+					"host_note": "Principle: Selling Is Helping. Why C wins: it declines on business grounds the team can respect (fragile pricing, atrophied selling skill) and redirects to the value conversation. Discussion cues: competing on value vs price; what shortcuts cost the team's skill. Wrong-answer costs: B (150) moralizes without teaching; A ($0) takes stolen data.",
+					"card_code": "BE-AC-05"
+				},
+				{
+					"n": 6,
+					"title": "The Discount to Save a Cancellation",
+					"scenario": "A long-time maintenance customer calls to cancel, saying money is tight. Your CSR, Elena, wants to offer 20 percent off on the spot to save the account. She has no authority to discount and asks you mid-call.",
+					"options": {
+						"A": {
+							"text": "Tell Elena to offer the discount and sort out the paperwork later. Saving the account matters more than process. Back your people first and fix the system second.",
+							"value": 150
+						},
+						"B": {
+							"text": "Thank the customer for their years first. Ask what tight means; sometimes they need a skipped quarter, not a cheaper price. Set Elena's discount range afterward.",
+							"value": 500
+						},
+						"C": {
+							"text": "Have Elena hold firm with no discount and read the script exactly as written. Discounting trains customers to threaten cancellation every renewal.",
+							"value": 150
+						}
+					},
+					"correct": "B",
+					"host_note": "Principle: Selling Is Helping. Why B wins: it diagnoses before prescribing and turns the moment into coaching, so Elena grows instead of just getting a yes. Discussion cues: questions before discounts; giving CSRs real authority ranges. Wrong-answer costs: A (150) rewards going around the system; C (150) reads a script at a human moment.",
+					"card_code": "BE-AC-06"
+				},
+				{
+					"n": 7,
+					"title": "The Lead Fight",
+					"scenario": "Two CSRs, Luis and Dana, both claim the same hot inbound lead. Luis answered first; Dana had been nurturing the caller last week. Voices are rising on the floor within earshot of other calls.",
+					"options": {
+						"A": {
+							"text": "Split the commission between them and tell them to stop arguing. Fairness ends the fight fastest. Both walk away with something. Move on without another word.",
+							"value": 0
+						},
+						"B": {
+							"text": "Separate them from the floor immediately. Decide the lead by the written house rules, not who argues loudest. Clarify the rule this week; a public fight costs more than any job.",
+							"value": 500
+						},
+						"C": {
+							"text": "Give it to Luis since first touch wins, plain and simple. The rule is easy and everyone understands it. Dana will get the next hot lead. Write the rule into the playbook.",
+							"value": 150
+						}
+					},
+					"correct": "B",
+					"host_note": "Principle: Handle It While It's Small. Why B wins: it stops the public fight now, decides by rule not favoritism, and prevents the next fight. Discussion cues: house rules for lead ownership; what customers overhear. Wrong-answer costs: C (150) picks a winner and a loser; A ($0) teaches that arguing pays.",
+					"card_code": "BE-AC-07"
+				},
+				{
+					"n": 8,
+					"title": "The Out-of-Area Request",
+					"scenario": "A caller outside your service area wants a system replacement, a $14,000 job. Your CSRs are told to decline out-of-area work, but this caller found you through a strong referral source who sends steady work.",
+					"options": {
+						"A": {
+							"text": "Book it. Fourteen thousand dollars is fourteen thousand dollars, and the techs can drive the extra miles. Turning away a referral insults the sender.",
+							"value": 0
+						},
+						"B": {
+							"text": "Decline politely and end the call. The service area exists for routing efficiency, and exceptions become the rule fast. A thank-you note protects the relationship.",
+							"value": 150
+						},
+						"C": {
+							"text": "Refer them to a trusted company in their area, then call your referral source to thank them personally. A stretched route risks a bad job and a lost referrer.",
+							"value": 500
+						}
+					},
+					"correct": "C",
+					"host_note": "Principle: Keep Customers for Life. Why C wins: it serves the caller, honors the referrer, and protects the company from a job it cannot do well. Discussion cues: when to break the service-area rule; referrals as relationships. Wrong-answer costs: B (150) wastes the referral warmth; A (0) chases revenue into a bad route.",
+					"card_code": "BE-AC-08"
+				},
+				{
+					"n": 9,
+					"title": "The Wrong Number Lead",
+					"scenario": "A high-intent lead from marketing arrives with a disconnected phone number. Your CSR, Tom, wants to mark it dead and move on. The address looks real and the request was for a full system replacement.",
+					"options": {
+						"A": {
+							"text": "Mark it dead and move on to live leads. CSRs have enough real opportunities without chasing ghosts. Chasing disconnected numbers burns selling time.",
+							"value": 150
+						},
+						"B": {
+							"text": "Have Tom try once more tomorrow, then mark it dead. One extra attempt shows diligence without turning CSRs into detectives. The log shows marketing the lead got a fair shot.",
+							"value": 150
+						},
+						"C": {
+							"text": "Work the lead: verify the address, send a letter, try alternate contacts, log every attempt. A disconnected number is a puzzle, not permission to throw it away.",
+							"value": 500
+						}
+					},
+					"correct": "C",
+					"host_note": "Principle: Never Pre-Judge. Why C wins: a full system replacement lead is worth real effort, and the standard it sets is that leads are precious. Discussion cues: what working a lead actually means; marketing handoff accountability. Wrong-answer costs: A (150) quits on a high-value lead; B (150) quits one attempt too early.",
+					"card_code": "BE-AC-09"
+				},
+				{
+					"n": 10,
+					"title": "The Falsified Call Log",
+					"scenario": "You discover CSR Anthony has been logging outbound calls he never made to hit his activity metric. His booking numbers are average. He says everyone pads a little and the metric is unrealistic.",
+					"options": {
+						"A": {
+							"text": "Confront Anthony with the evidence and apply the stated consequence. Tell the team without naming him. Fake logs poison every number-driven decision the business makes.",
+							"value": 500
+						},
+						"B": {
+							"text": "Lower the activity metric so nobody needs to pad it. Unrealistic targets create dishonest logs. Reset the target with the CSRs in the room.",
+							"value": 150
+						},
+						"C": {
+							"text": "Adjust his numbers quietly and tell him to be more careful. The metric is the problem, not Anthony. Fix the target instead of punishing the person.",
+							"value": 0
+						}
+					},
+					"correct": "A",
+					"host_note": "Principle: How We Do Anything Is How We Do Everything. Why A wins: it treats falsified data as the serious breach it is, applies the stated consequence, and teaches the team why honest numbers matter. Discussion cues: data integrity as a business issue; consequences without humiliation. Wrong-answer costs: B (150) rewards padding by lowering the bar; C ($0) covers up dishonesty.",
+					"card_code": "BE-AC-10"
+				},
+				{
+					"n": 11,
+					"title": "The Crying New Hire",
+					"scenario": "New CSR Sofia takes a brutal call, a customer screams at her for ten minutes, and she is crying at her desk between calls. The queue is building and her next call is already ringing.",
+					"options": {
+						"A": {
+							"text": "Tell Sofia if she cannot handle the heat, the phones may not be for her. Put her back on immediately. Coddling creates fragile CSRs who quit anyway.",
+							"value": 0
+						},
+						"B": {
+							"text": "Pull Sofia off the queue for fifteen minutes. Debrief quietly: what the caller needed, what she did well, one thing to try next time. A minute after abuse is human, not weak.",
+							"value": 500
+						},
+						"C": {
+							"text": "Tell Sofia to shake it off and take the next call. Every CSR survives a first brutal call, and getting back on the phones is the fastest way through it.",
+							"value": 150
+						}
+					},
+					"correct": "B",
+					"host_note": "Principle: Love Is the Greatest Leadership Tool. Why B wins: it gives her recovery plus coaching, turning the worst call into her fastest lesson, and names the humanity as strength. Discussion cues: recovery time vs coddling; debriefing brutal calls. Wrong-answer costs: C (150) sends tears into the next call; A ($0) threatens a new hire for having feelings.",
+					"card_code": "BE-AC-11"
+				},
+				{
+					"n": 12,
+					"title": "The Caller Who Wants a Manager",
+					"scenario": "An upset caller demands a manager. You are in a hiring interview that cannot be interrupted. Your senior CSR, Rosa, has handled these calls well before but has no manager title and is nervous about the demand.",
+					"options": {
+						"A": {
+							"text": "Brief Rosa in ninety seconds on the facts, what she can offer, and your full backing. She speaks with your authority today. Debrief her after.",
+							"value": 500
+						},
+						"B": {
+							"text": "Have Rosa promise a manager callback within the hour and take a message. The interview cannot be interrupted. Give Rosa a deadline she can quote, and make sure you hit it.",
+							"value": 150
+						},
+						"C": {
+							"text": "Step out of the interview for five minutes and take the call yourself. Nothing signals customers come first like a manager who drops everything.",
+							"value": 150
+						}
+					},
+					"correct": "A",
+					"host_note": "Principle: Delegate, Don't Abdicate. Why A wins: it deputizes Rosa with real authority and a debrief, growing a leader instead of abandoning or rescuing her. Discussion cues: ninety-second briefings; authority vs title. Wrong-answer costs: B (150) delays the remedy; C (150) teaches the team that everything stops for a demand.",
+					"card_code": "BE-AC-12"
+				},
+				{
+					"n": 13,
+					"title": "The Spanish-Speaking Caller",
+					"scenario": "A Spanish-speaking caller needs help and no bilingual CSR is on shift. Your CSR, Amy, is using a translation app and the call is going badly. The caller sounds frustrated and confused.",
+					"options": {
+						"A": {
+							"text": "Take over and slow the call down, confirming understanding at each step. Book with a written Spanish confirmation. Then build a real plan for bilingual coverage.",
+							"value": 500
+						},
+						"B": {
+							"text": "Have Amy keep struggling through with the app and book the soonest slot. Effort counts and the appointment is what matters. The tech can sort out details on site.",
+							"value": 0
+						},
+						"C": {
+							"text": "Ask the caller to have an English-speaking family member call back. It is the fastest path to a clear booking. The family member translates better than any app.",
+							"value": 150
+						}
+					},
+					"correct": "A",
+					"host_note": "Principle: Serve the Human, Not the House. Why A wins: it serves the person in front of you now and fixes the coverage gap for next time. Discussion cues: language access as service; turning a bad call into a staffing plan. Wrong-answer costs: C (150) outsources the work to the caller's family; B ($0) books a confused customer.",
+					"card_code": "BE-AC-13"
+				},
+				{
+					"n": 14,
+					"title": "The Shift Swap Denied",
+					"scenario": "CSR Miguel asked to swap a Saturday shift to attend his daughter's recital. You denied it for coverage, and his energy has cratered. His call quality is slipping and teammates notice.",
+					"options": {
+						"A": {
+							"text": "Remind Miguel the decision is final and his attitude needs to reset now. Every denial cannot become a slump. Professionalism means leaving it at the door.",
+							"value": 150
+						},
+						"B": {
+							"text": "Tell Miguel if his personal life affects his calls, maybe this is not the right job. Standards do not bend for recitals. Coverage comes first; document the conversation.",
+							"value": 0
+						},
+						"C": {
+							"text": "Revisit the denial before it hardens into resentment. Hunt for coverage yourself and ask the team directly. If it cannot be covered, show Miguel what you tried.",
+							"value": 500
+						}
+					},
+					"correct": "C",
+					"host_note": "Principle: Why Power. Why C wins: it reopens the decision with real effort and honesty, showing Miguel he matters beyond his shift. Discussion cues: revisiting your own calls; partial solutions when full ones fail. Wrong-answer costs: A (150) demands a reset without earning it; B ($0) threatens a good employee over a recital.",
+					"card_code": "BE-AC-14"
+				},
+				{
+					"n": 15,
+					"title": "The Dispatcher Who Badmouths",
+					"scenario": "Your CSR overhears the dispatcher telling a tech that a customer is a nightmare and to get in and get out. The CSR looks shaken. The dispatcher is a 12-year veteran the techs idolize.",
+					"options": {
+						"A": {
+							"text": "Tell the CSR she misheard or is overreacting. Twelve years earns the benefit of the doubt, and dispatch vents under pressure. Making an issue of it divides the office.",
+							"value": 0
+						},
+						"B": {
+							"text": "Ask what is driving his frustration privately; veterans do not vent for no reason. Listen first, then be clear his words shape every tech's attitude.",
+							"value": 150
+						},
+						"C": {
+							"text": "Talk to the dispatcher privately today and name what was overheard. Ask what is frustrating him first, then set a clear expectation and follow up.",
+							"value": 500
+						}
+					},
+					"correct": "C",
+					"host_note": "Principle: Never Act on One Side of a Story. Why C wins: it hears the veteran out before judging, names the real impact, and sets a clear expectation with follow-up. Discussion cues: private directness with veterans; words as weather. Wrong-answer costs: B (150) listens well but never quite lands the expectation; A (0) dismisses a shaken employee.",
+					"card_code": "BE-AC-15"
+				},
+				{
+					"n": 16,
+					"title": "The Holiday Skeleton Crew",
+					"scenario": "The Saturday of a holiday weekend: two CSRs call in sick, phones ring nonstop, and the on-duty techs are booked solid through Monday. Wait times are climbing past ten minutes, and the queue keeps growing.",
+					"options": {
+						"A": {
+							"text": "Be straight: honest wait times, real openings starting Tuesday, emergency line for true emergencies only. One honest weekend beats a packed board of broken promises.",
+							"value": 500
+						},
+						"B": {
+							"text": "Promise Monday slots you do not have, hoping cancellations open room. Optimism keeps callers from hanging up. The schedule usually finds a way to absorb a few extra jobs.",
+							"value": 0
+						},
+						"C": {
+							"text": "Offer same-day booking anyway and figure out staffing later. Telling callers the truth about the backlog sends them to competitors. A booked job can always be moved later.",
+							"value": 150
+						}
+					},
+					"correct": "A",
+					"host_note": "Principle: How We Do Anything Is How We Do Everything. Why A wins: honest capacity, real bookings, and the emergency line kept for real emergencies. Discussion cues: what honesty costs on a brutal day; protecting the emergency line. Wrong-answer costs: C (150) sells slots that do not exist; B (0) is the same lie dressed up as optimism.",
+					"card_code": "BE-AC-16"
+				},
+				{
+					"n": 17,
+					"title": "Six Sick-Day Reschedules",
+					"scenario": "Your best tech calls in sick on the busiest Tuesday of the month. Six customers are confirmed for today. Two are elderly, one has a baby, and the rest are routine maintenance visits.",
+					"options": {
+						"A": {
+							"text": "Triage the six by urgency before calling. No-heat and baby households get first offer today. Routine maintenance moves to the next open day.",
+							"value": 500
+						},
+						"B": {
+							"text": "Offer everyone the same choice: wait for the sick tech or take a sooner slot with another tech at a discount. Choice keeps people happy.",
+							"value": 150
+						},
+						"C": {
+							"text": "Call all six in board order and push each to the next available day. It is the fairest method. The routes stay clean without last-minute juggling.",
+							"value": 150
+						}
+					},
+					"correct": "A",
+					"host_note": "Principle: Define Reality First. Why A wins: it triages by real urgency instead of treating all six as equal. Discussion cues: how to rank urgency fairly; owning bad news directly. Wrong-answer costs: C (150) treats a baby's no-heat like a routine tune-up; B (150) discounts what should be triaged.",
+					"card_code": "BE-AC-17"
+				},
+				{
+					"n": 18,
+					"title": "The Dominating Senior CSR",
+					"scenario": "Your senior CSR, Kevin, talks over teammates on shared calls, corrects them loudly, and takes the best inbound leads for himself. Two newer CSRs told you privately they dread shifts with him and are job hunting.",
+					"options": {
+						"A": {
+							"text": "Move Kevin to outbound-only so his talent produces without poisoning the inbound queue. The newer CSRs get room to grow. Set a target so it is not a demotion.",
+							"value": 150
+						},
+						"B": {
+							"text": "Do nothing and let the floor sort itself out. Kevin books the most revenue by a wide margin. Top producers earn some latitude with their style.",
+							"value": 0
+						},
+						"C": {
+							"text": "Talk to Kevin privately with specifics and dates. How he treats teammates is part of his job. Set a clear expectation, check in weekly, and close the loop with the newer CSRs.",
+							"value": 500
+						}
+					},
+					"correct": "C",
+					"host_note": "Principle: Culture Is When the Boss Leaves. Why C wins: it addresses the behavior directly with specifics and a follow-up, and closes the loop with the people who spoke up. Discussion cues: private directness vs public hints; protecting people who raise issues. Wrong-answer costs: A (150) rearranges around the problem; B (0) sacrifices the team for one producer.",
+					"card_code": "BE-AC-18"
+				},
+				{
+					"n": 19,
+					"title": "The Phone Diagnosis Request",
+					"scenario": "A caller describes a banging noise and asks your CSR to diagnose it over the phone and quote the fix. The CSR is new and eager, wants to help, and is reaching for the price book while the caller waits.",
+					"options": {
+						"A": {
+							"text": "Have the CSR walk the caller through a troubleshooting checklist of safe, simple homeowner steps. If it works, you saved a truck roll. Either way the CSR stayed useful.",
+							"value": 0
+						},
+						"B": {
+							"text": "Honor the caller's worry without guessing the cause. A real diagnosis needs eyes on the system. Book the visit as the fastest path to a certain answer.",
+							"value": 500
+						},
+						"C": {
+							"text": "Let the CSR give a best guess with a clear disclaimer that it is not official. Callers feel helped immediately. The booked visit will correct any wrong guess on site.",
+							"value": 150
+						}
+					},
+					"correct": "B",
+					"host_note": "Principle: Expectations Before Accountability. Why B wins: it sets the expectation (never guess a diagnosis) while honoring the rep's good instinct and the caller's fear. Discussion cues: empathy that still books; coaching eager new hires. Wrong-answer costs: C (150) risks a wrong guess on the record; A (0) turns CSRs into phone techs.",
+					"card_code": "BE-AC-19"
+				},
+				{
+					"n": 20,
+					"title": "The Double-Booked Afternoon",
+					"scenario": "Dispatch double-booked two jobs in the same 2 to 4 p.m. window with one tech. Both customers confirmed. One is a warranty callback with no revenue, the other is a $900 repair. Dispatch wants you to pick which customer gets moved.",
+					"options": {
+						"A": {
+							"text": "Call both customers and ask which one is willing to move. It is transparent and nobody feels singled out. The volunteer probably needed the flexibility anyway.",
+							"value": 150
+						},
+						"B": {
+							"text": "Keep the $900 repair and push the warranty callback to tomorrow. Revenue pays the bills and warranty work can wait a day. The tech's time goes where it earns the most.",
+							"value": 150
+						},
+						"C": {
+							"text": "Keep the warranty callback and move the $900 repair, with a firm tomorrow-morning window. Bumping a promise for revenue teaches customers our word has a price.",
+							"value": 500
+						}
+					},
+					"correct": "C",
+					"host_note": "Principle: Do Right When It Costs You. Why C wins: it protects the promise already made even at a revenue cost, which is the sharper long-term call. Discussion cues: promise-keeping as a revenue strategy; preventing double-books. Wrong-answer costs: B (150) sells the company's word for $900; A (150) outsources the decision to customers.",
+					"card_code": "BE-AC-20"
+				},
+				{
+					"n": 21,
+					"title": "The Competitor on the Line",
+					"scenario": "A caller says a rival company quoted them half your diagnostic fee. Your newest CSR, Priya, is about to trash-talk the competitor to win the booking. You can hear her winding up as the caller waits on hold.",
+					"options": {
+						"A": {
+							"text": "Take the call, thank the caller for the comparison, and reframe the fee: full check, written findings, a tech inside the window. Tell Priya tearing down rivals makes us look small.",
+							"value": 500
+						},
+						"B": {
+							"text": "Take the call and quietly match the competitor's fee to save the booking. Tell Priya winning matters more than the script. Keep it off the books so nobody expects the same freedom.",
+							"value": 150
+						},
+						"C": {
+							"text": "Let Priya finish, then coach her after. A little competitive fire keeps CSRs sharp, and mid-call coaching would shake her nerve. Debrief what worked and what crossed the line.",
+							"value": 150
+						}
+					},
+					"correct": "A",
+					"host_note": "Principle: Selling Is Helping. Why A wins: it answers the real question (what am I buying?) instead of attacking the rival. Discussion cues: value reframing; when to step onto a call live. Wrong-answer costs: C (150) lets a bad habit form on a live call; B (150) teaches secret discounting.",
+					"card_code": "BE-AC-21"
+				},
+				{
+					"n": 22,
+					"title": "The Caller Who Is Cursing",
+					"scenario": "A customer whose appointment window was missed is shouting profanity at Dana, your calmest CSR. Dana's voice is shaking. The customer demands the job done today and a discount, and the board is already full.",
+					"options": {
+						"A": {
+							"text": "Tell the customer the language stops or the call ends, then rebook at the next opening. Dana watches you set a hard boundary. The schedule stays intact and the standard is clear.",
+							"value": 150
+						},
+						"B": {
+							"text": "Take the call from Dana with a handoff that protects her. Thank her by name, let the customer vent, then own the missed window. Offer tomorrow's first slot and a firm arrival time.",
+							"value": 500
+						},
+						"C": {
+							"text": "Coach Dana live with written prompts so she learns to handle heat herself. Have her offer tomorrow's first slot. Stay on the line in case she needs rescue.",
+							"value": 150
+						}
+					},
+					"correct": "B",
+					"host_note": "Principle: Love Is the Greatest Leadership Tool. Why B wins: it protects the CSR publicly, owns the failure honestly, and gives a real remedy without inventing capacity. Discussion cues: handoff language that preserves dignity; when absorbing abuse stops being the job. Wrong-answer costs: C (150) leaves a shaken rep to drown; A (150) sets a boundary with no remedy attached.",
+					"card_code": "BE-AC-22"
+				},
+				{
+					"n": 23,
+					"title": "The Price Shopper",
+					"scenario": "A caller asks point-blank what you charge for a tune-up. Your policy is value before price, but callers increasingly hang up when CSRs deflect. Your newest CSR wants a straight answer she is allowed to give.",
+					"options": {
+						"A": {
+							"text": "Keep deflecting and book the visit first; the policy exists for a reason. Price-first callers rarely convert, and giving the number feeds competitor comparisons. Hold the line.",
+							"value": 150
+						},
+						"B": {
+							"text": "Give an honest range, what it includes, and what changes it, then pivot to booking. Dodging the question sends the caller to the next listing.",
+							"value": 500
+						},
+						"C": {
+							"text": "Refuse to discuss numbers and give the price only in person. Mystery creates perceived value. Serious buyers will book blind if the brand is strong.",
+							"value": 0
+						}
+					},
+					"correct": "B",
+					"host_note": "Principle: Selling Is Helping. Why B wins: it respects the caller's direct question with a real range, then earns the booking with specifics instead of evasion. Discussion cues: ranges vs exact quotes; when deflection backfires. Wrong-answer costs: A (150) bleeds callers to competitors; C (0) confuses secrecy with value.",
+					"card_code": "BE-AC-23"
+				},
+				{
+					"n": 24,
+					"title": "The Hold-Time Spike",
+					"scenario": "Abandoned calls spike between noon and 1 p.m. when two CSRs take lunch together. Hold times triple. The team says staggering lunches is unfair because everyone wants the noon hour.",
+					"options": {
+						"A": {
+							"text": "Hire a part-time lunch-cover CSR for the noon hour. The cost is small next to lost bookings. Everyone keeps their preferred lunch.",
+							"value": 150
+						},
+						"B": {
+							"text": "Assign lunch by seniority, with the newest CSRs covering noon. Seniority has its privileges and the phones stay covered. Simple and enforceable.",
+							"value": 0
+						},
+						"C": {
+							"text": "Stagger the lunches and explain why. Every abandoned call is a customer who needed us and gave up. Rotate early and late slots weekly so the burden is shared.",
+							"value": 500
+						}
+					},
+					"correct": "C",
+					"host_note": "Principle: One Department: Customer Service. Why C wins: it puts the customer ahead of convenience, shares the burden fairly, and uses real numbers instead of authority. Discussion cues: fairness through rotation; making metrics visible. Wrong-answer costs: A (150) spends money to avoid a scheduling decision; B (0) builds a caste system.",
+					"card_code": "BE-AC-24"
+				},
+				{
+					"n": 25,
+					"title": "The Warranty Question",
+					"scenario": "A caller asks whether her repair is under warranty. Your CSR, Tom, does not know the policy and the warranty binder is missing from the office. The caller wants a yes or no before she books.",
+					"options": {
+						"A": {
+							"text": "Tom verifies and calls back within the hour. Document the policy where the team can find it. A wrong guess costs free labor or a furious customer.",
+							"value": 500
+						},
+						"B": {
+							"text": "Have Tom say yes to get the booking and let the tech sort it out on site. A booked job is a booked job. The tech can explain the fine print in person.",
+							"value": 150
+						},
+						"C": {
+							"text": "Tell Tom to guess based on the system's age and keep the line moving. CSRs cannot research every question while the queue builds. Close enough is usually right on warranty calls.",
+							"value": 0
+						}
+					},
+					"correct": "A",
+					"host_note": "Principle: Define Reality First. Why A wins: it refuses to guess on a question where wrong costs real money or real trust, and fixes the missing binder for everyone. Discussion cues: the cost of confident wrong answers; documenting what the team needs. Wrong-answer costs: B (150) books on a lie; C ($0) normalizes guessing.",
+					"card_code": "BE-AC-25"
+				},
+				{
+					"n": 26,
+					"title": "The Skipped Confirmation Calls",
+					"scenario": "Marcus leads the team in outbound bookings, but he stopped making next-day confirmation calls to save time. No-shows on his booked jobs jumped from 8 percent to 22 percent in three weeks. He calls confirmations busywork and says his numbers prove the approach works.",
+					"options": {
+						"A": {
+							"text": "Keep his quota and give him a one-tap text template so confirmations take seconds. Partial confirmation beats none. Review the no-show data monthly and adjust if it climbs.",
+							"value": 150
+						},
+						"B": {
+							"text": "Show Marcus his no-show rate tied to the skipped confirmations. Reset his target so he can confirm every job and still hit it. A confirmed slot respects the customer's whole day.",
+							"value": 500
+						},
+						"C": {
+							"text": "Leave Marcus alone and let his numbers speak. No-shows are a dispatch problem, not his. Slowing your top producer costs more revenue than missed appointments.",
+							"value": 150
+						}
+					},
+					"correct": "B",
+					"host_note": "Principle: Brilliant on the Basics. Why B wins: it treats the unglamorous step as the job and resets the target so the standard is achievable. Discussion cues: connecting skipped basics to real customer cost; targets that reward the full job. Wrong-answer costs: A (150) works around the behavior with a half-measure instead of fixing it; C (150) sacrifices the schedule to protect one producer's numbers.",
+					"card_code": "BE-AC-26"
+				},
+				{
+					"n": 27,
+					"title": "The Twice No-Show",
+					"scenario": "A customer has no-showed twice, each time tying up a two-hour window. She calls to book a third time, insisting this time is different, and she sounds sincere. Your policy is unclear on repeat no-shows.",
+					"options": {
+						"A": {
+							"text": "Book her with a card-on-file deposit applied to the visit. Two missed windows cost real tech time. Frame the deposit as standard policy, not punishment.",
+							"value": 500
+						},
+						"B": {
+							"text": "Refuse the booking: the company cannot hold windows for repeat no-shows. The team will respect a manager who protects their time. The slot goes to a reliable customer.",
+							"value": 150
+						},
+						"C": {
+							"text": "Book her again with no changes. Turning away a willing customer costs revenue, and punishing past mistakes earns bad reviews that live online forever.",
+							"value": 150
+						}
+					},
+					"correct": "A",
+					"host_note": "Principle: Systems, Not Heroes. Why A wins: it solves the repeat problem with a policy instead of hope or rejection. Discussion cues: deposits as mutual protection; policy vs punishment. Wrong-answer costs: C (150) repeats the loss; B (150) throws away a willing customer.",
+					"card_code": "BE-AC-27"
+				},
+				{
+					"n": 28,
+					"title": "The End-of-Month Overbook",
+					"scenario": "It is the last week of the month and the owner wants the board packed. Your lead CSR suggests booking jobs into days that are already full, borrowing from next month's capacity to hit the number.",
+					"options": {
+						"A": {
+							"text": "Say no openly. Borrowed days become next month's no-shows and angry customers. Do not spend next month's trust to buy this month's number. Take capacity data to the owner.",
+							"value": 500
+						},
+						"B": {
+							"text": "Do it quietly and have CSRs say the board looks open. The owner gets his number. Next month's problem is next month's problem. Keep it between you and the lead CSR.",
+							"value": 0
+						},
+						"C": {
+							"text": "Refuse and report the suggestion to the owner immediately. The lead CSR needs to know gaming the board is a firing-level offense. Draw the line hard and publicly.",
+							"value": 150
+						}
+					},
+					"correct": "A",
+					"host_note": "Principle: The Elongated Shadow. Why A wins: it refuses to fake capacity, explains the cost plainly, and carries the real issue (capacity) upward with data. Discussion cues: month-end pressure vs honest boards; managing up with numbers. Wrong-answer costs: C (150) turns a coaching moment into a threat; B ($0) lies to customers and the owner at once.",
+					"card_code": "BE-AC-28"
+				},
+				{
+					"n": 29,
+					"title": "The Review Threat",
+					"scenario": "A customer threatens a one-star review unless you move his appointment up two days. The board is genuinely full. Your CSR is panicking and wants you to bump someone else to make it stop.",
+					"options": {
+						"A": {
+							"text": "Bump the least urgent job quietly and move him up two days. One moved customer who never knows is cheaper than a one-star review. The review would live online forever.",
+							"value": 150
+						},
+						"B": {
+							"text": "Call his bluff and dare him to post the review. Bullies back down when confronted. The team will love the backbone. Coach the CSR afterward on holding the line calmly.",
+							"value": 0
+						},
+						"C": {
+							"text": "The schedule is full. No bumping another customer to quiet a threat. Offer the earliest real opening with a firm window; caving once teaches every caller threats work.",
+							"value": 500
+						}
+					},
+					"correct": "C",
+					"host_note": "Principle: Do Right When It Costs You. Why C wins: it refuses to trade another customer's promise for quiet, and names the precedent caving would set. Discussion cues: review threats as a policy question; calming a panicking CSR. Wrong-answer costs: A (150) sacrifices a stranger for peace; B (0) picks a fight instead of holding a line.",
+					"card_code": "BE-AC-29"
+				},
+				{
+					"n": 30,
+					"title": "The Squeeze Play",
+					"scenario": "Dispatch asks you to squeeze an extra job onto a board that is already full, promising the techs can handle it. Your CSRs would have to call three confirmed customers and push their windows later to make room.",
+					"options": {
+						"A": {
+							"text": "Hold the board. The three confirmed customers got our word first, so offer the new caller tomorrow's first slot. Moving confirmed customers teaches the team our word is flexible.",
+							"value": 500
+						},
+						"B": {
+							"text": "Do it and call the three moved customers yourself. Revenue today beats comfort today. They will understand when you explain a family has no heat.",
+							"value": 150
+						},
+						"C": {
+							"text": "Refuse the squeeze but offer the new caller tomorrow's first slot with a small discount. Nobody's promise breaks. The discount costs less than the trust you would spend.",
+							"value": 150
+						}
+					},
+					"correct": "A",
+					"host_note": "Principle: Do Right When It Costs You. Why A wins: it protects promises already made even though the extra job is tempting, and names the lesson the team would learn otherwise. Discussion cues: short-term revenue vs promise-keeping; how to say no to dispatch. Wrong-answer costs: B (150) still breaks confirmed promises; C (150) trains callers to expect payment for waiting.",
+					"card_code": "BE-AC-30"
+				},
+				{
+					"n": 31,
+					"title": "The Pattern at One Address",
+					"scenario": "Your CSR notices the same address has called four times in two months for no-heat issues, each booked as a separate dispatch. The techs keep patching it. Nobody has flagged the pattern.",
+					"options": {
+						"A": {
+							"text": "Keep booking as usual. Each call is revenue and the techs are handling it. Diagnosing equipment is not the appointment center's job.",
+							"value": 150
+						},
+						"B": {
+							"text": "Send the pattern to the service manager with the call history. Book the next visit as a senior-tech diagnostic, not another patch. Her catch may prevent a midwinter failure.",
+							"value": 500
+						},
+						"C": {
+							"text": "Tell the CSR to stop overthinking and just book the calls. Pattern-spotting is above her pay grade. The system works as designed. Extra analysis slows the phones down for everyone.",
+							"value": 0
+						}
+					},
+					"correct": "B",
+					"host_note": "Principle: Know Your Numbers. Why B wins: it turns frontline observation into action, escalates with data, and upgrades the visit type instead of repeating the failure. Discussion cues: CSRs as pattern-spotters; escalating across departments. Wrong-answer costs: A (150) repeats the failure for revenue; C ($0) punishes the thinking that prevents callbacks.",
+					"card_code": "BE-AC-31"
+				},
+				{
+					"n": 32,
+					"title": "The Robotic Script Reader",
+					"scenario": "New hire Jamal reads the greeting script word for word in a flat monotone. His booking rate is half the team average. He told another CSR he feels silly saying the words, is thinking about quitting, and his trainer is out of ideas.",
+					"options": {
+						"A": {
+							"text": "Tell Jamal the script is mandatory and his numbers have thirty days to improve. Standards are standards. Put the expectation in writing so it is clear.",
+							"value": 150
+						},
+						"B": {
+							"text": "Sit with Jamal on live calls and help him find his own voice inside the script. Same promises in his own phrasing. The script is the skeleton, he is the person.",
+							"value": 500
+						},
+						"C": {
+							"text": "Pair Jamal with your top CSR to shadow for a week and mirror her exactly. Imitation is the fastest teacher. Hearing it done with energy shows him it can be done.",
+							"value": 150
+						}
+					},
+					"correct": "B",
+					"host_note": "Principle: Train or Remove. Why B wins: it coaches instead of threatening or surrendering, keeping the standard while building the person toward it. Discussion cues: script as skeleton vs cage; coaching cadence for strugglers. Wrong-answer costs: A (150) manages by ultimatum; C (150) copies a copy without addressing his actual block.",
+					"card_code": "BE-AC-32"
+				},
+				{
+					"n": 33,
+					"title": "The Scripts Feel Fake",
+					"scenario": "At the morning huddle, three CSRs say the scripts feel fake and customers can tell. Booking rates are fine, but the team sounds flat, one CSR dreads the greeting, and two others nodded along.",
+					"options": {
+						"A": {
+							"text": "Let them drop the scripts for a week and compare booking rates to the prior month. Data settles the argument better than opinions. If rates hold, the scripts were the problem.",
+							"value": 150
+						},
+						"B": {
+							"text": "Tell them feelings do not matter and the script stays exactly as written. Booking rates are fine, which proves the script works. Professionals do the job as designed.",
+							"value": 0
+						},
+						"C": {
+							"text": "Ask which lines feel false and rewrite them together, keeping every promise intact. The script is a tool, not a cage. Reward the honesty so it keeps coming.",
+							"value": 500
+						}
+					},
+					"correct": "C",
+					"host_note": "Principle: Safe to Speak. Why C wins: it treats the complaint as useful data, improves the tool with the people who use it, and rewards the honesty. Discussion cues: co-writing scripts; promises vs phrasing. Wrong-answer costs: A (150) gambles a week of bookings; B ($0) crushes the feedback loop.",
+					"card_code": "BE-AC-33"
+				},
+				{
+					"n": 34,
+					"title": "The Personal Calls at the Desk",
+					"scenario": "Hold times are rising and you notice CSR Jenna taking personal calls at her desk between inbound calls. When confronted, she says she only takes them when the queue is empty, but the queue has not been empty all week.",
+					"options": {
+						"A": {
+							"text": "Ignore it since Jenna's booking numbers are still decent. High producers earn flexibility with the small stuff. Policing personal calls feels petty and small.",
+							"value": 0
+						},
+						"B": {
+							"text": "Ban phones at desks for everyone effective immediately. One person's habit becomes the team's excuse. A blanket rule is easier to enforce. Apply it to managers too.",
+							"value": 150
+						},
+						"C": {
+							"text": "Show Jenna the numbers behind her queue-empty claim. Personal calls happen on breaks. Every hold minute is a waiting customer. Recheck the metrics with her weekly.",
+							"value": 500
+						}
+					},
+					"correct": "C",
+					"host_note": "Principle: Know Your Numbers. Why C wins: it confronts with evidence rather than blanket rules or avoidance, and follows up on the metric. Discussion cues: data in difficult conversations; expectations with check-ins. Wrong-answer costs: B (150) punishes the whole team for one person; A ($0) excuses it for decent numbers.",
+					"card_code": "BE-AC-34"
+				},
+				{
+					"n": 35,
+					"title": "The Waived Dispatch Fee",
+					"scenario": "An angry customer demands the $89 dispatch fee be waived after a reschedule. Your CSR has no authority to waive fees and the caller is escalating. The fee policy is clear and firm.",
+					"options": {
+						"A": {
+							"text": "Waive this one fee and document why: our reschedule, a calm explanation, a manager's approval. An $89 stand on our own mistake risks a customer worth thousands.",
+							"value": 500
+						},
+						"B": {
+							"text": "Hold the fee with no exceptions and let the caller cancel if he wants. Policies only work when they never bend. The CSR learns to hold the line under pressure.",
+							"value": 150
+						},
+						"C": {
+							"text": "Tell the CSR to waive fees whenever a caller gets loud. Loud callers post reviews, and the fee is small. Keeping the phones quiet is worth more than $89.",
+							"value": 0
+						}
+					},
+					"correct": "A",
+					"host_note": "Principle: You Deserve Your Results. Why A wins: it makes a judgment call with a documented rule, balancing the customer's lifetime value against a policy worth keeping. Discussion cues: exception rules vs no exceptions; documenting judgment calls. Wrong-answer costs: B (150) loses a good customer over $89; C ($0) trains the team to fold at the first raised voice.",
+					"card_code": "BE-AC-35"
+				},
+				{
+					"n": 36,
+					"title": "The Blame Game After the Audit",
+					"scenario": "A call audit reveals CSRs routinely skip the required safety question about gas appliances. When asked, the team blames the script: it sounds awkward, customers get confused. The skipped question is a compliance requirement.",
+					"options": {
+						"A": {
+							"text": "Write up every CSR who skipped it, without exceptions. The rule was clear and the audit proves noncompliance. Consequences will fix the behavior faster than coaching.",
+							"value": 150
+						},
+						"B": {
+							"text": "Own it as a leadership miss: the team flagged the awkward line and you never fixed it. Rewrite it with the team so it sounds human, retrain everyone, and re-audit in two weeks.",
+							"value": 500
+						},
+						"C": {
+							"text": "Blame the auditors and dispute the findings as a gotcha exercise. The question confuses customers. Stand between your people and the auditors.",
+							"value": 0
+						}
+					},
+					"correct": "B",
+					"host_note": "Principle: Give Away the Credit, Take the Blame. Why B wins: the leader takes the blame for the ignored feedback, fixes the wording with the team, and holds the compliance line with a re-audit. Discussion cues: owning leadership misses; making compliance sound human. Wrong-answer costs: A (150) punishes people for a leadership failure; C ($0) shoots the messenger.",
+					"card_code": "BE-AC-36"
+				},
+				{
+					"n": 37,
+					"title": "The VIP Referral",
+					"scenario": "A dealer who sends you steady work calls: his mother needs same-day service and expects the royal treatment. The board is full, and bumping a stranger for a VIP will be noticed by your CSRs.",
+					"options": {
+						"A": {
+							"text": "Be honest: the board is full today, but his mother gets tomorrow's first slot, a senior tech, and your follow-up call. Tell the team what you did and why.",
+							"value": 500
+						},
+						"B": {
+							"text": "Bump a routine maintenance job and fit her in today. The dealer's referrals are worth thousands every year. One moved customer will never know why.",
+							"value": 150
+						},
+						"C": {
+							"text": "Squeeze her in without telling the team how it happened. The dealer stays happy and the board absorbs one more. What the CSRs do not know cannot hurt morale.",
+							"value": 0
+						}
+					},
+					"correct": "A",
+					"host_note": "Principle: Do Right When It Costs You. Why A wins: it honors the referrer with real priority without secretly breaking a stranger's promise. Discussion cues: transparent VIP treatment; what the team learns from watching. Wrong-answer costs: B (150) trades a stranger's promise for peace; C ($0) runs a hidden exception that rots trust.",
+					"card_code": "BE-AC-37"
+				},
+				{
+					"n": 38,
+					"title": "The After-Hours Emergency",
+					"scenario": "At 9:40 p.m. a caller reports a gas smell and asks for a tech tonight. Your on-call tech is not answering his phone. The caller's voice is rising with panic, and she has small children in the house.",
+					"options": {
+						"A": {
+							"text": "Keep trying the on-call tech while keeping the caller on the line. Assure them help is coming and stay calm for them. Do not leave a panicked caller alone on hold.",
+							"value": 150
+						},
+						"B": {
+							"text": "Tell the caller to shut off the gas and wait until morning, since you cannot dispatch a tech you cannot reach. Document the call and follow up at dawn.",
+							"value": 150
+						},
+						"C": {
+							"text": "Tell the caller to leave the house now and call 911 or the gas utility first. A gas smell is beyond our scope. Keep working the phones and call back with a status.",
+							"value": 500
+						}
+					},
+					"correct": "C",
+					"host_note": "Principle: Serve the Human, Not the House. Why C wins: it puts the human's safety ahead of the dispatch problem and gives clear next steps instead of false comfort. Discussion cues: knowing the limits of your scope; what to say when you cannot deliver. Wrong-answer costs: A (150) promises what you cannot deliver; B (150) gambles a family's safety on usually minor.",
+					"card_code": "BE-AC-38"
+				},
+				{
+					"n": 39,
+					"title": "The Do-Not-Call List",
+					"scenario": "Your outbound campaign list includes past customers, but twelve of them previously asked not to be called. Your top CSR says those twelve are probably over it by now and wants to dial anyway. The list would boost his numbers.",
+					"options": {
+						"A": {
+							"text": "Call but open with a warm, brief apology. It respects the request while giving the campaign its best shot. Most people will not mind one polite check-in.",
+							"value": 150
+						},
+						"B": {
+							"text": "Dial them anyway; past customers are fair game and requests go stale. If anyone complains, apologize and move on. The bookings are worth the small risk.",
+							"value": 0
+						},
+						"C": {
+							"text": "Pull the twelve names off before dialing. A no-call request is a promise; breaking it trades the company's reputation for one campaign. Scrub the list and document it.",
+							"value": 500
+						}
+					},
+					"correct": "C",
+					"host_note": "Principle: Do Right When It Costs You. Why C wins: it treats an opt-out as a promise and fixes the list systemically. Discussion cues: reputation vs one campaign; documenting customer requests. Wrong-answer costs: A (150) apologizes while doing the thing; B ($0) dials into complaints and possible violations.",
+					"card_code": "BE-AC-39"
+				},
+				{
+					"n": 40,
+					"title": "The Late-Shift Teammate",
+					"scenario": "CSR Nicole is late three shifts in a row, and morning hold times are suffering. She is a single mom whose childcare fell through. She is embarrassed, has not asked for help, and is a strong performer otherwise.",
+					"options": {
+						"A": {
+							"text": "Write her up according to policy without exceptions. The policy is clear and the team sees favoritism if you bend it. Consistency keeps the team trusting the rules.",
+							"value": 150
+						},
+						"B": {
+							"text": "Ask Nicole privately what changed and what would fix it. Offer a shifted start or a temporary swap while she finds care. Document it and hold her to it with kindness.",
+							"value": 500
+						},
+						"C": {
+							"text": "Ignore it and hope the childcare resolves itself in a couple of weeks. Confronting a struggling single mom feels cruel. Most personal crises pass on their own.",
+							"value": 0
+						}
+					},
+					"correct": "B",
+					"host_note": "Principle: Make Me Feel Important. Why B wins: it solves the actual problem with dignity, documents the arrangement, and keeps accountability intact. Discussion cues: temporary accommodations vs permanent exceptions; kindness with documentation. Wrong-answer costs: A (150) punishes a solvable problem; C (0) hopes it away.",
+					"card_code": "BE-AC-40"
+				}
+			]
+		},
+		{
+			"deck": "Sales",
+			"cards": [
+				{
+					"n": 1,
+					"title": "The Promised Install Date",
+					"scenario": "To close a hesitant buyer, your advisor promises installation this Friday. The production schedule is already full through next Wednesday. The customer rearranged her work week around Friday.",
+					"options": {
+						"A": {
+							"text": "Own it: Friday was promised without checking the board; the real opening is next week. Apologize, confirm with production. Rule: check the schedule before promising dates.",
+							"value": 500
+						},
+						"B": {
+							"text": "Call and move the install to next Thursday; the schedule filled faster than expected. Apologize, offer a small credit, and have production confirm the new date in writing.",
+							"value": 150
+						},
+						"C": {
+							"text": "Bump another job to fit this one in Friday. The advisor made a promise, and the company keeps its word even at another customer's expense. The new sale matters more.",
+							"value": 0
+						}
+					},
+					"correct": "A",
+					"host_note": "Principle: Handle It While It's Small. Why it wins: owning the error fast, with a confirmed new date and a process fix, stops one bad promise from becoming a habit. What good discussion sounds like: players distinguish between keeping a promise (good) and stealing from another customer to do it, and land on the schedule check as the real fix. What the wrong answers cost: B (150) apologizes but never fixes the root cause; C ($0) robs Peter to pay Paul.",
+					"card_code": "BE-SA-01"
+				},
+				{
+					"n": 2,
+					"title": "The Extra Find",
+					"scenario": "During a paid repair visit, your tech finds a cracked heat exchanger plus a worn blower motor and a filter housing that is not sealed. The repair the customer approved is already done. The dispatcher asks if the tech should present the rest now.",
+					"options": {
+						"A": {
+							"text": "Present all three findings with photos and prices, and push to finish everything today while the truck is stocked. One trip beats two, and the problems are visible now.",
+							"value": 150
+						},
+						"B": {
+							"text": "Quote the full replacement now, since a cracked exchanger usually means the furnace is near end of life. Offer the motor and housing repairs only if he declines the new system.",
+							"value": 150
+						},
+						"C": {
+							"text": "Show the cracked exchanger first: photos and the safety risk in plain words. Present the motor and housing separately and say what can wait. Let them choose with no pressure.",
+							"value": 500
+						}
+					},
+					"correct": "C",
+					"host_note": "Principle: Selling Is Helping. Why it wins: separating the safety issue from the optional work, with honest timelines, lets the customer decide without feeling ambushed. What good discussion sounds like: players wrestle with the line between thorough and pushy, and notice the safety finding earns the right to mention the rest. What the wrong answers cost: A (150) feels like an ambush and kills trust; B (150) leaps to replacement before the customer is ready.",
+					"card_code": "BE-SA-02"
+				},
+				{
+					"n": 3,
+					"title": "The Tire Kicker Marathon",
+					"scenario": "Your advisor just spent three hours with a homeowner who asked fifty questions, took notes, and will definitely call three competitors. The advisor is frustrated and behind schedule.",
+					"options": {
+						"A": {
+							"text": "Praise the thoroughness. Detailed shoppers become the most loyal customers. Three hours now buys a buyer who never price-shops again. Generosity with time is the brand.",
+							"value": 150
+						},
+						"B": {
+							"text": "Qualify early and kindly: in fifteen minutes learn timeline, decision makers, and cost of waiting. Research trip? Give an overview, leave the proposal, and reclaim the afternoon.",
+							"value": 500
+						},
+						"C": {
+							"text": "Change nothing and let the advisor manage his own calendar. One long appointment is an outlier, not a trend. Trust him to read the room and protect his own time.",
+							"value": 0
+						}
+					},
+					"correct": "B",
+					"host_note": "Principle: Never Pre-Judge. Why it wins: early, kind qualification protects the advisor's day without prejudging the shopper, who still gets real help. What good discussion sounds like: players distinguish between judging a person (never) and qualifying a situation (always), and see the fifteen-minute check does both. What the wrong answers cost: A (150) romanticizes a blown schedule; C (0) treats one bad afternoon as no signal at all.",
+					"card_code": "BE-SA-03"
+				},
+				{
+					"n": 4,
+					"title": "The Review Scheme",
+					"scenario": "Your online rating slipped to 3.9. A marketing friend offers a service that posts glowing reviews from accounts that were never customers. Nobody would know, and the phones would ring again.",
+					"options": {
+						"A": {
+							"text": "Refuse outright and earn it back. Read every complaint, fix the patterns, and build follow-up earning genuine reviews. Fake reviews are fraud; a liar in public lies in the home.",
+							"value": 500
+						},
+						"B": {
+							"text": "Buy the reviews. A 3.9 is quietly killing the close rate, the fakes will bury among real ones, and every competitor does this. Revenue first; the phones ring again within weeks.",
+							"value": 0
+						},
+						"C": {
+							"text": "Buy a small batch to cross 4.0, then stop and earn real ones. A limited run limits the risk and buys the team breathing room to fix the real issues. A bridge, not a lifestyle.",
+							"value": 150
+						}
+					},
+					"correct": "A",
+					"host_note": "Principle: The Elongated Shadow. Why it wins: the company's public face is the owner's shadow, and fake reviews make the shadow a lie customers eventually catch. What good discussion sounds like: players admit the 3.9 hurts and the offer tempts, then reckon with what discovery would do to every real review earned since. What the wrong answers cost: B ($0) commits fraud for a metric; C (150) commits a smaller fraud and calls it a bridge.",
+					"card_code": "BE-SA-04"
+				},
+				{
+					"n": 5,
+					"title": "The Sticker Shock",
+					"scenario": "The Hendersons need a full system. When your advisor presents $14,800, Mrs. Henderson goes quiet and says they cannot afford it. Your advisor believes a smaller repair could buy them two or three years.",
+					"options": {
+						"A": {
+							"text": "Trim the margin and drop the extended labor warranty to sharpen the price now. A smaller number keeps the deal alive today, and beats a repair that only delays the inevitable.",
+							"value": 150
+						},
+						"B": {
+							"text": "Pivot to financing and reframe the price as a monthly payment. Most sticker shock is cash flow, not the total. Once the monthly figure fits, the objection usually fades.",
+							"value": 150
+						},
+						"C": {
+							"text": "Ask their budget, then lay the honest repair beside the replacement with real costs and expected life. Let them choose, and stand behind whichever path they pick.",
+							"value": 500
+						}
+					},
+					"correct": "C",
+					"host_note": "Principle: Serve the Human, Not the House. Why it wins: laying the honest repair next to the replacement, with real numbers, respects the family's actual budget instead of selling past it. What good discussion sounds like: players admit how tempting the instant discount is, then see the repair option often returns as a replacement customer who trusts you. What the wrong answers cost: A (150) trains discount reflexes; B (150) dodges the real budget conversation.",
+					"card_code": "BE-SA-05"
+				},
+				{
+					"n": 6,
+					"title": "The Poached Lead",
+					"scenario": "An advisor notices a hot lead assigned to a struggling teammate and works it on the side, closing the deal and keeping the full commission. The teammate found out and the sales floor is splitting into camps.",
+					"options": {
+						"A": {
+							"text": "Give the commission to the assigned advisor and discipline the poacher plainly. Leads are company property; taking a teammate's lead is theft, not hustle. Protect the system.",
+							"value": 500
+						},
+						"B": {
+							"text": "Let the closer keep the commission; he did the work and the company got the revenue. Reassign the teammate to easier leads. Assignments are guidelines, not guarantees.",
+							"value": 150
+						},
+						"C": {
+							"text": "Praise the hustle publicly. Hunger is what the scoreboard rewards; the team learns opportunities belong to whoever moves first. Make him the example and watch the floor hunt.",
+							"value": 0
+						}
+					},
+					"correct": "A",
+					"host_note": "Principle: You Are Not the Doer. Why it wins: this is really about the manager's system: leads belong to the company and the assignment process, and protecting it protects every advisor including the poacher. What good discussion sounds like: players admit B feels like celebrating a winner, then see the floor-wide tax when nobody trusts assignments anymore. What the wrong answers cost: B (150) rewards the grab and demotes the victim; C ($0) canonizes theft as hustle.",
+					"card_code": "BE-SA-06"
+				},
+				{
+					"n": 7,
+					"title": "The Skipped Calculation",
+					"scenario": "Your top closer has a full day of appointments and asks to skip the load calculation on a straightforward ranch home, sizing from the existing unit like the old days. He promises the numbers will be fine.",
+					"options": {
+						"A": {
+							"text": "Let him skip it this once. He is your best producer, the house is simple, and matching the old size has worked for years. His judgment has earned some latitude on a packed day.",
+							"value": 150
+						},
+						"B": {
+							"text": "Require the full calculation on every job, no exceptions, and help him rework the day to fit it. It separates a proposal from a guess, and protects you when systems underperform.",
+							"value": 500
+						},
+						"C": {
+							"text": "Skip the calculation but disclose that sizing follows the existing equipment. The disclosure covers the company and the closer keeps his pace. Transparency, without the paperwork.",
+							"value": 150
+						}
+					},
+					"correct": "B",
+					"host_note": "Principle: Brilliant on the Basics. Why it wins: the unglamorous calculation is the basic done brilliantly, and exempting the star tells everyone the standard is optional. What good discussion sounds like: players notice the shortcut never gets blamed until the callback, and connect the install crew's pain to the sales table's hurry. What the wrong answers cost: A (150) creates a two-tier standard; C (150) discloses a guess instead of doing the work.",
+					"card_code": "BE-SA-07"
+				},
+				{
+					"n": 8,
+					"title": "The Stalling Customer",
+					"scenario": "The Parkers loved the presentation but keep saying they need more time to decide. The proposal expires Friday. Your advisor wants to extend the price another 30 days to stay friendly.",
+					"options": {
+						"A": {
+							"text": "Ask what the extra time is for, then solve that specific thing. If it is money, rework the options or financing. Keep Friday real, and book the follow-up call before you hang up.",
+							"value": 500
+						},
+						"B": {
+							"text": "Extend the price hold 30 days and check in weekly. Friendliness keeps you in the running; pressure pushes them to a competitor. Respect today becomes referrals tomorrow.",
+							"value": 150
+						},
+						"C": {
+							"text": "Text them Friday with a one-day-only discount to force the decision. A sharp incentive breaks stalls, and even at a lower margin the job keeps the crew busy next week.",
+							"value": 0
+						}
+					},
+					"correct": "A",
+					"host_note": "Principle: Follow Up Forever. Why it wins: naming the specific stall and solving it beats both endless friendliness and manufactured pressure. What good discussion sounds like: players realize 'more time' is never the real objection, and practice asking what the time is for without sounding pushy. What the wrong answers cost: B (150) funds indefinite stalling with your price hold; C (0) spends margin to buy a decision a question could have earned.",
+					"card_code": "BE-SA-08"
+				},
+				{
+					"n": 9,
+					"title": "The Silent After the Install",
+					"scenario": "Crews finish installs and disappear. No follow-up call, no review request, no referral ask. Your best marketing, happy customers, is going quiet, and the shrinking review count proves it.",
+					"options": {
+						"A": {
+							"text": "Have the crew ask for the review before leaving the driveway. Satisfaction peaks at completion, and the tech's direct ask beats any later email. It takes ten seconds.",
+							"value": 150
+						},
+						"B": {
+							"text": "Leave customers alone after the install. Nobody likes being pestered, and a quiet customer is a satisfied customer. The truly delighted review on their own.",
+							"value": 0
+						},
+						"C": {
+							"text": "Make follow-up a process, not a personality. Two days after install the office calls, sends happy customers the review link, and asks for two names. Track it like a job step.",
+							"value": 500
+						}
+					},
+					"correct": "C",
+					"host_note": "Principle: Systems, Not Heroes. Why it wins: a tracked office process produces reviews and referrals every week, while hoping the crew remembers produces them sometimes. What good discussion sounds like: players see the satisfaction check doubles as an early warning system for unhappy customers, which is worth as much as the reviews. What the wrong answers cost: A (150) depends on the crew's mood at 5pm; B (0) confuses silence with satisfaction.",
+					"card_code": "BE-SA-09"
+				},
+				{
+					"n": 10,
+					"title": "The Discount Commission",
+					"scenario": "Your pay plan pays advisors on total revenue, so they discount freely to close deals. Average margin per job has slid six points in a year. The advisors insist the market demands it.",
+					"options": {
+						"A": {
+							"text": "Pay on gross margin, not revenue, with accelerators for holding price. Show each advisor what their discounts cost them last quarter. When paychecks reward margin, discounts die.",
+							"value": 500
+						},
+						"B": {
+							"text": "Cap discounts at five percent without manager approval. The ceiling stops the worst bleeding, and the approval step makes them think twice before giving money away.",
+							"value": 150
+						},
+						"C": {
+							"text": "Raise list prices ten percent so discounts land where margins used to be. Advisors keep their closing tool, customers feel they won, and the math repairs itself quietly.",
+							"value": 0
+						}
+					},
+					"correct": "A",
+					"host_note": "Principle: Pay for What You Want Repeated. Why it wins: compensation on margin aligns the advisor's wallet with the company's, and the personal math makes the lesson stick. What good discussion sounds like: players see the six-point slide was designed by the old plan, not the market. What the wrong answers cost: B (150) treats the symptom with a ceiling people will game; C (0) inflates prices to fund the same bad habit.",
+					"card_code": "BE-SA-10"
+				},
+				{
+					"n": 11,
+					"title": "The Blame Circle",
+					"scenario": "At the Monday sales meeting, the team spends twenty minutes blaming the appointment center, the pricing, and the weather for last week's lost deals. Nobody mentions their own presentations.",
+					"options": {
+						"A": {
+							"text": "Let them vent; the week was rough. Morale matters more than one unproductive meeting, and the team refocuses when the schedule fills. A heard team sells harder all week.",
+							"value": 0
+						},
+						"B": {
+							"text": "Redirect without shaming: put one lost deal on the board and ask what the advisor controlled at each step. Go first with one of your own so the team sees honesty is safe.",
+							"value": 500
+						},
+						"C": {
+							"text": "Shut the blame down hard: excuses do not close deals. The meeting covers this week's pipeline only; dwelling on last week loses the floor. Discipline resets the room fast.",
+							"value": 150
+						}
+					},
+					"correct": "B",
+					"host_note": "Principle: Never Act on One Side of a Story. Why it wins: examining one real deal, with the manager going first, replaces the blame ritual with a learning ritual. What good discussion sounds like: players admit the weather has never once been the real reason, and feel the difference between being shamed (C) and being led (B). What the wrong answers cost: A ($0) funds the complaint habit with meeting time; C (150) rules by fear and drives the blame underground.",
+					"card_code": "BE-SA-11"
+				},
+				{
+					"n": 12,
+					"title": "Think About It",
+					"scenario": "Every advisor hears it daily: I need to think about it. Most say okay and leave the home. The follow-up pile grows week after week, and the thinking rarely turns into a signed proposal.",
+					"options": {
+						"A": {
+							"text": "Counter on the spot with your best concession to collapse the thinking time. A decision today is worth a small discount, and a stated objection beats two weeks of guessing.",
+							"value": 150
+						},
+						"B": {
+							"text": "Move on fast and fill the pipeline with fresh appointments. Think-about-it buyers close at miserable rates; advisor hours are better spent with new buyers than chasing maybes.",
+							"value": 0
+						},
+						"C": {
+							"text": "Treat think about it as the start, not the end. Ask warmly what they want to think through and address it before leaving. Set a callback time; named steps get decisions.",
+							"value": 500
+						}
+					},
+					"correct": "C",
+					"host_note": "Principle: Follow Up Forever. Why it wins: isolating the real question and booking a named next step converts thinking into deciding. What good discussion sounds like: players practice the warm version of 'what exactly' and discover most stalls are one solvable worry, not indecision. What the wrong answers cost: A (150) bribes a decision the customer has not made; B (0) throws away buyers the company already paid to meet.",
+					"card_code": "BE-SA-12"
+				},
+				{
+					"n": 13,
+					"title": "The Discount Reflex",
+					"scenario": "Your advisor follows up on a week-old unsold estimate and the homeowner hesitates. His instinct is to offer 10 percent off on the spot to save the deal, before he has asked what is actually holding her back.",
+					"options": {
+						"A": {
+							"text": "Reopen around the problem, not the price. Ask what changed, revisit the photos, and answer the hesitation. Discount only if money is the true barrier, never as the opening move.",
+							"value": 500
+						},
+						"B": {
+							"text": "Offer the 10 percent now. The estimate is cooling, and a fast discount shows you want the work. A closed deal at a thin margin beats a perfect price that never signs.",
+							"value": 150
+						},
+						"C": {
+							"text": "Restate the proposal and price hold by email, then move to fresh leads. Chasing old estimates burns selling hours. Ready customers call back on their own.",
+							"value": 150
+						}
+					},
+					"correct": "A",
+					"host_note": "Principle: Follow Up Forever. Why it wins: re-diagnosing the hesitation before touching price keeps the discount as a tool instead of a reflex. What good discussion sounds like: players catch themselves reaching for the discount first, then see how often the real barrier was never money. What the wrong answers cost: B (150) teaches every customer to stall; C (150) abandons warm buyers the company already paid to acquire.",
+					"card_code": "BE-SA-13"
+				},
+				{
+					"n": 14,
+					"title": "Is It Really Necessary",
+					"scenario": "A homeowner looks at the proposal and asks point blank whether the new system is truly necessary or whether your advisor is just selling. The old unit still runs, though it is 19 years old and uses phased-out refrigerant.",
+					"options": {
+						"A": {
+							"text": "Tell him it is absolutely necessary and the old unit could fail any day. At 19 years the breakdown is a matter of time. Customers want confidence from their advisor, not a maybe.",
+							"value": 150
+						},
+						"B": {
+							"text": "Agree it might last another year and suggest he wait, proving you are not pushy. The honesty impresses him, and when it fails he calls you first. Play the long game.",
+							"value": 150
+						},
+						"C": {
+							"text": "Answer with evidence, not a verdict: the phase-out timeline, repair history, efficiency gap, cost of a mid-summer failure. Then say it could run another season; the call is his.",
+							"value": 500
+						}
+					},
+					"correct": "C",
+					"host_note": "Principle: Define Reality First. Why it wins: laying out the facts and refusing to issue the verdict respects the customer's intelligence and removes the feeling of being sold. What good discussion sounds like: players realize the question is a trust test, not a technical one, and that evidence answers it better than confidence. What the wrong answers cost: A (150) uses fear as a closer; B (150) performs honesty by surrendering a sale he may genuinely need.",
+					"card_code": "BE-SA-14"
+				},
+				{
+					"n": 15,
+					"title": "The Proposal Typo",
+					"scenario": "Your advisor is about to email a signed proposal when she notices the price is $1,900 higher than the quote worksheet. The customer already agreed verbally to the lower number on the worksheet during the visit.",
+					"options": {
+						"A": {
+							"text": "Send the higher number and hope she never compares it with the worksheet. Most homeowners miss line-item differences, and the worksheet was only a working document.",
+							"value": 150
+						},
+						"B": {
+							"text": "Call her first, explain the error plainly, and honor the worksheet number she agreed to. Fix the proposal to match and alert your manager. One costly correction beats lost trust.",
+							"value": 500
+						},
+						"C": {
+							"text": "Send the higher number with a note about updated material costs. Customers accept that prices move, and the note explains the increase without reopening the negotiation.",
+							"value": 150
+						}
+					},
+					"correct": "B",
+					"host_note": "Principle: Do Right When It Costs You. Why it wins: honoring the number she agreed to turns a costly error into the story she tells her neighbors. What good discussion sounds like: players weigh the $1,900 against the lifetime value of a customer who trusts you completely, and the math flips. What the wrong answers cost: A (150) bets she will not notice, which is contempt disguised as strategy; C (150) launders the error as a market change.",
+					"card_code": "BE-SA-15"
+				},
+				{
+					"n": 16,
+					"title": "The Angry Homeowner",
+					"scenario": "A homeowner yells at your advisor over a rescheduled install, using language nobody should hear at work. The advisor holds it together in the moment, then sits in his truck shaking.",
+					"options": {
+						"A": {
+							"text": "He probably provoked it; review his calls for attitude problems. Customers rarely explode for no reason. Find what he did wrong and correct it. Accountability starts at home.",
+							"value": 0
+						},
+						"B": {
+							"text": "It comes with the territory; shake it off. Every advisor meets one of these, and a thick skin is part of the job. The next appointment needs him present.",
+							"value": 150
+						},
+						"C": {
+							"text": "Check on him as a person first, not a producer. Let him talk it through, then take the next customer call yourself. Debrief: what set him off, and what can the team change?",
+							"value": 500
+						}
+					},
+					"correct": "C",
+					"host_note": "Principle: Make Me Feel Important. Why it wins: caring for the person first, then debriefing the trigger, keeps a good advisor in the seat and improves the process. What good discussion sounds like: players feel how different C feels from the truck, and admit the 'shake it off' speech is how companies lose good people quietly. What the wrong answers cost: B (150) abandons him to process it alone; A ($0) blames the victim of verbal abuse, which teaches the team management will not stand with them.",
+					"card_code": "BE-SA-16"
+				},
+				{
+					"n": 17,
+					"title": "The Inflated Resume",
+					"scenario": "You learn your newest advisor has been telling customers he spent ten years as a service tech. He was a helper for one summer. Customers trust him more because of the story, and his close rate is the team's best.",
+					"options": {
+						"A": {
+							"text": "Confront him: the invented background ends today. Real training so his confidence is earned, not performed. Tell the team plainly why lying to customers ends careers here.",
+							"value": 500
+						},
+						"B": {
+							"text": "Keep him selling, stop the story, and file a written warning. His numbers are real and the team needs the production. Correct the claim quietly and keep the revenue flowing.",
+							"value": 150
+						},
+						"C": {
+							"text": "Say nothing while the numbers hold. Customers are happy and a little resume polish harmed nobody. Pulling your best closer over a backstory punishes success.",
+							"value": 0
+						}
+					},
+					"correct": "A",
+					"host_note": "Principle: Character Over Skill. Why it wins: a closer who lies about who he is will lie about what the customer needs; training the skill honestly is the only keep. What good discussion sounds like: players feel the revenue temptation honestly, then ask what happens when a customer discovers the lie and tells the internet. What the wrong answers cost: B (150) files a warning while keeping the liar in living rooms; C ($0) institutionalizes fraud as long as it converts.",
+					"card_code": "BE-SA-17"
+				},
+				{
+					"n": 18,
+					"title": "The Wrong Fit Job",
+					"scenario": "A homeowner wants your company to relocate his ductwork through a finished attic, a job your crews rarely do and your advisor cannot price with confidence. He is ready to sign today and the commission is large.",
+					"options": {
+						"A": {
+							"text": "Take the job. Revenue is revenue, and the crew will figure out the attic work once opened up. Price it with a healthy cushion and let production sort the details on install day.",
+							"value": 150
+						},
+						"B": {
+							"text": "Sign him at a premium covering a subcontractor for the attic work. He gets one point of contact, you keep the relationship, and the sub absorbs the risk you cannot price.",
+							"value": 150
+						},
+						"C": {
+							"text": "Tell him plainly this is outside your crews' weekly work; he deserves a contractor who does it daily. Refer him to one you trust, and invite him back for the system replacement.",
+							"value": 500
+						}
+					},
+					"correct": "C",
+					"host_note": "Principle: Never Pre-Judge. Why it wins: this one is about judging the job honestly rather than the customer; declining work you cannot do well protects the customer and your name. What good discussion sounds like: players admit how hard it is to walk past a ready signature, then name the callbacks and reviews that follow jobs sold on hope. What the wrong answers cost: A (150) sells confidence you do not have; B (150) rents competence you cannot supervise.",
+					"card_code": "BE-SA-18"
+				},
+				{
+					"n": 19,
+					"title": "The Slipping Close Rate",
+					"scenario": "Marco's close rate has dropped from 38 percent to 24 percent over two months. He blames the leads. Your gut says something changed in his presentations, but you still have no proof yet.",
+					"options": {
+						"A": {
+							"text": "Move Marco to your best lead source for a month. If the leads were the problem, his numbers bounce back. If not, you have the answer without a confrontation.",
+							"value": 150
+						},
+						"B": {
+							"text": "Pull the numbers: close rate by lead source, average ticket, where deals stall. Ride two appointments to find where momentum dies. Coach that step and recheck in two weeks.",
+							"value": 500
+						},
+						"C": {
+							"text": "Give it another month. Close rates move in cycles, and Marco was a top performer not long ago. Intervening early can rattle a good rep; patience with proven people usually pays.",
+							"value": 0
+						}
+					},
+					"correct": "B",
+					"host_note": "Principle: Know Your Numbers. Why it wins: diagnosing with segmented data and live observation finds the real leak instead of litigating opinions about lead quality. What good discussion sounds like: players admit how often they manage by gut, then see that two ride-alongs reveal what two months of debate never did. What the wrong answers cost: A (150) wastes a month of premium leads on an experiment; C (0) calls neglect patience while the slide compounds.",
+					"card_code": "BE-SA-19"
+				},
+				{
+					"n": 20,
+					"title": "The Bounced Check",
+					"scenario": "A customer's final payment check bounces. The advisor who sold the job wants to call the customer and demand payment immediately, hinting he will tell the neighbors if she does not pay up.",
+					"options": {
+						"A": {
+							"text": "Let the advisor handle it; pressure works. A bounced check is theft of services, and the threat of embarrassment gets checks rewritten fast. Fire in the belly beats any clerk.",
+							"value": 0
+						},
+						"B": {
+							"text": "The office calls once, politely, for a replacement payment. One courteous call resolves most of these; bounced checks are usually bank errors or timing. Assume the best first.",
+							"value": 150
+						},
+						"C": {
+							"text": "Remove the advisor; the office collects with dignity. Call calmly, assume a mistake first, offer ways to make it right. Threats in her neighborhood cost far more than one invoice.",
+							"value": 500
+						}
+					},
+					"correct": "C",
+					"host_note": "Principle: Serve the Human, Not the House. Why it wins: removing the hot-headed advisor and collecting with dignity protects the company's name in the neighborhood where it earns its living. What good discussion sounds like: players picture the threat landing on a real street and realize the invoice is the smallest thing at stake. What the wrong answers cost: A ($0) weaponizes shame for cash; B (150) is polite but leaves the advisor's threat unaddressed.",
+					"card_code": "BE-SA-20"
+				},
+				{
+					"n": 21,
+					"title": "The Financing Afterthought",
+					"scenario": "Your advisors present financing only when the customer flinches at the price. Applications get rushed at the kitchen table, approvals stall, and too many deals die waiting on the bank.",
+					"options": {
+						"A": {
+							"text": "Make financing part of every presentation, a normal way people buy, not a rescue move. Show the monthly figure beside the total, and coach advisors whose sheets lack one.",
+							"value": 500
+						},
+						"B": {
+							"text": "Push the financing application to right after the inspection. Pre-approval before the price lands removes the awkward pause, and the monthly payment does the heavy lifting.",
+							"value": 150
+						},
+						"C": {
+							"text": "Drop financing and focus on cash or check buyers. Finance deals carry fees and delays, and a cash pipeline closes faster with less paperwork. Simplicity beats what financing saves.",
+							"value": 0
+						}
+					},
+					"correct": "A",
+					"host_note": "Principle: Systems, Not Heroes. Why it wins: normalizing financing in every presentation, and measuring that it happens, fixes the process instead of depending on heroic saves at the table. What good discussion sounds like: players see that financing-as-rescue stigmatizes it, while financing-as-normal removes the flinch entirely. What the wrong answers cost: B (150) still treats financing as a setup move; C (0) surrenders a huge buyer segment to avoid paperwork.",
+					"card_code": "BE-SA-21"
+				},
+				{
+					"n": 22,
+					"title": "The Staged Photo",
+					"scenario": "An advisor photographs a small rust spot on a heat exchanger with a flashlight angle that makes it look like a major crack. The photo helps close a $16,000 replacement the customer might otherwise have declined.",
+					"options": {
+						"A": {
+							"text": "Praise the creativity privately and share the technique. Dramatic photos close deals and the unit was old; customers cannot judge technical conditions themselves. Teach the angle.",
+							"value": 0
+						},
+						"B": {
+							"text": "Call it deception that stole her choice. Make the advisor face her with the truth. Set the standard: photos tell the truth; anyone who stages evidence is finished selling here.",
+							"value": 500
+						},
+						"C": {
+							"text": "Refund the gap between replacement and repair, and retrain on honest documentation. The customer keeps the system, the company corrects the money, and he learns the line.",
+							"value": 150
+						}
+					},
+					"correct": "B",
+					"host_note": "Principle: Do Right When It Costs You. Why it wins: staged evidence is fraud against a customer who cannot verify it, and only a public, costly standard restores the team's credibility. What good discussion sounds like: players sit with how easily 'the unit was old anyway' excuses the lie, and see that excuse is exactly how cultures rot. What the wrong answers cost: C (150) treats deception as a pricing error; A ($0) turns fraud into team training.",
+					"card_code": "BE-SA-22"
+				},
+				{
+					"n": 23,
+					"title": "The Lost Handoff",
+					"scenario": "Sales promises the customer a Tuesday install and a specific thermostat. Production arrives Thursday with the wrong thermostat and no notes. The customer is furious, and each department blames the other.",
+					"options": {
+						"A": {
+							"text": "One handoff form both sign: models, thermostat, dates, access notes, anything promised. No install scheduled until it is complete. Review misses weekly, both sides in the room.",
+							"value": 500
+						},
+						"B": {
+							"text": "Fine the advisor whose handoff caused the complaint. Money gets attention, and one painful deduction makes every advisor double-check notes. Consequences beat memos.",
+							"value": 150
+						},
+						"C": {
+							"text": "Stop promising specific dates and models; let production set expectations after the sale. Fewer promises, fewer broken ones, though softer commitments. The shouting stops.",
+							"value": 0
+						}
+					},
+					"correct": "A",
+					"host_note": "Principle: One Department: Customer Service. Why it wins: a single signed handoff makes both departments serve the same customer instead of serving their side of the argument. What good discussion sounds like: players recognize every interdepartmental fight they have ever seen, and admit the paper form beats the memory of a busy advisor. What the wrong answers cost: C (0) gags the sales team instead of fixing the transfer; B (150) punishes one person for a system failure.",
+					"card_code": "BE-SA-23"
+				},
+				{
+					"n": 24,
+					"title": "The Phone Quote Request",
+					"scenario": "Dana calls your office and asks what it costs to replace her air conditioner. She wants a number before she agrees to a visit. Your newest comfort advisor is ready to give her one to keep the lead alive.",
+					"options": {
+						"A": {
+							"text": "Give a broad phone range, basic to high-efficiency, and stress the real figure comes after the inspection. The range wins the appointment without locking you in.",
+							"value": 150
+						},
+						"B": {
+							"text": "Email three equipment tiers so she can shop on her own time, and tell her to call back when she picks one. She asked for numbers first; meet her on her terms.",
+							"value": 150
+						},
+						"C": {
+							"text": "Never quote a job you have not seen. A blind number is a guess, and guesses become broken promises. Book the visit, then price it only after she has seen the inspection findings.",
+							"value": 500
+						}
+					},
+					"correct": "C",
+					"host_note": "Principle: Never Price Before Value. Why it wins: quoting blind teaches the customer to buy on price alone and guarantees you are wrong in one direction or the other. What good discussion sounds like: players debate whether a range is harmless, then realize the range becomes the anchor the whole visit fights against. What the wrong answers cost: A (150) keeps the lead warm but trains price shopping; B (150) surrenders the visit, which is where value is actually built.",
+					"card_code": "BE-SA-24"
+				},
+				{
+					"n": 25,
+					"title": "The Burned Out Closer",
+					"scenario": "Your best advisor, eight years in, tells you the daily rejection is getting to him. His numbers are still fine, but the fire is gone and he is quietly thinking about quitting for good.",
+					"options": {
+						"A": {
+							"text": "Offer a raise. Money is the simplest retention tool, his production justifies it, and a bigger paycheck rekindles motivation. Eight years of mastery costs far more to replace.",
+							"value": 150
+						},
+						"B": {
+							"text": "Ask what part of the work still matters, and listen. Often it is the sameness, not the rejection. Mentoring rookies can relight him; reshape the role around the spark.",
+							"value": 500
+						},
+						"C": {
+							"text": "Help him plan his exit. A burned-out closer poisons younger advisors, and an honest goodbye beats a slow fade. A graceful exit preserves the relationship and the culture.",
+							"value": 0
+						}
+					},
+					"correct": "B",
+					"host_note": "Principle: Why Power. Why it wins: reconnecting him to a purpose inside the work addresses the actual disease rather than the symptom. What good discussion sounds like: players realize nobody quits over rejection alone; they quit when the work stops meaning anything, and a bigger check cannot fix that. What the wrong answers cost: A (150) buys time at a higher price without fixing anything; C ($0) gives up on eight years of mastery.",
+					"card_code": "BE-SA-25"
+				},
+				{
+					"n": 26,
+					"title": "The Confused Homeowner",
+					"scenario": "Mrs. Alvarez, 78, nods along to everything your advisor says but cannot repeat back any of the options. Her son, on speakerphone, keeps pushing her toward the premium system. The advisor senses she does not understand.",
+					"options": {
+						"A": {
+							"text": "Slow down and speak to Mrs. Alvarez; her home, her signature. Explain each option plainly and have her repeat it back. If she cannot, stop and reschedule with the son present.",
+							"value": 500
+						},
+						"B": {
+							"text": "Proceed with the son's choice; he is the decision maker and the premium system is the best equipment. Get the signature, schedule the install, and note he directed the decision.",
+							"value": 150
+						},
+						"C": {
+							"text": "Reschedule when the son can attend in person. Phone participants cannot read the room, and this decision deserves everyone at one table. A short delay beats a painful cancellation.",
+							"value": 150
+						}
+					},
+					"correct": "A",
+					"host_note": "Principle: Serve the Human, Not the House. Why it wins: the teach-back check protects the actual homeowner, and stopping a sale you could have closed is the proof the company serves people first. What good discussion sounds like: players feel the tension between the son's authority and the mother's signature, and land on the person signing as the person who must understand. What the wrong answers cost: B (150) takes an order from someone who is not the customer; C (150) delays without first trying to serve her directly.",
+					"card_code": "BE-SA-26"
+				},
+				{
+					"n": 27,
+					"title": "The Competitor Trash Talk",
+					"scenario": "A rival company is telling customers your installs leak and your techs are trainees. Your advisors want permission to hit back with what they have heard about the rival's callbacks.",
+					"options": {
+						"A": {
+							"text": "Let advisors answer in kind with the rival's callback stories. Disarmament lets the lies stand. A sharp counterpunch ends the rumor fast and shows the team you have their backs.",
+							"value": 150
+						},
+						"B": {
+							"text": "Forbid the counterattack; arm the team with proof. Photos, permits, certifications, and review counts beat rumors. When the claim comes up, answer with evidence and move on.",
+							"value": 500
+						},
+						"C": {
+							"text": "Ignore it completely. Responding gives the rumor oxygen, and most customers see through gossip on their own. The high road costs nothing and keeps the team selling, not feuding.",
+							"value": 0
+						}
+					},
+					"correct": "B",
+					"host_note": "Principle: The Experience Is Half the Product. Why it wins: answering rumors with documentation keeps the customer's experience of you professional while the rival looks small. What good discussion sounds like: players feel the pull of revenge, then admit customers remember who stayed classy. What the wrong answers cost: A (150) turns your advisors into gossip carriers; C (0) lets a lie sit unanswered in the customer's mind.",
+					"card_code": "BE-SA-27"
+				},
+				{
+					"n": 28,
+					"title": "The Struggling New Hire",
+					"scenario": "Priya is three weeks into the advisor role. Her product knowledge is strong, but her close rate is zero after eleven appointments. She is starting to dread pulling into the driveway.",
+					"options": {
+						"A": {
+							"text": "Move her to smaller repair tickets. Small wins steady her nerves, and a few closes in a row earn her way back to full presentations. Confidence is built in stages.",
+							"value": 150
+						},
+						"B": {
+							"text": "Eleven straight losses means selling may not be for her; start interviewing a replacement. The team cannot carry a zero forever. A fast, honest exit beats months of dread.",
+							"value": 0
+						},
+						"C": {
+							"text": "Ride along on two visits to watch and listen. Find the one gap, usually inspection to presentation, and drill it with role play. Coach ninety days before any talk of fit.",
+							"value": 500
+						}
+					},
+					"correct": "C",
+					"host_note": "Principle: Train or Remove. Why it wins: diagnose the specific gap, drill it, and give real coaching time before judging fit; removal comes after training, not instead of it. What good discussion sounds like: players admit how rare the ride-along is, and how often 'not a fit' really means 'never coached.' What the wrong answers cost: A (150) hides her from the skill she needs; B ($0) quits on a three-week employee.",
+					"card_code": "BE-SA-28"
+				},
+				{
+					"n": 29,
+					"title": "The Single Option Trap",
+					"scenario": "Your advisors present one system, one price, take it or leave it. Close rates are flat and average tickets are drifting down. Customers keep saying they want to think about it first.",
+					"options": {
+						"A": {
+							"text": "Add a low-priced repair option to every proposal as something to say no to. The contrast makes the replacement look reasonable, and even small approvals add revenue otherwise lost.",
+							"value": 150
+						},
+						"B": {
+							"text": "Offer good, better, best, with the middle as the smart value most homes need. Present all three side by side. The question becomes which fits, not whether to buy.",
+							"value": 500
+						},
+						"C": {
+							"text": "Keep the single-option presentation and ride out the flat close rate. Changing the format mid-year would confuse the team, and consistency has value while conditions improve.",
+							"value": 0
+						}
+					},
+					"correct": "B",
+					"host_note": "Principle: Selling Is Helping. Why it wins: three honest options move the decision from whether to which, which is where close rates actually live. What good discussion sounds like: players notice the middle option does the real work, and that 'which one fits' feels like help while 'take it or leave it' feels like pressure. What the wrong answers cost: A (150) uses a decoy that insults the customer's intelligence; C (0) defends the format that caused the flat rate.",
+					"card_code": "BE-SA-29"
+				},
+				{
+					"n": 30,
+					"title": "The Cash Discount Ask",
+					"scenario": "A homeowner offers to pay cash today if your advisor knocks 15 percent off the system price. The advisor is tempted: the money is real, the close would be instant, and nobody would know.",
+					"options": {
+						"A": {
+							"text": "Hold the price and refuse the cash discount plainly. The price reflects equipment, crew, permits, warranty, none of which changes with how he pays. Offer standard options.",
+							"value": 500
+						},
+						"B": {
+							"text": "Take the cash at 15 percent off. Money today beats margin tomorrow, the job fills the schedule, and one quiet discount stays off the books. A bird in the hand.",
+							"value": 0
+						},
+						"C": {
+							"text": "Counter at five percent off for payment in full today. It captures the urgency and protects most of the margin, and he gets a win for the neighbors. Meeting halfway keeps the deal.",
+							"value": 150
+						}
+					},
+					"correct": "A",
+					"host_note": "Principle: Know Your Numbers. Why it wins: the price is the price because the costs behind it are real, and a cash discount is just margin donated to whoever asks loudest. What good discussion sounds like: players admit the temptation is the instant close, then see that every exception becomes the new rule by Friday. What the wrong answers cost: B ($0) teaches the team that off-book discounts are policy; C (150) negotiates against yourself for a payment method that costs you nothing extra.",
+					"card_code": "BE-SA-30"
+				},
+				{
+					"n": 31,
+					"title": "The End Run",
+					"scenario": "Your sales manager denies an advisor's request for an extra discount on a big job. The advisor goes directly to you, the owner, hoping you will overrule the manager and approve it.",
+					"options": {
+						"A": {
+							"text": "Approve the discount this once; the job is large and the margin works. The advisor showed initiative, and the manager will understand big jobs need owner flexibility.",
+							"value": 150
+						},
+						"B": {
+							"text": "Send the advisor back to the sales manager; do not rule on it yourself. Tell the manager privately you backed his call and learn his reasoning. An overruled manager loses his team.",
+							"value": 500
+						},
+						"C": {
+							"text": "Approve the discount and tell the advisor to skip the manager next time. Faster decisions close more deals. Cut the bottleneck out; let closers run straight to yes.",
+							"value": 0
+						}
+					},
+					"correct": "B",
+					"host_note": "Principle: Delegate, Don't Abdicate. Why it wins: backing the manager's call while learning his reasoning develops the leader instead of bypassing him. What good discussion sounds like: players admit the discount is tempting and fast, then count what an overruled manager costs over the next year of decisions nobody brings to him. What the wrong answers cost: A (150) teaches every advisor to appeal over the manager's head; C ($0) formally demolishes the chain of command for one deal.",
+					"card_code": "BE-SA-31"
+				},
+				{
+					"n": 32,
+					"title": "Cheaper Down the Street",
+					"scenario": "A homeowner shows your advisor a competitor quote that is $2,200 lower for what looks like the same equipment. She asks why she should pay more. Your advisor knows the competitor skips permits and uses smaller crews.",
+					"options": {
+						"A": {
+							"text": "Warn her the cheaper bid likely means skipped permits and rushed labor, and she will pay the difference later in repairs. Customers need the blunt truth about low bidders.",
+							"value": 150
+						},
+						"B": {
+							"text": "Match the price and protect the margin with your fastest crew and trimmed commissioning. Winning matters most; volume covers the thin margin, and she will see the quality.",
+							"value": 150
+						},
+						"C": {
+							"text": "Compare both proposals side by side without attacking anyone. Show the permit, load calculation, crew size, and warranty, and what each one protects. Then let her decide.",
+							"value": 500
+						}
+					},
+					"correct": "C",
+					"host_note": "Principle: Selling Is Helping. Why it wins: a calm side-by-side on scope lets the customer see what the $2,200 buys instead of hearing an attack on the competitor. What good discussion sounds like: players notice A feels honest but actually trashes the rival, while C informs without insulting. What the wrong answers cost: A (150) makes you the mudslinger; B (150) guts your own quality to win on price.",
+					"card_code": "BE-SA-32"
+				},
+				{
+					"n": 33,
+					"title": "The Driveway Upsell",
+					"scenario": "Your advisor is taught to offer indoor air quality add-ons at every visit. Lately she pushes them hard, and two customers complained the visit felt like a timeshare pitch. Her attach rate is up; trust is down.",
+					"options": {
+						"A": {
+							"text": "Coach her to earn the add-on talk. The offer follows a real finding, dust or allergies, backed by test results. A recommendation rooted in findings beats a pitch at every door.",
+							"value": 500
+						},
+						"B": {
+							"text": "Keep pushing; two complaints are just venting. Air quality carries the best margins, and backing off costs thousands a year. The numbers justify the pressure.",
+							"value": 0
+						},
+						"C": {
+							"text": "Pull her off add-ons for a month. Straight sales rebuild trust, the complaints stop, and she can reintroduce the products later with a lighter touch. Distance restores perspective.",
+							"value": 150
+						}
+					},
+					"correct": "A",
+					"host_note": "Principle: Love Is the Greatest Leadership Tool. Why it wins: coaching her to connect the offer to a real finding leaves her bigger and more skilled, while protecting customers from pressure. What good discussion sounds like: players notice B treats the advisor like a vending machine and the customer like a wallet, while A develops both. What the wrong answers cost: B ($0) burns trust for margin; C (150) benches a producer instead of coaching her.",
+					"card_code": "BE-SA-33"
+				},
+				{
+					"n": 34,
+					"title": "The Blame the Leads Habit",
+					"scenario": "Two advisors keep saying the appointment center sends weak leads. The center says the advisors do not work them. Unsold estimates are piling up and nobody owns the follow-up anymore.",
+					"options": {
+						"A": {
+							"text": "Side with the advisors and demand better-qualified leads. Tighter qualification means fewer wasted trips and higher morale. Quality in, quality out.",
+							"value": 150
+						},
+						"B": {
+							"text": "End the debate with shared numbers. Track every lead from booking to outcome in one visible report by advisor and source. Review it weekly together. Same facts end finger-pointing.",
+							"value": 500
+						},
+						"C": {
+							"text": "Let it play out. Departments grumble and both sides have a point. Stepping in makes you the referee in every future dispute. Pick your battles; grumbling usually fades on its own.",
+							"value": 0
+						}
+					},
+					"correct": "B",
+					"host_note": "Principle: Define Reality First. Why it wins: one shared report replaces two competing stories with facts, and the weekly review keeps it honest. What good discussion sounds like: players recognize this exact fight from their own companies and admit the data usually indicts follow-up, not lead quality. What the wrong answers cost: A (150) picks a winner in a fight where both sides are half right; C (0) renames avoidance as wisdom while the estimate pile grows.",
+					"card_code": "BE-SA-34"
+				},
+				{
+					"n": 35,
+					"title": "The Sales-Caused Callback",
+					"scenario": "An advisor promised a customer the new system would cut her electric bill in half. It dropped 15 percent. She is furious and demanding a refund. The advisor says production must have installed it wrong.",
+					"options": {
+						"A": {
+							"text": "Send production back to recommission the system. It might squeeze out more savings, shows you take her seriously, and buys time for tempers to cool. Action calms anger.",
+							"value": 150
+						},
+						"B": {
+							"text": "Back the advisor publicly and blame the install. Pressure production to find something, anything, to fix. Unity in front of the customer matters most.",
+							"value": 0
+						},
+						"C": {
+							"text": "Stand with the facts and the customer. Show the advisor privately where he overpromised. Face the customer, acknowledge it, make it right. Never blame production.",
+							"value": 500
+						}
+					},
+					"correct": "C",
+					"host_note": "Principle: Give Away the Credit, Take the Blame. Why it wins: the manager absorbs the failure publicly, corrects the advisor privately, and fixes the claim standard going forward. What good discussion sounds like: players feel how easy B is in the moment, then see it sacrifices the install crew's trust to protect one bad promise. What the wrong answers cost: A (150) treats a sales lie as a technical problem; B ($0) frames an innocent crew to save face.",
+					"card_code": "BE-SA-35"
+				},
+				{
+					"n": 36,
+					"title": "The Verbal Promise",
+					"scenario": "At the kitchen table, your advisor verbally promises the customer that the crew will haul away the old bushes by the condenser. It never makes the proposal. Install day arrives and the bushes are still there.",
+					"options": {
+						"A": {
+							"text": "Clear the bushes today, even if someone goes back out. Coach the advisor: verbal promises outside the proposal are dangerous. If promised at the table, write it down.",
+							"value": 500
+						},
+						"B": {
+							"text": "Have the crew clear the bushes on the spot as goodwill. Twenty minutes, and the customer remembers the extra effort. The advisor learns to watch his promises.",
+							"value": 150
+						},
+						"C": {
+							"text": "Landscaping was never in scope, so the company owes nothing. Offer to clear the bushes for a fee. The contract is the contract; blurring it invites free extras forever.",
+							"value": 0
+						}
+					},
+					"correct": "A",
+					"host_note": "Principle: Expectations Before Accountability. Why it wins: fixing the bushes today plus retraining the promise habit serves both the customer and the advisor's future. What good discussion sounds like: players see the advisor meant well, which is exactly why the system has to catch it: good intentions without paperwork still break trust. What the wrong answers cost: B (150) fixes the symptom and skips the coaching; C ($0) hides behind the contract after the company's own words created the expectation.",
+					"card_code": "BE-SA-36"
+				},
+				{
+					"n": 37,
+					"title": "The Referral That Needs Nothing",
+					"scenario": "A past customer refers his neighbor, Mr. Okafor. Your advisor runs the full inspection and finds a three-year-old system running clean, with a simple clogged condensate line. The advisor could easily sell a maintenance plan and a duct cleaning.",
+					"options": {
+						"A": {
+							"text": "Sell the plan and the duct cleaning. Both are legitimate, the plan locks in the relationship, and the photos justify the cleaning. A referral visit should still produce revenue.",
+							"value": 150
+						},
+						"B": {
+							"text": "Clear the line free as goodwill, then enroll him in the maintenance plan. The free fix builds trust and the plan creates recurring revenue. Everybody wins on this visit.",
+							"value": 150
+						},
+						"C": {
+							"text": "Clear the line, show the clean readings, and say plainly he needs nothing today. Thank him for the referral trust. Leave your card with no pitch; this kind of honesty travels fast.",
+							"value": 500
+						}
+					},
+					"correct": "C",
+					"host_note": "Principle: Do Right When It Costs You. Why it wins: telling a referred neighbor he needs nothing protects the referrer's name, which is worth more than any single ticket. What good discussion sounds like: players feel the pain of a zero-revenue visit, then realize the referral stream is the actual asset being protected. What the wrong answers cost: A (150) monetizes trust the referrer lent you; B (150) spends the goodwill with a plan pitch right after the free fix.",
+					"card_code": "BE-SA-37"
+				},
+				{
+					"n": 38,
+					"title": "The Slow Season Stall",
+					"scenario": "October arrives and new appointments thin out. Your advisors sit idle between calls while a file of 400 unsold estimates from the past year gathers dust in the office, still untouched.",
+					"options": {
+						"A": {
+							"text": "Cut advisors to part time until spring. Payroll is the biggest cost, and a full team through a slow season burns cash needed later. Cash saved now funds the spring hiring push.",
+							"value": 150
+						},
+						"B": {
+							"text": "Work the unsold estimate file: segment by age and job size, rewrite the script around what changed, and set daily targets with results posted. It is prepaid pipeline.",
+							"value": 500
+						},
+						"C": {
+							"text": "Do nothing special. Slow seasons are normal and the team recharges for spring. Forcing activity in a dead market trains customers to expect deals and burns out advisors.",
+							"value": 0
+						}
+					},
+					"correct": "B",
+					"host_note": "Principle: Cash Is Life. Why it wins: the unsold estimate file is prepaid pipeline, and a segmented, measured follow-up plan turns idle payroll into revenue. What good discussion sounds like: players do the math on 400 estimates at even a 10 percent close rate and realize the slow season was never actually slow. What the wrong answers cost: A (150) sheds trained closers you will rehire at a premium in spring; C (0) confuses a seasonal dip with a vacation.",
+					"card_code": "BE-SA-38"
+				},
+				{
+					"n": 39,
+					"title": "The Complaint Nobody Logged",
+					"scenario": "A customer calls the office to say your advisor was rude and dismissive in her home. The office manager, not wanting drama, deletes the message and tells no one. You hear about it from the customer herself a week later.",
+					"options": {
+						"A": {
+							"text": "Call the customer yourself, hear the full story, and hear the advisor's side. Tell the office manager: deleting a complaint is never her call. Every complaint gets logged.",
+							"value": 500
+						},
+						"B": {
+							"text": "Say it is hard to verify after a week and offer a service credit to close it out. Warn the office manager to forward complaints next time. A quick credit keeps the phones quiet.",
+							"value": 0
+						},
+						"C": {
+							"text": "Log the complaint, note the deletion in the manager's file, and move on. The process fix matters more than one visit. The advisor gets the benefit of the doubt; systems over drama.",
+							"value": 150
+						}
+					},
+					"correct": "A",
+					"host_note": "Principle: Safe to Speak. Why it wins: hearing the customer, hearing the advisor's side, and making complaint-burying unacceptable keeps truth flowing. What good discussion sounds like: players see the office manager meant to keep the peace, and realize peace kept by deletion is a delayed explosion. What the wrong answers cost: B ($0) pays hush money and teaches customers that complaining loudly works; C (150) files paperwork while the customer still feels unheard.",
+					"card_code": "BE-SA-39"
+				},
+				{
+					"n": 40,
+					"title": "The Rebate Shortcut",
+					"scenario": "A customer asks your advisor to date the install paperwork a week earlier so the job qualifies for a utility rebate that just expired. It is a small lie, nobody checks, and the customer promises a five-star review.",
+					"options": {
+						"A": {
+							"text": "Adjust the date. The rebate is real money, nobody will audit one residential job, and the goodwill plus the review outweigh a paperwork technicality. Keep him happy and move on.",
+							"value": 150
+						},
+						"B": {
+							"text": "Refuse clearly and kindly: no false dates on company documents, ever. Offer to help with current rebates and write the utility for an exception. Honest paperwork beats one review.",
+							"value": 500
+						},
+						"C": {
+							"text": "Give a company credit equal to the lost rebate as a goodwill gesture from the job margin. He gets the money he expected, the paperwork stays honest, and nobody bends the truth.",
+							"value": 150
+						}
+					},
+					"correct": "B",
+					"host_note": "Principle: How We Do Anything Is How We Do Everything. Why it wins: a false date on a company document is fraud, however small, and the letter to the utility keeps you an advocate without lying. What good discussion sounds like: players test whether C is really different from A, and realize generosity still spends margin to avoid an honest conversation. What the wrong answers cost: A (150) puts the company's name on a false record; C (150) spends margin to dodge a two-minute honest talk.",
+					"card_code": "BE-SA-40"
+				}
+			]
+		},
+		{
+			"deck": "Production",
+			"cards": [
+				{
+					"n": 1,
+					"title": "The Supplier Price Hike",
+					"scenario": "Your main supplier raises prices fifteen percent across the board, effective immediately. Your quoted jobs for the next month were priced on the old costs. The increase wipes out the margin on six scheduled installs if you absorb it.",
+					"options": {
+						"A": {
+							"text": "Absorb the increase quietly and say nothing to customers or crew. Honor every quoted price exactly and eat the lost margin.",
+							"value": 0
+						},
+						"B": {
+							"text": "Switch to a cheaper supplier for next month's jobs to recover the margin. Tell customers nothing changes.",
+							"value": 150
+						},
+						"C": {
+							"text": "Honor every signed quote at the old price; your word on paper is your word. Re-price future quotes on the new costs today.",
+							"value": 500
+						}
+					},
+					"correct": "C",
+					"host_note": "Principle: Never Price Before Value. Why C wins: signed quotes are honored, future pricing reflects real costs, and the supplier gets renegotiated instead of silently dictating margins. What good discussion sounds like: how to value-engineer a quoted job honestly, and what volume commitments are actually worth. What the wrong answers cost: B (+150): the cheaper supplier gambles six installs on untested equipment; A ($0): absorbing silently bleeds margin with no plan to stop it.",
+					"card_code": "BE-PR-01"
+				},
+				{
+					"n": 2,
+					"title": "The Snowstorm Callout",
+					"scenario": "A snowstorm hits overnight and half your crew cannot reach the shop. Phones ring with no-heat calls, including several elderly customers. Roads are bad but passable, and the techs who made it in are willing to work.",
+					"options": {
+						"A": {
+							"text": "Triage by risk: elderly and medical no-heat calls first. Offer double-time to the techs who made it in.",
+							"value": 500
+						},
+						"B": {
+							"text": "Run a skeleton crew on no-heat calls only today. Tell every other caller you will reach them tomorrow.",
+							"value": 150
+						},
+						"C": {
+							"text": "Close the shop and put an emergency message on the phones referring callers elsewhere. Tell the crew to stay home today.",
+							"value": 0
+						}
+					},
+					"correct": "A",
+					"host_note": "Principle: Keep Customers for Life. Why A wins: it sorts by human risk, rewards the crew that showed up, borrows trusted capacity, and tells every caller the truth. What good discussion sounds like: which partner shops you actually trust, and how to triage without playing favorites. What the wrong answers cost: B (+150): the skeleton crew abandons every routine caller to silence; C ($0): closing the doors leaves customers with no heat and a long memory.",
+					"card_code": "BE-PR-02"
+				},
+				{
+					"n": 3,
+					"title": "The Rainy Week Backlog",
+					"scenario": "Rain is forecast for six straight days. Outdoor work is piling up: three condenser changeouts, two line-set runs, a trench for a new service. Indoor crews are light. Customers with dead systems are calling daily, and the schedule is slipping.",
+					"options": {
+						"A": {
+							"text": "Work through the rain with pop-up canopies over the work areas. Keep the original schedule and tell customers you push through.",
+							"value": 150
+						},
+						"B": {
+							"text": "Pull indoor jobs forward; push changeouts to the first dry day. Call each outdoor customer tonight with a firm date.",
+							"value": 500
+						},
+						"C": {
+							"text": "Keep the schedule as booked and let crews decide day by day. Tell customers you are monitoring the weather.",
+							"value": 0
+						}
+					},
+					"correct": "B",
+					"host_note": "Principle: Created Twice. Why B wins: the week gets planned before it happens, indoor work fills the rain days, and outdoor customers get honest dates instead of daily maybes. What good discussion sounds like: how far ahead to re-sequence, and what to tell a customer with a dead system who cannot wait for dry weather. What the wrong answers cost: A (+150): working through the rain risks quality and safety for the schedule; C (+0): letting crews decide day by day leaves every customer waking up wondering if today is the day.",
+					"card_code": "BE-PR-03"
+				},
+				{
+					"n": 4,
+					"title": "The Tech Who Wants More",
+					"scenario": "Jordan, your best young tech, wants to train new hires and eventually run a crew. He is great with customers but has never led anyone. Your current lead tech is protective of his role and has told Jordan to stay in his lane.",
+					"options": {
+						"A": {
+							"text": "Promote Jordan to lead tech of a second crew immediately, splitting the work. Give him the title and the raise now.",
+							"value": 150
+						},
+						"B": {
+							"text": "Thank Jordan for his ambition and say you will keep it in mind going forward. Change nothing for now.",
+							"value": 0
+						},
+						"C": {
+							"text": "Make Jordan a training buddy for new hires, with a pay bump tied to their retention and callbacks. Define his responsibilities clearly.",
+							"value": 500
+						}
+					},
+					"correct": "C",
+					"host_note": "Principle: Why Power. Why C wins: it gives Jordan's ambition something real to attach to, a defined role, measurable outcomes, and a path, while turning the lead tech from gatekeeper into builder. What good discussion sounds like: what a training buddy should actually be measured on, and how to tell a protective lead tech his job includes building his replacement. What the wrong answers cost: A (+150): the immediate promotion hands leadership to someone who has never led; B (+0): the empty promise parks ambition until it quits.",
+					"card_code": "BE-PR-04"
+				},
+				{
+					"n": 5,
+					"title": "The Vanishing Tools",
+					"scenario": "Small tools keep disappearing: multimeters, manifolds, tubing cutters. Each tech blames the shared shop stock, and you spent $2,000 this quarter replacing tools bought last year. The crew is starting to hoard tools in personal vans.",
+					"options": {
+						"A": {
+							"text": "Run a locked tool crib with a daily sign-out sheet. Techs check tools out each morning and back in each night.",
+							"value": 150
+						},
+						"B": {
+							"text": "Give every tech a personal kit with a signed sheet, and audit vans weekly. Replacements come from each tech's own tool budget.",
+							"value": 500
+						},
+						"C": {
+							"text": "Send a memo that repeated tool losses will be deducted from paychecks. Change nothing else about tool handling.",
+							"value": 0
+						}
+					},
+					"correct": "B",
+					"host_note": "Principle: Pay for What You Want Repeated. Why B wins: it makes ownership personal and visible, with a budget consequence tied to the behavior and a weekly check that keeps it honest. What good discussion sounds like: whether techs should pay for lost tools, and how big a personal tool budget should be. What the wrong answers cost: A (+150): the tool crib builds a daily bureaucracy that wastes crew time; C (+0): the memo threatens without changing anything.",
+					"card_code": "BE-PR-05"
+				},
+				{
+					"n": 6,
+					"title": "The Unsigned Inspection",
+					"scenario": "A longtime customer asks you to sign the final inspection card for a panel upgrade your crew finished while you were on vacation. You did not see the finished work. He needs the signed card tomorrow for his home sale closing, and says everything passed already.",
+					"options": {
+						"A": {
+							"text": "Sign the card. Your crew does good work, the customer says it passed, and his closing depends on it.",
+							"value": 0
+						},
+						"B": {
+							"text": "Sign the card but note the inspection was done by your crew in your absence. The customer gets his closing document today.",
+							"value": 150
+						},
+						"C": {
+							"text": "Refuse to sign, plainly and kindly. Your signature means you verified the work; offer to inspect it yourself tomorrow.",
+							"value": 500
+						}
+					},
+					"correct": "C",
+					"host_note": "Principle: The Elongated Shadow. Why C wins: your signature is your shadow; it means you verified the work, so you refuse kindly, inspect it yourself, and own the delay. What good discussion sounds like: how to tell a longtime customer no without damaging the relationship, and what your sign-off process should require. What the wrong answers cost: B (+150): signing with a footnote signs a lie with an asterisk; A ($0): signing blind trades your name for a closing date.",
+					"card_code": "BE-PR-06"
+				},
+				{
+					"n": 7,
+					"title": "The Tablet Holdout",
+					"scenario": "Ray has twenty years in the trade and a loyal customer following. He refuses the new digital job checklist on the tablet, calling it a toy. His paperwork returns on paper and the office re-enters everything. Younger techs are asking why they must use it if Ray does not.",
+					"options": {
+						"A": {
+							"text": "Ask Ray privately what frustrates him about the tablet. Pair him with a younger tech to learn it on real jobs.",
+							"value": 500
+						},
+						"B": {
+							"text": "Issue a written policy: every tech uses the tablet starting Monday, with warnings for refusal. No one is above the standard.",
+							"value": 150
+						},
+						"C": {
+							"text": "Move Ray to repeat customers where the office preloads job details. His paper forms stay easy to process.",
+							"value": 150
+						}
+					},
+					"correct": "A",
+					"host_note": "Principle: Expectations Before Accountability. Why A wins: it sets one clear standard for everyone while respecting Ray's experience, and converts the holdout into an owner of the system. What good discussion sounds like: how to hold a veteran accountable without humiliating him, and whether exceptions for top performers ever stay contained. What the wrong answers cost: B (+150): the mandate with warnings gets compliance through threats and loses his goodwill; C (+150): the special track builds a two-tier system the young techs will rightly resent.",
+					"card_code": "BE-PR-07"
+				},
+				{
+					"n": 8,
+					"title": "The Rude Tech Complaint",
+					"scenario": "A customer calls, furious: your tech Chris was dismissive and rude when she asked questions about her repair options. Chris says she asked the same question a third time and he was behind schedule. She wants an apology and says she will never use your company again.",
+					"options": {
+						"A": {
+							"text": "Apologize to the customer and offer a discount on the repair. Tell Chris to watch his tone in a quick chat.",
+							"value": 150
+						},
+						"B": {
+							"text": "Listen fully without defending Chris, and apologize sincerely. Coach Chris privately on resetting mid-call, then follow up with her.",
+							"value": 500
+						},
+						"C": {
+							"text": "Back Chris fully: explain he was under schedule pressure and his technical work was correct. Offer a different tech for future visits.",
+							"value": 0
+						}
+					},
+					"correct": "B",
+					"host_note": "Principle: Make Me Feel Important. Why B wins: the customer is heard fully before anyone defends the tech, the apology is real, and Chris gets coaching on the actual moment instead of a hallway scolding. What good discussion sounds like: how to coach tone without making a tech walk on eggshells, and what a mid-call reset sounds like. What the wrong answers cost: A (+150): the hallway chat and discount close the complaint but teach Chris nothing; C (+0): backing Chris fully tells the customer her feelings were wrong.",
+					"card_code": "BE-PR-08"
+				},
+				{
+					"n": 9,
+					"title": "The Flooded Laundry Room",
+					"scenario": "Luis, a second-year trainee on his first solo service call, cross-threaded a washing machine supply valve and flooded a laundry room. The customer is upset, the water is stopped, and the damage is minor. Luis waits in the truck, convinced he is about to be fired.",
+					"options": {
+						"A": {
+							"text": "Return with Luis and own the mistake together, making it right at company cost. Debrief at the shop on what he missed.",
+							"value": 500
+						},
+						"B": {
+							"text": "Send Luis home and have a senior tech finish the call. Tell him tomorrow whether he still has a job.",
+							"value": 150
+						},
+						"C": {
+							"text": "Finish the repair yourself and quietly cover the damage. Tell Luis it happens to everyone and skip the debrief.",
+							"value": 150
+						}
+					},
+					"correct": "A",
+					"host_note": "Principle: Train or Remove. Why A wins: it treats the mistake as a training event, not a character verdict, and Luis owns it with support, learns the skill gap, and keeps developing under a clear guardrail. What good discussion sounds like: the difference between accountability and fear, and what check-in rules actually prevent repeat mistakes. What the wrong answers cost: B (+150): sending him home to wait teaches him that mistakes end careers; C (+150): skipping the debrief means the lesson never lands.",
+					"card_code": "BE-PR-09"
+				},
+				{
+					"n": 10,
+					"title": "The Tech's Side Jobs",
+					"scenario": "You learn Dan, a good tech, has been doing side jobs on weekends using the company van and your customer list. Two of those customers called your office asking about warranty on Dan's side work. He says he needs the money and everyone does it.",
+					"options": {
+						"A": {
+							"text": "Tell Dan to keep his side jobs quiet and stop using the company van, but otherwise leave him alone for now.",
+							"value": 0
+						},
+						"B": {
+							"text": "Get the full picture from Dan on whose van and materials he used. Draw the line: no company resources for side work.",
+							"value": 500
+						},
+						"C": {
+							"text": "Put Dan on a final written warning banning side work with company resources, with termination next. Handle the warranty calls yourself.",
+							"value": 150
+						}
+					},
+					"correct": "B",
+					"host_note": "Principle: Expectations Before Accountability. Why B wins: the line is absolute and specific, the warranty mess comes home to be fixed, and Dan's financial pressure gets addressed as a human problem with a real path. What good discussion sounds like: where the line on side work should sit, and how to talk money with a tech without it becoming a shakedown. What the wrong answers cost: C (+150): the final warning documents the boundary but ignores why he crossed it; A ($0): blessing quiet side work trades your customers for his weekends.",
+					"card_code": "BE-PR-10"
+				},
+				{
+					"n": 11,
+					"title": "The Scratched Floor",
+					"scenario": "After a two-day boiler install, the customer refuses to pay the final $3,000, pointing to a scratch in his hardwood floor where the old unit was dragged out. Your crew swears they used drop cloths. The scratch is real, and a floor guy quoted $400 to fix it.",
+					"options": {
+						"A": {
+							"text": "Hold firm on full payment, calling the scratch wear and tear. Send the invoice to collections after thirty days.",
+							"value": 150
+						},
+						"B": {
+							"text": "Waive the final $3,000 to keep the peace and move on. He gets a free finish, the crew avoids a fight, and the review risk disappears.",
+							"value": 0
+						},
+						"C": {
+							"text": "Fix the scratch this week at your cost, then collect final payment in full. Add floor protection to your checklist.",
+							"value": 500
+						}
+					},
+					"correct": "C",
+					"host_note": "Principle: Wow! Is the Standard. Why C wins: it fixes the actual damage fast, collects what is owed with a signed walkthrough, and turns the incident into a checklist improvement. What good discussion sounds like: when to eat a cost versus when to hold the line, and what the completion walkthrough should cover. What the wrong answers cost: A (+150): holding firm fights over $400 while risking $3,000 and a review; B ($0): waiving the final payment gives away three thousand dollars to avoid a conversation.",
+					"card_code": "BE-PR-11"
+				},
+				{
+					"n": 12,
+					"title": "The Hidden Knob and Tube",
+					"scenario": "During a panel upgrade, your electrician finds old knob-and-tube wiring feeding two bedrooms. The customer says to ignore it, finish the panel, and tell no one. He will pay cash for the panel today. The wiring is a known fire risk.",
+					"options": {
+						"A": {
+							"text": "Stop work and document the wiring. You cannot leave a known fire risk; quote making it safe before the panel goes on.",
+							"value": 500
+						},
+						"B": {
+							"text": "Refuse to continue until he agrees to a full rewire. You cannot energize a new panel on dangerous wiring.",
+							"value": 150
+						},
+						"C": {
+							"text": "Finish the panel, then quote the knob-and-tube replacement for next month. Mention the fire risk briefly to him.",
+							"value": 0
+						}
+					},
+					"correct": "A",
+					"host_note": "Principle: Do Right When It Costs You. Why A wins: it refuses to energize a known fire risk, documents everything, gives the customer a real path forward, and puts the disclosure in writing. What good discussion sounds like: whether the written acknowledgment is enough protection, and how to have the conversation without accusing the customer. What the wrong answers cost: B (+150): the ultimatum likely sends him to a cheaper contractor; C (+0): the quote-next-month option treats a fire risk as a sales opportunity.",
+					"card_code": "BE-PR-12"
+				},
+				{
+					"n": 13,
+					"title": "The Saturday Grumble",
+					"scenario": "Your crew is grumbling about Saturday rotations: the same three techs seem to draw every busy Saturday, and one says his kid's games are always on Saturdays. Morale is dipping and two techs have mentioned looking at other shops.",
+					"options": {
+						"A": {
+							"text": "Make Saturdays mandatory for everyone on a strict rotation with no swaps and no exceptions. Publish the full quarter so all can plan.",
+							"value": 150
+						},
+						"B": {
+							"text": "Rebuild the rotation with the crew: equal turns, a clear swap policy, and no forced back-to-back Saturdays. Honor hard conflicts.",
+							"value": 500
+						},
+						"C": {
+							"text": "Tell the crew Saturdays are part of the trade; the rotation stays. Remind them the busy season ends soon.",
+							"value": 0
+						}
+					},
+					"correct": "B",
+					"host_note": "Principle: Culture Is When the Boss Leaves. Why B wins: the crew builds the rotation, so the crew defends it, with real conflicts honored, clear rules, and the leader holding the line. What good discussion sounds like: which conflicts are truly hard, and how strict the no-back-to-back rule should be. What the wrong answers cost: A (+150): the mandatory rotation imposes fairness without buy-in; C (+0): leaving it as-is tells good techs their lives do not matter until fall.",
+					"card_code": "BE-PR-13"
+				},
+				{
+					"n": 14,
+					"title": "The Gas Leak Discovery",
+					"scenario": "During a water heater swap, your tech finds an active gas leak at the old shutoff valve; you can hear it hissing. The customer says the house has smelled like gas for weeks and asks if you can just tighten the fitting and finish the install. It is 4 p.m. on a Friday.",
+					"options": {
+						"A": {
+							"text": "Shut gas off at the meter, tag the valve, and reschedule for Monday. Tell the customer to call the utility if worried.",
+							"value": 150
+						},
+						"B": {
+							"text": "Tighten the fitting and finish the heater. Tell the customer to call the gas company if the smell returns.",
+							"value": 0
+						},
+						"C": {
+							"text": "Stop work. Evacuate the house, shut gas off at the meter, and call the utility emergency line from outside.",
+							"value": 500
+						}
+					},
+					"correct": "C",
+					"host_note": "Principle: Define Reality First. Why C wins: it sees the situation exactly, an active gas leak, and acts on what it is, not on what the schedule wishes it were. What good discussion sounds like: what your techs should do in the first sixty seconds of finding a leak, and how to explain the delay to an unhappy customer. What the wrong answers cost: A (+150): shutting off and leaving her to call the utility alone abandons a scared customer; B ($0): tightening the fitting and finishing gambles a house on a Friday shortcut.",
+					"card_code": "BE-PR-14"
+				},
+				{
+					"n": 15,
+					"title": "The Failed Vent Run",
+					"scenario": "The city inspector failed a furnace install: the vent run has too many elbows and the slope is wrong. The job passed rough-in six months ago under a different inspector. The homeowner is embarrassed and asking whether your company does shoddy work.",
+					"options": {
+						"A": {
+							"text": "Tell the homeowner this is inspector opinion and the install is safe. Suggest requesting a different inspector for the re-check.",
+							"value": 150
+						},
+						"B": {
+							"text": "Call the homeowner today and own the correction, scheduling rework at your cost. Fix the slope and update the checklist.",
+							"value": 500
+						},
+						"C": {
+							"text": "Offer a maintenance discount as goodwill. Leave the vent run in place and add the detail to training.",
+							"value": 0
+						}
+					},
+					"correct": "B",
+					"host_note": "Principle: Problems Are Tests. Why B wins: it treats the failed inspection as a chance to get better, fixes the work at company cost, owns it to the customer, and updates the checklist so the lesson is permanent. What good discussion sounds like: when to fight an inspector's call versus when to fix it, and how to tell a customer their install needs rework without losing them. What the wrong answers cost: A (+150): blaming inspector opinion spends nothing and fixes nothing; C (+0): the goodwill discount papers over a defect that is still in the wall.",
+					"card_code": "BE-PR-15"
+				},
+				{
+					"n": 16,
+					"title": "The Feuding Techs",
+					"scenario": "Two of your best techs, Andre and Sam, are feuding over the on-call rotation. Andre says Sam trades away every holiday weekend. Sam says Andre cherry-picks the easy calls. It has spilled into the shop, and the other techs are taking sides.",
+					"options": {
+						"A": {
+							"text": "Bring Andre and Sam in together with the actual rotation data. Have them redesign the rules together for your approval.",
+							"value": 500
+						},
+						"B": {
+							"text": "Take over the rotation and publish a fixed schedule with no trades. Tell both techs the feud ends now.",
+							"value": 150
+						},
+						"C": {
+							"text": "Split coverage so Andre and Sam never overlap: alternate weekends, no trades. Tell each the other wanted this.",
+							"value": 150
+						}
+					},
+					"correct": "A",
+					"host_note": "Principle: Never Act on One Side of a Story. Why A wins: it replaces two competing stories with shared data, then gives both techs ownership of the fix. What good discussion sounds like: how to surface rotation data without it feeling like surveillance, and what fair trade limits look like. What the wrong answers cost: B (+150): the fixed schedule kills the flexibility the crew values; C (+150): separating them resolves nothing and makes resentment permanent.",
+					"card_code": "BE-PR-16"
+				},
+				{
+					"n": 17,
+					"title": "The Slipping Senior Tech",
+					"scenario": "Paul, your senior tech of eight years, has had three callbacks in a month. His work used to be flawless. He is quiet in the shop, skipping the morning huddle, and a helper mentioned his wife is dealing with a serious illness. His review is in two weeks.",
+					"options": {
+						"A": {
+							"text": "Put Paul on a formal improvement plan with callback targets and a thirty-day timeline. The standard is the standard.",
+							"value": 150
+						},
+						"B": {
+							"text": "Move Paul to easier maintenance calls until his numbers recover. Give his complex jobs to the other senior tech.",
+							"value": 150
+						},
+						"C": {
+							"text": "Ask Paul privately how he is and what support looks like now. Adjust his schedule and restate the quality bar kindly.",
+							"value": 500
+						}
+					},
+					"correct": "C",
+					"host_note": "Principle: Love Is the Greatest Leadership Tool. Why C wins: it treats the symptom as information, asks before judging, adjusts the load, and still names the standard. What good discussion sounds like: how to ask about a personal crisis without prying, and where support ends and accountability begins. What the wrong answers cost: A (+150): the immediate PIP punishes a man in crisis; B (+150): the easier calls hide the problem in maintenance work.",
+					"card_code": "BE-PR-17"
+				},
+				{
+					"n": 18,
+					"title": "The Licensing Board Complaint",
+					"scenario": "A customer filed a complaint against your company with the state licensing board over a failed rough-in inspection. The complaint exaggerates, but the failed inspection is real. Your office manager suggests calling the inspector, who is a friend, to make it go away quietly.",
+					"options": {
+						"A": {
+							"text": "Cooperate with the board: respond in writing, fix the rough-in past code, and document with photos. Own it with the customer.",
+							"value": 500
+						},
+						"B": {
+							"text": "Fix the rough-in now and ask the customer to withdraw the complaint. Offer a free year of maintenance.",
+							"value": 150
+						},
+						"C": {
+							"text": "Call the inspector, who owes you a favor from way back. A quiet word from him makes the complaint disappear.",
+							"value": 0
+						}
+					},
+					"correct": "A",
+					"host_note": "Principle: Do Right When It Costs You. Why A wins: it answers the board with facts, over-corrects the work, owns the failure to the customer, and kills the favor-trading suggestion outright. What good discussion sounds like: how to respond to an exaggerated complaint without sounding defensive, and how to tell your own office manager no. What the wrong answers cost: B (+150): buying the withdrawal with free maintenance dodges the formal answer; C ($0): calling the inspector friend trades a favor to bury a real failure.",
+					"card_code": "BE-PR-18"
+				},
+				{
+					"n": 19,
+					"title": "The Filthy Van",
+					"scenario": "A customer complains your tech's van looked like a dumpster: fast-food bags on the dash, parts rolling around, mud on the seats. Eddie is skilled and popular, but this is the third complaint about his van this year.",
+					"options": {
+						"A": {
+							"text": "Dock Eddie's bonus and put a formal warning in his file. The next complaint costs him his van privileges.",
+							"value": 0
+						},
+						"B": {
+							"text": "Issue a company-wide van cleanliness policy with weekly photo check-ins for every tech. Eddie is not singled out.",
+							"value": 150
+						},
+						"C": {
+							"text": "Talk to Eddie privately about what the customer saw. Set a Friday van-reset standard, and walk it with him yourself.",
+							"value": 500
+						}
+					},
+					"correct": "C",
+					"host_note": "Principle: The Experience Is Half the Product. Why C wins: the van is part of what the customer buys, and the fix builds the habit with Eddie instead of punishing him or hiding him, private, specific, and supported. What good discussion sounds like: whether a van standard should be written down, and how to coach a popular tech without embarrassing him. What the wrong answers cost: A ($0): the bonus-dock fines a good tech over a habit; B (+150): the company-wide photo policy builds bureaucracy for everyone because of one van.",
+					"card_code": "BE-PR-19"
+				},
+				{
+					"n": 20,
+					"title": "The Delayed Parts Run",
+					"scenario": "The warehouse is out of 40-gallon gas water heaters. A scheduled replacement is set for tomorrow morning and the customer took the day off work. The supplier has the unit an hour away, but will-call pickup takes ninety minutes. Your lead tech already has two service calls.",
+					"options": {
+						"A": {
+							"text": "Send your helper on a paid parts run while the lead keeps his calls. Slot the install for the afternoon.",
+							"value": 500
+						},
+						"B": {
+							"text": "Send the lead tech to the supplier first, then the install late morning. Push his two service calls to the afternoon.",
+							"value": 150
+						},
+						"C": {
+							"text": "Have the lead pick up the unit on his way in tomorrow. Shift his first service call to another tech.",
+							"value": 150
+						}
+					},
+					"correct": "A",
+					"host_note": "Principle: Systems, Not Heroes. Why A wins: it uses the cheapest available labor for the low-skill task, keeps every skilled tech on revenue work, and honors the customer's day off with a confirmed window. What good discussion sounds like: the real cost of pulling a lead tech off billable work for a parts run, and how to build a parts-runner system before the next stockout. What the wrong answers cost: B (+150): sending the lead burns his billable morning on driving; C (+150): shuffling the first call onto other techs moves the problem instead of solving it.",
+					"card_code": "BE-PR-20"
+				},
+				{
+					"n": 21,
+					"title": "The CO Alarm Call",
+					"scenario": "A customer calls at 7 a.m.: the carbon monoxide alarm went off last night in the home where your crew installed a furnace last winter. The family is scared. The fire department cleared the house but found no source. She wants answers today.",
+					"options": {
+						"A": {
+							"text": "Walk her through alarm troubleshooting on the phone: reset steps, placement, battery age. Dispatch a tech promptly if it trips again.",
+							"value": 150
+						},
+						"B": {
+							"text": "The fire department found nothing, so the furnace is fine. Offer a tech next week if she is still worried.",
+							"value": 0
+						},
+						"C": {
+							"text": "Send your senior tech to her home today, first call. Inspect what your crew touched and fix anything of yours free.",
+							"value": 500
+						}
+					},
+					"correct": "C",
+					"host_note": "Principle: Serve the Human, Not the House. Why C wins: a scared family gets same-day answers, everything your crew touched gets inspected, and anything of yours gets fixed free with plain-words reporting. What good discussion sounds like: what to say on the first call before the tech arrives, and how to report findings that clear you without sounding defensive. What the wrong answers cost: A (+150): phone triage troubleshoots a potential CO event from a desk; B ($0): blaming the alarm leaves a family afraid in their home for a week.",
+					"card_code": "BE-PR-21"
+				},
+				{
+					"n": 22,
+					"title": "The Rushed Weld",
+					"scenario": "Devon, your fastest installer, finished a furnace swap in four hours. The homeowner is happy and the unit runs fine. But his photos show rough, uneven brazed joints, the kind that fail in three winters. No callback has come in yet.",
+					"options": {
+						"A": {
+							"text": "Have a senior tech pressure-test every joint today. Re-braze suspects at company cost and supervise Devon until he passes.",
+							"value": 500
+						},
+						"B": {
+							"text": "Log the photos in Devon's file and schedule a recheck next month. Tell him you noticed and expect better.",
+							"value": 150
+						},
+						"C": {
+							"text": "Leave the install alone unless the customer calls. File the photos and raise joint quality generally at the next crew meeting.",
+							"value": 150
+						}
+					},
+					"correct": "A",
+					"host_note": "Principle: Brilliant on the Basics. Why A wins: it fixes the actual defect at company cost, protects the customer in writing, and coaches the installer privately with a clear standard and supervised reps. What good discussion sounds like: whether speed should ever outrank joint quality, and how to coach a fast tech without crushing him. What the wrong answers cost: B (+150): the recheck-next-month option gambles that rough joints hold; C (+150): doing nothing until a callback bets the winter on hope.",
+					"card_code": "BE-PR-22"
+				},
+				{
+					"n": 23,
+					"title": "The Dead Truck",
+					"scenario": "A tech's truck dies at 10 a.m. with a full day of calls ahead and a van loaded with parts for three jobs. The tow takes two hours, the shop is forty minutes away, and customers expect arrivals inside their windows.",
+					"options": {
+						"A": {
+							"text": "Rent a truck nearby and have the tech transfer his own parts and finish the day solo. Call all customers with a one-hour delay.",
+							"value": 150
+						},
+						"B": {
+							"text": "Send the helper with the spare van to transfer parts curbside. Reassign his third call and notify every customer.",
+							"value": 500
+						},
+						"C": {
+							"text": "Cancel his remaining calls and reschedule for tomorrow with an honest explanation. The tech handles the tow.",
+							"value": 0
+						}
+					},
+					"correct": "B",
+					"host_note": "Principle: Delegate, Don't Abdicate. Why B wins: it deputizes the helper and the nearby tech with clear tasks instead of watching one truck sink the whole day, and every customer gets a real window. What good discussion sounds like: what your curbside-transfer plan should be before the next breakdown, and whether you actually have a usable spare van. What the wrong answers cost: A (+150): the rental-truck option pays rental money to keep a solo hero running; C (+0): cancelling surrenders a full day of revenue to one dead truck.",
+					"card_code": "BE-PR-23"
+				},
+				{
+					"n": 24,
+					"title": "The Side-Job Shortcut",
+					"scenario": "A homeowner asks you to replace his condenser off the books: cash, no permit, no inspection, twenty percent off your normal price. He says his neighbor did the same and it was fine. Easy money on a Saturday, and nobody at the shop would ever know.",
+					"options": {
+						"A": {
+							"text": "Decline clearly and quote the real price with the permit included. Explain unpermitted work voids the warranty and leaves him unprotected.",
+							"value": 500
+						},
+						"B": {
+							"text": "Take the job at your normal standard but pull no permit. Do the work Saturday morning before scheduled calls.",
+							"value": 150
+						},
+						"C": {
+							"text": "Refer the homeowner to a tech on your crew who does side work. Tell him you cannot do it off the books.",
+							"value": 150
+						}
+					},
+					"correct": "A",
+					"host_note": "Principle: Do Right When It Costs You. Why A wins: it refuses cleanly, explains the real stakes to the customer, warranty and liability, and offers the legitimate path. What good discussion sounds like: whether a permit is really worth losing a Saturday of cash, and what happens the first time an unpermitted job fails. What the wrong answers cost: B (+150): taking the cash job puts your license in a Saturday secret; C (+150): referring it to your tech puts the risk on his hands and your name nearby.",
+					"card_code": "BE-PR-24"
+				},
+				{
+					"n": 25,
+					"title": "The Drinking Suspicion",
+					"scenario": "Two techs tell you privately they smelled alcohol on Miguel's breath on a morning job. Miguel is a strong tech going through a divorce. No customer has complained, and you have not seen it yourself. Company policy is zero tolerance.",
+					"options": {
+						"A": {
+							"text": "Suspend Miguel pending investigation. Policy is policy, and the crew must see it enforced today. He returns when it is resolved.",
+							"value": 150
+						},
+						"B": {
+							"text": "Keep Miguel on interior jobs away from customers, and have the techs watch him quietly. His work is still good.",
+							"value": 0
+						},
+						"C": {
+							"text": "Talk to Miguel privately about the report. Require a fitness check, offer support, and keep him off driving until resolved.",
+							"value": 500
+						}
+					},
+					"correct": "C",
+					"host_note": "Principle: Never Act on One Side of a Story. Why C wins: it refuses to punish on hearsay, verifies through the proper fitness check, holds the zero-tolerance line, and treats Miguel as a person in crisis. What good discussion sounds like: what a fitness-for-duty check actually involves, and how to reassign driving duties without it feeling like punishment. What the wrong answers cost: A (+150): suspending him punishes a man on unconfirmed reports; B ($0): hiding him on interior jobs buries a potential safety risk out of sight.",
+					"card_code": "BE-PR-25"
+				},
+				{
+					"n": 26,
+					"title": "The Overloaded Friday",
+					"scenario": "It is Thursday night and Friday is overbooked: six jobs, four techs, two full-day installs. The dispatcher wants to squeeze everything in. You know a jammed Friday means rushed work, late arrivals, and callbacks on Monday.",
+					"options": {
+						"A": {
+							"text": "Reschedule the lowest-urgency call to Saturday with the customer's agreement. Offer Saturday at time-and-a-half to one volunteer.",
+							"value": 500
+						},
+						"B": {
+							"text": "Keep all six jobs and ask for a big Friday push. Promise Monday morning off and stagger the start times.",
+							"value": 150
+						},
+						"C": {
+							"text": "Move the two installs to Monday and keep the four Friday service calls. Call the install customers tonight with a sincere apology.",
+							"value": 150
+						}
+					},
+					"correct": "A",
+					"host_note": "Principle: Handle It While It's Small. Why A wins: it fixes the overload Thursday night instead of paying for it in Monday callbacks, protects the high-value installs, and serves every customer within a day with honest windows. What good discussion sounds like: the true cost of a jammed Friday, and how to say no to the dispatcher's squeeze without losing revenue. What the wrong answers cost: B (+150): the all-out Friday bets the week's quality on crew heroics; C (+150): moving the installs to Monday delays big-ticket revenue three days.",
+					"card_code": "BE-PR-26"
+				},
+				{
+					"n": 27,
+					"title": "The Neighbor's Gas Line",
+					"scenario": "A good customer asks you to certify the gas line his neighbor installed himself over the weekend. He says it looks fine and just needs a professional's sign-off for the insurance company. He offers $200 cash for five minutes of your time.",
+					"options": {
+						"A": {
+							"text": "Decline the sign-off but offer a full paid inspection with a written report. He gets a legitimate path forward.",
+							"value": 150
+						},
+						"B": {
+							"text": "Refuse outright: your signature on another's gas work makes you responsible. Offer a proper inspection at your rate, or nothing.",
+							"value": 500
+						},
+						"C": {
+							"text": "Stop by and give the line a visual once-over, saying it looks fine without signing anything. Take the $200 as a consultation fee.",
+							"value": 0
+						}
+					},
+					"correct": "B",
+					"host_note": "Principle: Do Right When It Costs You. Why B wins: it names the liability plainly, refuses the shortcut, and offers the only legitimate path. What good discussion sounds like: how to say no to a good customer without losing him, and what a real gas inspection actually requires. What the wrong answers cost: A (+150): the paid inspection is decent but still dances around the ask; C ($0): the visual once-over gives an unqualified blessing for cash.",
+					"card_code": "BE-PR-27"
+				},
+				{
+					"n": 28,
+					"title": "The Lead Tech Quits",
+					"scenario": "Your lead tech, Marcus, quits with two weeks' notice in the middle of cooling season. He is taking three years of customer relationships with him. The crew is rattled, and two techs are asking who is in charge now.",
+					"options": {
+						"A": {
+							"text": "Counter-offer Marcus with a raise to keep him through the season. Deal with the underlying issues in the fall.",
+							"value": 150
+						},
+						"B": {
+							"text": "Post the opening on every job board tonight and hire the strongest resume within the week. Get the new lead in a van by Monday.",
+							"value": 0
+						},
+						"C": {
+							"text": "Give Marcus an honest exit interview and listen. Name your strongest tech interim lead with ninety days to earn it.",
+							"value": 500
+						}
+					},
+					"correct": "C",
+					"host_note": "Principle: Be a Learning Machine. Why C wins: the exit interview turns a loss into intelligence, the interim promotion gives the crew a real leader with a fair trial, and the team sees the plan. What good discussion sounds like: what to ask in an exit interview when someone is already gone, and how to pick an interim lead without splitting the crew. What the wrong answers cost: A (+150): the counter-offer bribes a departing tech to stay resentful; B ($0): the panic hire puts a stranger in the leadership seat by Monday.",
+					"card_code": "BE-PR-28"
+				},
+				{
+					"n": 29,
+					"title": "The Cash Discount Ask",
+					"scenario": "At the end of a $14,000 system replacement, the customer offers to pay the full amount in cash today if you knock ten percent off and skip the paperwork. He trusts your work and needs no receipt. Your crew stands by the truck waiting for the word.",
+					"options": {
+						"A": {
+							"text": "Thank him, decline the discount, and run the payment normally. Explain the warranty and your books need real paperwork.",
+							"value": 500
+						},
+						"B": {
+							"text": "Take the cash, give him the ten percent, and hand-write a receipt. Skip office paperwork and pay the crew from the cash.",
+							"value": 150
+						},
+						"C": {
+							"text": "Accept the cash at full price with no discount. Write a proper receipt from the job folder on the spot.",
+							"value": 150
+						}
+					},
+					"correct": "A",
+					"host_note": "Principle: How We Do Anything Is How We Do Everything. Why A wins: no exceptions to the standard, even for cash in hand, because the paperwork is the warranty, the permit record, and the company's integrity. What good discussion sounds like: what the crew learns watching you decide, and whether any discount is worth an undocumented $14,000 job. What the wrong answers cost: B (+150): the handwritten receipt trades the paper trail for a quick discount; C (+150): the middle path keeps paper but caves on process.",
+					"card_code": "BE-PR-29"
+				},
+				{
+					"n": 30,
+					"title": "The Chaotic Warehouse",
+					"scenario": "Your warehouse is a mess: unlabeled bins, parts on the floor, techs spending thirty minutes every morning hunting for what they need. Two jobs started late this week because the right breaker was buried somewhere. The lead says he is too busy receiving to organize.",
+					"options": {
+						"A": {
+							"text": "Order new shelving and bin labels for a full-crew Saturday morning warehouse reorganization. Everyone builds the new layout together.",
+							"value": 150
+						},
+						"B": {
+							"text": "Map the warehouse by job type and label every bin with part numbers. Set the rule: nothing hits the floor, ever.",
+							"value": 500
+						},
+						"C": {
+							"text": "Tell the warehouse lead that organization is now his top priority. Give him two weeks, with a review at the end.",
+							"value": 0
+						}
+					},
+					"correct": "B",
+					"host_note": "Principle: Know Your Numbers. Why B wins: it builds the warehouse as a measurable system, labeled bins, reorder points, a daily check, with the leader auditing until the habit holds. What good discussion sounds like: what thirty minutes times six techs really costs per week, and how to audit without hovering. What the wrong answers cost: A (+150): the Saturday blitz gets one clean Monday that drifts by Friday; C (+0): the mandate orders results without changing the job design.",
+					"card_code": "BE-PR-30"
+				},
+				{
+					"n": 31,
+					"title": "The Reused Flex Duct",
+					"scenario": "Your installer suggests reusing the existing flex duct on a system changeout to save the customer $900. The duct is fifteen years old, dusty, and undersized for the new unit, but it looks intact. The customer is price-sensitive and would love the savings.",
+					"options": {
+						"A": {
+							"text": "Reuse the duct but add a booster fan and extra sealing to compensate. The customer keeps most of the savings.",
+							"value": 150
+						},
+						"B": {
+							"text": "Let the customer decide: present reuse as a budget option with a signed waiver. His energy bills absorb the real cost.",
+							"value": 0
+						},
+						"C": {
+							"text": "Replace the duct. Old undersized duct chokes airflow, weakens the warranty, and eats the savings in energy bills.",
+							"value": 500
+						}
+					},
+					"correct": "C",
+					"host_note": "Principle: Selling Is Helping. Why C wins: it helps the customer with honest math instead of selling him a discount that costs him more later. What good discussion sounds like: how to show a price-sensitive customer the two-year cost without sounding like an upsell, and when a waiver actually protects you. What the wrong answers cost: A (+150): the booster-fan workaround engineers around a problem that should be replaced; B ($0): the waiver blesses a bad install and lets his energy bills pay for it.",
+					"card_code": "BE-PR-31"
+				},
+				{
+					"n": 32,
+					"title": "The Three-Week Backlog",
+					"scenario": "Summer demand has your install backlog at three weeks. Customers are getting quotes from competitors who can start Monday. Your crews are at full capacity, and the dispatcher is fielding angry calls about wait times.",
+					"options": {
+						"A": {
+							"text": "Subcontract the overflow to a trusted crew at a thin margin. Have your lead vet their first two jobs.",
+							"value": 150
+						},
+						"B": {
+							"text": "Open evening and Saturday slots at a premium price. Bring on two seasonal installers and give timelines in writing.",
+							"value": 500
+						},
+						"C": {
+							"text": "Quote every new customer a ten-day start date to stop losing bids, and push the crews to find the time somehow, starting now.",
+							"value": 0
+						}
+					},
+					"correct": "B",
+					"host_note": "Principle: Cash Is Life. Why B wins: it treats demand as pricing information, adds real seasonal capacity, and gives every customer an honest written choice. What good discussion sounds like: how high the premium can go before it backfires, and how to hire seasonal installers you actually trust. What the wrong answers cost: A (+150): subcontracting rents someone else's quality at a thin margin; C ($0): quoting ten days lies to win bids, and the dates keep slipping.",
+					"card_code": "BE-PR-32"
+				},
+				{
+					"n": 33,
+					"title": "The Melted Panel",
+					"scenario": "Zoe, a trainee, landed the wrong wire size on a panel upgrade and the lug overheated, melting part of the panel. The rework costs $1,800 and delays the job two days. Zoe is twenty, in tears, offering to pay for the damage from her paycheck.",
+					"options": {
+						"A": {
+							"text": "The company absorbs the cost; trainees never pay for supervised mistakes. Require a lead's sign-off for a month.",
+							"value": 500
+						},
+						"B": {
+							"text": "Accept Zoe's offer to repay through payroll deductions. Keep her on panel work so she learns directly.",
+							"value": 150
+						},
+						"C": {
+							"text": "Deduct the $1,800 from Zoe's pay and tell the whole crew as a warning. She needs to feel the cost of carelessness.",
+							"value": 0
+						}
+					},
+					"correct": "A",
+					"host_note": "Principle: Train or Remove. Why A wins: the mistake happened under your supervision, so the company owns the cost and builds the skill, with retraining, a sign-off guardrail, and an honest call to the customer. What good discussion sounds like: what the sign-off rule should cover, and how to debrief a crying trainee so she learns instead of shutting down. What the wrong answers cost: B (+150): payroll deductions bill a supervision failure to the smallest paycheck; C ($0): the public deduction teaches every trainee what loyalty costs in this shop.",
+					"card_code": "BE-PR-33"
+				},
+				{
+					"n": 34,
+					"title": "The Sloppy Subcontractor",
+					"scenario": "Your ductwork subcontractor's latest job is sloppy: sagging runs, gaps at the boots, one disconnected return. The homeowner's drywall goes up next week. The sub blames your schedule pressure and wants full payment now, threatening to walk off your remaining jobs.",
+					"options": {
+						"A": {
+							"text": "Agree partial payment and a punch list: he fixes the worst runs, your crew handles the rest. Confirm by email.",
+							"value": 150
+						},
+						"B": {
+							"text": "Reject the work in writing with photos. The sub redoes deficient runs at his cost before drywall; you hold payment.",
+							"value": 500
+						},
+						"C": {
+							"text": "Accept the work as-is and have your crew seal the gaps with mastic on the next visit. The system will function fine once sealed.",
+							"value": 0
+						}
+					},
+					"correct": "B",
+					"host_note": "Principle: Wow! Is the Standard. Why B wins: merely acceptable ductwork behind drywall is a future failure with your name on it, so the rejection is written, the rework is his, and the specs go in the contract. What good discussion sounds like: how to hold a needed sub accountable without losing him, and what belongs in the subcontractor specs. What the wrong answers cost: A (+150): the split payment negotiates the standard downward; C (+0): sealing over defects hides them behind drywall and hope.",
+					"card_code": "BE-PR-34"
+				},
+				{
+					"n": 35,
+					"title": "The Lifting Injury",
+					"scenario": "Your tech strains his back lifting a condenser with a helper who left early. He can barely stand. He begs you not to report it, saying he will rest over the weekend and be fine Monday. He worries about his record and the company's rates.",
+					"options": {
+						"A": {
+							"text": "Get him medical attention now and file the comp report today. Fix the cause: no condenser moves without the full crew.",
+							"value": 500
+						},
+						"B": {
+							"text": "Drive him to urgent care yourself and pay the visit out of pocket. Give him Monday off paid, off the books.",
+							"value": 150
+						},
+						"C": {
+							"text": "Agree to keep it quiet as he asked. Pay the clinic visit in cash and tell him to be more careful next time.",
+							"value": 0
+						}
+					},
+					"correct": "A",
+					"host_note": "Principle: Safe to Speak. Why A wins: the injury gets real medical care and a proper report, the tech learns hiding it helps no one, and the root cause becomes a written rule. What good discussion sounds like: how to convince a scared tech that reporting protects him, and what the condenser-move rule should actually say. What the wrong answers cost: B (+150): paying urgent care out of pocket keeps the injury off the record that protects you; C ($0): keeping it quiet for cash trades the books for a secret.",
+					"card_code": "BE-PR-35"
+				},
+				{
+					"n": 36,
+					"title": "The Dirty Jobsite Photo",
+					"scenario": "A customer posted a photo online of her yard after your crew's panel upgrade: boot prints across the lawn, wire scraps in the bushes, a cigarette butt on the porch. The post is getting comments. Your lead tech swears the yard was clean when they left.",
+					"options": {
+						"A": {
+							"text": "Reply with your crew's facts: the yard was clean at departure. The debris must have come from elsewhere.",
+							"value": 150
+						},
+						"B": {
+							"text": "Own it publicly: apologize on the post, send two techs back to clean the yard today, and state what changes now.",
+							"value": 500
+						},
+						"C": {
+							"text": "Call the customer privately, apologize, and offer a partial refund. Note the complaint in the lead tech's file.",
+							"value": 150
+						}
+					},
+					"correct": "B",
+					"host_note": "Principle: One Department: Customer Service. Why B wins: every department owns the customer's experience, so Production owns the yard it leaves behind, with public accountability plus a real system change. What good discussion sounds like: whether to ever argue with a customer's photo, and what a departure checklist should actually contain. What the wrong answers cost: A (+150): replying with the crew's version argues with photographic evidence in public; C (+150): the private refund buys silence without fixing the cause.",
+					"card_code": "BE-PR-36"
+				},
+				{
+					"n": 37,
+					"title": "The Wrong Unit Arrives",
+					"scenario": "The supplier delivered a three-ton condenser for tomorrow's changeout, but the load calculation calls for three and a half tons. The crane is booked for 8 a.m. and the customer took the day off. The supplier says the correct unit can be there by noon for an expedite fee.",
+					"options": {
+						"A": {
+							"text": "Install the three-ton unit anyway and adjust the airflow to compensate. The customer keeps his day off.",
+							"value": 150
+						},
+						"B": {
+							"text": "Cancel the crane, eat the fee, and reschedule for next week. Apologize to the customer with a discount.",
+							"value": 150
+						},
+						"C": {
+							"text": "Demand the supplier cover the expedite fee since the error was theirs. Confirm the correct unit in writing by noon today.",
+							"value": 500
+						}
+					},
+					"correct": "C",
+					"host_note": "Principle: Define Reality First. Why C wins: it names the situation exactly, the supplier's error, and assigns the cost to the party that caused it, while keeping the customer's day productive and honest. What good discussion sounds like: how hard to push a supplier you depend on, and when to tell the customer about a problem they would never have noticed. What the wrong answers cost: A (+150): installing the three-ton anyway trades a day for the wrong equipment; B (+150): cancelling the crane wastes the booking and the customer's day off.",
+					"card_code": "BE-PR-37"
+				},
+				{
+					"n": 38,
+					"title": "The Padded Hours",
+					"scenario": "You discover Victor, a solid mid-level tech, has been adding thirty minutes to his time sheets on flat-rate jobs for two months. The jobs pay the same either way; the padding only inflates his hourly bonus. He has a family and has never had a callback issue.",
+					"options": {
+						"A": {
+							"text": "Reduce Victor's bonus this quarter to offset the padding, and tell him privately you noticed the pattern.",
+							"value": 150
+						},
+						"B": {
+							"text": "Confront Victor privately with the dates and require repayment of the inflated amounts. Put the expectation in writing with clear consequences.",
+							"value": 500
+						},
+						"C": {
+							"text": "Watch his time sheets closely for the next month without saying anything. If the pattern stops, call it a rough patch.",
+							"value": 0
+						}
+					},
+					"correct": "B",
+					"host_note": "Principle: The Elongated Shadow. Why B wins: the business is the leader's shadow, and padded time sheets are the shadow too, direct, private, specific, with repayment and a written standard. What good discussion sounds like: whether to fire over thirty minutes, and how to confront without destroying a good tech. What the wrong answers cost: A (+150): quietly docking pay never names the standard; C (+0): watching and waiting lets the padding continue another month.",
+					"card_code": "BE-PR-38"
+				},
+				{
+					"n": 39,
+					"title": "The Heat Wave Surge",
+					"scenario": "A heat wave hits and no-cool calls triple overnight. Your schedule is full for four days, the phones are ringing off the hook, and two techs are showing signs of burnout. The dispatcher is booking three weeks out and customers are angry.",
+					"options": {
+						"A": {
+							"text": "Book everyone first-come, first-served and ask for twelve-hour days until the wave breaks. Promise a daily bonus.",
+							"value": 150
+						},
+						"B": {
+							"text": "Hire two temp techs for the surge from a staffing agency. Keep your regular crew on normal hours; temps take the simple calls.",
+							"value": 150
+						},
+						"C": {
+							"text": "Triage every call by risk: elderly, infants, and medical needs first. Run staggered shifts so techs rotate rest days.",
+							"value": 500
+						}
+					},
+					"correct": "C",
+					"host_note": "Principle: Serve the Human, Not the House. Why C wins: it sorts by human need instead of call order, protects the crew with real rest, and gives every caller an honest window. What good discussion sounds like: who counts as vulnerable, how to tell a paying customer they wait behind someone else's grandmother, and what staggered shifts actually cost. What the wrong answers cost: A (+150): the twelve-hour sprint burns out the crew for a week of revenue; B (+150): the temp crew gambles quality on unvetted hands.",
+					"card_code": "BE-PR-39"
+				},
+				{
+					"n": 40,
+					"title": "The Slow New Hire",
+					"scenario": "Nadia is three months into her first tech role and still takes twice as long as the standard on service calls. Customers have commented on the wait, and one asked for a different tech next time. Her attitude is excellent and she studies the manuals every night.",
+					"options": {
+						"A": {
+							"text": "Give Nadia a straight talk: reach standard times within thirty days or you will let her go. Check her numbers weekly yourself.",
+							"value": 150
+						},
+						"B": {
+							"text": "Build Nadia a ninety-day coaching plan: weekly ride-alongs, the ten most common calls first, and check-ins on her times.",
+							"value": 500
+						},
+						"C": {
+							"text": "Leave Nadia on her current schedule and hope experience kicks in. Reassign complaining customers to another tech.",
+							"value": 0
+						}
+					},
+					"correct": "B",
+					"host_note": "Principle: Character Over Skill. Why B wins: Nadia already has the character, so you invest in the skill with a structured plan, real reps, and honest communication to customers. What good discussion sounds like: how long is fair to carry a slow learner, and what the ten most common calls list should contain. What the wrong answers cost: A (+150): the thirty-day ultimatum threatens a good attitude out the door; C (+0): hoping time alone fixes it leaves a skill gap untaught.",
+					"card_code": "BE-PR-40"
+				}
+			]
+		},
+		{
+			"deck": "Accounting",
+			"cards": [
+				{
+					"n": 1,
+					"title": "The Fudged Job Cost",
+					"scenario": "A production supervisor asks accounting to shift $3,000 of labor hours from his crew's losing job to a profitable one, so his job-cost report looks better at the leadership meeting. He says everyone does it, it does not change total payroll, and he asks off the record.",
+					"options": {
+						"A": {
+							"text": "Move the hours this once as a favor, and tell him it is the last time. But it corrupts the data every future pricing decision will rest on, and he will ask again.",
+							"value": 150
+						},
+						"B": {
+							"text": "Refuse, but soften it with a footnote explaining the job's unusual site conditions. It keeps the books honest, but footnotes quietly become the new way of hiding bad numbers.",
+							"value": 150
+						},
+						"C": {
+							"text": "Refuse clearly: job-cost reports are the company's eyes, and if the numbers lie, every pricing decision made from them is blind. Help him present the real story of the tough job.",
+							"value": 500
+						}
+					},
+					"correct": "C",
+					"host_note": "Principle: Define Reality First. Why C wins: it protects the integrity of the data everything else depends on, while giving the supervisor a better way to look good: owning the real story. Discuss: why 'it doesn't change total payroll' misses the point, and how leaders present bad numbers well. Wrong answers: A poisons future decisions for one favor (150); B creates a footnote loophole (150).",
+					"card_code": "BE-ACC-01"
+				},
+				{
+					"n": 2,
+					"title": "Installs Are Losing Money",
+					"scenario": "The new job-costing report shows the install department lost money on 6 of the last 10 jobs. Flat-rate pricing has not changed in two years, but costs have risen. Sales blames production for being slow; production blames sales for underpricing.",
+					"options": {
+						"A": {
+							"text": "Bring both managers into one meeting with the real data on which job types lose money. Frame the two levers honestly and ask each to own one with a 90-day target.",
+							"value": 500
+						},
+						"B": {
+							"text": "Adjust the overhead allocation so install numbers look closer to break-even. But it hides the real problem in a formula change, and the company keeps losing money it cannot see.",
+							"value": 150
+						},
+						"C": {
+							"text": "Side with production and tell sales their pricing is the problem. It may even be true, but delivering the verdict as accounting's judgment turns a business problem into a turf war.",
+							"value": 150
+						}
+					},
+					"correct": "A",
+					"host_note": "Principle: Know Your Numbers. Why A wins: it uses the data as a shared diagnostic, assigns each side a lever it controls, and converts blame into targets. Discuss: accounting as truth-teller vs. judge, and how to run a numbers meeting that ends in commitments. Wrong answers: B hides the loss in a formula (150); C picks a side and starts a turf war (150).",
+					"card_code": "BE-ACC-02"
+				},
+				{
+					"n": 3,
+					"title": "The Supplier's Mistake",
+					"scenario": "A supplier's invoice arrives $900 lower than their written quote on a large equipment order. The equipment is installed and working. The supplier is a small local distributor with a new billing clerk. Nobody there has noticed the error.",
+					"options": {
+						"A": {
+							"text": "Pay the invoiced amount and say nothing. The invoice is their document, but it builds a habit of profiting from others' mistakes.",
+							"value": 150
+						},
+						"B": {
+							"text": "Pay $450 above the invoice as a quiet goodwill gesture, without explaining why. The supplier will be confused, and the books will carry $450 nobody can reconcile.",
+							"value": 0
+						},
+						"C": {
+							"text": "Call the supplier, point out the $900 gap, and pay the correct quoted amount. Keeping it would take money from people the company depends on.",
+							"value": 500
+						}
+					},
+					"correct": "C",
+					"host_note": "Principle: Do Right When It Costs You. Why C wins: the error belongs to a small partner the company depends on; correcting it protects the relationship and future pricing. Discuss: how you treat vendors when they err, and what 'partnership' costs. Wrong answers: A profits from a new clerk's mistake (150); B creates a mystery payment that confuses everyone (0).",
+					"card_code": "BE-ACC-03"
+				},
+				{
+					"n": 4,
+					"title": "The Agency Pitch",
+					"scenario": "A collections agency pitches the company: hand over all past-due accounts and they collect for a 30% fee, no effort required. AR aging shows $85,000 over 60 days, and the AR clerk is overwhelmed. The sales manager loves the idea.",
+					"options": {
+						"A": {
+							"text": "Decline, and fix the real problem first: the AR clerk is drowning in a broken process, not a broken work ethic. Streamline invoicing and set a follow-up routine she can run.",
+							"value": 500
+						},
+						"B": {
+							"text": "Threaten customers that accounts are 'going to the agency' without hiring one. The bluff might work once, but customers who call it learn the company makes empty threats.",
+							"value": 0
+						},
+						"C": {
+							"text": "Sign a 90-day trial on a small batch of accounts. A trial limits the risk, but 30% of anything they collect is a steep price for skipping the process fixes.",
+							"value": 150
+						}
+					},
+					"correct": "A",
+					"host_note": "Principle: Systems, Not Heroes. Why A wins: it diagnoses the true cause (process, not people), equips the clerk to collect early, and keeps customer relationships in-house. Discuss: the real cost of a 30% fee vs. fixing follow-up, and who owns the customer during collections. Wrong answers: B pays 30% to avoid fixing the system (150); C bluffs and gets caught, draining trust ($0).",
+					"card_code": "BE-ACC-04"
+				},
+				{
+					"n": 5,
+					"title": "The Budget Wish List",
+					"scenario": "Three department heads each submitted budget requests 20% above last year: new trucks, more staff, upgraded software. Total revenue is flat. The owner told accounting to 'make the numbers work.' Two managers implied their teams will quit without full funding.",
+					"options": {
+						"A": {
+							"text": "Give each department a 7% bump so everyone gets something. But it funds nothing fully, starves the highest-return request, and quietly bakes a deficit into the year.",
+							"value": 150
+						},
+						"B": {
+							"text": "Build the budget from the real numbers: flat revenue means flat total spending. Rank every request by expected return and fund from the top until the money runs out.",
+							"value": 500
+						},
+						"C": {
+							"text": "Approve the loudest department's full request and deny the other two. It rewards lobbying instead of merit, and teaches managers that threatening wins budgets.",
+							"value": 150
+						}
+					},
+					"correct": "B",
+					"host_note": "Principle: Know Your Numbers. Why B wins: it replaces lobbying with ranked returns and makes the trade-offs visible, so the budget is a business decision, not a political one. Discuss: how to rank requests by return, and presenting 'no' with data instead of authority. Wrong answers: A funds nothing fully and bakes in a deficit (150); C rewards threats over performance (150).",
+					"card_code": "BE-ACC-05"
+				},
+				{
+					"n": 6,
+					"title": "The Questionable Expenses",
+					"scenario": "Tom, the top sales rep, submits $420 in client dinners that look personal: a Saturday steakhouse, no client names listed. Policy requires names and a business purpose. His manager says to approve it quietly because Tom is 'worth ten of these.'",
+					"options": {
+						"A": {
+							"text": "Approve the report and say nothing. But every other rep sees what gets approved, and the policy becomes a suggestion the moment it meets a top performer.",
+							"value": 150
+						},
+						"B": {
+							"text": "Approve this one, then email the whole company a reminder of the policy without naming Tom. Tom learns his report passed, so the email is noise to the one person it was for.",
+							"value": 0
+						},
+						"C": {
+							"text": "Talk to Tom privately and ask him to add the missing details or remove the personal charges. Assume sloppiness before dishonesty, and hold every rep to one standard.",
+							"value": 500
+						}
+					},
+					"correct": "C",
+					"host_note": "Principle: Expectations Before Accountability. Why C wins: it holds the standard without exception, assumes good intent first, and keeps the correction private and dignified. Discuss: whether stars get different rules, and private correction vs. public policy. Wrong answers: A kills the policy for every rep watching (150); B signals to everyone except the person who needs it (0).",
+					"card_code": "BE-ACC-06"
+				},
+				{
+					"n": 7,
+					"title": "Book It Now",
+					"scenario": "Sales just signed a $90,000 commercial contract, with work starting next month. The sales manager asks accounting to book the revenue this month so his team hits its quarterly bonus. He argues the deal is certain and 'revenue is revenue.'",
+					"options": {
+						"A": {
+							"text": "Refuse, and book the revenue only as the work is completed. Bonuses reward results, not signatures. If the bonus plan punishes honest timing, fix the bonus plan, not the books.",
+							"value": 500
+						},
+						"B": {
+							"text": "Book it all now, since the contract is signed and the customer is solid. But the books then claim unearned money, and every future 'certain deal' will expect the same.",
+							"value": 150
+						},
+						"C": {
+							"text": "Book half now and half when the work is done, as a compromise. But revenue is either earned or not: half-earned is not a real category.",
+							"value": 0
+						}
+					},
+					"correct": "A",
+					"host_note": "Principle: How We Do Anything Is How We Do Everything. Why A wins: revenue recognition follows earned reality, not bonus calendars, and it names the real fix (the bonus structure) instead of corrupting the books. Discuss: what 'earned' means, and how bonus plans can accidentally incentivize misstatement. Wrong answers: B sets a precedent for every 'certain deal' (150); C invents 'half-earned' as a category ($0).",
+					"card_code": "BE-ACC-07"
+				},
+				{
+					"n": 8,
+					"title": "Three Months Behind",
+					"scenario": "The bank reconciliation is three months behind. The bookkeeper says she will 'catch up when things calm down,' but things never calm down. Last month a $1,700 duplicate vendor payment slipped through unnoticed for weeks. The owner trusts the balance on the screen.",
+					"options": {
+						"A": {
+							"text": "Hire the bookkeeper an assistant to clear the backlog. But reconciliation fell behind because it is treated as filler work, and filler work still gets skipped when busy.",
+							"value": 150
+						},
+						"B": {
+							"text": "Reconcile only the current month going forward and let the old months go. But 'mostly matched' is how a $1,700 duplicate hid for weeks, and the old errors are still in the numbers.",
+							"value": 0
+						},
+						"C": {
+							"text": "Block time this week to reconcile all three months and find every outstanding item. Then make reconciliation a non-negotiable weekly 30-minute routine.",
+							"value": 500
+						}
+					},
+					"correct": "C",
+					"host_note": "Principle: Brilliant on the Basics. Why C wins: it clears the backlog fully, then installs a small weekly rhythm that prevents recurrence; discipline beats heroic catch-ups. Discuss: why reconciliations slip (treated as filler), and what a 'non-negotiable routine' requires from leadership. Wrong answers: A adds hands to a habit problem (150); B abandons the old errors to compound in the dark ($0).",
+					"card_code": "BE-ACC-08"
+				},
+				{
+					"n": 9,
+					"title": "Cash or Financing",
+					"scenario": "New dispatch software costs $36,000. The vendor offers 0% financing over 12 months or a 10% discount for paying cash up front. The operating account is healthy, but three slow months are coming. The owner hates tying up cash.",
+					"options": {
+						"A": {
+							"text": "Take the cash discount: 10% of $36,000 is $3,600 saved, a guaranteed return no safe investment can match. Run the cash forecast to confirm the cushion holds, then pay.",
+							"value": 500
+						},
+						"B": {
+							"text": "Take the 0% financing to keep all $36,000 in the account. But it leaves a guaranteed $3,600 on the table to guard against a shortfall the forecast says will not happen.",
+							"value": 150
+						},
+						"C": {
+							"text": "Delay the purchase until after the slow months, when cash is flush. But the old software keeps costing hours every week, and waiting is the most expensive option.",
+							"value": 0
+						}
+					},
+					"correct": "A",
+					"host_note": "Principle: Know Your Numbers. Why A wins: a certain 10% discount beats any safe alternative, and the forecast (not feelings) confirms the cushion survives the slow months. Discuss: guaranteed returns vs. cash comfort, and what a forecast is actually for. Wrong answers: B leaves $3,600 behind for comfort (150); C pays in lost hours while waiting (0).",
+					"card_code": "BE-ACC-09"
+				},
+				{
+					"n": 10,
+					"title": "Credit Hold Mid-Season",
+					"scenario": "The largest equipment supplier puts the account on credit hold over a $28,000 past-due balance, right at the start of busy season. Trucks are scheduled and customers are booked. The supplier wants the full balance before releasing new orders. Cash is tight but not empty.",
+					"options": {
+						"A": {
+							"text": "Pay the full $28,000 immediately and empty the cushion completely. The hold lifts today, but the company enters busy season with no safety net.",
+							"value": 150
+						},
+						"B": {
+							"text": "Keep ordering through a junior buyer's personal account, bypassing the hold quietly. The jobs stay on schedule, but when the supplier discovers it, the relationship is over.",
+							"value": 0
+						},
+						"C": {
+							"text": "Call the supplier today: acknowledge the balance, pay a meaningful portion immediately, and propose a written payment schedule tied to the season's cash flow.",
+							"value": 500
+						}
+					},
+					"correct": "C",
+					"host_note": "Principle: Handle It While It's Small. Why C wins: direct contact with money and a written plan turns a hold into a negotiation; suppliers want paying customers, not standoffs. Discuss: why holds are attention-seeking, and what 'meaningful portion' plus a schedule achieves. Wrong answers: A empties the safety net at the worst moment (150); B dodges dishonestly and kills the relationship ($0).",
+					"card_code": "BE-ACC-10"
+				},
+				{
+					"n": 11,
+					"title": "The Secret Credit Card",
+					"scenario": "The company credit card is maxed at $50,000 and supplier bills are piling up. A department manager asks accounting to open a new business card in the company's name without telling the owner, 'to smooth things over until revenue picks up.'",
+					"options": {
+						"A": {
+							"text": "Open the card as asked and keep it off the main books until revenue picks up. But this is hidden borrowing, and when it surfaces, the issue is trust, not cash flow.",
+							"value": 0
+						},
+						"B": {
+							"text": "Refuse, and take the real problem to the owner immediately: the card is maxed and bills are piling up. Bring options, from supplier payment plans to a temporary spending freeze.",
+							"value": 500
+						},
+						"C": {
+							"text": "Open the card but set a low limit and monitor every charge personally. But it still creates company debt behind the owner's back.",
+							"value": 150
+						}
+					},
+					"correct": "B",
+					"host_note": "Principle: Define Reality First. Why B wins: it refuses hidden borrowing and brings the full picture to the owner with real options; cash crises are solvable, secret ones are fatal. Discuss: the difference between a cash problem and a trust problem, and what 'the owner would approve' really means. Wrong answers: A hides debt behind personal monitoring (150); C turns a cash crisis into fraud ($0).",
+					"card_code": "BE-ACC-11"
+				},
+				{
+					"n": 12,
+					"title": "The Drowning AR Clerk",
+					"scenario": "Priya, the AR clerk, works late three nights a week and still falls behind on invoicing. Two completed jobs were never billed, found only when a tech mentioned it. She is capable and conscientious, but volume has doubled since she was hired and the process never changed.",
+					"options": {
+						"A": {
+							"text": "Hire a part-time assistant to help Priya catch up. But it layers cost onto a broken process, and soon there will be two people drowning instead of one.",
+							"value": 150
+						},
+						"B": {
+							"text": "Set Priya a strict daily invoicing quota and check her output each morning. But it treats a good employee like the problem, and quotas burn out conscientious people fastest.",
+							"value": 150
+						},
+						"C": {
+							"text": "Talk to Priya first: ask where the hours actually go, then fix the process before adding people. Batch the repeated steps and build templates for common job types.",
+							"value": 500
+						}
+					},
+					"correct": "C",
+					"host_note": "Principle: Systems, Not Heroes. Why C wins: it treats unbilled jobs as a process failure, learns from the person closest to the work, and fixes the system before adding headcount. Discuss: process-first diagnosis, and what to ask before hiring. Wrong answers: A doubles the drowning at extra cost (150); B punishes the conscientious with quotas (150).",
+					"card_code": "BE-ACC-12"
+				},
+				{
+					"n": 13,
+					"title": "The Dead Receivable",
+					"scenario": "A $4,200 receivable from a restaurant build-out has sat unpaid for 14 months. The restaurant closed, the owner filed personal bankruptcy, and the attorney says collection would cost more than the balance. The controller wants to keep it on the books 'so AR doesn't look worse.'",
+					"options": {
+						"A": {
+							"text": "Write it off this quarter but tell no one outside accounting. The books get clean, but burying the write-off wastes the lesson, and hidden adjustments are how bigger ones start.",
+							"value": 0
+						},
+						"B": {
+							"text": "Make one final collection attempt, then write it off and report AR honestly. Keeping a dead balance to protect this quarter's looks picks appearance over reality.",
+							"value": 500
+						},
+						"C": {
+							"text": "Hold the receivable through year end and write it off quietly next year. But it keeps a known-dead balance in the numbers everyone manages by for months.",
+							"value": 150
+						}
+					},
+					"correct": "B",
+					"host_note": "Principle: Define Reality First. Why B wins: it closes the loop honestly (final attempt, then write-off), reports AR as it is, and preserves the lesson about the original credit decision. Discuss: appearance vs. reality in AR, and what write-offs should trigger (a credit-policy review). Wrong answers: A keeps fiction in the numbers for months (150); C buries the lesson along with the balance ($0).",
+					"card_code": "BE-ACC-13"
+				},
+				{
+					"n": 14,
+					"title": "The Unreachable Refund",
+					"scenario": "A $350 refund is owed to a customer who moved with no forwarding address. The check was returned twice, the phone is disconnected, and the email bounced. Eight months have passed. The controller suggests writing it off to income since 'nobody is coming for it.'",
+					"options": {
+						"A": {
+							"text": "Use the state's unclaimed property process: hold the funds and file the required report. Money owed to a customer stays owed to the customer, no matter how hard they are to reach.",
+							"value": 500
+						},
+						"B": {
+							"text": "Write it off to income as the controller suggested. But 'nobody is coming for it' is a guess, and converting his money into income is quietly keeping what is not yours.",
+							"value": 150
+						},
+						"C": {
+							"text": "Leave it in the liability account and revisit it 'someday.' But the account will accumulate mystery balances until no one remembers who any of them belong to.",
+							"value": 0
+						}
+					},
+					"correct": "A",
+					"host_note": "Principle: Do Right When It Costs You. Why A wins: the obligation does not expire with difficulty; the unclaimed-property process is the lawful, low-cost way to honor it. Discuss: when a debt to a customer ever stops being owed, and what 'immaterial' really justifies. Wrong answers: B converts his money to income on a guess (150); C grows mystery balances (0).",
+					"card_code": "BE-ACC-14"
+				},
+				{
+					"n": 15,
+					"title": "The Holiday Advance",
+					"scenario": "Rosa, a dispatcher of five years, asks accounting for a $1,000 advance on her next paycheck to cover a family emergency before the holidays. Policy forbids pay advances, a rule made after advances became routine and messy years ago. She is reliable and embarrassed to ask.",
+					"options": {
+						"A": {
+							"text": "Grant the $1,000 quietly and tell no one else. But secret exceptions are exactly how the old mess started, and the next person denied will rightly call it unfair.",
+							"value": 150
+						},
+						"B": {
+							"text": "Grant a one-time documented advance with clear written terms: amount, repayment from the next check, and a note that this reflects her record, not a new policy.",
+							"value": 500
+						},
+						"C": {
+							"text": "Lend her the money personally from your own pocket. It avoids touching policy, but it mixes personal charity with a company obligation and sets up an awkward dynamic.",
+							"value": 0
+						}
+					},
+					"correct": "B",
+					"host_note": "Principle: Serve the Human, Not the House. Why B wins: it helps a loyal employee in a real emergency while protecting the company with written terms and a policy review, not a secret. Discuss: exceptions with terms vs. exceptions in secret, and when old policies deserve re-examination. Wrong answers: A repeats the old mess in secret (150); C mixes personal money with company obligations (0).",
+					"card_code": "BE-ACC-15"
+				},
+				{
+					"n": 16,
+					"title": "Payroll Week Cash Crunch",
+					"scenario": "It is Tuesday. Payroll of $48,000 hits Friday, and the operating account holds $31,000. Two big commercial invoices totaling $60,000 are due sometime this week, but neither customer confirmed a date. The $100,000 credit line is unused. The owner is unreachable until Thursday.",
+					"options": {
+						"A": {
+							"text": "Wait until Thursday and ask the owner what to do, while pressing both customers for Friday payment. It respects the chain of command, but payroll rides on customer timing.",
+							"value": 150
+						},
+						"B": {
+							"text": "Pay only the field technicians Friday and delay the office staff. It keeps the visible team happy, but it splits the company into two classes and guarantees lasting resentment.",
+							"value": 150
+						},
+						"C": {
+							"text": "Draw $20,000 from the credit line this morning so Friday is safe no matter what. Check in with both customers calmly, without pressure, and repay the draw when the invoices land.",
+							"value": 500
+						}
+					},
+					"correct": "C",
+					"host_note": "Principle: Cash Is Life. Why C wins: payroll is sacred; a cheap, short draw removes all timing risk, and the interest is trivial next to certainty. Discuss: which obligations are never gambled with, and the real cost of a short draw vs. a missed payroll. Wrong answers: A risks payroll on customer timing (150); B creates a two-tier company (150).",
+					"card_code": "BE-ACC-16"
+				},
+				{
+					"n": 17,
+					"title": "The Struggling Bookkeeper",
+					"scenario": "Dana, the junior bookkeeper hired four months ago, keeps miscoding invoices and missing the weekly payables run. The senior accountant redoes her work every Friday and is growing frustrated. Dana is earnest and improving slowly, but vendor relationships are starting to strain.",
+					"options": {
+						"A": {
+							"text": "Give Dana a written warning with a 30-day improvement plan and clear error targets. But fear rarely builds the careful habits that good bookkeeping requires.",
+							"value": 150
+						},
+						"B": {
+							"text": "Sit with Dana and map exactly where the errors happen. Build her a checklist for the payables run and pair her with the senior accountant for two supervised cycles.",
+							"value": 500
+						},
+						"C": {
+							"text": "Let her go and hire a more experienced bookkeeper at a higher salary. It costs months of recruiting, and it teaches the team that mistakes here are fatal, not fixable.",
+							"value": 150
+						}
+					},
+					"correct": "B",
+					"host_note": "Principle: Train or Remove. Why B wins: it diagnoses the failure point and fixes it with process plus coaching before concluding she cannot do the job. Discuss: the difference between a people problem and a process problem, and what 'train' actually costs in hours per week. Wrong answers: A manages by fear instead of building habits (150); C pays recruiting costs to avoid a few hours of coaching (150).",
+					"card_code": "BE-ACC-17"
+				},
+				{
+					"n": 18,
+					"title": "The 20-Day Close",
+					"scenario": "Month-end close takes 20 days. By the time the owner sees the numbers they are ancient history, and every decision is made on gut feel. The team blames field paperwork, unreconciled accounts, and a close checklist that lives in one person's head.",
+					"options": {
+						"A": {
+							"text": "Rebuild the close as a system: a written 5-day checklist with owners and deadlines, field paperwork due by the 2nd, reconciliations done weekly. Never let the work pile up.",
+							"value": 500
+						},
+						"B": {
+							"text": "Accept the 20-day close as normal and stop promising faster numbers. But it surrenders the purpose of reporting: timely numbers drive decisions, and late numbers drive none.",
+							"value": 150
+						},
+						"C": {
+							"text": "Buy close-management software and expect it to fix the timeline. But software cannot create a process: automating a 20-day mess produces a faster 20-day mess.",
+							"value": 0
+						}
+					},
+					"correct": "A",
+					"host_note": "Principle: Brilliant on the Basics. Why A wins: it fixes the underlying rhythm (weekly reconciliations, deadlines, a written checklist) instead of adding labor or software to a broken process. Discuss: what actually causes slow closes, and working harder vs. working on rhythm. Wrong answers: B gives up on timely numbers (150); C automates the mess (0).",
+					"card_code": "BE-ACC-18"
+				},
+				{
+					"n": 19,
+					"title": "The Unfair Late Fee",
+					"scenario": "Mrs. Kowalski, 72, calls in tears. A $45 late fee was added because her check arrived two days late; she mailed it on time. She has paid every bill for nine years and feels punished for something that was not her fault. Policy says late fees are automatic.",
+					"options": {
+						"A": {
+							"text": "Keep the fee but explain the policy kindly and at length. Understanding the logic is not accepting it, and she still feels punished for what the mail did.",
+							"value": 150
+						},
+						"B": {
+							"text": "Transfer her to a supervisor so accounting does not have to decide. But it makes a 72-year-old loyal customer wait on hold to beg for $45, which ends relationships.",
+							"value": 0
+						},
+						"C": {
+							"text": "Waive the fee, apologize sincerely, and note her nine-year record. Then suggest auto-pay so mail delays never touch her again.",
+							"value": 500
+						}
+					},
+					"correct": "C",
+					"host_note": "Principle: One Department: Customer Service. Why C wins: accounting is customer service too; a nine-year record earns discretion, and auto-pay prevents recurrence. Discuss: when policy should bend, and what 'non-negotiable' really costs. Wrong answers: A explains without helping (150); B makes her wait on hold to beg (0).",
+					"card_code": "BE-ACC-19"
+				},
+				{
+					"n": 20,
+					"title": "Backdate the Invoices",
+					"scenario": "The owner is $12,000 short of his annual bonus target, which is tied to this year's revenue. He asks accounting to date $12,000 of January invoices as December, 'just this once.' The work was done in December; only the invoicing slipped. He says no one will know.",
+					"options": {
+						"A": {
+							"text": "Backdate the invoices, and pull a few February jobs into January too. Once dates flex, every quarter's numbers become negotiable, and the financial history becomes fiction.",
+							"value": 0
+						},
+						"B": {
+							"text": "Refuse, and record the invoices in January when they were created. Statements must reflect what happened when it happened, especially when someone's pay depends on the answer.",
+							"value": 500
+						},
+						"C": {
+							"text": "Date the invoices in December as asked, since the work was truly done in December. But the request is about hitting a bonus number, not accuracy, which is what makes it dangerous.",
+							"value": 150
+						}
+					},
+					"correct": "B",
+					"host_note": "Principle: Define Reality First. Why B wins: it holds the line on when things happened, names why it matters most (pay tied to the numbers), and refuses the 'just this once' logic directly. Discuss: how to refuse the owner's request without disrespect, and why bonus-linked numbers need the most protection. Wrong answers: A moves numbers for pay (150); C turns one favor into a system of fiction ($0).",
+					"card_code": "BE-ACC-20"
+				},
+				{
+					"n": 21,
+					"title": "Padding Her Hours",
+					"scenario": "Accounting discovers that Karen, an office employee of eight years, has added about two hours a week to her timesheet for three months: roughly $1,400 total. Her work is excellent. She recently mentioned money troubles after her husband's injury.",
+					"options": {
+						"A": {
+							"text": "Terminate her immediately and quietly, per the written policy. But eight years of excellent work and a family crisis suggest a good person making a bad choice.",
+							"value": 150
+						},
+						"B": {
+							"text": "Fire her on the spot and announce the reason at the next all-hands meeting. But it humiliates an eight-year employee in crisis and teaches the team to hide mistakes.",
+							"value": 0
+						},
+						"C": {
+							"text": "Talk to her privately: show her the records and ask her to explain. Require repayment on a schedule she can meet and set clear expectations in writing, plus help finding resources.",
+							"value": 500
+						}
+					},
+					"correct": "C",
+					"host_note": "Principle: Expectations Before Accountability. Why C wins: it confronts the facts directly, sets written expectations with a real consequence, requires repayment, and still treats her as a person worth keeping. Discuss: firmness plus fairness, and when policy should bend toward a path back. Wrong answers: A loses eight years over $1,400 (150); B destroys trust publicly and teaches hiding ($0).",
+					"card_code": "BE-ACC-21"
+				},
+				{
+					"n": 22,
+					"title": "The Short Paycheck",
+					"scenario": "An installer, Marcus, was underpaid by $180 because his overtime was entered under the wrong pay code. He texted his supervisor Friday night and was told accounting would 'look at it Monday.' Marcus lives paycheck to paycheck and is angry. It is Monday morning.",
+					"options": {
+						"A": {
+							"text": "Add the $180 to his next regular paycheck with a short note. It is the least extra work, but it asks Marcus to float the company's mistake for two full weeks.",
+							"value": 150
+						},
+						"B": {
+							"text": "Fix it today: cut a manual check or same-day deposit, call Marcus to apologize, and audit the pay-code process. When the company is wrong about pay, speed is the apology.",
+							"value": 500
+						},
+						"C": {
+							"text": "Pay the $180 today, but require Marcus to sign a form saying it is final. It guards against a double claim, but leading with paperwork when you owe money signals distrust.",
+							"value": 150
+						}
+					},
+					"correct": "B",
+					"host_note": "Principle: Do Right When It Costs You. Why B wins: the company caused the error, so the company absorbs the hassle, and the process gets fixed; speed is the apology. Discuss: what 'making it right' costs in effort vs. money, and why pay errors get same-day treatment. Wrong answers: A makes him float the company's mistake (150); C leads with distrust instead of the fix (150).",
+					"card_code": "BE-ACC-22"
+				},
+				{
+					"n": 23,
+					"title": "The Early-Pay Discount",
+					"scenario": "A key supplier offers 2% off for payment within 10 days instead of the usual 30. The company owes this supplier about $40,000 a month. Cash is comfortable but not flush, and the line of credit charges 9% annual interest.",
+					"options": {
+						"A": {
+							"text": "Take the discount and systematize it. Two percent for paying 20 days early annualizes near 36%, far above the 9% credit line. Pay on day 8, every month.",
+							"value": 500
+						},
+						"B": {
+							"text": "Decline and keep the standard 30-day terms for maximum cash flexibility. But it leaves real money on the table every month for comfort rather than math.",
+							"value": 150
+						},
+						"C": {
+							"text": "Take the discount only in months when cash feels strong. But 'feels strong' is not a system, and the savings will quietly shrink as busy months get skipped.",
+							"value": 150
+						}
+					},
+					"correct": "A",
+					"host_note": "Principle: Know Your Numbers. Why A wins: the math is decisive (2% for 20 days annualizes near 36%), so this is arithmetic, not opinion; systematize it. Discuss: annualizing short-term discounts, and 'comfortable cash' feelings vs. a forecast. Wrong answers: B pays for comfort instead of doing the math (150); C runs savings on mood, not a rule (150).",
+					"card_code": "BE-ACC-23"
+				},
+				{
+					"n": 24,
+					"title": "The Burning-Out Manager",
+					"scenario": "Lisa, the accounting manager, works 60-hour weeks doing reconciliations, payroll backup, and everyone's month-end close. She skips lunch, snapped at two coworkers, and her doctor warned her about her blood pressure. Two junior staff sit underused while she redoes their work.",
+					"options": {
+						"A": {
+							"text": "Hire another senior accountant to share Lisa's load. It adds capacity fast, but Lisa will redo the new hire's work too, and soon there will be two exhausted people.",
+							"value": 150
+						},
+						"B": {
+							"text": "Tell Lisa leadership is demanding, and if she cannot handle it she should say so. It treats burnout as a performance issue, and the company learns how bad it was when she quits.",
+							"value": 0
+						},
+						"C": {
+							"text": "Redistribute the work: give the juniors clear ownership of reconciliations with checklists, and train a payroll backup. Require Lisa to take lunch and leave on time.",
+							"value": 500
+						}
+					},
+					"correct": "C",
+					"host_note": "Principle: You Are Not the Doer. Why C wins: it fixes the delegation failure structurally (owned tasks, checklists, a backup person) and coaches Lisa that her real job is building the department, not being its hero. Discuss: why heroes make departments fragile, and what 'leave on time' takes from leadership. Wrong answers: A duplicates the problem at a higher salary (150); B punishes the warning and guarantees silence until she quits ($0).",
+					"card_code": "BE-ACC-24"
+				},
+				{
+					"n": 25,
+					"title": "The 1099 Suggestion",
+					"scenario": "The tax preparer suggests reclassifying the W-2 installation techs as 1099 contractors to save $40,000 a year in payroll taxes. The techs work set schedules, drive company trucks, and wear company uniforms. He says 'everyone in the trades does it.'",
+					"options": {
+						"A": {
+							"text": "Refuse. Classification follows the facts of the work: set schedules, company trucks, and uniforms mean employees, not contractors.",
+							"value": 500
+						},
+						"B": {
+							"text": "Ask the preparer to put the recommendation in writing, then have the attorney review it. It adds a second opinion, though the facts of the work already answer the question.",
+							"value": 150
+						},
+						"C": {
+							"text": "Reclassify all technicians as 1099 contractors and have them sign agreements. But set schedules, company trucks, and uniforms still describe employees.",
+							"value": 0
+						}
+					},
+					"correct": "A",
+					"host_note": "Principle: Do Right When It Costs You. Why A wins: classification follows the facts of the work, not the savings; it protects the company legally and the techs practically, and it ends the relationship with an advisor who suggested breaking the law. Discuss: the actual control test for contractors, and what to do when a professional advises wrongdoing. Wrong answers: B entertains a proposal the facts already answer (150); C buys back taxes, penalties, and interest ($0).",
+					"card_code": "BE-ACC-25"
+				},
+				{
+					"n": 26,
+					"title": "The Invoicing Turf War",
+					"scenario": "Jen and Marco both claim ownership of customer invoicing. Some customers are billed twice, others not at all. Both are good employees who feel disrespected, and the tension is spreading through the office.",
+					"options": {
+						"A": {
+							"text": "Tell both to sort it out or you will replace them with one person. It ends the talk fast, but it shames two good employees for confusion that unclear direction created.",
+							"value": 0
+						},
+						"B": {
+							"text": "Name one clear owner and write the backup process down. Let both help design the handoff. Most turf wars are really clarity wars: nobody told them plainly who owns what.",
+							"value": 500
+						},
+						"C": {
+							"text": "Split invoicing by alphabet: A-M to Jen, N-Z to Marco. It ends the argument, but it doubles handoffs and leaves customers unsure who to call.",
+							"value": 150
+						}
+					},
+					"correct": "B",
+					"host_note": "Principle: Expectations Before Accountability. Why B wins: one named owner, a written backup process, and both employees given a voice in the handoff; it treats the fight as a clarity problem, not a people problem. Discuss: clarity wars vs. turf wars, and how to assign ownership without creating losers. Wrong answers: A doubles handoffs and customer confusion (150); C shames good people and sends the loser job hunting ($0).",
+					"card_code": "BE-ACC-26"
+				},
+				{
+					"n": 27,
+					"title": "The Garnishment Order",
+					"scenario": "A wage garnishment order arrives for Luis, a well-liked installer going through a divorce. It is legal and must be processed, cutting his take-home pay noticeably. He does not know yet, and in this small office news travels fast.",
+					"options": {
+						"A": {
+							"text": "Tell Luis privately before the next payroll: explain what the order requires and what changes in his check. Make clear the details stay between accounting and him.",
+							"value": 500
+						},
+						"B": {
+							"text": "Ask his supervisor to break the news, since they are closer. But it hands confidential payroll details to someone who should never hold them.",
+							"value": 150
+						},
+						"C": {
+							"text": "Mention the garnishment to the office manager 'so she can be supportive.' Kind intention, but his private financial business will be office talk within a week.",
+							"value": 0
+						}
+					},
+					"correct": "A",
+					"host_note": "Principle: Love Is the Greatest Leadership Tool. Why A wins: private advance notice with clear facts, plus a firm confidentiality boundary; the legal duty is met and his dignity is intact. Discuss: who truly needs to know about a payroll action, and how discretion builds trust across the company. Wrong answers: B misuses the supervisor as messenger (150); C turns kindness into office gossip ($0).",
+					"card_code": "BE-ACC-27"
+				},
+				{
+					"n": 28,
+					"title": "The $600 Overpayment",
+					"scenario": "During reconciliation, accounting finds that Mr. Chen overpaid his final invoice by $600 four months ago. He never noticed and never called. No one but accounting knows. The month is tight, and $600 would help cover a small shortfall.",
+					"options": {
+						"A": {
+							"text": "Leave the $600 as a credit on his account against future work. But it was never his choice to leave it there, and a credit he does not know about quietly keeps what is not yours.",
+							"value": 150
+						},
+						"B": {
+							"text": "Call Mr. Chen, tell him about the overpayment, and mail the refund check this week. It is his money, and a tight month does not change that.",
+							"value": 500
+						},
+						"C": {
+							"text": "Donate the $600 to a local charity in the company's name. It does something good, but it spends someone else's money on the company's generosity, which is not generosity.",
+							"value": 150
+						}
+					},
+					"correct": "B",
+					"host_note": "Principle: Do Right When It Costs You. Why B wins: the money is his regardless of the company's month; proactive refunds build durable trust. Discuss: whose money it is when no one is watching, and the long-run value of an unexpected refund. Wrong answers: A keeps it quietly under a customer-service label (150); C spends his money on the company's image (150).",
+					"card_code": "BE-ACC-28"
+				},
+				{
+					"n": 29,
+					"title": "Cash Piling Up",
+					"scenario": "The operating account holds $280,000, far above what the company needs, and it earns nothing. The owner likes the big balance; it feels safe. Meanwhile a $60,000 equipment loan at 8% is being paid on schedule, and prices keep rising.",
+					"options": {
+						"A": {
+							"text": "Leave the cash where it is. The big balance feels safe, but paying 8% on a loan while cash earns nothing buys that feeling with real money.",
+							"value": 150
+						},
+						"B": {
+							"text": "Invest the surplus in the stock market for higher returns. But operating cash is not investment capital: a dip before payroll turns an investment into a crisis.",
+							"value": 0
+						},
+						"C": {
+							"text": "Keep a 60-day cushion, sweep the rest into an interest-bearing account, and pay off the 8% loan. Then set a monthly sweep rule so the pile never builds again.",
+							"value": 500
+						}
+					},
+					"correct": "C",
+					"host_note": "Principle: Know Your Numbers. Why C wins: it sequences by return (kill the 8% loan first), keeps a real cushion, and systematizes the sweep so the pile never rebuilds. Discuss: the price of cash that only 'feels safe,' and guaranteed returns vs. market risk for operating funds. Wrong answers: A pays real money for the feeling of safety (150); B gambles payroll timing on the market (0).",
+					"card_code": "BE-ACC-29"
+				},
+				{
+					"n": 30,
+					"title": "The Review Threat",
+					"scenario": "A customer owes a legitimate $1,100 balance on a completed job. He emails accounting: waive the balance or he will post one-star reviews everywhere and 'tell everyone how you scam people.' The work was done well. The owner worries about the 4.8-star rating.",
+					"options": {
+						"A": {
+							"text": "Offer a 25% courtesy discount to make the problem go away. But it rewards the threat with $275, and he learns that pushing harder next time gets even more.",
+							"value": 150
+						},
+						"B": {
+							"text": "Hold the line politely: confirm the balance is valid, offer a reasonable payment plan, and document everything in writing. Do not mention the reviews at all.",
+							"value": 500
+						},
+						"C": {
+							"text": "Waive the balance, then have the team post fake positive reviews to bury the negatives. The books lose $1,100 and the review profile becomes fiction.",
+							"value": 0
+						}
+					},
+					"correct": "B",
+					"host_note": "Principle: Do Right When It Costs You. Why B wins: it refuses extortion without escalating, keeps the door open with a payment plan, and defends the rating with facts instead of payoffs. Discuss: the long-run price of rewarding threats, and how to answer bad reviews with calm facts. Wrong answers: A funds the next threat with a discount (150); C manufactures a fake reputation ($0).",
+					"card_code": "BE-ACC-30"
+				},
+				{
+					"n": 31,
+					"title": "Pricing Without Numbers",
+					"scenario": "The owner wants to raise the flat-rate price book 8% across the board because 'everything costs more.' Sales supports it; production fears losing bids. Nobody has looked at actual job costs by job type in over a year. Accounting is asked to bless the increase.",
+					"options": {
+						"A": {
+							"text": "Bless the 8% as asked. But instinct is not costing: some job types may need 15% and others may already be overpriced, and a flat increase fixes the wrong jobs.",
+							"value": 150
+						},
+						"B": {
+							"text": "Delay the increase until a full pricing study is done next quarter. But the company bleeds margin for three more months waiting for perfect data.",
+							"value": 0
+						},
+						"C": {
+							"text": "Pull the real job-cost data by job type first, then show which prices are underwater and by how much. Recommend targeted increases where margin is thin.",
+							"value": 500
+						}
+					},
+					"correct": "C",
+					"host_note": "Principle: Know Your Numbers. Why C wins: targeted increases from real job-type costs beat both flat instinct and delay; accounting's value is the analysis. Discuss: flat vs. targeted increases, and 'good enough data today' vs. perfect data next quarter. Wrong answers: A misprices in both directions on instinct (150); B bleeds margin waiting for perfect data (0).",
+					"card_code": "BE-ACC-31"
+				},
+				{
+					"n": 32,
+					"title": "Net-60 for BigCo",
+					"scenario": "A large commercial client, BigCo, wants net-60 terms on a $120,000 annual contract, take it or leave it. Sales is thrilled. But 60-day terms would tie up roughly $20,000 of the company's cash at all times, and BigCo's procurement is famous for paying late.",
+					"options": {
+						"A": {
+							"text": "Accept the net-60 terms to win the contract. But the company becomes BigCo's interest-free bank, and every late payment becomes a payroll risk it never agreed to.",
+							"value": 150
+						},
+						"B": {
+							"text": "Counter with net-30 plus a 2% discount for payment within 10 days, and run a credit check before signing. The discount gives their payables team a reason to pay fast.",
+							"value": 500
+						},
+						"C": {
+							"text": "Walk away entirely and focus on smaller clients with better terms. But it surrenders $120,000 of real revenue over terms that could have been negotiated.",
+							"value": 0
+						}
+					},
+					"correct": "B",
+					"host_note": "Principle: Know Your Numbers. Why B wins: it quantifies the cash cost, negotiates terms that change behavior (early-pay discount), and verifies credit before committing. Discuss: revenue vs. cash flow, and negotiating terms instead of accepting ultimatums. Wrong answers: A banks the client for free (150); C lets fear decide instead of math (0).",
+					"card_code": "BE-ACC-32"
+				},
+				{
+					"n": 33,
+					"title": "The Disputed Invoice",
+					"scenario": "Mrs. Alvarez calls, upset. Her water heater invoice is $2,400, but she says the technician quoted $1,950 in her kitchen. His handwritten ticket is hard to read, and the office has no signed estimate on file. She is a repeat customer, ready to leave a bad review.",
+					"options": {
+						"A": {
+							"text": "Pull the work order and confirm with the tech what he quoted. If he quoted $1,950, bill her $1,950 and absorb the $450 gap. Then retrain him on signed estimates.",
+							"value": 500
+						},
+						"B": {
+							"text": "Offer to split the difference at $2,175 as a goodwill gesture. But it teaches the customer that prices are negotiable and leaves the broken quoting process as it was.",
+							"value": 150
+						},
+						"C": {
+							"text": "Stand firm on the full $2,400 since the work is complete. But it risks a repeat customer over the company's own mistake, and her review will cost more than $450.",
+							"value": 150
+						}
+					},
+					"correct": "A",
+					"host_note": "Principle: Do Right When It Costs You. Why A wins: the company made the quoting error, so the company absorbs it; the fix is systemic (signed estimates), not just a refund. Discuss: who bears the cost of an internal mistake, and how signed estimates prevent the next one. Wrong answers: B trains customers to haggle (150); C trades a relationship for $450 (150).",
+					"card_code": "BE-ACC-33"
+				},
+				{
+					"n": 34,
+					"title": "Payroll Comes Up Short",
+					"scenario": "Thursday night, accounting finds the payroll file went in with wrong hours: the company is $9,000 short for Friday payroll. The owner is at a conference, the credit line needs his signature, and the team expects checks at 8 a.m.",
+					"options": {
+						"A": {
+							"text": "Delay payroll to Monday, telling the team the bank had a processing delay. It buys the weekend, but it lies to everyone about money they earned.",
+							"value": 150
+						},
+						"B": {
+							"text": "Tell the team the truth first thing in the morning: the file had an error and the money lands by noon. Reach the owner, get the draw signed, and have every check out by noon.",
+							"value": 500
+						},
+						"C": {
+							"text": "Quietly move $9,000 from a customer's large prepayment into payroll. Checks clear, but this spends a customer's money without permission to cover the company's mistake.",
+							"value": 0
+						}
+					},
+					"correct": "B",
+					"host_note": "Principle: Safe to Speak. Why B wins: immediate honest communication plus a concrete fix time; payroll trust survives a half-day delay it does not survive a cover-up. Discuss: what to say when the company is at fault, and why specifics ('by noon') beat vague reassurance. Wrong answers: A lies about the bank to buy a weekend (150); C misuses customer funds to hide the error ($0).",
+					"card_code": "BE-ACC-34"
+				},
+				{
+					"n": 35,
+					"title": "The Hidden Bills",
+					"scenario": "The new controller opens a desk drawer and finds unpaid vendor bills totaling $22,000, some 120 days old. The previous bookkeeper hid them to make cash flow look better before she left. Two vendors stopped shipments. The owner does not know.",
+					"options": {
+						"A": {
+							"text": "Tell the owner everything today: what was hidden, how much, and for how long, with a plan to pay the vendors. Then fix the process with dual controls on payables.",
+							"value": 500
+						},
+						"B": {
+							"text": "Pay the bills quietly this week and tell no one. But the owner keeps deciding on reports that were fiction for months, and the process hole stays open for the next person.",
+							"value": 0
+						},
+						"C": {
+							"text": "Pay the most urgent bills now and disclose the rest gradually. But staged honesty is still managed honesty, and every delay is another week of decisions made on wrong numbers.",
+							"value": 150
+						}
+					},
+					"correct": "A",
+					"host_note": "Principle: Define Reality First. Why A wins: full immediate disclosure plus a process fix; the owner cannot lead on numbers he cannot trust. Discuss: why 'quietly fixing it' feels tempting, and what dual controls actually prevent. Wrong answers: B leaves the process hole open ($0); C manages the truth on a schedule (150).",
+					"card_code": "BE-ACC-35"
+				},
+				{
+					"n": 36,
+					"title": "She Wants to Learn Costing",
+					"scenario": "Alina, the junior accountant, asked to learn job costing, the most valuable skill in the department. The senior accountant says there is no time to teach: month-end, payroll, and payables fill every hour. Alina is sharp and motivated, but without a path she will leave.",
+					"options": {
+						"A": {
+							"text": "Tell Alina to learn job costing on her own time, and the company will reimburse the fees. But it signals that her growth is her private hobby, not the company's investment.",
+							"value": 150
+						},
+						"B": {
+							"text": "Give her the costing files to review whenever she has downtime, with no guidance. There is no downtime, so this is a polite no, and unguided files teach bad habits.",
+							"value": 0
+						},
+						"C": {
+							"text": "Carve out two hours a week: Alina shadows one real job-cost review, then owns a small piece of the next one with feedback. Shift one routine task off her plate to make room.",
+							"value": 500
+						}
+					},
+					"correct": "C",
+					"host_note": "Principle: Be a Learning Machine. Why C wins: it makes training real with scheduled hours, shadowing, and owned work, funded by rebalancing load; it also builds department capacity. Discuss: what 'no time to train' really costs, and how teaching builds the bench. Wrong answers: A outsources her growth (150); B is a polite no that teaches bad habits (0).",
+					"card_code": "BE-ACC-36"
+				},
+				{
+					"n": 37,
+					"title": "Ninety Days Past Due",
+					"scenario": "The Hendersons, customers for six years, owe $3,800 and are 90 days past due. Mr. Henderson called, admitted his hours were cut, and offered $200 a month. Policy says accounts over 90 days go to a collection agency.",
+					"options": {
+						"A": {
+							"text": "Set a written payment plan: $200 a month, auto-drafted, with no late fees while payments stay current. Thank him for calling instead of hiding.",
+							"value": 500
+						},
+						"B": {
+							"text": "Send the account to collections as the routine requires. But the agency's cut leaves less than a payment plan would, and a six-year relationship ends over one hard year.",
+							"value": 150
+						},
+						"C": {
+							"text": "Accept $200 a month verbally, with no formal agreement in place. Without written terms the payments will drift, and accounting will chase this balance next year.",
+							"value": 150
+						}
+					},
+					"correct": "A",
+					"host_note": "Principle: Keep Customers for Life. Why A wins: it keeps a six-year customer, recovers the full balance, and written auto-draft terms make the plan durable; kindness plus structure. Discuss: when policy should bend, and why written terms protect both sides. Wrong answers: B trades lifetime value for an agency fee (150); C is kindness with no structure, so it drifts (150).",
+					"card_code": "BE-ACC-37"
+				},
+				{
+					"n": 38,
+					"title": "The Vendor's Offer",
+					"scenario": "A materials vendor takes the purchasing manager to lunch and offers him a personal $200 gift card 'for every $10,000 order you steer our way.' The manager mentions it to accounting casually, laughing, and says he has not decided. The vendor's prices are already competitive.",
+					"options": {
+						"A": {
+							"text": "Ignore it, since he has not accepted anything and the prices are fair. But silence reads as permission, and the offer stays until he stops laughing and starts accepting.",
+							"value": 150
+						},
+						"B": {
+							"text": "Refuse the arrangement outright and tell the vendor plainly that purchasing decisions are made on price, quality, and service, never on personal perks. Put the policy in writing.",
+							"value": 500
+						},
+						"C": {
+							"text": "Tell the manager to accept the gift cards but keep them quiet. But it sells the company's purchasing judgment for $200 a card, and secret perks always grow.",
+							"value": 0
+						}
+					},
+					"correct": "B",
+					"host_note": "Principle: Do Right When It Costs You. Why B wins: it kills the kickback cleanly, sets a written standard for all buyers, and keeps purchasing decisions on merit. Discuss: why 'prices are fair anyway' does not make it okay, and how small perks scale. Wrong answers: A permits by silence until the laugh stops (150); C rents out purchasing judgment ($0).",
+					"card_code": "BE-ACC-38"
+				},
+				{
+					"n": 39,
+					"title": "The Owner's Personal Expenses",
+					"scenario": "At year end, the owner drops a folder of personal receipts on accounting's desk: family vacations, a home theater, dinners with friends. He asks that they run through the business to lower the tax bill. He says his last accountant 'took care of it.' The total is about $14,000.",
+					"options": {
+						"A": {
+							"text": "Book the receipts as business expenses exactly as asked. It keeps the boss happy, but it puts false numbers in the books and exposes everyone if the return is ever questioned.",
+							"value": 150
+						},
+						"B": {
+							"text": "Book half the receipts, the ones that could plausibly relate to business, and return the rest. But 'plausibly related' is not a standard that survives an audit.",
+							"value": 150
+						},
+						"C": {
+							"text": "Decline respectfully: the books must reflect reality, and personal spending booked as business expense is misrepresentation. Offer to review legitimate deductions instead.",
+							"value": 500
+						}
+					},
+					"correct": "C",
+					"host_note": "Principle: Do Right When It Costs You. Why C wins: it refuses to falsify records, explains the business cost (corrupted management numbers), and offers a legitimate alternative. Discuss: how to say no to the owner with respect, and why clean books are a business asset. Wrong answers: A falsifies records to keep the boss happy (150); B falsifies politely and calls it compromise (150).",
+					"card_code": "BE-ACC-39"
+				},
+				{
+					"n": 40,
+					"title": "Make the Report Look Better",
+					"scenario": "The night before the quarterly owner meeting, the GM asks accounting to move $18,000 of expenses into next quarter 'just on paper' so profit looks stronger. He says the owner is stressed, the business is fine, and the expenses will still be recorded, just later.",
+					"options": {
+						"A": {
+							"text": "Refuse, and present the real numbers with a clear explanation of what drove the quarter. A tough quarter with a plan reads as leadership.",
+							"value": 500
+						},
+						"B": {
+							"text": "Move half the expenses so the quarter looks somewhat better. But half a misstatement is still a misstatement, and the line will move further next quarter.",
+							"value": 150
+						},
+						"C": {
+							"text": "Agree to move the expenses, but document the GM's request in an email. The trail protects accounting later, but it turns a refusal into quiet complicity with evidence.",
+							"value": 0
+						}
+					},
+					"correct": "A",
+					"host_note": "Principle: Define Reality First. Why A wins: it protects the integrity of the numbers the owner manages by, and gives the GM a better alternative: framing the honest story. Discuss: how to refuse a superior's request with respect, and the difference between framing and falsifying. Wrong answers: B invents 'half honest' as a category (150); C documents complicity instead of preventing it (0).",
+					"card_code": "BE-ACC-40"
+				}
+			]
+		},
+		{
+			"deck": "Recruiting",
+			"cards": [
+				{
+					"n": 1,
+					"title": "The Firing Conversation",
+					"scenario": "You have decided to let go of a dispatcher after months of documented performance issues. The meeting is tomorrow, and you keep rehearsing ways to soften the blow. How do you handle it?",
+					"options": {
+						"A": {
+							"text": "Be direct and brief: state the decision in the first minute, give the documented reasons plainly, and explain final pay. Then listen. Bring the paperwork and a witness.",
+							"value": 500
+						},
+						"B": {
+							"text": "Open with his strengths, then ease gently into the decision. Softening shows respect and keeps the conversation calm. Offer to serve as a reference for roles that fit him better.",
+							"value": 150
+						},
+						"C": {
+							"text": "Offer him the choice to resign instead of being fired. It preserves his dignity and his resume. The outcome is the same for you with far less pain. Put the choice in writing.",
+							"value": 150
+						}
+					},
+					"correct": "A",
+					"host_note": "Principle: Love Is the Greatest Leadership Tool. Why A (+500) wins: clarity is kindness; a direct, prepared, humane conversation respects his dignity far more than softening or dressing the exit as his choice. Discussion: what does 'direct and brief' sound like in real words; how do you handle tears or anger; why does the witness matter? Wrong: B (+150)'s softening confuses him about whether it is really happening; C (+150)'s fake choice insults his intelligence and muddies the record.",
+					"card_code": "BE-RE-01"
+				},
+				{
+					"n": 2,
+					"title": "The Empty Interview Room",
+					"scenario": "Half of your scheduled candidates no-showed for interviews this month. Managers are frustrated and want to stop chasing people who clearly do not want jobs. The pipeline is thinning fast. What do you change?",
+					"options": {
+						"A": {
+							"text": "Require a $50 deposit to book an interview, returned when the candidate shows up. It filters for serious applicants and compensates manager time. Fifty dollars proves intent.",
+							"value": 0
+						},
+						"B": {
+							"text": "Schedule fewer interviews and only invite the strongest resumes. Fewer interviews means fewer no-shows by simple math, and managers spend their time on qualified candidates.",
+							"value": 150
+						},
+						"C": {
+							"text": "Fix your side first: confirm by text the day before, offer flexible times, and make the location and parking clear. Then track no-shows by source and drop bad channels.",
+							"value": 500
+						}
+					},
+					"correct": "C",
+					"host_note": "Principle: Systems, Not Heroes. Why C (+500) wins: no-shows are usually a process failure, not a character failure; fixing confirmation, flexibility, and clarity is a system that works for every candidate, every week. Discussion: what should your confirmation text say; which sources actually produce reliable candidates; how do you measure show-rate improvement? Wrong: A ($0)'s deposit insults good candidates and shrinks the pool; B (+150)'s tighter funnel mistakes fewer interviews for better hiring.",
+					"card_code": "BE-RE-02"
+				},
+				{
+					"n": 3,
+					"title": "The Wrong Mentor",
+					"scenario": "New hires shadow your most senior tech, who is brilliant but openly cynical: customers lie, management does not care. Two recent hires have picked up his attitude, and he is your best teacher technically. What do you do?",
+					"options": {
+						"A": {
+							"text": "Stop assigning new hires to him, and tell him why: his skill is respected and his cynicism is contagious. Choose mentors for attitude first, skill second, with a mentoring role.",
+							"value": 500
+						},
+						"B": {
+							"text": "Keep the shadowing but add a culture day at the end of onboarding to undo the damage. His technical training is too valuable to lose, and one day can balance weeks of grumbling.",
+							"value": 0
+						},
+						"C": {
+							"text": "Talk to him privately about toning it down around new hires. He has earned his opinions over many years, and a conversation should be enough to get him to filter himself.",
+							"value": 150
+						}
+					},
+					"correct": "A",
+					"host_note": "Principle: Culture Is When the Boss Leaves. Why A (+500) wins: mentors are culture transmitters, and a cynic in that seat reproduces cynics; selecting mentors for attitude and telling the senior tech the truth protects both the new hires and the standard. Discussion: how do you tell a veteran his attitude disqualifies him without losing his skill; what makes a great mentor beyond tenure; how do you recognize mentors so the role is coveted? Wrong: C (+150)'s quiet word has been tried everywhere and changes nothing; B ($0)'s culture day cannot un-teach six weeks of modeled contempt.",
+					"card_code": "BE-RE-03"
+				},
+				{
+					"n": 4,
+					"title": "The Poaching Call",
+					"scenario": "A competitor is calling your technicians offering three dollars more per hour. Two good people mentioned it this week, morale is wobbling, and the calls will keep coming. How do you respond?",
+					"options": {
+						"A": {
+							"text": "Tell the crew that anyone who entertains the competitor's calls will be let go. Loyalty is a two-way street, and a hard clear line now stops the bleeding fast.",
+							"value": 0
+						},
+						"B": {
+							"text": "Talk to your people: what works, what does not, what would make leaving unthinkable? Fix the gaps you can afford, keep pay at market, and make staying better than three dollars.",
+							"value": 500
+						},
+						"C": {
+							"text": "Call the competitor's owner directly and tell him to back off your people. Poaching is dirty pool in a small market, and a frank owner-to-owner conversation usually stops it cold.",
+							"value": 150
+						}
+					},
+					"correct": "B",
+					"host_note": "Principle: Why Power. Why B (+500) wins: the calls are a symptom, and the cure is making your company the obviously better choice across pay, respect, schedule, and future; threats and bidding wars both lose. Discussion: what questions reveal the real retention risks; which gaps are actually fixable on your budget; how do you talk about the competitor without sounding scared? Wrong: C (+150)'s owner-to-owner call changes nothing about why your people listen; A ($0)'s loyalty threat accelerates exactly the exits it aims to prevent.",
+					"card_code": "BE-RE-04"
+				},
+				{
+					"n": 5,
+					"title": "The Blame Speech",
+					"scenario": "You fired a manager for repeated missed targets. At the next team meeting, people are anxious and whispering about what happened. You need to address the departure head-on. What do you say?",
+					"options": {
+						"A": {
+							"text": "Address it and own it: the decision was yours, the standards are the company's. Do not detail his failures to the room. Then talk about what comes next and what you need from them.",
+							"value": 500
+						},
+						"B": {
+							"text": "Tell the team why he failed: missed numbers quarter after quarter, excuses in reviews, warnings ignored. Full transparency shows what happens when targets are missed.",
+							"value": 0
+						},
+						"C": {
+							"text": "Say nothing about the departure and move to business as usual. Addressing it gives the exit more weight than it deserves, and the team will settle down on its own within a week.",
+							"value": 150
+						}
+					},
+					"correct": "A",
+					"host_note": "Principle: Give Away the Credit, Take the Blame. Why A (+500) wins: owning the decision and the standard, without dissecting the person, shows the team that accountability flows upward and dignity flows downward; that is what steady teams are built on. Discussion: what does 'brief' mean in actual sentences; how do you answer direct questions without lying or oversharing; what do you say about the transition plan? Wrong: B ($0)'s full story humiliates the departed and terrifies the room; C (+150)'s silence lets anxiety write its own darker story.",
+					"card_code": "BE-RE-05"
+				},
+				{
+					"n": 6,
+					"title": "The Chaotic First Week",
+					"scenario": "A promising new hire tells you privately that his first week was chaos: no workstation, no login, nobody knew he was starting. He is reconsidering his decision to join you, and his manager looks embarrassed. What do you do?",
+					"options": {
+						"A": {
+							"text": "Apologize and promise the next hire gets better, then focus forward: equipment, access, introductions. The damage for him is done; make sure the next person never experiences this.",
+							"value": 150
+						},
+						"B": {
+							"text": "Ask his manager to smooth it over. Onboarding belongs to the supervisor, and stepping in undermines that manager's authority. Check back in two weeks to confirm it resolved.",
+							"value": 0
+						},
+						"C": {
+							"text": "Own it: tell him he deserved better and the failure was yours, not his. Repair his week with a full walkthrough, proper introductions, and a real first project with an early win.",
+							"value": 500
+						}
+					},
+					"correct": "C",
+					"host_note": "Principle: Brilliant on the Basics. Why C (+500) wins: a workstation, a login, and someone expecting you are the basics, and basics done right retain people; owning the failure personally rebuilds trust while the checklist prevents the repeat. Discussion: what belongs on a first-week checklist; who owns each item; how does a leader apologize without groveling? Wrong: A (+150) writes him off as a sunk cost while he is still deciding; B (+0) delegates the repair to the person who caused it.",
+					"card_code": "BE-RE-06"
+				},
+				{
+					"n": 7,
+					"title": "The Counter-Offer",
+					"scenario": "Your best install lead says a competitor offered him four dollars more per hour. He likes it here but the money gap is real. He has not accepted yet, and he told you first. What do you do?",
+					"options": {
+						"A": {
+							"text": "Match the four dollars today and add a $2,000 retention bonus at six months. Losing him costs far more than the raise. Every day you wait, the competitor's offer looks better.",
+							"value": 150
+						},
+						"B": {
+							"text": "Ask what matters beyond the hourly number: schedule, crew, growth, respect. Close the gap partway if the budget allows, and fix the frustrations he names with a growth plan.",
+							"value": 500
+						},
+						"C": {
+							"text": "Let him go and wish him well. Matching counter-offers trains people to job-hunt for raises. Invest the money in his replacement instead of renting loyalty at a premium.",
+							"value": 150
+						}
+					},
+					"correct": "B",
+					"host_note": "Principle: Why Power. Why B (+500) wins: the offer is usually the trigger, not the cause; diagnosing the real drivers lets you fix retention instead of renting it, and a growth plan gives him a future the competitor did not offer. Discussion: which questions reveal the real reason; how far do you close a pay gap without breaking equity; when is the counter-offer conversation already too late? Wrong: A (+150) buys months, not loyalty, and teaches the tactic; C (+150) surrenders a known star to save face.",
+					"card_code": "BE-RE-07"
+				},
+				{
+					"n": 8,
+					"title": "The Off-Limits Question",
+					"scenario": "You overhear a hiring manager ask a candidate, 'Do you have kids? This job needs someone flexible.' The candidate laughs it off, but you know the question crosses a legal line, and he interviews candidates regularly. What do you do?",
+					"options": {
+						"A": {
+							"text": "Correct him privately today: explain why the question is off-limits, and give three lawful reliability questions. Then put a do's-and-don'ts sheet in every hiring packet.",
+							"value": 500
+						},
+						"B": {
+							"text": "Pull him aside, tell him to stick to the script next time, and move on. He meant no harm and the candidate laughed it off. A quiet word corrects it without embarrassing a manager.",
+							"value": 150
+						},
+						"C": {
+							"text": "Send a company-wide email with interview guidelines, no names. Attach approved lawful questions and ask every manager to confirm they read it.",
+							"value": 150
+						}
+					},
+					"correct": "A",
+					"host_note": "Principle: Handle It While It's Small. Why A (+500) wins: a small private correction plus a systemic sheet stops the next ten violations; a quiet word alone leaves every other manager still guessing. Discussion: which lawful questions actually assess reliability; how do you correct without shaming; who owns the hiring packet? Wrong: B (+150) fixes nothing beyond one person; C (+150)'s vague email teaches nobody and signals you will not confront directly.",
+					"card_code": "BE-RE-08"
+				},
+				{
+					"n": 9,
+					"title": "Above the Range",
+					"scenario": "Your top candidate asks for $8,000 above your posted salary range. She is worth it on paper, and the budget is tight but not frozen. Your current staff would hear about any exception. How do you respond?",
+					"options": {
+						"A": {
+							"text": "Hold the range firmly and do not budge. Ranges exist for fairness: one exception starts a chain you will never contain. Thank her for her time and move on if she will not meet it.",
+							"value": 150
+						},
+						"B": {
+							"text": "Check two things: can the budget stretch without breaking equity with current staff, and does her value exceed the range? If both check out, stretch the range and document why.",
+							"value": 500
+						},
+						"C": {
+							"text": "Offer the top of the range plus a one-time bonus to bridge the gap. It respects the band structure while getting close to her number. Most candidates accept a creative package.",
+							"value": 0
+						}
+					},
+					"correct": "B",
+					"host_note": "Principle: Know Your Numbers. Why B (+500) wins: the decision is arithmetic, not ego; checking budget impact and true value before answering produces a yes you can defend or a no she can respect. Discussion: how do you judge 'truly exceeds the range'; what does documenting the exception prevent; how do you present a twelve-month path credibly? Wrong: A (+150) loses a proven difference-maker to protect a spreadsheet; C (+0)'s bonus bridge delays the same fight by one year.",
+					"card_code": "BE-RE-09"
+				},
+				{
+					"n": 10,
+					"title": "The Career Fair Booth",
+					"scenario": "A regional career fair expects two thousand young job seekers next month. Your biggest competitor will run a large flashy booth. Your budget is small, and the whole local market will be walking past. What is your play?",
+					"options": {
+						"A": {
+							"text": "Skip the booth and post the roles on three major job boards instead. Boards reach more people for less money. Measurable applications beat expensive theater.",
+							"value": 150
+						},
+						"B": {
+							"text": "Send two recruiters with a table, a banner, and a QR code to your application page. Collect names, follow up within 48 hours, and measure cost per applicant. Lean beats absent.",
+							"value": 150
+						},
+						"C": {
+							"text": "Put two of your best team members in the booth, not recruiters, for honest talk about the work, good and bad. Bring a one-page handout on where a hire can be in three years.",
+							"value": 500
+						}
+					},
+					"correct": "C",
+					"host_note": "Principle: Hiring Makes You or Breaks You. Why C (+500) wins: in a tight labor market the scarcest resource is candidate attention, and authenticity from real employees beats polish; the career-path handout sells a future, not just a job. Discussion: who are your two best ambassadors; what does honest mean (do you admit the hard parts); how do you measure booth ROI? Wrong: A (+150) surrenders the face-to-face channel entirely; B (+150) shows up forgettably.",
+					"card_code": "BE-RE-10"
+				},
+				{
+					"n": 11,
+					"title": "The Sixty-Day Slump",
+					"scenario": "A new hire you were excited about is struggling at day 60: slow work, repeated errors, quiet in meetings. Her formal 90-day review is coming up, and you need to act before then. What do you do now?",
+					"options": {
+						"A": {
+							"text": "Sit down with her this week: name what you see and ask what is in her way. Then build a 30-day plan with clear targets and weekly check-ins. Coach her, do not just warn her.",
+							"value": 500
+						},
+						"B": {
+							"text": "Extend probation 60 more days and tell her to step it up now. Some people are slow starters, and cutting her wastes your whole hiring investment. More time plus a warning is fair.",
+							"value": 150
+						},
+						"C": {
+							"text": "Wait for the 90-day review and decide then with a record. Acting feels premature, and the review gives documentation and a natural moment. Keep notes, but do not intervene early.",
+							"value": 0
+						}
+					},
+					"correct": "A",
+					"host_note": "Principle: Expectations Before Accountability. Why A (+500) wins: she cannot be accountable to a bar she has not been clearly shown; a specific plan with coaching makes day 90 a fair verdict instead of an ambush. Discussion: what do two or three targets look like for this role; how do you ask 'what's in your way' without it becoming an excuse session; what if she meets half the plan? Wrong: B (+150) extends the fog without clearing it; C (+0)'s silence until day 90 turns the review into a trial she did not know she was in.",
+					"card_code": "BE-RE-11"
+				},
+				{
+					"n": 12,
+					"title": "The Signing Bonus",
+					"scenario": "You are competing for a licensed technician in a tight market. Your advisor suggests a $5,000 signing bonus to win him, but you worry about paying for a signature instead of a career. How do you structure it?",
+					"options": {
+						"A": {
+							"text": "Skip the bonus and offer $5,000 more in base salary instead. Salary compounds in loyalty while a bonus is forgotten by month two. Permanent money beats temporary money.",
+							"value": 150
+						},
+						"B": {
+							"text": "Tie it to staying: $1,500 at 90 days and $3,500 at one year, in writing, with a repayment clause if he leaves early. A signing bonus should buy retention, not just a signature.",
+							"value": 500
+						},
+						"C": {
+							"text": "Split it evenly: $2,500 at hire and $2,500 at six months. It balances the immediate win with a reason to stay past the honeymoon.",
+							"value": 150
+						}
+					},
+					"correct": "B",
+					"host_note": "Principle: Pay for What You Want Repeated. Why B (+500) wins: the bonus is a tool, and tools should be aimed at the outcome you want; back-loading with a clawback pays for retention while day-one cash pays only for a signature. Discussion: what split actually retains versus what just feels generous; how do you explain a clawback without souring the hire; when is a bonus the wrong tool entirely? Wrong: A (+150) permanently raises fixed cost for a one-time recruiting problem; C (+150)'s even split still pays half for showing up.",
+					"card_code": "BE-RE-12"
+				},
+				{
+					"n": 13,
+					"title": "The Waiting Clearance",
+					"scenario": "Your top candidate accepted, contingent on a background check now delayed three weeks. He wants to start Monday. The role enters customer homes and handles payments, and he has another offer waiting. What do you do?",
+					"options": {
+						"A": {
+							"text": "Hold the start date until the clearance completes, and tell him why: the role enters customer homes and handles payments. Stay in touch and send onboarding materials to review.",
+							"value": 500
+						},
+						"B": {
+							"text": "Start him Monday on office-only duties: no customer contact, no payment access. He stays engaged, you get work from the wait, and restrictions lift when the clearance arrives.",
+							"value": 150
+						},
+						"C": {
+							"text": "Start him Monday with full duties and quietly expedite the check behind the scenes. The delay is probably just backlog, and holding a great hire over paperwork punishes everyone.",
+							"value": 0
+						}
+					},
+					"correct": "A",
+					"host_note": "Principle: Do Right When It Costs You. Why A (+500) wins: the check exists to protect customers who open their doors to strangers; holding the line when it costs you a fast start is what makes the promise to customers real. Discussion: how do you keep a candidate warm for three weeks without overpromising; what do you say if he gets another offer; where does the real risk sit? Wrong: B (+150)'s limited duties still put an uncleared person inside the operation; C ($0) gambles customer trust on the assumption that backlog equals clean.",
+					"card_code": "BE-RE-13"
+				},
+				{
+					"n": 14,
+					"title": "The Referral Reward",
+					"scenario": "Your best hires always came from employee referrals, but that pipeline has dried up over the last year. You want a formal program that actually restarts it, and the budget is flexible if the design is right. What do you roll out?",
+					"options": {
+						"A": {
+							"text": "Offer a $250 gift card for any referral hired, paid on day one. Keep the rules verbal so you can adjust later. Mention it at the next huddle and watch what happens.",
+							"value": 150
+						},
+						"B": {
+							"text": "Run a 60-day contest: the employee with the most hired referrals wins a weekend trip. Post a weekly leaderboard for energy. Competition creates urgency a flat bonus never will.",
+							"value": 150
+						},
+						"C": {
+							"text": "Launch a written program: $500 when the hire clears 90 days, $500 more at one year. Post the rules, pay bonuses publicly and on time, and thank referrers by name.",
+							"value": 500
+						}
+					},
+					"correct": "C",
+					"host_note": "Principle: Hiring Makes You or Breaks You. Why C (+500) wins: recruiting is a system, not a wish; a trusted, written, reliably paid program compounds while gimmicks spike and die. Discussion cues: why did referrals dry up (distrust? no ask?), does payout timing shape behavior, how does public payment build credibility? Wrong answers: A (+150) trains people the program is casual and changeable; B (+150) creates a burst then a dead pipeline and rewards volume over fit.",
+					"card_code": "BE-RE-14"
+				},
+				{
+					"n": 15,
+					"title": "The Gap Years",
+					"scenario": "A candidate's resume shows a two-year gap with no explanation. Her skills test is the best you have seen for this role. Your policy says nothing about gaps, and she is waiting on your decision. What do you do?",
+					"options": {
+						"A": {
+							"text": "Pass and move to the next candidate. An unexplained two-year gap is a risk you do not need when other applicants have clean histories. Choose the one without questions attached.",
+							"value": 150
+						},
+						"B": {
+							"text": "Ask about it respectfully, then judge the answer like any other: honestly, without assumptions. Her skills test is real evidence; the gap is just an unanswered question.",
+							"value": 500
+						},
+						"C": {
+							"text": "Call her employer about the gap instead of asking her directly. A third party gives you the unfiltered story without a rehearsed answer, and you verify the timeline independently.",
+							"value": 0
+						}
+					},
+					"correct": "B",
+					"host_note": "Principle: Never Pre-Judge. Why B (+500) wins: the gap is a question, not a verdict, and a direct respectful conversation gets the answer while honoring her dignity; judging the person beats judging the timeline. Discussion: how do you ask about a gap without it feeling like an interrogation; which answers are genuine versus evasive; what should your policy say going forward? Wrong: A (+150) discards your best skills test over an unasked question; C ($0) investigates behind her back and poisons trust before day one.",
+					"card_code": "BE-RE-15"
+				},
+				{
+					"n": 16,
+					"title": "The Exit Interview Truth",
+					"scenario": "Exit interviews keep surfacing the same theme for a year: new hires feel blindsided by on-call expectations. Nothing has changed, and the pattern is now undeniable. What do you do about it?",
+					"options": {
+						"A": {
+							"text": "Add a bold paragraph about on-call duties to every offer letter. If it is in writing before day one, nobody can claim they were blindsided. One signed paragraph ends the surprise.",
+							"value": 150
+						},
+						"B": {
+							"text": "Add an on-call bonus bump to make the burden worth it, with a published schedule so people can plan their lives. Money softens the surprise, and it shows the team you heard them.",
+							"value": 150
+						},
+						"C": {
+							"text": "Treat it as a management failure. Rewrite postings and the interview script so on-call is described honestly, and build a fair rotation that genuinely shares the burden.",
+							"value": 500
+						}
+					},
+					"correct": "C",
+					"host_note": "Principle: Problems Are Tests. Why C (+500) wins: a repeated exit theme is data about the system; only honest pitching plus a fair rotation removes the cause. Discussion: what do honest on-call numbers look like in a posting; how do you build a rotation people trust; what should the 30-day check-in ask? Wrong: A (+150) documents the surprise without removing it; B (+150) pays people to endure a problem you could solve.",
+					"card_code": "BE-RE-16"
+				},
+				{
+					"n": 17,
+					"title": "Everyone's Favorite",
+					"scenario": "A long-tenured warehouse coordinator is beloved: funny, helpful, always early. He cannot learn the new inventory system after six months of training, and his errors are piling up. What do you do?",
+					"options": {
+						"A": {
+							"text": "Have the honest talk: show the error pattern and give one final 30-day plan with daily support. If he cannot clear it, move him to a role without the system or part ways kindly.",
+							"value": 500
+						},
+						"B": {
+							"text": "Keep him where he is and have others double-check his work daily. His attitude lifts the whole shop, and a buddy check works around the errors. Losing him hurts morale more.",
+							"value": 0
+						},
+						"C": {
+							"text": "Move him now to deliveries or shop support, where the system is not required. You keep a culture carrier, remove the errors, and he gets a fresh start somewhere he can succeed.",
+							"value": 150
+						}
+					},
+					"correct": "A",
+					"host_note": "Principle: Right Person, Right Seat. Why A (+500) wins: it pairs honesty with a genuine final chance, and names the truth that carrying him punishes everyone including him; the outcome, whichever way it goes, is fair and clear. Discussion: what does daily support actually look like; how do you show error patterns without shaming; what alternative roles truly fit? Wrong: B ($0)'s buddy-check taxes the whole team to protect one person's feelings; C (+150) avoids the conversation by moving the problem sideways.",
+					"card_code": "BE-RE-17"
+				},
+				{
+					"n": 18,
+					"title": "The Old Posts",
+					"scenario": "A strong candidate's public social media shows crude jokes and complaints about former bosses from three years ago. His work history since then is excellent, and he interviewed well. How do you handle the old posts?",
+					"options": {
+						"A": {
+							"text": "Disqualify him quietly and move on. Public posts are a real window into character, and crude jokes plus boss-bashing predict the employee you do not want in customer homes.",
+							"value": 150
+						},
+						"B": {
+							"text": "Bring it up: ask what he would want a future employer to see online today, and listen to how he owns it. Judge the work record and whether he takes responsibility without excuses.",
+							"value": 500
+						},
+						"C": {
+							"text": "Have someone else on the team review the posts and decide whether it matters. You are too close to be objective about character, and a second opinion keeps the process fair.",
+							"value": 0
+						}
+					},
+					"correct": "B",
+					"host_note": "Principle: Character Over Skill. Why B (+500) wins: it tests character directly instead of guessing from old posts; how he handles the question reveals the maturity the posts cannot, and you keep a strong work record in play. Discussion: what does owning it sound like versus excuses; where is the line between growth and pattern; should you look at social media at all? Wrong: A (+150) discards proven skill over ancient posts; C (+0) outsources a leadership call to avoid discomfort.",
+					"card_code": "BE-RE-18"
+				},
+				{
+					"n": 19,
+					"title": "The One-Interview Hire",
+					"scenario": "A manager is pushing to hire a candidate after a single great conversation. 'I just know,' he says. 'We will lose her if we slow down.' Two interview steps remain in your process. What do you do?",
+					"options": {
+						"A": {
+							"text": "Finish the process. One conversation is when discipline matters most, because charm is not competence. Run the steps, check references, and score her on the requirements.",
+							"value": 500
+						},
+						"B": {
+							"text": "Compromise: run one reference call, then decide this afternoon. It honors his urgency with a safety check. A positive reference gives speed and diligence; a flag saves you.",
+							"value": 150
+						},
+						"C": {
+							"text": "Let the manager decide: it is his team and his vacancy, and he will live with the hire daily. Support his call, help with onboarding, and hold him accountable for the outcome.",
+							"value": 0
+						}
+					},
+					"correct": "A",
+					"host_note": "Principle: Hell Yeah, or No. Why A (+500) wins: a fast yes is as dangerous as a slow no; completing the process tests whether the enthusiasm survives evidence. Discussion: what are the remaining steps designed to catch; how do you move fast without skipping; what do you tell the candidate while the process runs? Wrong: B (+150)'s single call is theater that will not catch a real problem; C (+0) abdicates the hiring standard to whoever feels strongest.",
+					"card_code": "BE-RE-19"
+				},
+				{
+					"n": 20,
+					"title": "The Promise",
+					"scenario": "A candidate you desperately want is hesitating on your offer. Your manager suggests promising him a supervisor promotion within six months to close the deal. No such opening is planned or budgeted. What do you do?",
+					"options": {
+						"A": {
+							"text": "Make the promise verbally and worry about the opening later. Landing him now solves the vacancy, and six months is a long time. You can explain any delay when the time comes.",
+							"value": 0
+						},
+						"B": {
+							"text": "Offer a title bump: senior technician with higher pay. It gives him the status he wants without committing to an opening that does not exist. Titles are cheap.",
+							"value": 150
+						},
+						"C": {
+							"text": "Refuse the promise and sell the job honestly: real pay, real work, real timeline. Hires built on honesty stay; hires built on promises quit and warn others.",
+							"value": 500
+						}
+					},
+					"correct": "C",
+					"host_note": "Principle: Do Right When It Costs You. Why C (+500) wins: a hire secured by fiction becomes a resignation secured by betrayal, and the story he tells afterward poisons your reputation with every candidate he knows. Discussion: how do you sell a real opportunity hard without inventing one; what do you say when the candidate presses for a timeline; how do you handle the manager who suggested the lie? Wrong: A ($0) trades one vacancy now for a bitter exit and a reputation hit later; B (+150)'s inflated title creates an expectations mess with the existing team.",
+					"card_code": "BE-RE-20"
+				},
+				{
+					"n": 21,
+					"title": "The Growth Question",
+					"scenario": "A strong coordinator asks you directly, 'Where can I go from here?' You have no formal career path for the role, and she is clearly ambitious. Two competitors are hiring right now. What do you tell her?",
+					"options": {
+						"A": {
+							"text": "Be honest that the role has no ladder and offer a raise instead. Not every seat leads somewhere. Fair pay for good work is an honest deal, and clarity prevents resentment later.",
+							"value": 150
+						},
+						"B": {
+							"text": "Build the path with her: map the skills the next level requires, agree on three milestones, and tie each to new responsibility and pay. Review progress every quarter.",
+							"value": 500
+						},
+						"C": {
+							"text": "Promise a promotion track and work out details over the next few months. Keeping a star matters more than having every detail ready today; design the path while she stays.",
+							"value": 0
+						}
+					},
+					"correct": "B",
+					"host_note": "Principle: Be a Learning Machine. Why B (+500) wins: it turns a vague anxiety about the future into a concrete, co-owned growth plan with milestones and reviews; ambition answered with structure becomes loyalty. Discussion: what do three milestones look like for a coordinator; how do you tie pay to milestones fairly; what do you do if she outruns the plan? Wrong: A (+150)'s honesty without a path still loses her; C ($0)'s promised track is a lie that explodes on first review.",
+					"card_code": "BE-RE-21"
+				},
+				{
+					"n": 22,
+					"title": "The Empty Chair",
+					"scenario": "You are down two installers in peak season. The crew is working heavy overtime and fraying at the edges. A mediocre candidate is available to start Monday, and the dispatcher is begging for relief. What do you do?",
+					"options": {
+						"A": {
+							"text": "Hire him Monday. A warm body relieves the overtime pressure, and you can coach him up or replace him after the season. Doing nothing while the team breaks down is the real failure.",
+							"value": 150
+						},
+						"B": {
+							"text": "Lower the bar: hire for attitude and train skills in a two-week crash course. Peak season forbids a six-week search, and a willing learner with coaching beats an empty truck.",
+							"value": 0
+						},
+						"C": {
+							"text": "Do not fill the seat with the wrong person. Redistribute the workload, authorize targeted overtime with a firm end date, and tell the crew exactly how long the push lasts.",
+							"value": 500
+						}
+					},
+					"correct": "C",
+					"host_note": "Principle: Do Right When It Costs You. Why C (+500) wins: the short-term pain of overtime is cheaper than the compounding cost of a bad hire made under pressure; holding the standard when it hurts is what makes it a standard. Discussion: how do you ask a tired crew for three more weeks honestly; what does targeted overtime look like versus open-ended grinding; how do you keep the search fast without lowering the bar? Wrong: A (+150) trades crew burnout for crew resentment when the weak hire drags everyone down; B (+0)'s crash course produces confident incompetence at the worst moment.",
+					"card_code": "BE-RE-22"
+				},
+				{
+					"n": 23,
+					"title": "The Untouchable",
+					"scenario": "Your highest-producing salesperson is caught padding expense reports. Small amounts, first offense, clearly against written policy. He personally brings in 30 percent of revenue, and the team will find out whatever you do. What do you do?",
+					"options": {
+						"A": {
+							"text": "Apply the policy's consequence for anyone else, up to termination. Tell him the standard does not bend for production. If revenue buys exemptions, every policy becomes negotiable.",
+							"value": 500
+						},
+						"B": {
+							"text": "Warn him privately and move on with no paper trail. The amounts are small, first offense; losing a third of revenue over it would be reckless management.",
+							"value": 0
+						},
+						"C": {
+							"text": "Make him repay double the padded amount and put him on a final warning. The sting teaches the lesson, the paper trail protects the company, and you keep your top producer.",
+							"value": 150
+						}
+					},
+					"correct": "A",
+					"host_note": "Principle: Do Right When It Costs You. Why A (+500) wins: selective enforcement destroys every standard at once; the cost of losing him is real, but teaching the team that integrity is for sale is terminal. Discussion: what does the policy prescribe, and would you enforce it on a rookie; how do you have the conversation without flinching; what do the honest producers conclude from each option? Wrong: B (+0) invents a custom penalty that still says rules bend for rainmakers; C (+150) prices integrity at a few hundred dollars.",
+					"card_code": "BE-RE-23"
+				},
+				{
+					"n": 24,
+					"title": "The Phantom Opening",
+					"scenario": "Applications have slowed to a trickle. Someone on your team suggests posting a job ad for a role you are not actually hiring for, just to build a bench of resumes. The posting would look completely real. What do you do?",
+					"options": {
+						"A": {
+							"text": "Post the fake ad and mine the interviews for intelligence on competitors' pay and practices. Candidates will tell you everything if you ask right. It is free market research.",
+							"value": 0
+						},
+						"B": {
+							"text": "Post it but label it as future opportunities so it stays honest. Growing companies plan ahead, and resumes on file speed up real hiring later. Careful wording keeps you clear.",
+							"value": 150
+						},
+						"C": {
+							"text": "Do not post jobs you are not filling. Fake postings burn people's time, and word travels fast locally. Build the bench honestly: keep a file of candidates and stay in touch.",
+							"value": 500
+						}
+					},
+					"correct": "C",
+					"host_note": "Principle: Do Right When It Costs You. Why C (+500) wins: fake postings spend other people's hope for your convenience, and in a local market the story of being ghosted outlives any bench you built; honest bench-building works without the lie. Discussion: what do quarterly touchpoints with past candidates look like; how do you ask employees for future-hire names; how do you measure bench strength honestly? Wrong: B (+150)'s 'future opportunities' label still wastes applicants' time on a mirage; A ($0) turns recruiting into deception and calls it research.",
+					"card_code": "BE-RE-24"
+				},
+				{
+					"n": 25,
+					"title": "The Holiday Cut",
+					"scenario": "A struggling hire will not make it past probation; the decision is final. It is December 18. Terminating now saves three weeks of payroll; waiting until January spares his holidays but costs the company. What do you do?",
+					"options": {
+						"A": {
+							"text": "Terminate him this week. The decision is made, and delaying wastes three weeks of payroll. Sentiment is not strategy; acting gives him more time in the January hiring market.",
+							"value": 150
+						},
+						"B": {
+							"text": "Tell him kindly, and pay him through the first week of January. The money is small and the message is everything: this company treats people as humans, even on the way out.",
+							"value": 500
+						},
+						"C": {
+							"text": "Terminate him and tell the team his seat was eliminated to save holiday money. It is efficient: one conversation, payroll saved. Leaders do not let the calendar run the business.",
+							"value": 0
+						}
+					},
+					"correct": "B",
+					"host_note": "Principle: Love Is the Greatest Leadership Tool. Why B (+500) wins: it refuses the false choice between honesty and humanity; telling the truth now plus a small bridge costs little and tells every remaining employee exactly what kind of company this is. Discussion: how do you have the conversation before the holidays without ruining them; what does the team actually conclude from watching; where is the line between generosity and policy? Wrong: A (+150)'s efficiency-first cut teaches the team they are line items; C ($0)'s framing adds deception to the damage.",
+					"card_code": "BE-RE-25"
+				},
+				{
+					"n": 26,
+					"title": "The Return",
+					"scenario": "A solid technician quit eight months ago for a competitor's bigger paycheck. Now he wants to come back, saying the grass was not greener. Your crew remembers him fondly, and his old seat is open. What do you do?",
+					"options": {
+						"A": {
+							"text": "Talk honestly first: what was missing here, what disappointed him there, what would make this time different. If the answers are real, bring him back at fair market pay.",
+							"value": 500
+						},
+						"B": {
+							"text": "Say no and keep the door closed. Rehiring quitters teaches the team that leaving has no consequences. You filled his spot with someone who chose to be here. Protect who stayed.",
+							"value": 150
+						},
+						"C": {
+							"text": "Welcome him back at his old pay with open arms. He left for money and learned his lesson; the same rate keeps equity with the crew. A warm welcome costs nothing and buys loyalty.",
+							"value": 0
+						}
+					},
+					"correct": "A",
+					"host_note": "Principle: Safe to Speak. Why A (+500) wins: the honest conversation surfaces whether anything actually changed, and a returning employee who chose you twice, heard fully and welcomed clearly, outperforms one who slinks back under penalty. Discussion: what questions reveal whether the competitor stint taught him anything; how do you tell the crew without inviting debate; what does fair market pay mean here? Wrong: B (+150) sacrifices a known quantity to defend a principle nobody asked for; C (+0) skips the conversation that prevents a repeat exit.",
+					"card_code": "BE-RE-26"
+				},
+				{
+					"n": 27,
+					"title": "The Stay Interview",
+					"scenario": "Turnover is creeping up, but exit interviews always come too late to help. You are considering stay interviews with your best people before anyone else resigns. How do you run them?",
+					"options": {
+						"A": {
+							"text": "Have each manager run stay interviews with their own team this month. Managers know their people best and can act fastest, and the conversation itself strengthens the relationship.",
+							"value": 150
+						},
+						"B": {
+							"text": "Wait until turnover spikes before adding another meeting to everyone's calendar. Right now it is a mild trend, not a crisis. Monitor the numbers and revisit if it gets worse.",
+							"value": 0
+						},
+						"C": {
+							"text": "Start with your ten most valuable people: ask what keeps them here, what might tempt them away, and what one change would help. Act within 30 days and tell them what changed.",
+							"value": 500
+						}
+					},
+					"correct": "C",
+					"host_note": "Principle: Make Me Feel Important. Why C (+500) wins: the highest-leverage retention conversations are personal, targeted at the people you can least afford to lose, and backed by visible action within weeks. Discussion: who are the ten, and do they know it; which 'one change' requests are actually grantable; how do you report back without overpromising? Wrong: A (+150) delegates the most sensitive conversation to managers of uneven skill; B (+0) waits for the resignations the interviews were meant to prevent.",
+					"card_code": "BE-RE-27"
+				},
+				{
+					"n": 28,
+					"title": "The Star's Hours",
+					"scenario": "Your top service coordinator, a single parent and your most reliable performer, asks to switch to four ten-hour days to cut childcare costs. Friday coverage is already tight, and the whole team will notice what you decide. How do you respond?",
+					"options": {
+						"A": {
+							"text": "Map the Friday coverage with her: which hours matter, which tasks can move, who can flex. Approve the four-day schedule with a plan she helps build, then review in 60 days.",
+							"value": 500
+						},
+						"B": {
+							"text": "Say no, but offer a raise instead. Friday is your busiest call day and coverage is not negotiable. One exception becomes policy; money helps without breaking the schedule.",
+							"value": 150
+						},
+						"C": {
+							"text": "Approve it as a 90-day trial, but leave her Friday workload on the team. If wait times stay flat, make it permanent. A trial limits your risk and the data settles the debate.",
+							"value": 150
+						}
+					},
+					"correct": "A",
+					"host_note": "Principle: Why Power. Why A (+500) wins: she is asking for a life that works, not money; solving the real problem keeps a star who would otherwise quietly job-hunt. Discussion: separate the actual coverage need from the assumed one; who else might want flexibility; how to review without it feeling like probation. Wrong: B (+150) answers a scheduling question with money and loses her anyway; C (+150) dumps her work on the team and breeds resentment.",
+					"card_code": "BE-RE-28"
+				},
+				{
+					"n": 29,
+					"title": "The Lukewarm Reference",
+					"scenario": "A finalist for a crew lead role interviews brilliantly. Her former supervisor, when you call, says only 'She did her job. I wish her well' in a flat tone. Nothing more. Two other references are available. What do you do?",
+					"options": {
+						"A": {
+							"text": "Trust the interview and hire her. Flat references often come from policy or bitterness at losing her. Her interview was outstanding and is the freshest evidence you have.",
+							"value": 150
+						},
+						"B": {
+							"text": "Call two more references with behavior-based questions: how she handled conflict, what brings out her best. One guarded call is a data point, not a verdict.",
+							"value": 500
+						},
+						"C": {
+							"text": "Pass and move to the next candidate. A former boss who cannot manage one warm sentence is telling you something. Hiring is too expensive to gamble; other strong candidates exist.",
+							"value": 150
+						}
+					},
+					"correct": "B",
+					"host_note": "Principle: Never Act on One Side of a Story. Why B (+500) wins: one flat reference is one side of one story; two more targeted conversations either confirm a pattern or reveal the first call as noise. Discussion: which specific questions reveal truth; how do you read 'would you rehire her'; when is a reference check just theater? Wrong: A (+150) bets the whole hire on interview charm; C (+150) discards a possible star on one ambiguous call.",
+					"card_code": "BE-RE-29"
+				},
+				{
+					"n": 30,
+					"title": "The Gut Feeling",
+					"scenario": "Two finalists for a dispatcher role. One manager loves Candidate X's energy. The structured scorecards slightly favor Candidate Y. The team is split down the middle, and the hire starts soon. How do you decide?",
+					"options": {
+						"A": {
+							"text": "Go with X. Energy matters enormously in dispatch, and no scorecard measures how someone handles a stressed customer at 5 p.m. Friday. Trust the human read over the spreadsheet.",
+							"value": 150
+						},
+						"B": {
+							"text": "Hire X for dispatch and find another opening for Y in the company. You keep both strong candidates and avoid the conflict entirely. Good people are hard to find.",
+							"value": 0
+						},
+						"C": {
+							"text": "Dig into what energy means: ask the manager for specific behaviors he observed, then test both candidates on the role's hardest moments with a job preview, scored on the same card.",
+							"value": 500
+						}
+					},
+					"correct": "C",
+					"host_note": "Principle: Define Reality First. Why C (+500) wins: 'energy' is a vague impression until converted into observable behavior; a realistic preview tests the actual claim instead of arguing about adjectives. Discussion: what does a dispatcher job preview look like in thirty minutes; how do you score it fairly; what do you do when the preview contradicts both camps? Wrong: A (+150) hires charisma and hopes it equals competence; B (+0) doubles payroll to avoid a decision.",
+					"card_code": "BE-RE-30"
+				},
+				{
+					"n": 31,
+					"title": "The Overqualified Applicant",
+					"scenario": "A candidate with ten years of management experience applies for your entry-level coordinator role, saying she wants less stress. She could clearly do the work well, and your team is stretched thin. What do you do?",
+					"options": {
+						"A": {
+							"text": "Interview her normally, but ask why this role and what happens when a bigger offer appears. Name the risk: agree on a minimum commitment and a pay band with no surprises.",
+							"value": 500
+						},
+						"B": {
+							"text": "Hire her immediately. Talent rarely applies for entry-level roles, and she will raise the bar from day one. Worry about retention later; hesitation loses rare candidates.",
+							"value": 150
+						},
+						"C": {
+							"text": "Pass on her. Overqualified hires get bored, resent the pay, and leave when something better appears. You will spend months training someone who was going to outgrow the seat.",
+							"value": 150
+						}
+					},
+					"correct": "A",
+					"host_note": "Principle: Right Person, Right Seat. Why A (+500) wins: it treats the flight risk as a discussable fact instead of a fear, and a candid agreement turns a gamble into a managed bet with huge upside. Discussion: what do honest answers to 'why this role' sound like; how do you set a pay band that will not breed resentment; what minimum commitment is fair to ask? Wrong: B (+150) hires the resume and inherits the surprise exit; C (+150) discards rare talent on a generalization.",
+					"card_code": "BE-RE-31"
+				},
+				{
+					"n": 32,
+					"title": "The Buddy System",
+					"scenario": "New hires keep quitting in the first month, saying they felt lost and invisible. You want to pair each newcomer with a veteran buddy so someone clearly owns their first weeks. How do you set it up?",
+					"options": {
+						"A": {
+							"text": "Pay buddies a $100 stipend for the extra responsibility. Money makes people take it seriously, and it is cheaper than another early quit. Let the supervisor pick the buddy.",
+							"value": 150
+						},
+						"B": {
+							"text": "Have the buddy take the new hire to lunch in week one and check in weekly. A friendly face early solves most of the feeling-lost problem. Keep it informal.",
+							"value": 150
+						},
+						"C": {
+							"text": "Hand-pick buddies for attitude and patience, not tenure, with a job description: a first-day walkthrough, a 30-day checklist, and a weekly 15-minute check-in with the supervisor.",
+							"value": 500
+						}
+					},
+					"correct": "C",
+					"host_note": "Principle: Train or Remove. Why C (+500) wins: vague buddy assignments produce vague results; selecting for attitude, defining the work, and recognizing it turns a nice idea into a training system that retains people. Discussion: what makes a good buddy versus just senior; what belongs on the 30-day checklist; how does recognition beat stipends? Wrong: A (+150) pays for a title without defining the work; B (+150)'s lunch-and-hope evaporates by week two.",
+					"card_code": "BE-RE-32"
+				},
+				{
+					"n": 33,
+					"title": "The Silence",
+					"scenario": "You interviewed twelve candidates for a coordinator role and hired one. The other eleven have heard nothing in three weeks, and two sent polite follow-ups. Your inbox is overflowing. What do you do?",
+					"options": {
+						"A": {
+							"text": "Send one mass email to all eleven with a rejection. It closes the loop in ten minutes. Personal notes are nice in theory, but a clean form rejection beats silence every time.",
+							"value": 150
+						},
+						"B": {
+							"text": "Reply to every candidate this week: thank them, tell them the role is filled, and mean it. For the two or three you would hire in a heartbeat, say so and ask to keep in touch.",
+							"value": 500
+						},
+						"C": {
+							"text": "Ignore them. They did not get the job and the position is filled. Candidates understand that no news means no offer; this is how hiring works everywhere, and nobody expects more.",
+							"value": 0
+						}
+					},
+					"correct": "B",
+					"host_note": "Principle: Make Me Feel Important. Why B (+500) wins: every candidate is a future applicant, referrer, or customer, and personal closes convert rejected candidates into goodwill; silence converts them into warnings. Discussion: what does the personal note to a strong runner-up say; how do you keep a warm bench without stringing people along; who owns candidate communication? Wrong: A (+150)'s mass email closes the loop but wastes the relationship; C ($0)'s silence actively manufactures detractors.",
+					"card_code": "BE-RE-33"
+				},
+				{
+					"n": 34,
+					"title": "The Example",
+					"scenario": "A technician was caught stealing materials from the shop. You have decided to terminate him today. A supervisor suggests doing it in front of the crew to send a message about theft. What do you do?",
+					"options": {
+						"A": {
+							"text": "Terminate him today: state what happened and the consequence, and handle logistics with dignity. Then tell the crew the standard that was violated, without parading the person.",
+							"value": 500
+						},
+						"B": {
+							"text": "Do it in front of the crew as the supervisor suggests. Public consequences create deterrence: everyone sees what happens to thieves, and the lesson lands harder than any memo.",
+							"value": 0
+						},
+						"C": {
+							"text": "Suspend him for two weeks without pay instead of firing him. Theft is serious, but everyone deserves a second chance, and two weeks of lost wages is a lesson he will not forget.",
+							"value": 150
+						}
+					},
+					"correct": "A",
+					"host_note": "Principle: Love Is the Greatest Leadership Tool. Why A (+500) wins: it separates the person from the principle, protecting his dignity while making the standard unmistakable; public shaming teaches the crew to fear you, not to respect the standard. Discussion: what does the private conversation sound like word for word; what do you tell the crew without violating his privacy; how do you handle the supervisor who wanted theater? Wrong: B ($0)'s spectacle breeds fear and quiet contempt; C (+150)'s second chance for theft tells the crew integrity is negotiable.",
+					"card_code": "BE-RE-34"
+				},
+				{
+					"n": 35,
+					"title": "The Nephew Interview",
+					"scenario": "The owner's nephew, nineteen, applies for your entry-level dispatcher role. He has no relevant experience. The owner has mentioned his application to you twice this week, and the role is customer-facing and high pressure. What do you do?",
+					"options": {
+						"A": {
+							"text": "Fast-track him to a final interview as a courtesy to the owner, then hire him if he interviews decently. A dispatcher role is low-risk enough to learn on the job.",
+							"value": 150
+						},
+						"B": {
+							"text": "Run him through the same process as everyone else: application, interview, references, same scorecard. Tell the owner up front the process decides, and report the result honestly.",
+							"value": 500
+						},
+						"C": {
+							"text": "Steer him toward shop help or warehouse support and interview him for that instead. The family gets a win, and the dispatcher seat stays protected for a qualified hire.",
+							"value": 150
+						}
+					},
+					"correct": "B",
+					"host_note": "Principle: How We Do Anything Is How We Do Everything. Why B (+500) wins: one visible exception teaches the whole company the standard is negotiable. Discussion: how do you say no to an owner without career damage; could the nephew earn credibility after a fast-track; what does the team conclude from watching? Wrong: A (+150) buys short-term favor and spends long-term credibility; C (+150) still bends the process for family and mis-seats him.",
+					"card_code": "BE-RE-35"
+				},
+				{
+					"n": 36,
+					"title": "The Quiet Season",
+					"scenario": "It is your slow season and cash is comfortable. You know you will need four new installers when demand spikes in spring, and every competitor hires at the same time. When do you hire?",
+					"options": {
+						"A": {
+							"text": "Wait until spring when you need them. Hiring now pays people to sit idle, and you cannot predict the exact skill mix the spike needs. Hire fast when the need is concrete.",
+							"value": 150
+						},
+						"B": {
+							"text": "Cover the spring spike with temporary labor instead of permanent hires. Temps flex with demand and you avoid year-round payroll. Convert the best ones if volume holds.",
+							"value": 0
+						},
+						"C": {
+							"text": "Hire two now and train them fully before the rush. Winter hires get real mentoring, not chaos, and are productive by spring. You choose from a calm pool instead of a panic.",
+							"value": 500
+						}
+					},
+					"correct": "C",
+					"host_note": "Principle: Created Twice. Why C (+500) wins: the future spike is certain, so building the team before it arrives is planning, not guessing; trained hires in spring outperform panicked hires every time. Discussion: what does 'fully trained' mean by March; how do you keep winter hires busy and billable; is two the right number? Wrong: A (+150) guarantees a desperate spring search at peak wages; B (+0)'s temps learn your systems just in time to leave.",
+					"card_code": "BE-RE-36"
+				},
+				{
+					"n": 37,
+					"title": "The Inside Candidate",
+					"scenario": "A supervisor role opens. Your best technician wants it but has never led people. An outside candidate has five years of management experience. The whole crew is watching the decision. Who gets the role?",
+					"options": {
+						"A": {
+							"text": "Give it to your technician. Promoting from within rewards loyalty and shows the crew that growth is real. Leadership can be learned; the trust he already earned cannot be hired.",
+							"value": 150
+						},
+						"B": {
+							"text": "Run both through the process, scored on the role's demands: scheduling, accountability, developing people. If the technician wins on potential plus a development plan, promote him.",
+							"value": 500
+						},
+						"C": {
+							"text": "Split the difference: make him a lead tech and hire the outsider as supervisor. Everyone gets something, nobody feels passed over. It costs more, but it avoids a morale hit.",
+							"value": 0
+						}
+					},
+					"correct": "B",
+					"host_note": "Principle: Hiring Makes You or Breaks You. Why B (+500) wins: the decision serves the role, not sentiment or fear; a fair contest plus honest feedback either produces the best leader or a technician with a real growth target. Discussion: how do you assess leadership potential versus a track record; what does a credible development plan contain; how do you deliver 'not yet' without losing him? Wrong: A (+150) promotes on loyalty into a skill gap; C (+0) invents a consolation prize that muddies accountability.",
+					"card_code": "BE-RE-37"
+				},
+				{
+					"n": 38,
+					"title": "The Bad Reference",
+					"scenario": "A former employee you fired for cause listed you as a reference. You are still angry about how he left. His prospective new employer calls you today and asks how he performed. What do you say?",
+					"options": {
+						"A": {
+							"text": "Stick to facts: role, dates, and whether he is eligible for rehire, delivered calmly with no editorial comment. If pressed, say you keep references factual as a matter of policy.",
+							"value": 500
+						},
+						"B": {
+							"text": "Give a strictly factual reference: dates and title only, nothing more. Facts cannot be disputed, and you stay out of the judgment business. The thinness says enough on its own.",
+							"value": 150
+						},
+						"C": {
+							"text": "Tell the caller the unfiltered truth about why he was fired. He earned the consequences, and warning the next employer is honest. If it costs him the job, that is on him.",
+							"value": 0
+						}
+					},
+					"correct": "A",
+					"host_note": "Principle: The Elongated Shadow. Why A (+500) wins: how you speak about former employees, especially ones you fired, is your company's character made audible; factual calm protects the business and your reputation at once. Discussion: what does 'eligible for rehire' communicate without saying more; how do you handle a caller who pushes hard; where should company policy be written down? Wrong: B (+150)'s pointed thinness is punishment wearing a factual mask; C ($0)'s unfiltered truth invites legal exposure and reveals vindictiveness.",
+					"card_code": "BE-RE-38"
+				},
+				{
+					"n": 39,
+					"title": "The Bait Pay",
+					"scenario": "A candidate accepted your offer at $28 per hour. Before his start date, finance says the budget only supports $25. He has already given notice at his old job, and he starts Monday. What do you do?",
+					"options": {
+						"A": {
+							"text": "Honor the $28 and absorb the difference. You made an offer and he acted on it in good faith; going back destroys trust before day one. A deal is a deal, and your word is your word.",
+							"value": 150
+						},
+						"B": {
+							"text": "Start him at $25 and say nothing, hoping he does not notice. Most new hires never scrutinize their first paychecks, and by the time it comes up he will be settled in.",
+							"value": 0
+						},
+						"C": {
+							"text": "Tell him the truth: the budget shifted, the number is $25, and you understand if he walks away. Give him the weekend to decide, then fix approvals so finance signs every offer.",
+							"value": 500
+						}
+					},
+					"correct": "C",
+					"host_note": "Principle: Define Reality First. Why C (+500) wins: the situation is already damaged, and only immediate honesty plus his free choice can rebuild it; anything else compounds the original error with a second deception. Discussion: what does the call sound like in real words; what does a credible 90-day raise path contain; how do you fix the offer-approval process this week? Wrong: A (+150)'s honor-the-offer is noble but may be impossible and hides the process failure; B ($0)'s silence is wage deception that detonates the moment he reads a pay stub.",
+					"card_code": "BE-RE-39"
+				},
+				{
+					"n": 40,
+					"title": "The Frozen Requisition",
+					"scenario": "Finance froze all hiring to cut costs. Your appointment center is drowning: hold times tripled and two coordinators quit last month. You need one hire badly, and the phones keep ringing. What do you do?",
+					"options": {
+						"A": {
+							"text": "Hire anyway and ask forgiveness later. The freeze is blunt and your department is suffering. By the time finance notices, the hire is productive and the results justify it.",
+							"value": 0
+						},
+						"B": {
+							"text": "Build a one-page business case: the loaded cost of the hire versus missed calls, overtime, and the next resignation. Show finance the weekly revenue lost to abandoned calls.",
+							"value": 500
+						},
+						"C": {
+							"text": "Redistribute the work and push the team harder for one quarter. The freeze exists for a reason and every department feels it. Shared sacrifice now protects everyone's jobs later.",
+							"value": 150
+						}
+					},
+					"correct": "B",
+					"host_note": "Principle: Know Your Numbers. Why B (+500) wins: finance speaks arithmetic, so you translate the pain into their language and de-risk the ask with a measurable trial; it respects the freeze while challenging it legitimately. Discussion: how do you quantify abandoned-call revenue credibly; what does a fair 90-day target look like; how do you present it without sounding adversarial? Wrong: A ($0)'s end-run destroys your credibility with finance permanently; C (+150) burns out the survivors and guarantees the next resignation.",
+					"card_code": "BE-RE-40"
+				}
+			]
+		},
+		{
+			"deck": "Owner",
+			"cards": [
+				{
+					"n": 1,
+					"title": "The Tax Surprise",
+					"scenario": "Your accountant delivers the news: you owe $38,000 more in taxes than expected. Then he offers a way out, a deduction he calls aggressive but defensible, in a gray area he admits. It would wipe out most of the bill. Payment is due in three weeks.",
+					"options": {
+						"A": {
+							"text": "Take the deduction. It is aggressive but defensible, the audit risk is low, and the savings are real money. Every business pushes the line somewhere. Sign the return and move on.",
+							"value": 150
+						},
+						"B": {
+							"text": "Fire the accountant and find one who will take the deduction without the lecture. You pay professionals to solve problems. Loyalty to a cautious accountant is costing you $38,000.",
+							"value": 0
+						},
+						"C": {
+							"text": "Decline the gray-area deduction and pay what you owe. Then fix the real problem: set up quarterly estimates so a surprise bill never blindsides you again.",
+							"value": 500
+						}
+					},
+					"correct": "C",
+					"host_note": "Principle: Do Right When It Costs You. Why C wins: Pay what's owed, fix the real problem with quarterly estimates, find legitimate deductions. What good discussion sounds like: the true cost of gray-area tax play. What the wrong answers cost: A borrows trouble; B shops for a yes-man.",
+					"card_code": "BE-OW-01"
+				},
+				{
+					"n": 2,
+					"title": "The Software Pitch",
+					"scenario": "A software rep demos a platform promising to transform your business: dispatch, CRM, marketing automation, all in one. The price is $2,000 a month plus setup. Three competitors use it and swear by it. The rep wants a three-year contract this quarter.",
+					"options": {
+						"A": {
+							"text": "Buy it because every serious company runs it. Falling behind on technology is how good contractors become irrelevant. The monthly cost is the price of staying competitive.",
+							"value": 0
+						},
+						"B": {
+							"text": "Pilot it with one team for ninety days against a written success metric: what specific number has to move, and by how much. If it moves, roll it out. If not, walk away.",
+							"value": 500
+						},
+						"C": {
+							"text": "Buy the full rollout now. Your systems are spreadsheets and the team wastes hours on manual work. Rip the bandage off and train everyone at once.",
+							"value": 150
+						}
+					},
+					"correct": "B",
+					"host_note": "Principle: Know Your Numbers. Why B wins: Ninety-day pilot against a written metric; owners buy results, not demos. What good discussion sounds like: what the success number should be. What the wrong answers cost: A buys the pitch; C follows the herd onto a three-year contract.",
+					"card_code": "BE-OW-02"
+				},
+				{
+					"n": 3,
+					"title": "The Overheard Layoff List",
+					"scenario": "You sketched a draft list of possible layoffs while thinking through a bad quarter, and left it on the printer. This morning three techs found it. By lunch the whole shop has seen the names, including two people on the list. Your GM is waiting in your office.",
+					"options": {
+						"A": {
+							"text": "Face the team today. Admit the list is real, explain why cuts were even considered, and apologize for them learning it from a printer. Commit to a straight answer by Friday.",
+							"value": 500
+						},
+						"B": {
+							"text": "Say nothing and accelerate your decision quietly. Addressing it now feeds the rumor mill. Most names on the list will never be cut, so a public reckoning wounds people.",
+							"value": 150
+						},
+						"C": {
+							"text": "Deny it completely. Tell anyone who asks it was a budgeting exercise with made-up names. A clean lie now keeps the team steady while you decide.",
+							"value": 0
+						}
+					},
+					"correct": "A",
+					"host_note": "Principle: Give Away the Credit, Take the Blame. Why A wins: Own the mistake the same day, tell the truth, and give a date for the real answer. What good discussion sounds like: how leaders repair trust after an unforced error. What the wrong answers cost: B lets rumors write the story; C destroys credibility when the lie breaks.",
+					"card_code": "BE-OW-03"
+				},
+				{
+					"n": 4,
+					"title": "The Charity Ask",
+					"scenario": "The town's biggest charity gala wants you as a headline sponsor: $10,000, your logo everywhere, photos with the mayor. Half the business owners in town already said yes. Your marketing lead says the exposure alone is worth it. It was never in any plan.",
+					"options": {
+						"A": {
+							"text": "Write the big check. The sponsorship puts your name in front of the whole town, the photos go on social media, and goodwill brings customers for years.",
+							"value": 150
+						},
+						"B": {
+							"text": "Give from a planned annual giving budget, not from guilt or pressure. Decide once a year what the company gives and to whom. Generosity needs a plan.",
+							"value": 500
+						},
+						"C": {
+							"text": "Decline politely. The company's job is to serve customers and pay its people well. Every sponsorship dollar is one that does not go to raises, trucks, or reserves.",
+							"value": 150
+						}
+					},
+					"correct": "B",
+					"host_note": "Principle: Why Power. Why B wins: Planned giving expresses values; reactive giving expresses whoever pressured you last. What good discussion sounds like: what the company actually stands for, and what the annual number should be. What the wrong answers cost: A buys a photo, not a value; C starves generosity.",
+					"card_code": "BE-OW-04"
+				},
+				{
+					"n": 5,
+					"title": "The Widow's Furnace",
+					"scenario": "Your tech calls from a job: an elderly widow's furnace died overnight, it is January, and she quietly told him she cannot afford the full replacement. She has been a customer for fifteen years and always paid on time. The job costs you $2,800.",
+					"options": {
+						"A": {
+							"text": "Charge full price. It is a sad story, but the business cannot be a charity on every hard case. The tech can offer her the standard financing options like anyone else. Fair is fair.",
+							"value": 150
+						},
+						"B": {
+							"text": "Do it completely free and keep it quiet. Publicizing charity cheapens it, and you do not want a line of people expecting free work. Some things are done quietly or not at all.",
+							"value": 0
+						},
+						"C": {
+							"text": "Tell the tech to take care of her at your cost, today. Then build a simple policy so your techs can make this call without phoning the owner. That is who you are.",
+							"value": 500
+						}
+					},
+					"correct": "C",
+					"host_note": "Principle: Serve the Human, Not the House. Why C wins: Take care of her at cost today, then give techs a policy so they don't need permission to be human. What good discussion sounds like: where the line sits between compassion and sustainability. What the wrong answers cost: A is fair but cold; B hides the kindness.",
+					"card_code": "BE-OW-05"
+				},
+				{
+					"n": 6,
+					"title": "The Insurance Cut",
+					"scenario": "Cash is tight after a slow winter, and your broker suggests dropping your umbrella policy and raising deductibles to save $22,000 a year. Nothing bad has happened in years, the crews are careful, and that savings would cover a month of payroll.",
+					"options": {
+						"A": {
+							"text": "Drop the umbrella for a year until cash recovers. Nothing bad has happened in years and the crews are careful. Reinstate it when the busy season fills the account.",
+							"value": 0
+						},
+						"B": {
+							"text": "Keep the coverage and cut somewhere else. One uninsured bad day can erase everything you built. Insurance is the price of surviving it. Do not gamble the company.",
+							"value": 500
+						},
+						"C": {
+							"text": "Keep every policy as is. Your broker set this coverage up for a reason, and second-guessing it under pressure is how owners make their worst decisions. Cut marketing instead.",
+							"value": 150
+						}
+					},
+					"correct": "B",
+					"host_note": "Principle: Handle It While It's Small. Why B wins: Keep coverage and cut elsewhere; one uninsured bad day erases everything. What good discussion sounds like: what to cut instead, and what the real odds are. What the wrong answers cost: A refuses to manage money; C gambles the company on a quiet year.",
+					"card_code": "BE-OW-06"
+				},
+				{
+					"n": 7,
+					"title": "The Price War",
+					"scenario": "A competitor slashed his service rates by thirty percent and is advertising it everywhere. Your phones slowed this week, and two techs heard customers mention his prices. Your margins are decent but cannot absorb a deep cut for long.",
+					"options": {
+						"A": {
+							"text": "Hold your prices and refuse the race to the bottom. A competitor selling thirty percent below market is bleeding, not winning. Win on response time, clean work, and reviews.",
+							"value": 500
+						},
+						"B": {
+							"text": "Match his prices until he backs off. You have deeper reserves and better techs, so you can survive a price war longer than he can. Once he folds, you raise yours back.",
+							"value": 0
+						},
+						"C": {
+							"text": "Hold your prices and double down on what makes you different. Strengthen the guarantee and call every customer after the job. Some price shoppers will leave, and that is fine.",
+							"value": 150
+						}
+					},
+					"correct": "A",
+					"host_note": "Principle: Selling Is Helping. Why A wins: Competing on value instead of price protects margin and trains the market to buy quality. What good discussion sounds like: when to hold price versus when the market has truly moved, and how techs talk price with confidence. What the wrong answers cost: B starts a war you fund; C is honest but passive.",
+					"card_code": "BE-OW-07"
+				},
+				{
+					"n": 8,
+					"title": "The Vanishing Cash",
+					"scenario": "Your P and L shows a solid profit for the year, but the bank account is nearly empty and payroll is next week. Your bookkeeper says everything is entered correctly, and your accountant is on vacation. You cannot make the two agree.",
+					"options": {
+						"A": {
+							"text": "Fire the bookkeeper. Profit on paper, empty account: she is stealing or incompetent. Make it clear this never happens again. Accountability starts with the ledger.",
+							"value": 0
+						},
+						"B": {
+							"text": "Sit down with your accountant and learn where the cash actually goes. Then read a simple weekly cash report: money in, money out, what you are owed, what you owe.",
+							"value": 500
+						},
+						"C": {
+							"text": "Take a short-term credit line to bridge the gap. The business is profitable on paper, so this is just timing. Borrowed cash turns a timing gap into a non-event.",
+							"value": 150
+						}
+					},
+					"correct": "B",
+					"host_note": "Principle: Know Your Numbers. Why B wins: Learn where the cash goes and read a weekly cash report; profit and cash are different things. What good discussion sounds like: receivables, payables, and why profitable companies go broke. What the wrong answers cost: A borrows over ignorance; C fires the messenger.",
+					"card_code": "BE-OW-08"
+				},
+				{
+					"n": 9,
+					"title": "The Family Hire",
+					"scenario": "Your nephew just finished a general business degree and wants to join the company. He is a good kid but has no trade experience, no management experience, and a thin work history. Your sister is asking. Your GM warns against inventing a role for him.",
+					"options": {
+						"A": {
+							"text": "Hire him. Family takes care of family, and you can find useful work while he learns. Giving a young man his start in the family business is a quiet privilege of ownership.",
+							"value": 150
+						},
+						"B": {
+							"text": "Tell him you love him, and that love is why he goes through the same hiring process as everyone else. No invented titles. Handing family an unearned job poisons the team.",
+							"value": 500
+						},
+						"C": {
+							"text": "Make him a manager over one of the crews. The title will motivate him to grow into it fast. Sink or swim is how leaders are made. A big title forces growth.",
+							"value": 0
+						}
+					},
+					"correct": "B",
+					"host_note": "Principle: Right Person, Right Seat. Why B wins: Same process for everyone; love is why there are no invented roles. What good discussion sounds like: how to tell family no without breaking the family. What the wrong answers cost: A poisons the culture; C hands a crew to an unproven manager.",
+					"card_code": "BE-OW-09"
+				},
+				{
+					"n": 10,
+					"title": "The Exit Offer",
+					"scenario": "A regional competitor wants to buy your company. The number is life-changing: enough to retire at fifty-two, pay off everything, and never work again. You built this from two trucks. Forty-three families depend on it. He wants an answer in sixty days.",
+					"options": {
+						"A": {
+							"text": "Measure the offer against why you built this company, not just the number. What happens to your people and your standard? If it protects them, consider it.",
+							"value": 500
+						},
+						"B": {
+							"text": "Sell and take the money. You built this from nothing, the offer is life-changing, and nobody gets this chance twice. The buyer needs good people. Take the win.",
+							"value": 150
+						},
+						"C": {
+							"text": "Refuse outright. Selling to a competitor would betray everything you built. Some things are not for sale at any price. Thank them, say no, and get back to building.",
+							"value": 150
+						}
+					},
+					"correct": "A",
+					"host_note": "Principle: The Elongated Shadow. Why A wins: The offer is measured against why the company exists and what happens to its people, not just the number. What good discussion sounds like: what the owner's 'why' actually is, and what a good buyer looks like. What the wrong answers cost: B sells the mission; C refuses to ever consider it.",
+					"card_code": "BE-OW-10"
+				},
+				{
+					"n": 11,
+					"title": "The Kickback Offer",
+					"scenario": "A new parts vendor takes you to lunch and makes it plain: switch your purchasing to him, and he will pay you $500 a month personally, cash, as a thank-you. His prices are market rate, his delivery is fine. He says every owner he works with takes it.",
+					"options": {
+						"A": {
+							"text": "Take it but disclose it openly to your accountant and your GM. The deal itself is fair, and the payment is documented income. Sunlight keeps it honest. Put it on the books.",
+							"value": 150
+						},
+						"B": {
+							"text": "Take it. It is your company and your money. The parts are fine, the price is market, and the monthly thank-you is just the vendor appreciating your business. Owners get perks.",
+							"value": 0
+						},
+						"C": {
+							"text": "Refuse it outright and end the lunch there. A kickback is someone paying you to spend company money without asking hard questions. The owner sets the standard for clean money.",
+							"value": 500
+						}
+					},
+					"correct": "C",
+					"host_note": "Principle: Do Right When It Costs You. Why C wins: Refuse and remove the vendor; the owner sets the standard for clean money. What good discussion sounds like: how kickbacks distort purchasing and culture. What the wrong answers cost: A documents a bribe; B takes the cut.",
+					"card_code": "BE-OW-11"
+				},
+				{
+					"n": 12,
+					"title": "The Public Correction",
+					"scenario": "In yesterday's team meeting you corrected your GM's decision in front of everyone, sharply. You were right on the facts, but her face said humiliated. Today she is polite, distant, and quiet. Two managers asked if she still has your confidence.",
+					"options": {
+						"A": {
+							"text": "Let it go and move on. Rehashing it only keeps it alive. She knows you respect her. Bringing it up again turns a moment into a saga. Time heals this faster.",
+							"value": 150
+						},
+						"B": {
+							"text": "Stand by it. You are the owner, her call was wrong, and the team needed to see standards apply at every level. Softening it now confuses everyone about who is in charge.",
+							"value": 0
+						},
+						"C": {
+							"text": "Fix it today. Apologize to her privately first, sincerely, with no excuses. Then in front of the team, publicly back her call and her authority. Authority you break, you rebuild.",
+							"value": 500
+						}
+					},
+					"correct": "C",
+					"host_note": "Principle: Give Away the Credit, Take the Blame. Why C wins: Apologize privately, then publicly restore her authority the same day. What good discussion sounds like: how owners repair authority they damaged. What the wrong answers cost: A hopes time buries it; B confuses dominance with leadership.",
+					"card_code": "BE-OW-12"
+				},
+				{
+					"n": 13,
+					"title": "The Successor Question",
+					"scenario": "Your daughter, home from college for the summer, tells you she thinks she wants to run the company someday. She is sharp and grew up around the shop. But she has never held a real job, your GM has given ten years, and the team will read any fast-track as nepotism.",
+					"options": {
+						"A": {
+							"text": "Start grooming her for the GM role now. She is smart, she absorbed this business growing up, and family succession is the dream. Give her real projects. Blood counts for a lot.",
+							"value": 150
+						},
+						"B": {
+							"text": "Steer her somewhere else. The pressure would crush her, and mixing family and ownership ruins both. She should build her own life without your shadow. Keeping her out is kindest.",
+							"value": 150
+						},
+						"C": {
+							"text": "Build her a real path, not a coronation. She works outside the company first, learns the business from the ground up, and earns every promotion on merit. Earned, never handed.",
+							"value": 500
+						}
+					},
+					"correct": "C",
+					"host_note": "Principle: The Business Serves Its Owner. Why C wins: A real path, outside experience, earned promotions, mentors who aren't Dad; never handed, can be earned. What good discussion sounds like: what 'earned' looks like for a founder's kid. What the wrong answers cost: A crowns her; B wastes her interest.",
+					"card_code": "BE-OW-13"
+				},
+				{
+					"n": 14,
+					"title": "The New Trade",
+					"scenario": "Your GM wants to launch an electrical division. Customers ask for it constantly, the margins look great on paper, and she found a master electrician who wants to lead it. It would take about $120,000 to launch. Your other sides are solid but not spectacular.",
+					"options": {
+						"A": {
+							"text": "Launch it now and go big. Customers ask for it, the GM is fired up, and speed beats study. Hire the master electrician and start selling this month.",
+							"value": 0
+						},
+						"B": {
+							"text": "Make her build the business case first: real demand data, the true startup cost, who leads it, and how it pays for itself in eighteen months. Then pilot it small.",
+							"value": 500
+						},
+						"C": {
+							"text": "Say no and stay in your lane. You are an HVAC and plumbing company, and that focus is why you are good. Every trade you add dilutes your brand. Depth beats breadth.",
+							"value": 150
+						}
+					},
+					"correct": "B",
+					"host_note": "Principle: Created Twice. Why B wins: Demand data, true cost, a named leader, and a small pilot before the company bets $120,000. What good discussion sounds like: what the pilot's success metrics should be. What the wrong answers cost: A launches on enthusiasm; C refuses to ever grow.",
+					"card_code": "BE-OW-14"
+				},
+				{
+					"n": 15,
+					"title": "The Bad Quarter",
+					"scenario": "Revenue dropped eighteen percent last quarter. Two big commercial accounts paused, and the residential side is soft. The team feels it: the phones are quieter, overtime vanished, and the shop talk is nervous. Your recovery plan is not finished.",
+					"options": {
+						"A": {
+							"text": "Gather the team and tell them the truth before the rumor mill does. Share the real numbers in plain language and the recovery plan as far as it goes. Then ask for help.",
+							"value": 500
+						},
+						"B": {
+							"text": "Keep the numbers to yourself and fix it quietly. The team has jobs to do, and worrying them about one bad quarter only hurts morale. They hired you to carry the weight.",
+							"value": 150
+						},
+						"C": {
+							"text": "Frame it as a market problem. Rates, competition, and the economy are squeezing every contractor in town, not just you. Nobody panics over a problem the whole industry shares.",
+							"value": 150
+						}
+					},
+					"correct": "A",
+					"host_note": "Principle: Define Reality First. Why A wins: You cannot fix what you will not name. A tells the truth early and turns the team into problem-solvers instead of rumor-spreaders. What good discussion sounds like: how much financial truth a team can handle, and the difference between transparency and panic. What the wrong answers cost: B breeds distrust when the truth leaks; C insults their intelligence.",
+					"card_code": "BE-OW-15"
+				},
+				{
+					"n": 16,
+					"title": "The Personal Guarantee",
+					"scenario": "You need six new trucks before the summer rush, and the bank approved the loan, but the paperwork includes an unlimited personal guarantee: your house, your savings, everything, if the business defaults. Your accountant has not seen the documents yet.",
+					"options": {
+						"A": {
+							"text": "Do not sign anything until you understand every line. Have your accountant and a lawyer review the guarantee and cap your personal exposure. Never sign away your home in a hurry.",
+							"value": 500
+						},
+						"B": {
+							"text": "Sign only after the bank agrees in writing to release the guarantee once the loan drops below half. A written release turns a scary signature into a temporary one.",
+							"value": 150
+						},
+						"C": {
+							"text": "Sign the guarantee as written so the trucks arrive before summer. You have signed before and nothing bad happened. The business is strong and the risk is theoretical.",
+							"value": 0
+						}
+					},
+					"correct": "A",
+					"host_note": "Principle: Know Your Numbers. Why A wins: Unlimited personal liability deserves professional review and negotiated caps, not speed. What good discussion sounds like: what owners actually risk when they sign, and lease-versus-buy math. What the wrong answers cost: B is decent but still rushed; C gambles the house.",
+					"card_code": "BE-OW-16"
+				},
+				{
+					"n": 17,
+					"title": "The Customer's Demand",
+					"scenario": "Your largest residential customer, a developer with eleven homes under your maintenance plan, demands that you personally attend every service call at his properties. He says he pays for the owner, not the techs. Giving in would eat two days of your week.",
+					"options": {
+						"A": {
+							"text": "Go yourself. He is a major account, his referrals are worth a fortune, and personal attention is why he stays. Some customers are worth the owner's time. Protect the revenue.",
+							"value": 150
+						},
+						"B": {
+							"text": "Fire the customer. No account is worth the owner being treated like a tech on call. Caving invites every big customer to demand the same. No account rents the owner.",
+							"value": 150
+						},
+						"C": {
+							"text": "Go to one job yourself, introduce Sam, and tell the customer plainly: this is the person I trust with my own home, and he carries my standard. Then step back and let him prove it.",
+							"value": 500
+						}
+					},
+					"correct": "C",
+					"host_note": "Principle: You Are Not the Doer. Why C wins: Transfer trust to Sam in person once, then step back; a business that needs the owner on every job isn't a business. What good discussion sounds like: how to make customers trust the team as much as the owner. What the wrong answers cost: A chains the owner to jobs; B throws away a great account.",
+					"card_code": "BE-OW-17"
+				},
+				{
+					"n": 18,
+					"title": "The Competitor Buyout",
+					"scenario": "A struggling competitor wants to sell: twelve trucks, a customer list of 4,000 names, and a shop lease, all for a price that looks like a steal. His techs are already calling around for jobs. Your GM says this could double your territory overnight.",
+					"options": {
+						"A": {
+							"text": "Buy it fast before another contractor grabs it. The price is a steal, and his trucks and customer list alone are worth more than the asking price.",
+							"value": 0
+						},
+						"B": {
+							"text": "Slow down and run real due diligence before you fall in love with the price. Audit his books, his list, his reviews, and find out why he is really selling.",
+							"value": 500
+						},
+						"C": {
+							"text": "Walk away. Buying a struggling competitor means buying his problems and his unhappy customers. Win them the honest way, one good job at a time. Keep your focus.",
+							"value": 150
+						}
+					},
+					"correct": "B",
+					"host_note": "Principle: Know Your Numbers. Why B wins: Diligence on books, customers, and motive before price-love; cheap companies are cheap for reasons. What good discussion sounds like: what to check in diligence, and what a fair price looks like. What the wrong answers cost: A buys problems at speed; C may pass a real opportunity.",
+					"card_code": "BE-OW-18"
+				},
+				{
+					"n": 19,
+					"title": "The Data Lie",
+					"scenario": "Your GM's monthly report looks great: revenue up, callbacks down, everything green. But two big customers complained this month, overtime is through the roof, and the numbers feel too clean. You have never verified a single figure she reports.",
+					"options": {
+						"A": {
+							"text": "Accept the report and move on. She is your GM, you hired her for judgment, and second-guessing her numbers signals distrust. If something is wrong, it will surface.",
+							"value": 150
+						},
+						"B": {
+							"text": "Ask for the raw numbers in a way that makes honesty safe. Tell her: I would rather hear a bad truth Tuesday than a pretty lie at month's end. Owners get the truth they reward.",
+							"value": 500
+						},
+						"C": {
+							"text": "Confront her directly and demand to know if she is cooking the books. If she is lying to the owner about money, that is a firing offense. Ask it plainly, then watch her face.",
+							"value": 0
+						}
+					},
+					"correct": "B",
+					"host_note": "Principle: Safe to Speak. Why B wins: Ask for raw numbers in a way that makes honesty safe, then prove it by rewarding the next bad truth. What good discussion sounds like: whether the numbers are massaged, and why. What the wrong answers cost: A naps; C accuses before understanding.",
+					"card_code": "BE-OW-19"
+				},
+				{
+					"n": 20,
+					"title": "The GM's Blank Check",
+					"scenario": "Your GM asks for authority to spend up to $25,000 without your approval. She says waiting on you slows everything: emergency parts, a marketing opportunity, a hire she needs to lock down. You trust her, but you have never given anyone that kind of latitude.",
+					"options": {
+						"A": {
+							"text": "Give her the full $25,000 and get out of her way. You hired her to run the business, and second-guessing her spending slows everything. If you cannot trust her, you hired wrong.",
+							"value": 150
+						},
+						"B": {
+							"text": "Give her real authority with clear guardrails. She spends up to $5,000 on her own, flags $5,000 to $15,000 next day, and gets sign-off above that. She reports weekly.",
+							"value": 500
+						},
+						"C": {
+							"text": "Keep every dollar of spending authority yourself. It is your money and your risk. She brings requests, you approve them fast. Nothing gets spent you have not seen.",
+							"value": 150
+						}
+					},
+					"correct": "B",
+					"host_note": "Principle: Delegate, Don't Abdicate. Why B wins: Tiered limits plus weekly reporting give real authority with real oversight. What good discussion sounds like: where the dollar thresholds should sit, and what good reporting looks like. What the wrong answers cost: A surrenders the checkbook; C strangles the GM.",
+					"card_code": "BE-OW-20"
+				},
+				{
+					"n": 21,
+					"title": "The Payroll Temptation",
+					"scenario": "A big receivable is ten days late, payroll hits Friday, and the account will not cover both payroll and the supplier invoices due the same day. Your GM suggests delaying payroll until the check lands, just this once, and being honest with the team.",
+					"options": {
+						"A": {
+							"text": "Delay payroll until the receivable lands and be upfront with the team. Honesty softens the blow, and a few days is not the end of the world. The check is definitely coming.",
+							"value": 150
+						},
+						"B": {
+							"text": "Pay the team on time by holding all vendor payments instead. Your people come first, and suppliers can wait thirty days without real damage. People over paperwork.",
+							"value": 0
+						},
+						"C": {
+							"text": "Payroll goes out on time, every time. You cut your own pay first, then every discretionary dollar, then you call the bank before you touch your people's checks.",
+							"value": 500
+						}
+					},
+					"correct": "C",
+					"host_note": "Principle: Cash Is Life. Why C wins: Payroll on time, every time; the owner cuts his own pay first. What good discussion sounds like: what to cut before payroll, and how to prevent the next crunch. What the wrong answers cost: A spends trust; B stiffs vendors.",
+					"card_code": "BE-OW-21"
+				},
+				{
+					"n": 22,
+					"title": "The Shiny Investment",
+					"scenario": "An old friend is raising money for a real estate development he swears cannot lose. He shows you projections, testimonials, and a deadline: the round closes Friday. The buy-in is $50,000, about what you keep as your operating cushion.",
+					"options": {
+						"A": {
+							"text": "Pass on it. Your best return is the business you understand, where every extra dollar compounds. Side bets you do not control are expensive distractions with a good story.",
+							"value": 500
+						},
+						"B": {
+							"text": "Put in a small amount you can fully afford to lose, and treat it as tuition. Set the number in advance and do not add a dollar more later.",
+							"value": 150
+						},
+						"C": {
+							"text": "Go in big. Diversification is smart, and keeping all your wealth tied to one local contracting business is genuinely risky. This deal has real upside. Fortune favors the bold.",
+							"value": 0
+						}
+					},
+					"correct": "A",
+					"host_note": "Principle: Brilliant on the Basics. Why A wins: The business you understand compounds; side bets you don't control are distractions with stories. What good discussion sounds like: the difference between diversification and dilution of focus. What the wrong answers cost: B feeds the itch; C risks the operating cushion.",
+					"card_code": "BE-OW-22"
+				},
+				{
+					"n": 23,
+					"title": "The Boat Money",
+					"scenario": "You have wanted a boat for years, and this spring the business account is the healthiest it has ever been. A dealer friend found a used one at a steal, but only if you move this week. The boat costs more than three months of your salary.",
+					"options": {
+						"A": {
+							"text": "Leave the money in the business. You pay yourself a set salary and a planned quarterly distribution. Everything beyond that stays put. The company account is not a personal ATM.",
+							"value": 500
+						},
+						"B": {
+							"text": "Take the money as a formal loan from the business with a written repayment schedule and interest. That keeps it clean on the books, gets you the boat now, and the money comes back.",
+							"value": 150
+						},
+						"C": {
+							"text": "Take the money outright. The business is profitable, the account is healthy, and you built this company with years of your own sweat. You have earned the right to enjoy it.",
+							"value": 150
+						}
+					},
+					"correct": "A",
+					"host_note": "Principle: How We Do Anything Is How We Do Everything. Why A wins: A fixed pay discipline separates the owner's wallet from the company's, and that standard is what the whole team follows. What good discussion sounds like: what 'enough' looks like for an owner, and how personal draws ripple into culture. What the wrong answers cost: B normalizes raiding the till; C teaches everyone that company money is the owner's pocket money.",
+					"card_code": "BE-OW-23"
+				},
+				{
+					"n": 24,
+					"title": "The Sketchy Supplier",
+					"scenario": "Your biggest parts supplier offers an exclusive deal: switch all purchasing to him, and he will send you a quarterly rebate check made out to you personally. The parts meet spec on paper, but your lead tech says they fail more often in the field.",
+					"options": {
+						"A": {
+							"text": "Turn the deal down flat. You will not trade your customers' trust for a rebate, and you will not put parts you doubt into people's homes. Choose suppliers in the open.",
+							"value": 500
+						},
+						"B": {
+							"text": "Take the deal and have your lead tech inspect every batch before parts go on the trucks. Inspection catches the quality risk, and the rebate funds the inspection time.",
+							"value": 0
+						},
+						"C": {
+							"text": "Accept the rebate but keep it documented with your accountant. The parts meet spec on paper. Track warranty claims closely and switch back if they underperform.",
+							"value": 150
+						}
+					},
+					"correct": "A",
+					"host_note": "Principle: Do Right When It Costs You. Why A wins: Parts chosen for a kickback will fail in customers' homes, and no rebate survives that. What good discussion sounds like: where the line sits between a smart deal and a compromised one. What the wrong answers cost: B launders a bribe into process; C documents the bribe instead.",
+					"card_code": "BE-OW-24"
+				},
+				{
+					"n": 25,
+					"title": "The Slow Season",
+					"scenario": "Every winter your residential work drops forty percent. Your GM proposes keeping the full crew through the slow months to protect morale, which would burn $60,000 of reserve. Last year you laid off six techs in January and spent March rehiring strangers.",
+					"options": {
+						"A": {
+							"text": "Lay off the bottom third and run lean until spring. Payroll is your biggest cost, and a full crew through a dead winter burns your growth cash. Lean winters make strong summers.",
+							"value": 150
+						},
+						"B": {
+							"text": "Keep every job and cut marketing to zero instead. People matter more than ads, and you can restart in the spring. Protecting the team is worth going quiet for one season.",
+							"value": 0
+						},
+						"C": {
+							"text": "Keep your core team and flex the edges on purpose. Winter comes every year, so plan for it: cross-train in the fall, bank cash in the summer, use the slow months for training.",
+							"value": 500
+						}
+					},
+					"correct": "C",
+					"host_note": "Principle: Systems, Not Heroes. Why C wins: Winter comes every year, so plan for it: cross-train, bank cash, use slow months for training. What good discussion sounds like: what the seasonal plan should include. What the wrong answers cost: A burns the team to save cash; B goes dark for a season.",
+					"card_code": "BE-OW-25"
+				},
+				{
+					"n": 26,
+					"title": "The Burned-Out GM",
+					"scenario": "Your GM, Dana, is working seventy-hour weeks and it shows: short temper, missed details, and last week she forgot a payroll deadline for the first time ever. She built your systems and carries the culture. She says she is fine and just needs to get through the season.",
+					"options": {
+						"A": {
+							"text": "Tell her straight that leadership is hard and the hours come with the chair. She wanted the GM seat. Tough seasons separate real leaders from the rest. Expect more.",
+							"value": 0
+						},
+						"B": {
+							"text": "Give her a significant raise and a bonus. The hours are brutal, and money shows you see the sacrifice. A well-paid GM will push through. Compensation is the fastest recognition.",
+							"value": 150
+						},
+						"C": {
+							"text": "Sit down with her and redesign the job before you lose her. Map her plate, take real pieces off, and hire the support she needs. A burned-out GM needs a job a human can do.",
+							"value": 500
+						}
+					},
+					"correct": "C",
+					"host_note": "Principle: Love Is the Greatest Leadership Tool. Why C wins: Redesign the job before you lose the person; a burned-out GM needs a doable job, not a pep talk. What good discussion sounds like: what's actually on her plate, and what comes off first. What the wrong answers cost: A confuses cruelty with standards; B buys time with money.",
+					"card_code": "BE-OW-26"
+				},
+				{
+					"n": 27,
+					"title": "The Star Who Berates",
+					"scenario": "Marcus is your top salesman, bringing in nearly a third of revenue. He is also brutal to the office staff: snapping, name-calling, and last week he made your dispatcher cry. Two office employees have quietly asked about transferring. He laughed off your last mention of it.",
+					"options": {
+						"A": {
+							"text": "Pull him aside and tell him plainly: the way he speaks to the office staff stops now. His numbers do not buy him a different standard. Draw a clear line with consequences.",
+							"value": 500
+						},
+						"B": {
+							"text": "Leave it alone for now because he carries a third of your revenue. Keep an eye on it, and if someone actually quits, deal with it then. Do not break what is working.",
+							"value": 150
+						},
+						"C": {
+							"text": "Dock his next commission check as a fine for how he treats people. Money talks, and hitting his wallet beats any lecture. The fines grow until he gets the message.",
+							"value": 0
+						}
+					},
+					"correct": "A",
+					"host_note": "Principle: Expectations Before Accountability. Why A wins: One standard for everyone, stated privately and enforced; production never buys an exemption. What good discussion sounds like: how to confront a top producer without fear, and what the office staff's silence is costing. What the wrong answers cost: B sacrifices the team for one person; C fines dignity instead of fixing behavior.",
+					"card_code": "BE-OW-27"
+				},
+				{
+					"n": 28,
+					"title": "The Second Location",
+					"scenario": "Your GM wants to open a second shop across town. She has the energy, a couple of techs ready to follow her, and a landlord offering cheap rent. Your current shop is profitable, but margins slipped last quarter and cash covers two months of payroll.",
+					"options": {
+						"A": {
+							"text": "Tell her not yet: a second shop opens when three gates are met. Steady margin for six months, six months of payroll in reserve, and a trained leader for shop one.",
+							"value": 500
+						},
+						"B": {
+							"text": "Let her open it and run it yourself the first year to protect quality. Split your weeks between the two locations and hire fast. Nobody protects your standard like you do.",
+							"value": 150
+						},
+						"C": {
+							"text": "Approve it and give her full authority to launch her way. She is hungry and capable, and hovering would kill her drive. Set a monthly revenue target and step back completely.",
+							"value": 150
+						}
+					},
+					"correct": "A",
+					"host_note": "Principle: Created Twice. Why A wins: Expansion is a plan, not a mood. A sets measurable gates (margin, reserves, a ready leader) before risking the core. What good discussion sounds like: debating what the three gates should be, and whether the second shop is opportunity or distraction. What the wrong answers cost: B burns the owner out across two shops; C gambles the company on hope.",
+					"card_code": "BE-OW-28"
+				},
+				{
+					"n": 29,
+					"title": "The Vanishing Margin",
+					"scenario": "Your net margin slipped from fourteen percent to eight in two quarters, and nobody can say exactly why. Revenue is up, the schedule is full, but the money is not landing. Your GM blames pricing, your ops manager blames callbacks, your accountant blames overtime.",
+					"options": {
+						"A": {
+							"text": "Cut overhead ten percent across the board today. Every department trims: fewer office hours, cheaper supplies, no overtime. When margins shrink, spending shrinks first.",
+							"value": 0
+						},
+						"B": {
+							"text": "Raise prices ten percent across the board. Your costs went up, so your prices go up. Customers expect it and your close rate can absorb it.",
+							"value": 150
+						},
+						"C": {
+							"text": "Stop guessing and find the leak. Pull job costing on the last ninety days: which jobs, which techs, which neighborhoods make money. Margins bleed in specific places.",
+							"value": 500
+						}
+					},
+					"correct": "C",
+					"host_note": "Principle: Know Your Numbers. Why C wins: Ninety days of job costing names the leak: underpriced work, callback crews, discount creep. What good discussion sounds like: which jobs actually make money. What the wrong answers cost: A cuts blind; B taxes customers for your confusion.",
+					"card_code": "BE-OW-29"
+				},
+				{
+					"n": 30,
+					"title": "The Grieving Employee",
+					"scenario": "Your office manager of nine years lost her husband suddenly last week. She came back today because she needed the routine, but she is hollow: invoice mistakes, tears in the break room, gone by noon. The phones are piling up.",
+					"options": {
+						"A": {
+							"text": "Give her real time and a soft landing. Paid weeks off, no guilt, then a lighter load with flexible hours when she returns. Tell the team to cover her with grace.",
+							"value": 500
+						},
+						"B": {
+							"text": "Give her a week off with pay, then expect her back at full speed. Grief is real, but the business has to run. Clear expectations beat vague sympathy.",
+							"value": 150
+						},
+						"C": {
+							"text": "Tell her kindly but firmly that grief stays at home. The office depends on her and the team cannot carry her workload forever. Give her three days, then full speed.",
+							"value": 0
+						}
+					},
+					"correct": "A",
+					"host_note": "Principle: Love Is the Greatest Leadership Tool. Why A wins: Real time, a soft landing, and human check-ins; she'll remember this forever, and so will everyone watching. What good discussion sounds like: how to cover the work with grace. What the wrong answers cost: B schedules grief; C tells a grieving woman to perform.",
+					"card_code": "BE-OW-30"
+				},
+				{
+					"n": 31,
+					"title": "The Succession Clock",
+					"scenario": "You are sixty-two, healthy, and still love the work. But you have no succession plan, no buy-sell agreement, and your kids have their own careers. Your two best managers are quietly wondering what happens if you get hit by a bus.",
+					"options": {
+						"A": {
+							"text": "Start the conversation this year, not the year you are forced to. Name who could grow into ownership, and give them real development and a real timeline.",
+							"value": 500
+						},
+						"B": {
+							"text": "Ignore it. You are healthy, you love the work, and you will figure out the exit when you get there. Succession planning is for corporations. The future will sort itself out.",
+							"value": 0
+						},
+						"C": {
+							"text": "Hire a broker and sell within the year while the market is hot. You get maximum value and a clean break. Cash out at the top, and let the next owner solve the people puzzle.",
+							"value": 150
+						}
+					},
+					"correct": "A",
+					"host_note": "Principle: Created Twice. Why A wins: Start the conversation now: honest talks, identified candidates, real development, a real timeline. What good discussion sounds like: who could grow into ownership, and what they need. What the wrong answers cost: B hands the team a future crisis; C cashes out the mission.",
+					"card_code": "BE-OW-31"
+				},
+				{
+					"n": 32,
+					"title": "The Lease or Buy",
+					"scenario": "Your landlord offers to sell you the building: fair price, good location, room to expand. Your lease renews in eight months with a rent hike. The down payment would take half your cash reserve, and your GM worries about tying up capital needed for trucks.",
+					"options": {
+						"A": {
+							"text": "Buy the building. Owning is what established companies do, and rent just makes the landlord rich. Sign the deal and plant your flag. Rent is paying someone else's mortgage.",
+							"value": 150
+						},
+						"B": {
+							"text": "Keep renting. Your capital belongs in trucks, techs, and marketing, not in bricks. A lease keeps you flexible. Real estate is a distraction from the business you run.",
+							"value": 150
+						},
+						"C": {
+							"text": "Run it like any investment. Compare the true ten-year cost of buying against renting, factor in what the down payment does to your cash, and get an honest appraisal. Then decide.",
+							"value": 500
+						}
+					},
+					"correct": "C",
+					"host_note": "Principle: Know Your Numbers. Why C wins: Ten-year math, cash impact, honest appraisal; buildings aren't trophies. What good discussion sounds like: what the down payment could earn inside the business instead. What the wrong answers cost: A buys pride; B refuses to ever own.",
+					"card_code": "BE-OW-32"
+				},
+				{
+					"n": 33,
+					"title": "The Two Candidates",
+					"scenario": "You need a GM. Two finalists: Tom, your loyal operations manager of eight years who knows every tech by name, and Priya, an outsider with a sharp record turning around bigger shops. Tom would be heartbroken. Priya would change things fast.",
+					"options": {
+						"A": {
+							"text": "Promote Tom. Eight loyal years, he knows the culture cold, and loyalty has to count for something. Reward the years, keep the culture, and coach him into the seat.",
+							"value": 150
+						},
+						"B": {
+							"text": "Hire Priya and move Tom out quickly. Keeping a passed-over insider poisons the new GM's authority from day one. A clean break is kinder. Priya needs a clear runway.",
+							"value": 0
+						},
+						"C": {
+							"text": "Interview both against the same clear standard: who can grow the team and the numbers. Tell Tom honestly where he stands either way. Rigor plus care: the winner earns it.",
+							"value": 500
+						}
+					},
+					"correct": "C",
+					"host_note": "Principle: Hiring Makes You or Breaks You. Why C wins: Same standard for both, honest conversation with Tom either way; rigor plus care. What good discussion sounds like: what the GM standard actually is. What the wrong answers cost: A hires from guilt; B discards loyalty for speed.",
+					"card_code": "BE-OW-33"
+				},
+				{
+					"n": 34,
+					"title": "The Star's Exit",
+					"scenario": "Your best tech, Andre, tells you he is leaving to start his own shop across town. He learned everything working for you, and two of your younger techs admire him openly. Your GM wants you to enforce his noncompete. Andre thanks you for everything you taught him.",
+					"options": {
+						"A": {
+							"text": "Counter with a big raise, a better truck, and a retention bonus. Replacing him will cost triple the raise. Most people threatening to leave just want to feel valued.",
+							"value": 150
+						},
+						"B": {
+							"text": "Congratulate him and mean it. Ask what he wished was different here, listen without defending yourself, and fix what you can for the people who stay. Grace keeps your reputation.",
+							"value": 500
+						},
+						"C": {
+							"text": "Let him go and make sure the team hears the honest odds. Most new shops fail within two years, and he will likely be back. Honesty now saves three more farewell speeches.",
+							"value": 150
+						}
+					},
+					"correct": "B",
+					"host_note": "Principle: Love Is the Greatest Leadership Tool. Why B wins: Congratulate him, ask what could've been better, fix it for those who stay; the team is watching. What good discussion sounds like: what his exit teaches about retention. What the wrong answers cost: A tries to buy back a dream; C poisons the well.",
+					"card_code": "BE-OW-34"
+				},
+				{
+					"n": 35,
+					"title": "The Big Bet",
+					"scenario": "An agency pitches you a massive brand campaign: radio, billboards, streaming, the works. The creative is the best you have ever seen, and they project it will double your inbound leads. The price is half your cash reserve. Your GM is dazzled.",
+					"options": {
+						"A": {
+							"text": "Bet the half. The pitch was electric and the creative is the best you have ever seen. If it hits anywhere near their projections, you double the business in a year.",
+							"value": 150
+						},
+						"B": {
+							"text": "Skip the campaign and buy two more trucks and crews instead. Capacity you control beats advertising you hope works. Steel and crews compound. Billboards fade by next quarter.",
+							"value": 0
+						},
+						"C": {
+							"text": "Test it small before you bet the reserve. Run it in one market with a capped budget, track every dollar to booked revenue, and scale only what the numbers prove.",
+							"value": 500
+						}
+					},
+					"correct": "C",
+					"host_note": "Principle: Know Your Numbers. Why C wins: Capped pilot, tracked to booked revenue, scale only what the numbers prove; never bet oxygen on a hunch. What good discussion sounds like: what the pilot budget and success line should be. What the wrong answers cost: A gambles the reserve; B buys trucks to avoid a decision.",
+					"card_code": "BE-OW-35"
+				},
+				{
+					"n": 36,
+					"title": "The Longtimer's Slump",
+					"scenario": "Paul has been with you twelve years, since the two-truck days. Lately his work has slipped: callbacks are up, customers say he seems distracted, and he snapped at a dispatcher last week. Your GM wants him on a formal performance plan. The crew is watching.",
+					"options": {
+						"A": {
+							"text": "Let him go. The business cannot carry declining performance, and keeping him says tenure protects you from accountability. Do it respectfully, with fair severance.",
+							"value": 150
+						},
+						"B": {
+							"text": "Take him to coffee and ask what is going on, then listen. Twelve years earns a real conversation before judgment. Offer concrete help with clear expectations going forward.",
+							"value": 500
+						},
+						"C": {
+							"text": "Give him space and say nothing. Twelve years earns him a rough patch without the owner hovering. He will pull out of it on his own. Loyalty means not keeping score.",
+							"value": 0
+						}
+					},
+					"correct": "B",
+					"host_note": "Principle: Never Act on One Side of a Story. Why B wins: Twelve years earns a real conversation before judgment; listen first, then pair help with clear expectations. What good discussion sounds like: loyalty versus accountability, and how to have the coffee conversation. What the wrong answers cost: A discards a person in a hard season; C avoids leadership.",
+					"card_code": "BE-OW-36"
+				},
+				{
+					"n": 37,
+					"title": "The Equipment Auction",
+					"scenario": "A retiring contractor's entire fleet and shop equipment goes to auction Saturday: trucks, tools, diagnostic gear, all of it. Prices will be a fraction of new. Your cash is decent but not deep, and your ops manager's wish list is twice your budget.",
+					"options": {
+						"A": {
+							"text": "Buy aggressively. Quality used equipment at auction prices is the cheapest capacity you will ever add. You can resell what you do not use. Stock up now.",
+							"value": 150
+						},
+						"B": {
+							"text": "Walk in with a written list and a hard spending cap, and buy only what is on the list at or below your researched price. Every purchase must pay for itself in twelve months.",
+							"value": 500
+						},
+						"C": {
+							"text": "Buy nothing. Auctions are traps for owners with cash burning a hole in their pocket. Discipline means walking past a good deal you do not need.",
+							"value": 150
+						}
+					},
+					"correct": "B",
+					"host_note": "Principle: Know Your Numbers. Why B wins: Written list, hard cap, researched prices, twelve-month payback test; auctions manufacture urgency. What good discussion sounds like: what's really on the list, and what the cap is. What the wrong answers cost: A buys clutter; C walks past real value.",
+					"card_code": "BE-OW-37"
+				},
+				{
+					"n": 38,
+					"title": "The Under-the-Table Bid",
+					"scenario": "A property manager with forty rental units offers you all his work if you bill him in cash at a twenty percent discount, no paperwork, no permits pulled. It would fill two crews year-round. He says every contractor he uses works this way.",
+					"options": {
+						"A": {
+							"text": "Take the deal. Forty units of steady work could carry two crews year-round. Everyone in the trades does some cash work. Do not overthink a gift.",
+							"value": 150
+						},
+						"B": {
+							"text": "Decline the off-the-books deal and offer your best legitimate volume pricing in writing. Cash jobs with no paperwork put your license and integrity on the line.",
+							"value": 500
+						},
+						"C": {
+							"text": "Report him to the licensing board. Soliciting under-the-table work is illegal, and playing along is why this industry has a trust problem. Someone has to draw the line.",
+							"value": 0
+						}
+					},
+					"correct": "B",
+					"host_note": "Principle: How We Do Anything Is How We Do Everything. Why B wins: Clean paper or no deal; the manager who asks you to cheat with him will cheat you. What good discussion sounds like: how much revenue is too much to walk away from. What the wrong answers cost: A risks license and integrity; C turns a business decision into a crusade.",
+					"card_code": "BE-OW-38"
+				},
+				{
+					"n": 39,
+					"title": "The Fake Review Scheme",
+					"scenario": "Your marketing lead proposes buying two hundred five-star reviews from a service overseas. Your competitor did it last year and now outranks you everywhere. The service guarantees the reviews look real, and the cost is less than one week's ad spend.",
+					"options": {
+						"A": {
+							"text": "Shut it down immediately. Fake reviews are lies to your neighbors, and when it comes out, every honest review becomes suspect. Ask every happy customer at the job.",
+							"value": 500
+						},
+						"B": {
+							"text": "Skip the fake reviews and build a review engine. Train every tech to ask at the end of every clean job. Slower, but every star is real and permanent.",
+							"value": 150
+						},
+						"C": {
+							"text": "Buy the reviews. Everyone in this market does it, and two hundred fresh five-star reviews will fill your schedule for months. The chance of getting caught is tiny.",
+							"value": 0
+						}
+					},
+					"correct": "A",
+					"host_note": "Principle: Do Right When It Costs You. Why A wins: Fake reviews are lies to neighbors; exposure poisons every real review too. What good discussion sounds like: building an honest review engine and why trust compounds. What the wrong answers cost: B is slow but honest; C risks the brand's credibility.",
+					"card_code": "BE-OW-39"
+				},
+				{
+					"n": 40,
+					"title": "The Employee's Loan Ask",
+					"scenario": "Eddie, one of your best techs for four years, asks for a private talk. His car died, he needs $3,000 for the repair, and his credit is shot. He is embarrassed and says he would not ask if he had another option.",
+					"options": {
+						"A": {
+							"text": "Lend him the money with a written agreement, deducted from his paychecks over three months. The paperwork keeps it professional. Kindness with clear terms protects the friendship.",
+							"value": 150
+						},
+						"B": {
+							"text": "Tell him you do not make personal loans, because lending changes the relationship. Then help for real: advance pay he has earned and an intro to your credit union.",
+							"value": 500
+						},
+						"C": {
+							"text": "Decline and keep it short. Getting into employees' personal finances is a trap, and once you help one person the whole shop lines up. A clean no keeps the line where it belongs.",
+							"value": 150
+						}
+					},
+					"correct": "B",
+					"host_note": "Principle: Love Is the Greatest Leadership Tool. Why B wins: Compassion with boundaries. Real help (earned pay, a day, a credit-union intro) without a loan that warps the relationship. What good discussion sounds like: where helping ends and rescuing begins. What the wrong answers cost: A turns care into collections; C is clean but cold.",
+					"card_code": "BE-OW-40"
+				}
+			]
+		},
+		{
+			"deck": "General Manager",
+			"cards": [
+				{
+					"n": 1,
+					"title": "The Unneeded Part",
+					"scenario": "A customer says your tech recommended a $1,800 control board, then a second opinion found a $90 sensor was the real problem. The customer feels upsold. Nate is a good producer with no prior complaints and insists the board looked bad. Your service manager is watching.",
+					"options": {
+						"A": {
+							"text": "Apologize, refund the $1,800 in full, and confirm in writing the same day. Then walk through the job notes with Nate to find the gap, and set the team standard afterward.",
+							"value": 150
+						},
+						"B": {
+							"text": "Back Nate. Diagnostics involve judgment calls, and second-guessing techs kills their confidence. Apologize for the confusion but stand by the call. One complaint is not a pattern.",
+							"value": 150
+						},
+						"C": {
+							"text": "Call the customer yourself, apologize without excuses, and refund the $1,800 plus cover the sensor. Then review the steps with Nate privately and set the standard.",
+							"value": 500
+						}
+					},
+					"correct": "C",
+					"host_note": "Principle: Do Right When It Costs You. Why C wins: the GM apologizes without excuses, refunds fully, and turns the incident into private coaching that distinguishes an honest mistake from a pattern. Discussion: does backing Nate (B) protect the team or teach that upsells go unexamined. Wrong answers: A (+150) skips the one-on-one with Nate where the real fix lives; B (+150) defends the tech at the customer's expense.",
+					"card_code": "BE-GM-01"
+				},
+				{
+					"n": 2,
+					"title": "The Skipped Lockout",
+					"scenario": "An install crew skipped the electrical lockout procedure on a panel swap to save time. Nothing happened, the job passed inspection, and the crew lead swears it was a one-time shortcut under deadline pressure. Your install manager wants to keep it quiet.",
+					"options": {
+						"A": {
+							"text": "Report it, document it, and retrain the whole install team this week. A shortcut that could kill someone is not a one-time thing just because nobody got hurt.",
+							"value": 150
+						},
+						"B": {
+							"text": "Stop work for a day and retrain every crew on lockout. Find how deadline pressure made the shortcut acceptable, and fix the scheduling behind it. Discipline the lead per policy.",
+							"value": 500
+						},
+						"C": {
+							"text": "Keep it quiet inside the company. Give the crew lead a stern private warning and remind crews about lockout next meeting, no details. Discretion protects the company.",
+							"value": 0
+						}
+					},
+					"correct": "B",
+					"host_note": "Principle: Handle It While It's Small. Why B wins: the GM treats the near-miss as a system failure, retrains everyone, fixes the deadline pressure that caused it, and verifies compliance. Discussion: is firing the lead strong leadership or fear-based. Wrong answers: A (+150) reports outward before fixing inward; C ($0) covers up a life-safety violation and guarantees the next shortcut.",
+					"card_code": "BE-GM-02"
+				},
+				{
+					"n": 3,
+					"title": "The Blame Game",
+					"scenario": "A $14,000 job died: wrong equipment on the truck, and the homeowner canceled. Sales lead Dana and Production lead Marcus each blame the other's department, and their teams picked up the fight. The shop is tense. Both are protecting their own crews instead of the company.",
+					"options": {
+						"A": {
+							"text": "Bring them together today. The miss belongs to the company, not a department. Write the handoff standard, verify it held next week, and rule out blaming other departments.",
+							"value": 500
+						},
+						"B": {
+							"text": "Stay out of it. They are proven managers, and a GM who referees fights teaches escalation. Give it a few days and check whether the tension cooled on its own.",
+							"value": 150
+						},
+						"C": {
+							"text": "Back the stronger department this month, openly. The numbers tell the story, and winners should know results matter. Quietly tell the weaker side to tighten its handoffs.",
+							"value": 150
+						}
+					},
+					"correct": "A",
+					"host_note": "Principle: Give Away the Credit, Take the Blame. Why A wins: the GM absorbs the miss at the company level, ends the inter-department war, and replaces blame with a written standard that gets checked. Discussion: does staying out of it (B) build independence or let resentment grow; is picking a side (C) leadership or favoritism. Wrong answers: B (+150) lets the feud harden into culture; C (+150) teaches teams that blame games get rewarded.",
+					"card_code": "BE-GM-03"
+				},
+				{
+					"n": 4,
+					"title": "The Harassment Complaint",
+					"scenario": "CSR Jen came to you privately: a senior tech has made crude comments to her for weeks. She is scared to name him formally because he is popular and she is new. She asked you to keep it between you two. You believe her, and doing nothing is not an option.",
+					"options": {
+						"A": {
+							"text": "Thank Jen, explain what happens next, and investigate promptly and privately. Document everything, guard her from retaliation, and act on what you find, up to termination.",
+							"value": 500
+						},
+						"B": {
+							"text": "Move Jen to a different shift so she no longer works near the tech. This solves her immediate problem without a confrontation, and she keeps her job.",
+							"value": 150
+						},
+						"C": {
+							"text": "Keep it between you two as she asked and handle it informally. Have a quiet word with the tech about professionalism, no names. Most situations resolve with a quiet warning.",
+							"value": 0
+						}
+					},
+					"correct": "A",
+					"host_note": "Principle: Safe to Speak. Why A wins: the GM honors Jen's courage with a real process, investigates properly, protects against retaliation, and follows through. Discussion: is the quiet word (C) discretion or cowardice. Wrong answers: B (+150) relocates the victim and leaves the behavior in place; C ($0) buries a harassment complaint and teaches every employee that speaking up changes nothing.",
+					"card_code": "BE-GM-04"
+				},
+				{
+					"n": 5,
+					"title": "The Coasting Star",
+					"scenario": "Rob was your best salesperson for three years. Lately his numbers slipped 25 percent, he leaves early Fridays, and skipped the last two trainings. He says he is fine, just in a rut. One rep asked why standards seem different for Rob.",
+					"options": {
+						"A": {
+							"text": "Cut his commission rate until his numbers recover. Money is the language salespeople understand, and the gap between his pay and his output will get his attention fast.",
+							"value": 0
+						},
+						"B": {
+							"text": "Give him space. Three years at the top earns a down quarter, and pressuring a proven producer usually backfires. He said he is in a rut, and ruts pass. Check back next quarter.",
+							"value": 150
+						},
+						"C": {
+							"text": "Lead with respect for his history. Honor the three great years, then name what you are seeing. Ask what changed and listen. Build a thirty-day plan with targets and training.",
+							"value": 500
+						}
+					},
+					"correct": "C",
+					"host_note": "Principle: Make Me Feel Important. Why C wins: the GM honors the history, names the present honestly, listens for the real cause, and builds a plan with accountability. Discussion: does the team's double-standard question set the real urgency. Wrong answers: A ($0) punishes without understanding and may lose him entirely; B (+150) teaches the team that stars play by different rules.",
+					"card_code": "BE-GM-05"
+				},
+				{
+					"n": 6,
+					"title": "The Overbooked Week",
+					"scenario": "Sales booked 40 percent more jobs than Production can staff. Techs are talking forced overtime, and delay calls start Wednesday. Dana in Sales is celebrating. Marcus in Production is furious. The overbooked customers do not know yet.",
+					"options": {
+						"A": {
+							"text": "Tell Production to cover it with overtime and weekends. Sales did its job, and the company cannot turn away revenue when the phones are hot. Overtime pay softens the grumbling.",
+							"value": 150
+						},
+						"B": {
+							"text": "Cap Sales at capacity and call the overbooked customers now, honestly, with a real date and a named owner. Then build a weekly capacity handshake between Dana and Marcus.",
+							"value": 500
+						},
+						"C": {
+							"text": "Hire two temp techs immediately. The demand is real and the fastest fix is more hands. Temps take the simpler installs while your crews handle the complex ones.",
+							"value": 150
+						}
+					},
+					"correct": "B",
+					"host_note": "Principle: Selling Is Helping. Why B wins: the GM tells the truth early, protects customers with real dates and ownership, and builds a Sales-Production capacity agreement so it never repeats. Discussion: does capping Sales punish success. Wrong answers: A (+150) burns out the crews and ships sloppy work; C (+150) gambles quality on temp strangers.",
+					"card_code": "BE-GM-06"
+				},
+				{
+					"n": 7,
+					"title": "The Forgotten Win",
+					"scenario": "Best month ever, and nobody celebrated. The numbers went out in an email, a few thumbs-up replies, everyone back to work. Two long-tenured techs told the office manager the wins just disappear into the next busy week. You can feel the flatness.",
+					"options": {
+						"A": {
+							"text": "Send a company-wide email with the record numbers by department. Written recognition lasts and shows exactly who contributed what. Copy the owner so leadership sees it.",
+							"value": 150
+						},
+						"B": {
+							"text": "Gather everyone for twenty minutes and tell the story of the month out loud, naming the people who stepped up. Thank specific people for specific things, in front of their peers.",
+							"value": 500
+						},
+						"C": {
+							"text": "Do nothing special. Record months come from everyone doing their job, and adults do not need parties for meeting expectations. The paycheck already reflects the extra work.",
+							"value": 0
+						}
+					},
+					"correct": "B",
+					"host_note": "Principle: Make Me Feel Important. Why B wins: the GM celebrates specifically and publicly, names names, and turns the win into the next goal. Discussion: is the email (A) efficient or forgettable. Wrong answers: A (+150) files the win where nobody feels it; C (0) teaches the team excellence is merely expected.",
+					"card_code": "BE-GM-07"
+				},
+				{
+					"n": 8,
+					"title": "The Chaotic Warehouse",
+					"scenario": "Your warehouse is a mess. Techs waste forty-five minutes each morning hunting parts, fittings get ordered twice, and two techs argued over the last blower motor. Ben, the warehouse manager, runs it from memory and resists any system. Techs keep personal stashes in their trucks.",
+					"options": {
+						"A": {
+							"text": "Walk the warehouse with Ben and set the standard: every part gets a labeled home, stock checked weekly. Build the system with him, not over him, and give him thirty days.",
+							"value": 500
+						},
+						"B": {
+							"text": "Leave Ben alone. He has run that warehouse for years, and imposing a system on a guy who works from memory will breed resentment. The truck stashes are efficient anyway.",
+							"value": 0
+						},
+						"C": {
+							"text": "Hire an assistant for Ben to do the organizing. He knows where everything is and just needs hands. Organized parts pay for themselves in recovered tech hours.",
+							"value": 150
+						}
+					},
+					"correct": "A",
+					"host_note": "Principle: Brilliant on the Basics. Why A wins: the GM sets a clear operational standard, builds the system with Ben instead of around him, and verifies the result in recovered tech time. Discussion: is Ben's resistance pride or a signal the system must fit him. Wrong answers: C (+150) spends payroll to avoid a direct conversation with Ben; B ($0) normalizes forty-five wasted minutes every morning.",
+					"card_code": "BE-GM-08"
+				},
+				{
+					"n": 9,
+					"title": "The Phone-Shy CSR",
+					"scenario": "Maria, your new CSR, freezes on live calls. Warm and sharp in person, knows the scripts, but stumbles on the phone, holds too long, and yesterday a caller asked for someone else. The lead wants her off the phones. Maria feels sick before every shift.",
+					"options": {
+						"A": {
+							"text": "Move Maria to back-office work permanently. Some people are not phone people, and forcing calls she dreads hurts her and the customers. Put her strengths where they fit.",
+							"value": 150
+						},
+						"B": {
+							"text": "Build her up in stages: scripted outbound confirmations first, then inbound overflow with a buddy, then full calls. Review recordings together weekly and name one thing to improve.",
+							"value": 500
+						},
+						"C": {
+							"text": "Give her two more weeks on the phones and see if she settles in. Most new CSRs are shaky at first. Extra attention now may make her more self-conscious. Decide at month's end.",
+							"value": 0
+						}
+					},
+					"correct": "B",
+					"host_note": "Principle: Train or Remove. Why B wins: the GM treats phone confidence as a trainable skill and designs a real ramp with stages, coaching, and encouragement. Discussion: is moving her off phones (A) kindness or giving up too early. Wrong answers: A (+150) wastes a good hire the company chose; C ($0) confuses waiting with developing.",
+					"card_code": "BE-GM-09"
+				},
+				{
+					"n": 10,
+					"title": "The Overwhelmed Dispatcher",
+					"scenario": "Jen, your new dispatcher, is crying in the break room. Third week, the board blew up with emergencies, two techs yelled at her over the radio, and she sent a crew to the wrong address. She told the office manager she is not cut out for this.",
+					"options": {
+						"A": {
+							"text": "Tell Jen honestly that dispatch might not be for her. The seat needs someone who handles pressure from day one. Offer a graceful exit before a bigger mistake hurts a customer.",
+							"value": 0
+						},
+						"B": {
+							"text": "Sit with Jen today and ask what felt hardest. Then build her ramp-up: shadow shifts, a triage playbook, a direct line to you. Speak to the techs privately about radio conduct.",
+							"value": 500
+						},
+						"C": {
+							"text": "Give Jen a pep talk. The first month is the hardest, and she needs encouragement more than anything. Tell her to push through. Most dispatchers find their rhythm by month two.",
+							"value": 150
+						}
+					},
+					"correct": "B",
+					"host_note": "Principle: Love Is the Greatest Leadership Tool. Why B wins: the GM meets the human moment first, diagnoses the actual gaps, builds a real ramp-up, and corrects the techs' behavior. Discussion: does the company owe Jen real onboarding before judging her on a live board. Wrong answers: C (+150) confuses encouragement with development; A (0) discards a good hire the company never trained.",
+					"card_code": "BE-GM-10"
+				},
+				{
+					"n": 11,
+					"title": "The Vendor Kickback",
+					"scenario": "A longtime vendor offered you a personal rebate at lunch: two percent of everything the company buys from him, paid to you directly, off the books. About $8,000 a year in your pocket. He laughed and said every GM in town does it.",
+					"options": {
+						"A": {
+							"text": "Take it but buy his equipment only when it is genuinely the best option. The rebate does not have to corrupt your judgment, and $8,000 is real money for your family.",
+							"value": 150
+						},
+						"B": {
+							"text": "Take the rebate and use it to fund team bonuses or the holiday party. The money benefits the people doing the work, and your hands stay clean because you never profited personally.",
+							"value": 0
+						},
+						"C": {
+							"text": "Decline it clearly, at the table: your purchasing rests on quality, warranty, and price for the customer, nothing else. Document the offer and tell the owner.",
+							"value": 500
+						}
+					},
+					"correct": "C",
+					"host_note": "Principle: Do Right When It Costs You. Why C wins: the GM refuses the bribe outright, protects every future purchasing decision from suspicion, and reports it upward so the pattern cannot continue quietly. Discussion: what does every GM in town does it reveal about the industry. Wrong answers: A (+150) sells the company's judgment for $8,000; B ($0) launders a bribe through the holiday party and teaches the team ethics are flexible.",
+					"card_code": "BE-GM-11"
+				},
+				{
+					"n": 12,
+					"title": "The Rude Dispatcher",
+					"scenario": "A loyal six-year customer says your dispatcher Tom was short with her and hung up before she finished. She is calling a competitor. Tom says she was rambling and five calls were holding. He is your fastest dispatcher and the board is full.",
+					"options": {
+						"A": {
+							"text": "Call the customer yourself, take full responsibility, and book a priority visit. Then play the call back with Tom, set the standard, and fix the staffing that set him up to fail.",
+							"value": 500
+						},
+						"B": {
+							"text": "Back Tom up. The customer was holding up a busy board, and dispatchers must keep calls moving or the schedule slips. Tell Tom you trust his judgment. Speed matters in that seat.",
+							"value": 150
+						},
+						"C": {
+							"text": "Pull the call and review it with Tom privately, focusing on what the customer heard. Coach him on a recovery line for long calls, and fix the board load that made him rush.",
+							"value": 150
+						}
+					},
+					"correct": "A",
+					"host_note": "Principle: Do Right When It Costs You. Why A wins: the GM takes the blame upward, repairs the customer personally, and fixes both the behavior and the system that caused it. Discussion: is the coach-only option (C) almost right but leaves the customer unrepaired; does defending Tom (B) teach the team speed excuses rudeness. Wrong answers: B (+150) trades a six-year customer for a fast board; C (+150) coaches but skips the repair the customer is waiting for.",
+					"card_code": "BE-GM-12"
+				},
+				{
+					"n": 13,
+					"title": "The Mentor Ask",
+					"scenario": "Rosa is your best installer but has no interest in teaching. Two green techs need mentoring, Rosa told you flatly that training rookies is not her job, and the Production lead wants you to order her to do it. Forced mentoring usually backfires.",
+					"options": {
+						"A": {
+							"text": "Order Rosa to mentor the new techs as part of her job. Senior people train junior people. Put it in writing, set a schedule, and check weekly. She will step up or reveal herself.",
+							"value": 150
+						},
+						"B": {
+							"text": "Ask Rosa what part of mentoring she dislikes, listen, then design a role she can say yes to. Maybe ride-alongs but no classroom sessions. Add a small raise tied to their progress.",
+							"value": 500
+						},
+						"C": {
+							"text": "Leave Rosa alone and give the mentoring to a willing mid-level tech. Forcing your best producer into a hated role risks losing her. A willing mentor beats a resentful expert.",
+							"value": 150
+						}
+					},
+					"correct": "B",
+					"host_note": "Principle: Train or Remove. Why B wins: the GM finds what is really behind the resistance and builds a mentoring role Rosa can succeed in, with recognition tied to results. Discussion: does ordering her (A) get compliance or quiet sabotage. Wrong answers: A (+150) turns the best tech into a resentful teacher; C (+150) leaves two green techs to figure it out alone.",
+					"card_code": "BE-GM-13"
+				},
+				{
+					"n": 14,
+					"title": "The Revolving Door",
+					"scenario": "Your appointment center lost four CSRs in five months. Kelly, the lead, says young people do not want to work. Exit interviews mention pay, angry callers, and feeling invisible. Kelly stopped doing them. You are spending a fortune replacing people.",
+					"options": {
+						"A": {
+							"text": "Raise CSR pay two dollars an hour across the board. The exits mention pay and the market is competitive. Better pay slows the revolving door and attracts stronger candidates.",
+							"value": 0
+						},
+						"B": {
+							"text": "Accept the turnover as the nature of the job. Call centers churn, so build a faster hiring pipeline and treat the seat as entry-level by design. Manage the reality.",
+							"value": 150
+						},
+						"C": {
+							"text": "Treat it as a leadership problem starting with Kelly. Run real exit interviews yourself to find what would have kept them. Then fix it: scripts, a path upward, recognition.",
+							"value": 500
+						}
+					},
+					"correct": "C",
+					"host_note": "Principle: Hiring Makes You or Breaks You. Why C wins: the GM stops blaming the labor market, gathers real data from exits, and makes retention part of Kelly's job with concrete fixes. Discussion: is Kelly the problem or just unequipped. Wrong answers: A ($0) spends payroll without knowing if pay is the real cause; B (+150) normalizes failure as strategy.",
+					"card_code": "BE-GM-14"
+				},
+				{
+					"n": 15,
+					"title": "The Permit Request",
+					"scenario": "A customer wants you to skip the permit on an $18,000 changeout to save time and the fee. His neighbor did it, he will pay cash today, and he promises not to tell. Your install manager says it is quick money and the crew is free Thursday.",
+					"options": {
+						"A": {
+							"text": "Do the job without the permit but document everything. The work will be done to code regardless. Refusing just sends him to a competitor who will say yes.",
+							"value": 150
+						},
+						"B": {
+							"text": "Decline clearly: permits protect his insurance and resale, and your company does not do unpermitted work, period. Offer prep now, with install booked when the permit clears.",
+							"value": 500
+						},
+						"C": {
+							"text": "Agree, but charge the normal price and keep the permit fee as extra margin. The customer asked for the shortcut, so the savings are yours. Few of these jobs get inspected anyway.",
+							"value": 0
+						}
+					},
+					"correct": "B",
+					"host_note": "Principle: How We Do Anything Is How We Do Everything. Why B wins: the GM holds the standard at a cost, explains it in customer terms, and offers a legitimate path forward. Discussion: does the cash temptation reveal what the install manager really values. Wrong answers: A (+150) trades the license and reputation for one Thursday; C (0) adds pocketing the fee to the violation.",
+					"card_code": "BE-GM-15"
+				},
+				{
+					"n": 16,
+					"title": "The Gossiping Dispatcher",
+					"scenario": "You overheard Angela telling a customer that the tech on their job is slow and they should ask for someone else. The customer laughed. Angela is well-liked and fast on the board. But she told a customer your own tech is not good enough, and he will hear it by Friday.",
+					"options": {
+						"A": {
+							"text": "Talk to Angela today. Tell her what you heard and how it lands, and set the rule: we never disparage our own people to customers. Ask what frustrated her, then fix the real issue.",
+							"value": 500
+						},
+						"B": {
+							"text": "Send a general reminder about professional phone conduct, without naming Angela. A team-wide note covers it, Angela will recognize herself, and you avoid the hard talk.",
+							"value": 150
+						},
+						"C": {
+							"text": "Let it slide this time. Angela is one of your best, she was just making conversation, and the customer laughed it off. If it becomes a pattern you will address it then.",
+							"value": 0
+						}
+					},
+					"correct": "A",
+					"host_note": "Principle: Love Is the Greatest Leadership Tool. Why A wins: the GM protects the tech's dignity, sets a clear standard privately, and still gets curious about the underlying frustration. Discussion: is letting it slide (C) trust or neglect. Wrong answers: B (+150) lets Angela learn the standard does not apply to her by name; C ($0) teaches the office that trash-talking techs is tolerated.",
+					"card_code": "BE-GM-16"
+				},
+				{
+					"n": 17,
+					"title": "The Quiet Shop",
+					"scenario": "Slow season and the shop feels flat. Phones are quiet, two techs were sent home early last week, and the energy is gone. Nobody quit, but people are doing the minimum, waiting for busy season. A flat team in February becomes a sloppy team in May.",
+					"options": {
+						"A": {
+							"text": "Gather the team, tell the truth about where the company stands, and give the slow season a purpose. Ask each person to own one improvement, check weekly, and celebrate small wins.",
+							"value": 500
+						},
+						"B": {
+							"text": "Leave it alone. Adults do not need pep talks, and pushing energy with no work feels fake. Save your leadership capital for busy season. The crew will ramp up when the phones ring.",
+							"value": 150
+						},
+						"C": {
+							"text": "Offer a small bonus for every referral that turns into a job. A referral push fills the board and gives the team something to chase. Post a leaderboard and update it daily.",
+							"value": 150
+						}
+					},
+					"correct": "A",
+					"host_note": "Principle: Why Power. Why A wins: the GM gives the slow season meaning with honest communication, personal ownership, and visible follow-through. Discussion: is the referral bonus (C) energy bought or rented. Wrong answers: B (+150) lets the flat season set the culture; C (+150) teaches the team motivation only comes with cash attached.",
+					"card_code": "BE-GM-17"
+				},
+				{
+					"n": 18,
+					"title": "The Falsified Timecards",
+					"scenario": "Accounting found tech Dave adding two hours to his timecard most weeks for three months, about $1,800 total. The evidence is solid: GPS logs versus clock times. Dave is good, well-liked, has a family, and has no idea you know.",
+					"options": {
+						"A": {
+							"text": "Walk him out today. Falsifying timecards is theft, and the amount and pattern prove intent. Keeping him tells every tech that stealing gets a second chance. Act fast and quietly.",
+							"value": 150
+						},
+						"B": {
+							"text": "Fire him in front of the whole shop at the Friday meeting and explain exactly what he did. A public example will kill timecard fraud overnight. Humiliation is a powerful deterrent.",
+							"value": 0
+						},
+						"C": {
+							"text": "Confront Dave privately with the evidence, calmly, no audience. Let him explain, then decide per the standard: termination for theft, handled with dignity. Pay what he earned.",
+							"value": 500
+						}
+					},
+					"correct": "C",
+					"host_note": "Principle: How We Do Anything Is How We Do Everything. Why C wins: the GM upholds the standard on theft without exception, but does it privately and with dignity, hearing him out first. Discussion: does the team need to know the reason or just the standard. Wrong answers: A (+150) skips hearing him out; B ($0) turns justice into a spectacle that degrades everyone watching.",
+					"card_code": "BE-GM-18"
+				},
+				{
+					"n": 19,
+					"title": "The Slow Season Cash",
+					"scenario": "Late winter, cash is tight, and the next two months look thin. You can cover payroll and bills, but barely. Marketing wants to keep ad spending to fill the spring pipeline. The service manager wants to cut all marketing and ride it out.",
+					"options": {
+						"A": {
+							"text": "Protect cash but spend surgically: cut brand ads to zero, keep only the cheapest cost-per-booked-job channels, and fund a maintenance blitz, bid follow-up, and referral asks.",
+							"value": 500
+						},
+						"B": {
+							"text": "Keep marketing spending as planned. Cutting ads now empties the spring pipeline, and companies that advertise through downturns come out stronger. This is what reserves are for.",
+							"value": 150
+						},
+						"C": {
+							"text": "Borrow on the business line of credit to keep everything running as normal. The slow season is temporary and the team should not feel it. Pay it down in the spring rush.",
+							"value": 0
+						}
+					},
+					"correct": "A",
+					"host_note": "Principle: Cash Is Life. Why A wins: the GM treats cash as the constraint, cuts what does not produce, and funds only pipeline activity with a measurable return, communicated as strategy. Discussion: is cutting deep discipline or fear. Wrong answers: B (+150) spends reserves on hope; C (0) borrows to avoid deciding.",
+					"card_code": "BE-GM-19"
+				},
+				{
+					"n": 20,
+					"title": "The Social Media Rant",
+					"scenario": "Tech Chris posted publicly that the company overworks everyone and the equipment is junk. Three coworkers liked it, and a customer asked if it is true. Chris is decent with no prior issues. Your office manager wants him fired today. The post is still up.",
+					"options": {
+						"A": {
+							"text": "Fire Chris today. A public post calling the equipment junk is insubordination, and keeping him tells everyone they can trash the company online. Act fast and the lesson lands.",
+							"value": 150
+						},
+						"B": {
+							"text": "Talk to Chris privately today; start by listening. Ask what drove the post. Tell him plainly that public posts hurt the whole team, and complaints stay inside the company.",
+							"value": 500
+						},
+						"C": {
+							"text": "Ignore the post and hope it fades. Responding gives it more attention, firing him makes him a martyr, and most storms blow over in a day. The smartest move is no move at all.",
+							"value": 0
+						}
+					},
+					"correct": "B",
+					"host_note": "Principle: Never Act on One Side of a Story. Why B wins: the GM hears Chris out before judging, addresses the public behavior clearly, and treats the complaint's substance as data worth fixing. Discussion: does firing (A) protect the company or just prove his point. Wrong answers: A (+150) turns a frustrated tech into a public martyr; C ($0) lets a public accusation sit unanswered while the team watches.",
+					"card_code": "BE-GM-20"
+				},
+				{
+					"n": 21,
+					"title": "The Payroll Question",
+					"scenario": "Every lead is lobbying you on payroll. The standard is $3,000 per department per round, but Sales wants $4,500, Production wants $4,000, and Accounting says the margin cannot take it. Each has a real argument. You must anchor the number, and everyone is watching.",
+					"options": {
+						"A": {
+							"text": "Split it: $3,750 for every department. Equal treatment keeps the peace, and nobody can say they were singled out. Revisit the numbers next round if workloads change.",
+							"value": 150
+						},
+						"B": {
+							"text": "Hold the $3,000 standard and show the margin math in plain numbers. Tell Sales and Production exactly what output would earn more next round, so the raise follows results.",
+							"value": 500
+						},
+						"C": {
+							"text": "Give Sales and Production what they asked, and hold the rest at standard. Payroll should follow opportunity. Rebalance next round if the numbers prove you wrong.",
+							"value": 150
+						}
+					},
+					"correct": "B",
+					"host_note": "Principle: Know Your Numbers. Why B wins: payroll tied to the margin target with transparent math, and the ask becomes an earned standard. Discussion: does holding the line risk losing good people, or does caving teach leads that lobbying beats arithmetic. Wrong answers: A (+150) spends margin on politics; C (+150) rewards the loudest departments.",
+					"card_code": "BE-GM-21"
+				},
+				{
+					"n": 22,
+					"title": "The Discount Debate",
+					"scenario": "A competitor is running 20 percent off installs and Sales wants to match it. At 20 percent off you need nearly a third more jobs for the same gross dollars, and crews are near capacity. Dana says they are losing bids on price. The team waits.",
+					"options": {
+						"A": {
+							"text": "Match the discount on smaller jobs only, where the margin hit is easier to absorb. Give Sales a price weapon without giving away the store. Limit it to two weeks and measure daily.",
+							"value": 150
+						},
+						"B": {
+							"text": "Discount maintenance agreements instead of installs. The lower ticket makes the math work, it fills slow weeks, and every agreement is a future replacement customer.",
+							"value": 150
+						},
+						"C": {
+							"text": "Say no, and show the team the math: how many extra jobs a 20 percent cut requires at current capacity. Then arm Sales with a clear value story and follow-up on every lost bid.",
+							"value": 500
+						}
+					},
+					"correct": "C",
+					"host_note": "Principle: Never Price Before Value. Why C wins: the GM refuses to buy revenue with margin, teaches the real math, and arms Sales with value and follow-up instead of a discount crutch. Discussion: is matching on small jobs (A) a clever compromise or the same trap in miniature. Wrong answers: A (+150) trains customers to wait for sales; B (+150) dodges the real question of whether the team can sell value at full price.",
+					"card_code": "BE-GM-22"
+				},
+				{
+					"n": 23,
+					"title": "The Paperwork War",
+					"scenario": "Lisa in Accounting and Rob in Sales are barely speaking. His job files arrive incomplete, delaying invoicing by weeks; he says her paperwork demands cost him sales. Each blames the other. The invoicing delays are now hurting cash flow.",
+					"options": {
+						"A": {
+							"text": "Tell Rob paperwork is part of selling: no complete file, no commission paid. Money gets attention faster than lectures. Announce it as company policy so it is not personal.",
+							"value": 150
+						},
+						"B": {
+							"text": "Hear each out separately, then bring them together with one question: what does a complete job file look like, exactly. Build a checklist both agree on with a 24-hour turnaround.",
+							"value": 500
+						},
+						"C": {
+							"text": "Assign a part-time admin to chase Rob's paperwork after the fact. A detail-loving person keeps invoicing moving while Lisa and Rob focus on what they do best.",
+							"value": 0
+						}
+					},
+					"correct": "B",
+					"host_note": "Principle: Never Act on One Side of a Story. Why B wins: the GM hears both sides before acting, then replaces the personal conflict with a jointly built standard and a weekly check. Discussion: is withholding commission (A) accountability or a new weapon in the war. Wrong answers: A (+150) turns paperwork into a pay dispute; C (0) spends payroll to avoid the conversation the GM should have had.",
+					"card_code": "BE-GM-23"
+				},
+				{
+					"n": 24,
+					"title": "The Fading Veteran",
+					"scenario": "Tom has been with you eleven years. His work is slipping: callbacks up, new procedures skipped, and younger techs notice he gets away with it. He is fifty-eight, proud, and you suspect he knows he is fading but cannot admit it.",
+					"options": {
+						"A": {
+							"text": "Quietly reduce his hours and give the tougher jobs to younger techs, hoping he takes the hint. He will figure it out when the paycheck shrinks.",
+							"value": 0
+						},
+						"B": {
+							"text": "Have the honest conversation you owe him after eleven years. Tell him what you see, with specifics, and ask why. Build a plan together: standard, support, timeline.",
+							"value": 500
+						},
+						"C": {
+							"text": "Put him on a formal performance plan immediately, same as anyone else. Eleven years does not buy exemption, and the younger techs are watching. Document the gaps and set targets.",
+							"value": 150
+						}
+					},
+					"correct": "B",
+					"host_note": "Principle: Love Is the Greatest Leadership Tool. Why B wins: the GM has the hard conversation with specifics, listens for the real cause, and builds a plan with him, honoring eleven years without exempting him from standards. Discussion: is the formal plan (C) fair or just cold. Wrong answers: A ($0) manages him out through the paycheck, which is cowardly and transparent; C (+150) treats a loyal veteran like a stranger.",
+					"card_code": "BE-GM-24"
+				},
+				{
+					"n": 25,
+					"title": "The Schedule Fight",
+					"scenario": "Two install crews both need the same lift truck Thursday, and both jobs are sold. Angela booked it first, but Chris says his job is bigger and his customer more important. They are arguing in the shop, techs are watching, and the dispatcher is frozen.",
+					"options": {
+						"A": {
+							"text": "Decide it yourself, on the spot, and make it final. Assign the truck to one crew and move the other job with a clear explanation. End the arguing in front of the techs.",
+							"value": 500
+						},
+						"B": {
+							"text": "Let Angela and Chris settle it like adults. Leadership means working out resource conflicts without running to the GM. Give them thirty minutes and hold them to an answer.",
+							"value": 150
+						},
+						"C": {
+							"text": "Give the truck to Chris. His job is bigger and the revenue matters more this week. Reschedule Angela's job with an apology call. Revenue should drive these calls.",
+							"value": 150
+						}
+					},
+					"correct": "A",
+					"host_note": "Principle: Never Act on One Side of a Story. Why A wins: the GM hears both sides, makes a clear final call, owns the schedule, and ends the public argument without rewarding whoever yelled loudest. Discussion: does letting them settle it (B) build leadership or abdicate the decision. Wrong answers: B (+150) lets a shop-floor fight set the schedule; C (+150) teaches crews that revenue excuses process.",
+					"card_code": "BE-GM-25"
+				},
+				{
+					"n": 26,
+					"title": "The Struggling Coordinator",
+					"scenario": "Priya, your new project coordinator, is three weeks in and drowning. Jobs get booked without permits pulled, techs cannot find paperwork, and the Production lead wants her moved off the desk. She got a binder and a password on day one. Her confidence is fading.",
+					"options": {
+						"A": {
+							"text": "Move Priya into a simpler support role. The job needs someone who can already do it, and three weeks of mistakes is enough evidence. Hire for experience this time.",
+							"value": 150
+						},
+						"B": {
+							"text": "Tell the Production lead to back off and give Priya another month. Learning curves are normal, and pressure only makes mistakes more likely. Most people figure it out with space.",
+							"value": 150
+						},
+						"C": {
+							"text": "Define exactly what good looks like, then pair her with your best coordinator for two weeks shadowing. Give her a daily checklist and review it each morning until she owns it.",
+							"value": 500
+						}
+					},
+					"correct": "C",
+					"host_note": "Principle: Love Is the Greatest Leadership Tool. Why C wins: the GM builds the person instead of discarding her, with a real training plan, daily structure, and a communicated timeline. Discussion: did the company fail Priya first with no training system; is the Production lead's frustration valid but aimed at the wrong target. Wrong answers: A (+150) wastes a good hire and restarts the cycle; B (+150) confuses patience with development.",
+					"card_code": "BE-GM-26"
+				},
+				{
+					"n": 27,
+					"title": "The Open War",
+					"scenario": "Sales manager Dana and Production lead Marcus had a shouting match in front of the whole shop over a botched handoff. Techs watched, CSRs heard it, and both camps are gossiping. Each told you privately the other is impossible.",
+					"options": {
+						"A": {
+							"text": "Meet each privately today, then bring them together. Leaders shouting in front of the team is unacceptable. Full stop. Work the handoff problem until there is a written agreement.",
+							"value": 500
+						},
+						"B": {
+							"text": "Reorganize so they rarely interact: reroute handoffs through the office manager and separate their schedules. Design around the friction and both keep their authority.",
+							"value": 150
+						},
+						"C": {
+							"text": "Call a full team meeting and let Dana and Marcus each present their side, then let the team vote on the handoff process. A democratic process gives the new standard legitimacy.",
+							"value": 0
+						}
+					},
+					"correct": "A",
+					"host_note": "Principle: Culture Is When the Boss Leaves. Why A wins: the GM addresses the behavior standard privately with each leader, then fixes the real process problem with both at the table, modeling the culture the shop should copy. Discussion: is restructuring around them (B) smart design or avoidance. Wrong answers: B (+150) builds the company around two egos; C ($0) turns a leadership failure into a popularity contest that humiliates the loser.",
+					"card_code": "BE-GM-27"
+				},
+				{
+					"n": 28,
+					"title": "The Skipped Safety Check",
+					"scenario": "On a ride-along you watched Dave skip the combustion safety check on a furnace tune-up. It adds ten minutes, the customer was hovering, and Dave says he has done hundreds and could tell it was fine. Nobody got hurt. The service manager says a write-up will kill morale.",
+					"options": {
+						"A": {
+							"text": "Sit Dave down privately: the safety check happens every time, period. It is about what the company does on every call. Put it in writing, then spot-check his calls for a month.",
+							"value": 500
+						},
+						"B": {
+							"text": "Let it go with a quiet word. Dave was right that the furnace was fine, and a formal write-up over a non-incident will make the crew paranoid. Mention it casually and trust him.",
+							"value": 150
+						},
+						"C": {
+							"text": "Shorten the safety checklist so techs actually complete it. A short list done every time beats a long list skipped half the time. Have the service manager redesign it with Dave.",
+							"value": 0
+						}
+					},
+					"correct": "A",
+					"host_note": "Principle: Brilliant on the Basics. Why A wins: the GM treats the skipped safety check as a standards issue, not a luck issue, addresses it directly, and verifies it stuck. Discussion: does the quiet word (B) show judgment or just leniency for a favorite. Wrong answers: B (+150) teaches the crew standards are optional when you are good; C (0) negotiates the safety standard down to whatever the busiest tech will tolerate.",
+					"card_code": "BE-GM-28"
+				},
+				{
+					"n": 29,
+					"title": "The Damaged Drywall",
+					"scenario": "Your crew cracked a large section of finished basement drywall running a line set. The homeowner is upset, the crew lead admits they rushed, and repair costs about $900 plus a day of delay. The install manager suggests patching it quietly and not mentioning it.",
+					"options": {
+						"A": {
+							"text": "Patch it quietly with crew time and say nothing. The customer may never notice the full extent, and the company avoids an awkward talk and a $900 bill. Handle it internally.",
+							"value": 150
+						},
+						"B": {
+							"text": "Tell the customer yourself today, before they discover it. Apologize plainly and hire a proper finisher at the company's expense, then review the cutting procedure with the crew.",
+							"value": 500
+						},
+						"C": {
+							"text": "Blame the home's construction: the drywall was already weak. Offer to patch it as a courtesy but make clear it was not the crew's fault. This protects the team and keeps the $900.",
+							"value": 0
+						}
+					},
+					"correct": "B",
+					"host_note": "Principle: Do Right When It Costs You. Why B wins: the GM tells the truth before being caught, pays for a professional repair, and fixes the procedure, which is what earns the lifetime customer. Discussion: what does the install manager's quiet-patch suggestion reveal about the culture. Wrong answers: A (+150) bets the reputation that the customer will not look closely; C (0) lies to a customer standing in their own basement.",
+					"card_code": "BE-GM-29"
+				},
+				{
+					"n": 30,
+					"title": "The Viral Complaint",
+					"scenario": "A customer posted a furious one-star review: your tech tracked mud over her white carpet, broke a vase, and laughed. It is getting shared locally. Your records show boot covers were worn and no vase is in the notes. She demands a refund plus $2,000.",
+					"options": {
+						"A": {
+							"text": "Respond publicly with the facts: post the job notes, note the boot covers, and note no vase was mentioned during the visit. A firm rebuttal shows you do not get pushed around.",
+							"value": 0
+						},
+						"B": {
+							"text": "Ignore the review completely. Responding feeds the algorithm, and most readers discount angry rants on their own. Generate honest positive reviews to bury it, and let silence work.",
+							"value": 150
+						},
+						"C": {
+							"text": "Respond publicly once, briefly and warmly, and invite her to call you. Then call her yourself, listen fully, and inspect the carpet in person if allowed. Fix what is real, kindly.",
+							"value": 500
+						}
+					},
+					"correct": "C",
+					"host_note": "Principle: Do Right When It Costs You. Why C wins: the GM responds with composure, takes the conversation private, verifies the facts in person, and lets future customers see character instead of combat. Discussion: what do the boot-cover records actually prove. Wrong answers: A ($0) turns a complaint into a public war the company cannot win; B (+150) lets an unanswered story become the truth.",
+					"card_code": "BE-GM-30"
+				},
+				{
+					"n": 31,
+					"title": "The Rogue Purchaser",
+					"scenario": "Office manager Tina has been ordering supplies and tools without approval: a $600 label printer, $400 in organizers, specialty tools the techs requested. Each is reasonable, but there is no budget or approval step, and accounting found $2,300 in unapproved spending this quarter.",
+					"options": {
+						"A": {
+							"text": "Reprimand Tina formally and require your personal approval for every purchase over $50. Unapproved spending is a control failure, and a tight line restores discipline fast.",
+							"value": 150
+						},
+						"B": {
+							"text": "Do nothing formal. Every purchase was reasonable, and punishing initiative teaches her to let problems sit. Thank her and move on.",
+							"value": 0
+						},
+						"C": {
+							"text": "Sit with Tina and build the system together: a monthly budget she manages, a per-item approval limit, and a simple log. Thank her, and be direct that unapproved spending stops now.",
+							"value": 500
+						}
+					},
+					"correct": "C",
+					"host_note": "Principle: Systems, Not Heroes. Why C wins: the GM replaces missing controls with a clear, jointly built system, respects Tina's initiative, and draws a firm line without turning it into punishment. Discussion: is the $50 approval line (A) control or distrust. Wrong answers: A (+150) punishes initiative and buries the GM in trivia; B ($0) guarantees the next quarter looks the same.",
+					"card_code": "BE-GM-31"
+				},
+				{
+					"n": 32,
+					"title": "Two Big Jobs, One Crew",
+					"scenario": "Friday morning. One crew is free and two jobs were promised for today: a $22,000 replacement for a customer who waited three weeks, and a $9,000 emergency repair for a nursing home with no heat in two wings. Other crews are maxed.",
+					"options": {
+						"A": {
+							"text": "Send the crew to the nursing home first, then the replacement. Call that customer yourself, explain honestly, and set a firm Saturday start.",
+							"value": 500
+						},
+						"B": {
+							"text": "Send the crew to the $22,000 replacement. It is far more revenue, the customer waited three weeks, and that margin funds payroll. Promise the nursing home first thing Saturday.",
+							"value": 150
+						},
+						"C": {
+							"text": "Split the crew, two techs to each job. Both customers were promised Friday, and keeping both promises halfway beats breaking one. The nursing home gets partial heat back today.",
+							"value": 150
+						}
+					},
+					"correct": "A",
+					"host_note": "Principle: One Department: Customer Service. Why A wins: the GM sets a clear priority rule, human need before scheduled revenue, communicates honestly to the delayed customer, and makes the standard visible. Discussion: is the revenue logic of B defensible or short-term. Wrong answers: B (+150) teaches the team dollars outrank people in a crisis; C (+150) delivers two half-done jobs.",
+					"card_code": "BE-GM-32"
+				},
+				{
+					"n": 33,
+					"title": "The Slipping Numbers",
+					"scenario": "Revenue is down 15 percent over two months and the owner is asking questions. Each lead blames something different: Marketing blames the season, Sales blames lead quality, Production blames the schedule. You meet the owner next week.",
+					"options": {
+						"A": {
+							"text": "Tell the owner the truth: the numbers are down, you are still diagnosing, and a plan follows by month's end. Then pull the funnel stage by stage and build the fix with your leads.",
+							"value": 150
+						},
+						"B": {
+							"text": "Give the owner the leads' explanations, packaged cleanly: seasonal softness plus lead quality, with a plan to spend more on marketing. Present a united front and buy time.",
+							"value": 0
+						},
+						"C": {
+							"text": "Diagnose before you explain. Pull the numbers yourself and find the actual break point, not theories. Fix that thing, then walk in with the cause and the fix in motion.",
+							"value": 500
+						}
+					},
+					"correct": "C",
+					"host_note": "Principle: Define Reality First. Why C wins: the GM finds the real break point in the funnel before theorizing, fixes that specific thing, and walks in with answers already in motion. Discussion: is telling the owner you are still diagnosing (A) honesty or unpreparedness. Wrong answers: A (+150) brings honesty without homework; B ($0) launders excuses upward and the owner will find the truth anyway.",
+					"card_code": "BE-GM-33"
+				},
+				{
+					"n": 34,
+					"title": "The Callback Spike",
+					"scenario": "Callbacks are up 30 percent this quarter. Techs are returning to fix their own work, which kills the schedule and tells customers the first visit was not good enough. The service manager blames new hires, senior techs blame rushed scheduling. Nobody has data.",
+					"options": {
+						"A": {
+							"text": "Slow the schedule across the board so techs have more time per job. Rushed techs make mistakes, and the spike matches the busier board. Give every job an extra thirty minutes.",
+							"value": 150
+						},
+						"B": {
+							"text": "Buy the new diagnostic tablets the senior techs want. Better tools mean fewer missed problems, and it shows you take quality seriously. Sometimes equipment is the fix.",
+							"value": 0
+						},
+						"C": {
+							"text": "Stop guessing and get the data first. Pull ninety days of callbacks, sort by tech, job type, and reason, and find the real pattern before acting. Then fix what the data shows.",
+							"value": 500
+						}
+					},
+					"correct": "C",
+					"host_note": "Principle: Define Reality First. Why C wins: the GM refuses to act on theories, finds the real pattern in the data, and fixes that, which is fair as well as pragmatic. Discussion: is slowing the schedule (A) a reasonable precaution or an expensive guess. Wrong answers: A (+150) spends schedule and payroll on a hunch; B ($0) buys tablets to solve what might be a people problem.",
+					"card_code": "BE-GM-34"
+				},
+				{
+					"n": 35,
+					"title": "The Poaching Threat",
+					"scenario": "A competitor is offering your techs $4 an hour more. Two mid-level installers are already interviewing, and the rumor is spreading. Your service manager wants you to match it across the board: over $150,000 a year, which the margin cannot absorb without price increases.",
+					"options": {
+						"A": {
+							"text": "Match the raise for everyone, immediately. Losing trained techs costs far more than $150,000. Announce it this week, and raise prices next quarter to cover it.",
+							"value": 150
+						},
+						"B": {
+							"text": "Do not match blindly. Learn what keeps your best people beyond pay, fix what you can fix fast, and give targeted raises where the market moved. Say plainly what you did.",
+							"value": 500
+						},
+						"C": {
+							"text": "Let the market decide and wish the leavers well. If a rival wants to overpay, that is their problem. Hire strong replacements at current rates and hold your cost structure.",
+							"value": 0
+						}
+					},
+					"correct": "B",
+					"host_note": "Principle: Pay for What You Want Repeated. Why B wins: the GM refuses the panic raise, learns what actually retains each person, pays where market and merit both say so, and communicates it openly. Discussion: is holding your nerve discipline or denial about the rumor's power. Wrong answers: A (+150) permanently raises costs on a rumor; C (0) pretends trained techs are interchangeable.",
+					"card_code": "BE-GM-35"
+				},
+				{
+					"n": 36,
+					"title": "The Feuding Techs",
+					"scenario": "Kyle and Sam, two of your best techs, have not spoken in a week. It started over a borrowed tool, escalated through the group chat, and the shop split into two camps. Jobs get done, but newer techs are walking on eggshells. Each says the other started it.",
+					"options": {
+						"A": {
+							"text": "Separate them permanently on different crews and shifts. Distance ends the daily friction, both keep producing, and the shop camps dissolve. Frame it as scheduling, not punishment.",
+							"value": 150
+						},
+						"B": {
+							"text": "Stay out of it and let the crew sort its own dynamics. As long as jobs get done and customers are happy, the personal stuff is their business. That is not the GM's job.",
+							"value": 0
+						},
+						"C": {
+							"text": "Meet each privately first, then sit them down together: the feud ends today. Give each a role in the next team training so they must collaborate, and check in weekly for a month.",
+							"value": 500
+						}
+					},
+					"correct": "C",
+					"host_note": "Principle: Never Act on One Side of a Story. Why C wins: the GM hears each side privately, sets a clear behavioral standard face to face, and engineers a reason for them to work together, with follow-up. Discussion: is separation (A) practical or just conflict avoidance. Wrong answers: A (+150) teaches the shop that feuds get rewarded with custom schedules; B (0) lets a tool dispute set the shop's culture.",
+					"card_code": "BE-GM-36"
+				},
+				{
+					"n": 37,
+					"title": "The Price Increase",
+					"scenario": "Costs are up 12 percent and service rates must rise. The office dreads telling customers, techs fear pushback, and your service manager wants to quietly update the price book and hope nobody notices. The team needs to hear it from you first.",
+					"options": {
+						"A": {
+							"text": "Lay out the cost reality in plain numbers before customers hear a word. Explain what is rising, what the new rates are, and exactly what to say when asked why. Set a clear date.",
+							"value": 500
+						},
+						"B": {
+							"text": "Quietly update the price book and let the team discover the new rates. Announcing it just creates anxiety, and customers accept inflation as normal. Less drama is better.",
+							"value": 150
+						},
+						"C": {
+							"text": "Raise prices for new customers only and shield the existing base. New business carries the higher margin, and this rewards loyalty while avoiding hard conversations.",
+							"value": 150
+						}
+					},
+					"correct": "A",
+					"host_note": "Principle: Expectations Before Accountability. Why A wins: the GM tells the team the truth first, arms them with numbers and language, and sets a clear date, so accountability for the new prices is possible. Discussion: is the quiet rollout (B) low-drama or cowardly. Wrong answers: B (+150) lets the team learn it from angry customers; C (+150) trains customers that loyalty means never paying more.",
+					"card_code": "BE-GM-37"
+				},
+				{
+					"n": 38,
+					"title": "The Marketing Overspend",
+					"scenario": "Marketing spent 40 percent over budget on digital ads. Tina shows click reports and says awareness is up, but booked jobs are flat and cost per booked job nearly doubled. Other leads ask why Marketing can overspend while they hold their budgets.",
+					"options": {
+						"A": {
+							"text": "Give Tina one more quarter at the same spend. Cutting mid-flight wastes the investment, and brand building takes time. Tell the other leads marketing runs on a longer cycle.",
+							"value": 150
+						},
+						"B": {
+							"text": "Approve a 15 percent increase as a compromise. Tina keeps the campaign alive, the other leads see overspending has limits, and you avoid a demoralizing fight. Check in monthly.",
+							"value": 0
+						},
+						"C": {
+							"text": "Freeze the overspend and rebuild the budget around cost per booked job. Agree on a target the company can afford, fund only channels that hit it, and review with Tina biweekly.",
+							"value": 500
+						}
+					},
+					"correct": "C",
+					"host_note": "Principle: Know Your Numbers. Why C wins: the GM replaces click reports with cost per booked job, funds only what hits it, and applies the rule fairly across departments. Discussion: is brand awareness worth any weight at all. Wrong answers: A (+150) funds hope for another quarter; B (0) negotiates the budget instead of managing it.",
+					"card_code": "BE-GM-38"
+				},
+				{
+					"n": 39,
+					"title": "The Staffing Call",
+					"scenario": "Three jobs are ready and you have crew capacity for two this week: a $25,000 replacement at 35 percent margin, a $12,000 replacement at 28 percent, and a $6,000 repair at 45 percent. All three customers want this week. Production wants the two replacements.",
+					"options": {
+						"A": {
+							"text": "Schedule the two replacements and push the repair to next week. The two big tickets total $37,000 against $6,000. Revenue pays the bills, and big jobs drive the business.",
+							"value": 150
+						},
+						"B": {
+							"text": "Ask the customers who can wait and schedule around their answers. Whoever volunteers to move gets a small discount. That keeps every customer feeling heard.",
+							"value": 0
+						},
+						"C": {
+							"text": "Run the profit dollars: $8,750 vs $3,360 vs $2,700. Book the two replacements for $12,110 in profit, and schedule the repair first thing next week with a personal call.",
+							"value": 500
+						}
+					},
+					"correct": "C",
+					"host_note": "Principle: Know Your Numbers. Why C wins: the GM decides on gross profit dollars rather than revenue or margin rate alone, then handles the delayed customer honestly with a firm date. Discussion: is letting customers self-sort (B) respectful or an abdication. Wrong answers: A (+150) chases revenue while leaving profit on the table; B (0) lets the schedule be set by whoever complains least.",
+					"card_code": "BE-GM-39"
+				},
+				{
+					"n": 40,
+					"title": "The Late Crew",
+					"scenario": "Omar's install crew has been late to the first job three times in two weeks. His work quality is good, but the office is fielding apology calls. When it was mentioned, he shrugged about traffic. The other crews are noticing that nothing happened.",
+					"options": {
+						"A": {
+							"text": "Talk to Omar privately, today. State what you have seen and ask what is going on. Set the standard in writing, then follow up every morning for two weeks.",
+							"value": 500
+						},
+						"B": {
+							"text": "Start the whole company ten minutes earlier to absorb the lateness. If one crew cannot hit the start time, the start time may be the problem. Announce it as schedule optimization.",
+							"value": 150
+						},
+						"C": {
+							"text": "Ignore it since the work quality is good. Great installers are hard to find, and risking a producer over fifteen minutes is foolish. Omar will probably self-correct.",
+							"value": 0
+						}
+					},
+					"correct": "A",
+					"host_note": "Principle: Expectations Before Accountability. Why A wins: the GM states the expectation clearly, asks what is behind it, documents the standard, and follows up, which is how accountability gets built. Discussion: does the shrug about traffic deserve curiosity before consequences. Wrong answers: B (+150) moves the goalposts for everyone to avoid one talk; C (0) teaches every crew that standards are suggestions.",
+					"card_code": "BE-GM-40"
+				}
+			]
+		}
+	],
+	department_cards: [
+		{
+			"name": "BAD CHECK BOUNCES",
+			"dept": "Accounting",
+			"type": "NEGATIVE",
+			"text": "PAYMENT BOUNCED. RECOLLECT IT. ADD 1 [CALCULATOR] SLOT TO AN UNFINISHED PROJECT.",
+			"copies": 1
+		},
+		{
+			"name": "BANK NEEDS MORE DOCUMENTS",
+			"dept": "Accounting",
+			"type": "NEGATIVE",
+			"text": "BANK NEEDS MORE PAPERWORK. ADD 1 [CALCULATOR] SLOT TO AN UNFINISHED PROJECT.",
+			"copies": 1
+		},
+		{
+			"name": "BASIC INVOICE",
+			"dept": "Accounting",
+			"type": "BASIC",
+			"text": "SENT THE INVOICE. PLAY 1 [CALCULATOR] ON A PROJECT.",
+			"copies": 15
+		},
+		{
+			"name": "CUSTOMER DISPUTES INVOICE",
+			"dept": "Accounting",
+			"type": "NEGATIVE",
+			"text": "THEY WON'T PAY UNTIL IT'S RESOLVED. ADD 1 [CALCULATOR] SLOT TO AN UNFINISHED PROJECT.",
+			"copies": 1
+		},
+		{
+			"name": "INVOICE BLITZ",
+			"dept": "Accounting",
+			"type": "SPECIAL",
+			"text": "BLITZED THE INVOICES. PLAY 1 [CALCULATOR] ON A PROJECT AND ADD $3,000 TO COMPANY REVENUE.",
+			"copies": 4
+		},
+		{
+			"name": "OVERBUDGET SURPRISE",
+			"dept": "Accounting",
+			"type": "NEGATIVE",
+			"text": "FOUND AN OVERBUDGET SURPRISE. SUBTRACT $3,000 FROM COMPANY REVENUE.",
+			"copies": 2
+		},
+		{
+			"name": "QUICK AUDIT",
+			"dept": "Accounting",
+			"type": "SPECIAL",
+			"text": "RAN A QUICK AUDIT. ADD $4,000 TO COMPANY REVENUE IMMEDIATELY. DOES NOT REQUIRE PLAYING AN ICON.",
+			"copies": 2
+		},
+		{
+			"name": "REALLOCATE FUNDS",
+			"dept": "Accounting",
+			"type": "REALLOCATION",
+			"text": "MOVE 1 [CALCULATOR] FROM ONE UNFINISHED PROJECT TO ANOTHER ELIGIBLE UNFINISHED PROJECT.",
+			"copies": 1
+		},
+		{
+			"name": "TAX NOTICE ARRIVES",
+			"dept": "Accounting",
+			"type": "NEGATIVE",
+			"text": "THE IRS WANTS DOCUMENTATION. PULL IT TOGETHER. ADD 1 [CALCULATOR] SLOT TO AN UNFINISHED PROJECT.",
+			"copies": 1
+		},
+		{
+			"name": "BASIC APPOINTMENT",
+			"dept": "Appointment Center",
+			"type": "BASIC",
+			"text": "BOOKED AN APPOINTMENT. PLAY 1 [PHONE] ON A PROJECT.",
+			"copies": 16
+		},
+		{
+			"name": "CALLBACK FRENZY",
+			"dept": "Appointment Center",
+			"type": "SPECIAL",
+			"text": "WORKED THE CALLBACKS. PLAY 2 [PHONE] ON ONE PROJECT OR SPLIT ACROSS PROJECTS.",
+			"copies": 2
+		},
+		{
+			"name": "CUSTOMER NO-SHOWS",
+			"dept": "Appointment Center",
+			"type": "NEGATIVE",
+			"text": "THEY WEREN'T HOME. REBOOK IT. ADD 1 [PHONE] SLOT TO AN UNFINISHED PROJECT.",
+			"copies": 1
+		},
+		{
+			"name": "MISBOOKED SLOT",
+			"dept": "Appointment Center",
+			"type": "NEGATIVE",
+			"text": "MISBOOKED A SLOT. REMOVE 1 [PHONE] FROM ANY UNFINISHED PROJECT",
+			"copies": 2
+		},
+		{
+			"name": "PHONE SYSTEM GOES DOWN",
+			"dept": "Appointment Center",
+			"type": "NEGATIVE",
+			"text": "CAN'T BOOK UNTIL IT'S FIXED. ADD 1 [PHONE] SLOT TO AN UNFINISHED PROJECT.",
+			"copies": 1
+		},
+		{
+			"name": "RESCHEDULE",
+			"dept": "Appointment Center",
+			"type": "REALLOCATION",
+			"text": "MOVE 1 [PHONE] FROM ONE UNFINISHED PROJECT TO ANOTHER ELIGIBLE UNFINISHED PROJECT.",
+			"copies": 1
+		},
+		{
+			"name": "SCHEDULING CONFLICT",
+			"dept": "Appointment Center",
+			"type": "NEGATIVE",
+			"text": "DOUBLE-BOOKED THE CREW. ADD 1 [PHONE] SLOT TO AN UNFINISHED PROJECT.",
+			"copies": 1
+		},
+		{
+			"name": "SPEED DIAL",
+			"dept": "Appointment Center",
+			"type": "SPECIAL",
+			"text": "HIT SPEED DIAL. PLAY 2 [PHONE] ON ONE PROJECT OR SPLIT ACROSS PROJECTS",
+			"copies": 4
+		},
+		{
+			"name": "AD ACCOUNT SUSPENDED",
+			"dept": "Marketing",
+			"type": "NEGATIVE",
+			"text": "YOUR AD ACCOUNT GOT FLAGGED. ADD 1 [STAR] SLOT TO AN UNFINISHED PROJECT.",
+			"copies": 1
+		},
+		{
+			"name": "AD FLOP",
+			"dept": "Marketing",
+			"type": "NEGATIVE",
+			"text": "AD FLOPPED. REMOVE 1 [STAR] FROM ANY UNFINISHED PROJECT.",
+			"copies": 2
+		},
+		{
+			"name": "BAD REVIEW GOES VIRAL",
+			"dept": "Marketing",
+			"type": "NEGATIVE",
+			"text": "A BAD REVIEW IS SPREADING ONLINE. ADD 1 [STAR] SLOT TO AN UNFINISHED PROJECT.",
+			"copies": 1
+		},
+		{
+			"name": "BASIC LEAD",
+			"dept": "Marketing",
+			"type": "BASIC",
+			"text": "GENERATED A LEAD. PLAY 1 [STAR] ON A PROJECT.",
+			"copies": 16
+		},
+		{
+			"name": "CAMPAIGN REFRESH",
+			"dept": "Marketing",
+			"type": "SPECIAL",
+			"text": "DRAW 2 CARDS IMMEDIATELY. NEGATIVES DON'T PLAY.",
+			"copies": 2
+		},
+		{
+			"name": "LEAD SOURCE DRIES UP",
+			"dept": "Marketing",
+			"type": "NEGATIVE",
+			"text": "YOUR BEST LEAD CHANNEL WENT QUIET. ADD 1 [STAR] SLOT TO AN UNFINISHED PROJECT.",
+			"copies": 1
+		},
+		{
+			"name": "SHIFT AD SPEND",
+			"dept": "Marketing",
+			"type": "REALLOCATION",
+			"text": "MOVE 1 [STAR] FROM ONE UNFINISHED PROJECT TO ANOTHER ELIGIBLE UNFINISHED PROJECT.",
+			"copies": 1
+		},
+		{
+			"name": "VIRAL BLITZ",
+			"dept": "Marketing",
+			"type": "SPECIAL",
+			"text": "MESSAGE WENT VIRAL. PLAY 2 [STAR] ON ONE PROJECT OR SPLIT ACROSS PROJECTS.",
+			"copies": 4
+		},
+		{
+			"name": "BASIC BUILD",
+			"dept": "Production",
+			"type": "BASIC",
+			"text": "BUILT IT. PLAY 1 [HAMMER] ON A PROJECT.",
+			"copies": 16
+		},
+		{
+			"name": "CREW DELAY",
+			"dept": "Production",
+			"type": "NEGATIVE",
+			"text": "HIT A DELAY. REMOVE 1 [HAMMER] FROM ANY UNFINISHED PROJECT",
+			"copies": 2
+		},
+		{
+			"name": "CREW SWAP",
+			"dept": "Production",
+			"type": "SPECIAL",
+			"text": "GM MEDIATES: TWO DEPARTMENTS AGREE TO SWAP 1 CREW MEMBER EACH ON ANY PROJECT.",
+			"copies": 3
+		},
+		{
+			"name": "INSPECTOR FLAGS ISSUE",
+			"dept": "Production",
+			"type": "NEGATIVE",
+			"text": "FAILED INSPECTION. REWORK REQUIRED. ADD 1 [HAMMER] SLOT TO AN UNFINISHED PROJECT.",
+			"copies": 1
+		},
+		{
+			"name": "MATERIAL ARRIVES DAMAGED",
+			"dept": "Production",
+			"type": "NEGATIVE",
+			"text": "REORDER AND REDO. ADD 1 [HAMMER] SLOT TO AN UNFINISHED PROJECT.",
+			"copies": 1
+		},
+		{
+			"name": "RUSH JOB",
+			"dept": "Production",
+			"type": "SPECIAL",
+			"text": "RUSHED THE JOB. PLAY 2 [HAMMER] ON ONE PROJECT OR SPLIT ACROSS PROJECTS",
+			"copies": 4
+		},
+		{
+			"name": "SUBCONTRACTOR BAILS",
+			"dept": "Production",
+			"type": "NEGATIVE",
+			"text": "YOUR SUB DIDN'T SHOW. COVER IT. ADD 1 [HAMMER] SLOT TO AN UNFINISHED PROJECT.",
+			"copies": 1
+		},
+		{
+			"name": "BASIC CONTRACT",
+			"dept": "Sales",
+			"type": "BASIC",
+			"text": "CLOSED A SALE. PLAY 1 [SALE] ON A PROJECT.",
+			"copies": 17
+		},
+		{
+			"name": "COLD FEET",
+			"dept": "Sales",
+			"type": "NEGATIVE",
+			"text": "GOT COLD FEET. REMOVE 1 [SALE] FROM ANY UNFINISHED PROJECT",
+			"copies": 2
+		},
+		{
+			"name": "CUSTOMER ADDS SCOPE",
+			"dept": "Sales",
+			"type": "NEGATIVE",
+			"text": "\"WHILE YOU'RE HERE, CAN YOU ALSO...\" ADD 1 [SALE] SLOT TO AN UNFINISHED PROJECT.",
+			"copies": 1
+		},
+		{
+			"name": "CUSTOMER WANTS 3 MORE QUOTES",
+			"dept": "Sales",
+			"type": "NEGATIVE",
+			"text": "THEY'RE SHOPPING YOU. RE-PITCH. ADD 1 [SALE] SLOT TO AN UNFINISHED PROJECT.",
+			"copies": 1
+		},
+		{
+			"name": "OVERCOME OBJECTION",
+			"dept": "Sales",
+			"type": "SPECIAL",
+			"text": "OVERCOME THE OBJECTION. PLAY 2 [SALE] ON ONE PROJECT OR SPLIT ACROSS PROJECTS.",
+			"copies": 3
+		},
+		{
+			"name": "REFOCUS PITCH",
+			"dept": "Sales",
+			"type": "REALLOCATION",
+			"text": "MOVE 1 [SALE] FROM ONE UNFINISHED PROJECT TO ANOTHER ELIGIBLE UNFINISHED PROJECT.",
+			"copies": 1
+		},
+		{
+			"name": "SPOUSE WASN'T AT THE TABLE",
+			"dept": "Sales",
+			"type": "NEGATIVE",
+			"text": "GO BACK AND CLOSE BOTH DECISION-MAKERS. ADD 1 [SALE] SLOT TO AN UNFINISHED PROJECT.",
+			"copies": 1
+		},
+		{
+			"name": "UPSELL CLOSE",
+			"dept": "Sales",
+			"type": "SPECIAL",
+			"text": "CLOSED THE UPSELL. PLAY 1 [SALE] AND GAIN $2,000 ON PROJECT COMPLETION",
+			"copies": 2
+		}
+	],
+	event_cards: [
+		{
+			"name": "ALGORITHM CHANGE",
+			"dept": "Event",
+			"type": "NEGATIVE",
+			"text": "EVENT - drawn by the GM at the start of the round. No legal effect: discard and redraw. Marketing draws 2 fewer cards this round (minimum 0).",
+			"copies": 1
+		},
+		{
+			"name": "BUYER'S REMORSE",
+			"dept": "Event",
+			"type": "NEGATIVE",
+			"text": "Remove 1 $ token from the unfinished project.",
+			"copies": 1
+		},
+		{
+			"name": "COMMUNITY BUZZ",
+			"dept": "Event",
+			"type": "POSITIVE",
+			"text": "EVENT - drawn by the GM at the start of the round. No legal effect: discard and redraw. Marketing draws 2 extra cards this round.",
+			"copies": 1
+		},
+		{
+			"name": "CREW EFFICIENCY",
+			"dept": "Event",
+			"type": "POSITIVE",
+			"text": "EVENT - drawn by the GM at the start of the round. No legal effect: discard and redraw. Add 1 hammer token to any project.",
+			"copies": 1
+		},
+		{
+			"name": "FINANCING FALLS THROUGH",
+			"dept": "Event",
+			"type": "NEGATIVE",
+			"text": "EVENT - drawn by the GM at the start of the round. No legal effect: discard and redraw. The lender denies your customer's home improvement loan. Sales chooses one unfinished project. It completes for $2,000 less revenue.",
+			"copies": 1
+		},
+		{
+			"name": "INVOICE PAID EARLY",
+			"dept": "Event",
+			"type": "POSITIVE",
+			"text": "EVENT - drawn by the GM at the start of the round. No legal effect: discard and redraw. +$3,000 company cash.",
+			"copies": 1
+		},
+		{
+			"name": "MATERIAL SPIKE",
+			"dept": "Event",
+			"type": "NEGATIVE",
+			"text": "EVENT - drawn by the GM at the start of the round. No legal effect: discard and redraw. Lumber and shingles jump 20 percent in the middle of your jobs. The company pays $2,000 for materials.",
+			"copies": 1
+		},
+		{
+			"name": "NO-SHOW DAY",
+			"dept": "Event",
+			"type": "NEGATIVE",
+			"text": "EVENT - drawn by the GM at the start of the round. No legal effect: discard and redraw. Four booked appointments no-show. The Appointment Center draws 1 fewer card this round (minimum 0).",
+			"copies": 1
+		},
+		{
+			"name": "ONE-STAR REVIEW",
+			"dept": "Event",
+			"type": "NEGATIVE",
+			"text": "EVENT - drawn by the GM at the start of the round. No legal effect: discard and redraw. A 1-star review is spreading on Google. Marketing draws 1 fewer card this round (minimum 0).",
+			"copies": 1
+		},
+		{
+			"name": "RUSH CALLBACK",
+			"dept": "Event",
+			"type": "POSITIVE",
+			"text": "EVENT - drawn by the GM at the start of the round. No legal effect: discard and redraw. Add 1 phone token to any project.",
+			"copies": 1
+		},
+		{
+			"name": "SMOOTH CLOSE",
+			"dept": "Event",
+			"type": "POSITIVE",
+			"text": "EVENT - drawn by the GM at the start of the round. No legal effect: discard and redraw. Sales may play 1 extra card this round (no extra focus needed).",
+			"copies": 1
+		},
+		{
+			"name": "WARM LEAD",
+			"dept": "Event",
+			"type": "POSITIVE",
+			"text": "EVENT - drawn by the GM at the start of the round. No legal effect: discard and redraw. Add 1 star token to any project.",
+			"copies": 1
+		},
+		{
+			"name": "WARRANTY CLAIM",
+			"dept": "Event",
+			"type": "NEGATIVE",
+			"text": "EVENT - drawn by the GM at the start of the round. No legal effect: discard and redraw. A roof you installed two years ago is leaking. Warranty is warranty. The company pays $2,000 to make it right.",
+			"copies": 1
+		},
+		{
+			"name": "WORD OF MOUTH",
+			"dept": "Event",
+			"type": "POSITIVE",
+			"text": "EVENT - drawn by the GM at the start of the round. No legal effect: discard and redraw. Your company may focus on up to 2 extra projects this round, and every department draws 1 extra card this round.",
+			"copies": 1
+		}
+	],
+	customer_cards: [
+		{
+			"name": "The Garcia Family (Referral Machine)",
+			"dept": "Customer",
+			"type": "",
+			"text": "Accepted term: this family refers everyone they know. When this project completes, the company gains $2,000 company cash for each other project the company completed before this one, up to a maximum of $8,000.",
+			"copies": 1
+		},
+		{
+			"name": "The Harris Family (Big Dreamers)",
+			"dept": "Customer",
+			"type": "",
+			"text": "Accepted term: this family dreams big and pays for it. When this project completes, its revenue increases by $4,000.",
+			"copies": 1
+		},
+		{
+			"name": "The Kim Family (Social Media Stars)",
+			"dept": "Customer",
+			"type": "",
+			"text": "Accepted term: this family wants buzz. When this project completes, if Marketing placed 2 or more star tokens on this project, the company gains $3,000 company cash.",
+			"copies": 1
+		},
+		{
+			"name": "The Lee Family (Night Owls)",
+			"dept": "Customer",
+			"type": "",
+			"text": "Accepted term: this family works nights. Once per round, Production may play 1 extra basic card on this project.",
+			"copies": 1
+		},
+		{
+			"name": "The O'Brien Family (Last-Minute Deciders)",
+			"dept": "Customer",
+			"type": "",
+			"text": "Last-minute deciders change their minds. Once per game, during the board meeting phase only, the GM may swap two EMPTY icon slots on this project. Tokens already placed do not move.",
+			"copies": 1
+		},
+		{
+			"name": "The Patel Family (Detail-Oriented)",
+			"dept": "Customer",
+			"type": "",
+			"text": "Accepted term: this family inspects everything. At setup, the company adds 1 extra icon slot of its choice to this project (6 total). When this project completes, the company gains $2,000 company cash for the white-glove review.",
+			"copies": 1
+		},
+		{
+			"name": "The Rivera Family (Eco-Conscious)",
+			"dept": "Customer",
+			"type": "",
+			"text": "Accepted term: this family pays a premium for green upgrades. When this project completes, if at least 2 special cards were played on it by any department, the company gains $5,000 company cash.",
+			"copies": 1
+		},
+		{
+			"name": "The Stanley Family (Impatient)",
+			"dept": "Customer",
+			"type": "",
+			"text": "Accepted term: this family needs the job done fast. If this project is not completed by the end of round 6, the company loses $5,000 company cash.",
+			"copies": 1
+		},
+		{
+			"name": "The Thompson Family (Budget-Conscious)",
+			"dept": "Customer",
+			"type": "",
+			"text": "Accepted term: this family shops on price. When this project completes, if it is the 4th or later project the company completed, the company loses $5,000 company cash.",
+			"copies": 1
+		}
+	],
+	house_cards: [
+		{
+			"name": "1970s Bi-Level (Dated Everything)",
+			"dept": "House",
+			"type": "",
+			"text": "Dated everything means surprise problems. This project needs 1 extra hammer slot (6 total). But flippers pay for potential: when this project completes, its revenue increases by $3,000.",
+			"copies": 1
+		},
+		{
+			"name": "Craftsman's Bungalow (Permit-Heavy)",
+			"dept": "House",
+			"type": "",
+			"text": "Permit-heavy means phone-heavy. This project needs 1 extra phone slot (6 total).",
+			"copies": 1
+		},
+		{
+			"name": "Historic Victorian (Delicate Details)",
+			"dept": "House",
+			"type": "",
+			"text": "Delicate details reward master craft. When this project completes, its revenue increases by $2,000.",
+			"copies": 1
+		},
+		{
+			"name": "Modern Lake House (Waterfront)",
+			"dept": "House",
+			"type": "",
+			"text": "Waterfront appraisals check twice. This project needs 1 extra calculator slot (6 total).",
+			"copies": 1
+		},
+		{
+			"name": "Ranch with Full Basement (Spacious & Dry)",
+			"dept": "House",
+			"type": "",
+			"text": "A big spread to show off. This project needs 1 extra star slot (6 total).",
+			"copies": 1
+		},
+		{
+			"name": "Split-Level on Sloped Lot (Tricky Grading)",
+			"dept": "House",
+			"type": "",
+			"text": "Tricky grading, premium quote. This project needs 1 extra $ slot (6 total).",
+			"copies": 1
+		},
+		{
+			"name": "Steep Colonial (Old & Tall)",
+			"dept": "House",
+			"type": "",
+			"text": "Old and tall means extra labor. This project needs 1 extra hammer slot (6 total).",
+			"copies": 1
+		},
+		{
+			"name": "Suburban McMansion (Over-the-Top)",
+			"dept": "House",
+			"type": "",
+			"text": "Over the top in every way. At setup, add 1 extra icon slot of any type to this project (6 total). When this project completes, its revenue increases by $2,000.",
+			"copies": 1
+		},
+		{
+			"name": "Urban Rowhome (Tight Access)",
+			"dept": "House",
+			"type": "",
+			"text": "Tight access means hauling by hand. This project needs 1 extra hammer slot (6 total). There is no easy way to work this street, so plan Production here early.",
+			"copies": 1
+		}
+	]
+};
+//#endregion
+export { dataset_default as t };

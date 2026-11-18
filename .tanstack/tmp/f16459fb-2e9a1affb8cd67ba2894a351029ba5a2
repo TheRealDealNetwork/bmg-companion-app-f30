@@ -1,0 +1,77 @@
+import { createFileRoute, Link, Outlet, useNavigate } from "@tanstack/react-router";
+import { useState } from "react";
+import { registerSeat } from "@/lib/metalcon/api";
+import { writeSeat } from "@/lib/metalcon/session";
+import { METALCON_SEAT_LABEL, METALCON_SEATS } from "@/lib/metalcon/seats";
+import { Btn, Card, Field, Select } from "@/components/game/ui";
+
+export const Route = createFileRoute("/soebld/join")({
+  ssr: false,
+  component: () => <Outlet />,
+});
+
+export function JoinForm({ slug }: { slug: string }) {
+  const navigate = useNavigate();
+  const [name, setName] = useState("");
+  const [phone, setPhone] = useState("");
+  const [email, setEmail] = useState("");
+  const [dept, setDept] = useState<string>(METALCON_SEATS[0]);
+  const [terms, setTerms] = useState(false);
+  const [err, setErr] = useState("");
+  const [busy, setBusy] = useState(false);
+
+  async function submit() {
+    setBusy(true);
+    setErr("");
+    try {
+      const res = await registerSeat({ data: { name, phone, email, dept, terms, slug } });
+      if (!res.ok) {
+        setErr(res.error);
+        return;
+      }
+      writeSeat(res.player);
+      void navigate({ to: "/metalcon/play" });
+    } catch (error) {
+      setErr(error instanceof Error ? error.message : "Could not save the seat.");
+    } finally {
+      setBusy(false);
+    }
+  }
+
+  return (
+    <main className="mx-auto min-h-dvh max-w-lg px-4 py-6">
+      <p className="text-xs font-bold tracking-widest text-gold uppercase">METALCON 2026 · Beta</p>
+      <h1 className="mt-2 font-display text-3xl text-cream">Take a seat</h1>
+      <p className="mt-2 text-sm text-muted">SOE Business Leadership Scenario Cards. Your seat is the department you will look up.</p>
+      <Card className="mt-4 space-y-3">
+        <label className="block text-sm font-semibold text-cream">
+          Seat
+          <Select className="mt-1" value={dept} onChange={(e) => setDept(e.target.value)} aria-label="Seat">
+            {METALCON_SEATS.map((seat) => (
+              <option key={seat} value={seat}>
+                {METALCON_SEAT_LABEL[seat]}
+              </option>
+            ))}
+          </Select>
+        </label>
+        <Field aria-label="Name" placeholder="Your name" value={name} onChange={(e) => setName(e.target.value)} />
+        <Field aria-label="Mobile" inputMode="tel" placeholder="Mobile number" value={phone} onChange={(e) => setPhone(e.target.value)} />
+        <Field aria-label="Email" inputMode="email" placeholder="Email" value={email} onChange={(e) => setEmail(e.target.value)} />
+        <label className="flex items-start gap-3 text-sm text-cream">
+          <input type="checkbox" className="mt-1 size-5 accent-[#d4a05c]" checked={terms} onChange={(e) => setTerms(e.target.checked)} />
+          <span>
+            I agree to the{" "}
+            <Link to="/metalcon/terms" className="font-semibold text-gold" target="_blank">
+              Beta Terms & Conditions
+            </Link>
+            .
+          </span>
+        </label>
+        {err ? <p className="text-sm text-orange-ink">{err}</p> : null}
+        <Btn className="w-full" disabled={busy || !terms} onClick={() => void submit()}>
+          {busy ? "Saving…" : "Enter the cards"}
+        </Btn>
+      </Card>
+    </main>
+  );
+}
